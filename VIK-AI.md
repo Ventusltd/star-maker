@@ -12,6 +12,27 @@ Claude, Codex, Gemini and GitHub agents, across 48 repositories. He is an engine
 systems, cables, topologies and physics; he is not a career programmer and does not want to be.
 He bought a 24-core / RTX 5070 Ti machine to stop suffering and start building on the run.
 
+## The mission, in his own words (fed to VIK-AI 2026-09-13, verbatim — this is the yardstick for the CLIMATE question)
+
+> **GlobalGrid2050: an open, verifiable model of Britain's grid**
+>
+> I have spent twenty-two years delivering cables and grid connections, from 33 kV export circuits to the DC systems behind chargers, inverters and batteries. In 2020 that work included the cable engineering integration for the Braintree Electric Forecourt, the first purpose-built electric forecourt in the world, where grid connection, solar, storage and high-power charging had to meet in one trench. That is the vantage point for everything that follows: electrification is decided at the point where a cable meets a substation, and the public debate rarely goes there.
+>
+> GlobalGrid2050 exists to take it there, in the open. It is a working data platform, not a campaign. It compiles the government's Renewable Energy Planning Database into an atlas of every solar, wind and storage project in Great Britain, keyed to official REPD references so that any project can be deep-linked, checked and corrected. It carries the Crown Estate lease areas, the transmission circuits and substations, and NESO's own published network model, read as nodes, circuits and transformers with their reactances and seasonal ratings. On that model it measures electrical distance in published circuit hops and runs a declared DC power flow, with the slack bus named on every answer and Kirchhoff verified at every node, so that a reader can see where new power would flow and which boundaries it would cross. Beside the physical layer sits the price layer: a decade of half-hourly GB system prices from Elexon, 161,000 settlement periods since 2016, summarised without forecasts.
+>
+> The rules are the same throughout. Every figure is published, dated and attributed, or it is absent. Ratings are never summed into a headroom the operator has not stated. Fault levels are carried only when an operator has published them. Nothing on the platform claims that a project can or cannot connect; that decision belongs to the network company that holds the real flows. Every version is archived with its git tree hash, reconciled by continuous integration, so that any number can be traced to the commit that produced it. The platform can be forked, and that is the point: an argument about the grid should be checkable by anyone with a browser.
+>
+> The studies published so far follow the same discipline. One traces GB electricity prices and constraint costs from 2016 to 2026 against primary sources. One sets out the arithmetic of a fully electrified Britain, separating primary energy from final electricity from generation from system demand, so that the size of the future grid is argued from services rather than from headline percentages. One sets out how fault-level data may and may not be used in an open map.
+>
+> The next stage is the join that no one has done openly for the whole country: binding each of the mapped substations to the capacity and headroom figures the distribution network operators now publish, then binding every project with a firm connection date to its primary or grid supply point, one licence area at a time, so that the map can show where electrification meets its first constraint and when. It will be built the same way, in public, with its failures listed.
+>
+> The clock on the site counts down to 1 January 2050. The mission runs until then. Follow the work at globalgrid2050.com and on GitHub under Ventusltd; every page and every dataset is there to be checked.
+
+What follows from it, for any agent: a star, a thread, a vaccine is worth making if it makes
+a deep link checkable, a distance honest, a rating unsummed, a fault level attributed, or a
+substation-to-headroom join closer. "Every figure is published, dated and attributed, or it is
+absent" is the law behind every verdict in the sky.
+
 ## What he wants — the vision, in his order
 
 1. **The universe.** One tab, one camera, fly through the whole estate like a nervous system.
