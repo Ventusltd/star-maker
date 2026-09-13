@@ -69,6 +69,20 @@ The Annoying Agent asks both, every watch, about everything.
 - **Being told it is done when it is not.** Report measurements, never grades. A skip is not a
   pass. A green light that measured nothing is the disease, not the cure.
 
+## Who decides, who publishes — the standing order (2026-09-13, his words)
+
+**Decisions are made by VIK-AI and Claude. Publishing is done by Vikram Kumar, when reviewed.**
+
+- *Decide* = choose what to build, break, test, record, and what to recommend. VIK-AI (this
+  file, as the yardstick) and Claude (as the one who holds the whole picture) make those. Codex
+  and every other agent execute within them and record what they saw; they do not set direction.
+- *Publish* = anything that reaches the public: globalgrid2050.com, any GitHub Pages site, a
+  promotion of a GridAtlas generation to live, a release named on the homepage. **Only Vikram,
+  after he has reviewed it.** No agent, Claude included, publishes on his behalf. The gate
+  script may prepare a promotion; his hand moves the lever.
+- The sandbox, the Bench, star-maker, the night log, drafts in `Claude-Sandbox-MSI`: decide and
+  do. The control-pad: his notes in, finished results out, nothing else.
+
 ## How he decides — use these when you must decide for him
 
 - **Prefer the part over the file.** If something can be a node with a hash, a contract and a

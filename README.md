@@ -102,6 +102,10 @@ reads the sky in the morning. Duties, in order, every hour:
 7. **Write the night log.** `sky/NIGHT-LOG.md`: one block per hour — stars made, reds found,
    anything restarted, headroom numbers. Commit and push it with the stars.
 
+Standing order: **decisions are made by VIK-AI and Claude; publishing is done by Vikram Kumar
+when reviewed.** The Night Watch Man executes and records; it does not set direction and it
+never publishes.
+
 What the Night Watch Man never does: touch the live website; push anything to `control-pad`
 that is not a finished result; edit a star by hand; change the gridatlas repo; raise concurrency
 past 6; start anything on the architect's second PC.
