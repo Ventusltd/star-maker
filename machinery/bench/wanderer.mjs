@@ -94,7 +94,7 @@ async function pass() {
   }
   for (const u of units) {
     const callers = []; for (const [f, calls] of callsByFile) if (f !== u.file && calls.has(u.name)) callers.push(f);
-    u.callers = callers.length; u.caller_repos = [...new Set(callers.map(f => f.split('/')[0]))];
+    u.callers = callers.length; u.caller_repos = [...new Set(callers.map(f => f.split('/')[0]))]; u.caller_files = callers.slice(0, 60);
     const dups = byHash.get(u.body_hash).filter(o => o !== u && o.lineage !== u.lineage);
     u.duplicates = dups.slice(0, 12).map(o => o.number); u.duplicate_repos = [...new Set(dups.map(o => o.repo))];
     const twins = (byName.get(u.name) || []).filter(o => o !== u && o.repo !== u.repo && o.body_hash !== u.body_hash);
