@@ -33,6 +33,22 @@ a deep link checkable, a distance honest, a rating unsummed, a fault level attri
 substation-to-headroom join closer. "Every figure is published, dated and attributed, or it is
 absent" is the law behind every verdict in the sky.
 
+## The end game (his words, 2026-09-13 23:37)
+
+**"The main focus is to make the Spider the coding surface. That is the end game."**
+
+And how the stars serve it: **"Stars radiate arrows towards infinite possibilities, but attach
+to only the most important, as determined by Claude and VIK-AI."**
+
+So: a star is not a report, it is a *proposal generator*. Every red star radiates candidate
+threads — this part NEEDS that module; this version SUPERSEDES that one; this deep link
+BREAKS-AT this technology; this constant DRIFTS-FROM that one. Almost all of those arrows stay
+faint. Claude and VIK-AI choose the few that matter, and only those become solid threads on the
+Spider — with evidence, a contract, and a vaccine. The Spider then *is* where the work is done:
+you stand on a node, you see its threads, you say draw / deep-link / fire / this needs that, and
+the machine prints the code, proves it on the Bench, and lights the node. Code is written by
+touching the web, not by opening files.
+
 ## What he wants — the vision, in his order
 
 1. **The universe.** One tab, one camera, fly through the whole estate like a nervous system.

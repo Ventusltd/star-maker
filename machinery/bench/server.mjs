@@ -11,6 +11,7 @@
 //                                http://127.0.0.1:8790/atlas/   (the composed car, open in your own Chrome)
 import http from 'node:http';
 import { readFile, readdir, writeFile, mkdir, stat } from 'node:fs/promises';
+import { appendFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -235,5 +236,8 @@ http.createServer(async (req, res) => {
     if (u.pathname === '/api/storage') return json(res, 200, { sandbox_bytes: sandboxBytes, ceiling_bytes: CEILING_BYTES, overflow_dir: OVERFLOW_RUNS, overflowing: sandboxBytes >= CEILING_BYTES });
     if (u.pathname === '/' || u.pathname === '/index.html') return serveFile(res, BENCH, 'index.html');
     json(res, 404, { error: 'no route' });
-  } catch (e) { json(res, 500, { error: e.message, stack: e.stack }); }
+  } catch (e) {
+    try { appendFileSync(path.join(BENCH, 'state', 'server.log'), `${new Date().toISOString()}  500 ${u.pathname}  ${String(e.message).slice(0, 300)}\n`); } catch {}
+    json(res, 500, { error: e.message, stack: e.stack });
+  }
 }).listen(PORT, '127.0.0.1', () => console.log(`BENCH  http://127.0.0.1:${PORT}/   composed atlas → http://127.0.0.1:${PORT}/atlas/`));

@@ -125,7 +125,10 @@ async function pass() {
       if (i >= dial) { await new Promise(r => setTimeout(r, 5000)); continue; }
       const seed = queue.shift();
       try { const s = await makeStar(gen, seed); if (s) { made++; log(`  ${s.verdict.padEnd(5)} ${s.id} ${seed.label}`); if (made % PUSH_EVERY === 0) await push(`stars: +${PUSH_EVERY} (${made} this pass) on ${gen}`).catch(e => log('mid-pass push: ' + e.message)); } else skipped++; }
-      catch (e) { failed++; log(`  ERROR ${seed.label}: ${e.message}`); }
+      catch (e) {
+        if (!seed.retried) { seed.retried = true; queue.push(seed); log(`  RETRY ${seed.label}: ${e.message}`); }
+        else { failed++; log(`  ERROR ${seed.label}: ${e.message}`); }
+      }
     }
   };
   await Promise.all(Array.from({ length: MAX_WORKERS }, (_, i) => worker(i)));
