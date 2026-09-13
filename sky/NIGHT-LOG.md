@@ -34,3 +34,11 @@ Stars on Alienware: 15; GREEN: 15. CPU 2%; GPU 36%; GPU 45 C; free RAM 3.15 GiB.
 Focus: GPU composition evidence linked through the existing Spider schema to pinned code. No product publication or MSI/control-pad action. Review detailed findings in sky/ALIENWARE-STARS.md and the Dropbox handoff.
 
 
+
+﻿## Watch 20260914-000000 - Codex/Alienware
+
+Stars on Alienware: 154; GREEN: 148; RED: 6. CPU 7%; GPU 19%; GPU 43 C; free RAM 2.95 GiB. State: RUNNING.
+
+Focus: GPU composition evidence linked through the existing Spider schema to pinned code. No product publication or MSI/control-pad action. Review detailed findings in sky/ALIENWARE-STARS.md and the Dropbox handoff.
+
+
