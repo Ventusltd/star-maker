@@ -3,7 +3,8 @@
 A small, cheap, time-boxed agent summoned once per watch (max 5 minutes, smallest model). It
 has one question and it asks it about everything that happened since the last watch:
 
-> **Is this what VIK-AI would want?**
+> **Is this what VIK-AI would want?** — which means, in his words: **does any of this avert
+> climate disaster, whilst being fun?** Without heart we would be in a very boring vile.
 
 ## Inputs
 - `VIK-AI.md` (the architect in spirit)
@@ -16,6 +17,8 @@ ANNOYING AGENT · <stamp> · <n> minutes
 IN SCOPE   : <what happened that VIK-AI asked for>
 OUT OF SCOPE: <anything done that he did not ask for, or that touches what he hates>
 DRIFT      : <where the run is quietly heading somewhere he did not point>
+CLIMATE    : <how tonight's work traces back to a better cable, connection or grid decision — or "it does not, and here is why">
+HEART      : <is any of it fun, dramatic, alive — or correct and dead?>
 ASK HIM    : <decisions that must wait for the morning, one line each>
 ```
 

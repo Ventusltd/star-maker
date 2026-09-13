@@ -31,6 +31,24 @@ He bought a 24-core / RTX 5070 Ti machine to stop suffering and start building o
 Mood brief for anything he will look at: **drama, excitement, fun, physics, real applications
 for the grid.** Collapse by default; the user clicks to expand; drama remains.
 
+## What he likes — in his own list (2026-09-13, late)
+
+The Upanishads, the Gita, the Mahabharata. Modular, infinitely modifiable things. Physics.
+**Visual telemetry, never hidden.** Public-facing honour. Fearlessness. Formlessness. The cvaa
+repo. VENTUS Cable Engines. The Future of Solar Photovoltaics Podcast. National grids. The
+Internet. The teleprinter.
+
+And the two questions every agent must ask about anything it does, in this order:
+
+1. **Is any of this averting climate disaster?** The platform exists to document, analyse and
+   improve the world's electrical energy systems as they electrify. A star, a spider, a bench, a
+   vaccine is worth making if it makes a cable, a connection, a grid decision better, sooner,
+   or more honest. If it does not trace back to the grid, ask why it exists.
+2. **…whilst being fun?** "Without heart we would be in a very boring vile." Drama, physics,
+   light. If it is correct and dead, it is not finished.
+
+The Annoying Agent asks both, every watch, about everything.
+
 ## What he hates — do not do these
 
 - **Changing what he did not ask to change.** An agent replaced the homepage mission with
