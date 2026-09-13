@@ -23,6 +23,12 @@ const ATLAS_REPO = process.env.ATLAS_REPO || 'C:/Users/vikra/Documents/GitHub/gr
 const HOST_NAME = process.env.STAR_HOST || 'MSI · RTX 5070 Ti';
 const ORDER = process.env.STAR_ORDER || 'forward';   // a second machine runs 'reverse' so the two meet in the middle
 const CONCURRENCY = Number(process.env.STAR_CONCURRENCY || 12);  // measured at 4: GPU 9 %, VRAM 1.6 GB, CPU 2 % — a drive is 12 s of waiting, so breadth is the lever
+// Live control: state/star-control.json {"concurrency": N} is re-read every few seconds, so the
+// watch can turn the dial without a restart. Workers above the dial idle; below it, they work.
+const MAX_WORKERS = 16;
+const CONTROL_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), 'state', 'star-control.json');
+let dial = CONCURRENCY;
+async function readDial() { try { const c = JSON.parse(await readFile(CONTROL_FILE, 'utf8')); if (Number.isFinite(c.concurrency)) dial = Math.max(1, Math.min(MAX_WORKERS, c.concurrency)); } catch {} }
 const SURVEY_EVERY_MS = 60 * 60 * 1000;
 const IDLE_MS = 30 * 60 * 1000;
 const MAX_STARS_PER_PASS = Number(process.env.STAR_MAX || 6000);
@@ -78,16 +84,20 @@ async function pass() {
   const gen = parts.generation;
   const queue = seeds(parts).slice(0, MAX_STARS_PER_PASS);
   if (ORDER === 'reverse') queue.reverse();
-  log(`pass on generation ${gen}: ${queue.length} seeds, concurrency ${CONCURRENCY}`);
+  await readDial();
+  log(`pass on generation ${gen}: ${queue.length} seeds, dial ${dial} (max ${MAX_WORKERS})`);
   let made = 0, skipped = 0, failed = 0; const t0 = Date.now();
-  const worker = async () => {
+  const dialWatcher = setInterval(async () => { const before = dial; await readDial(); if (dial !== before) log(`dial ${before} → ${dial}`); }, 5000);
+  const worker = async (i) => {
     while (queue.length) {
+      if (i >= dial) { await new Promise(r => setTimeout(r, 5000)); continue; }
       const seed = queue.shift();
       try { const s = await makeStar(gen, seed); if (s) { made++; log(`  ${s.verdict.padEnd(5)} ${s.id} ${seed.label}`); if (made % PUSH_EVERY === 0) await push(`stars: +${PUSH_EVERY} (${made} this pass) on ${gen}`).catch(e => log('mid-pass push: ' + e.message)); } else skipped++; }
       catch (e) { failed++; log(`  ERROR ${seed.label}: ${e.message}`); }
     }
   };
-  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  await Promise.all(Array.from({ length: MAX_WORKERS }, (_, i) => worker(i)));
+  clearInterval(dialWatcher);
   log(`pass done: ${made} new stars, ${skipped} already in the sky, ${failed} failed, ${Math.round((Date.now() - t0) / 1000)} s`);
   return { gen, made, skipped, failed };
 }
