@@ -49,6 +49,16 @@ you stand on a node, you see its threads, you say draw / deep-link / fire / this
 the machine prints the code, proves it on the Bench, and lights the node. Code is written by
 touching the web, not by opening files.
 
+**Stars make elements** (his words, 23:50): "Stars also make elements like gold, copper — those
+elements then must become our periodic table towards enabling global grid coding graphically
+via the Spider, but written in terminals like Linux or Windows PowerShell or Claude or other
+mobile apps." So the sky has a periodic table: `PERIODIC-TABLE.md` / `elements/table.json` —
+every primitive with a fixed atomic number and symbol (a physics constant, a vocabulary, an
+engine module, a cartridge, a data layer, a contract). SETTLED elements have one true form;
+UNSETTLED ones exist in several forms and wait for Claude + VIK-AI to settle them. Every
+surface composes from the same table: the Spider by touch, `ventus.ps1` by symbol, Claude by
+name, a phone by tap. Same elements, different keyboards.
+
 ## What he wants — the vision, in his order
 
 1. **The universe.** One tab, one camera, fly through the whole estate like a nervous system.

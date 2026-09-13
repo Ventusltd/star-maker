@@ -1,0 +1,785 @@
+{
+  "schema": "ventus.periodic-table.v1",
+  "elements": [
+    {
+      "number": 1,
+      "symbol": "At",
+      "key": "const:ALLOWED_TECHNOLOGIES",
+      "discovered": "2026-09-13",
+      "family": "vocabulary",
+      "name": "ALLOWED_TECHNOLOGIES",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "set[\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 17
+        },
+        {
+          "value": "set[\"all\",\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 59
+        },
+        {
+          "value": "set[\"all\",\"bess\",\"interconnector\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 2
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "pipelinenews",
+        "testcode"
+      ],
+      "note": "3 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/ALLOWED_TECHNOLOGIES.json",
+      "identity": "caa59fb272ef"
+    },
+    {
+      "number": 2,
+      "symbol": "Ek",
+      "key": "const:EARTH_KM",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "EARTH_KM",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "6371.0088",
+          "files": 1
+        },
+        {
+          "value": "6378.137",
+          "files": 1
+        }
+      ],
+      "repos": [
+        "gridatlas"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/EARTH_KM.json",
+      "identity": "ab1b46d4ec05"
+    },
+    {
+      "number": 3,
+      "symbol": "Hr",
+      "key": "const:HIT_RADIUS_EDGE_PX",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "HIT_RADIUS_EDGE_PX",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "22",
+          "files": 11
+        },
+        {
+          "value": "16",
+          "files": 4
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "gridatlas",
+        "testcode"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/HIT_RADIUS_EDGE_PX.json",
+      "identity": "f9932c0cafcf"
+    },
+    {
+      "number": 4,
+      "symbol": "Hi",
+      "key": "const:HIT_RADIUS_VERTEX_PX",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "HIT_RADIUS_VERTEX_PX",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "18",
+          "files": 11
+        },
+        {
+          "value": "22",
+          "files": 4
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "gridatlas",
+        "testcode"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/HIT_RADIUS_VERTEX_PX.json",
+      "identity": "424af32e57ec"
+    },
+    {
+      "number": 5,
+      "symbol": "L",
+      "key": "const:LIMIT",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "LIMIT",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "Screening only: not solved power flow, available headroom, queue position, a connection offer or a connection assessment.",
+          "files": 1
+        },
+        {
+          "value": "100",
+          "files": 1
+        }
+      ],
+      "repos": [
+        "gridatlas",
+        "solar-electrical-topology-analysis-engine-text-based"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/LIMIT.json",
+      "identity": "26259284d387"
+    },
+    {
+      "number": 6,
+      "symbol": "Mr",
+      "key": "const:MAX_RESOURCES",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "MAX_RESOURCES",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "1500",
+          "files": 3
+        },
+        {
+          "value": "400",
+          "files": 3
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "gridatlas",
+        "teleprinter",
+        "testcode"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/MAX_RESOURCES.json",
+      "identity": "cfd667f5f3e3"
+    },
+    {
+      "number": 7,
+      "symbol": "Mt",
+      "key": "const:MAX_TRIES",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "MAX_TRIES",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "160",
+          "files": 6
+        },
+        {
+          "value": "80",
+          "files": 3
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "gridatlas",
+        "teleprinter",
+        "testcode"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/MAX_TRIES.json",
+      "identity": "773339b413f0"
+    },
+    {
+      "number": 8,
+      "symbol": "Ri",
+      "key": "const:REPD_IDS",
+      "discovered": "2026-09-13",
+      "family": "vocabulary",
+      "name": "REPD_IDS",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "list[\"act\",\"bess\",\"bess_operational\",\"biomass\",\"caes\",\"flywheel\",\"geothermal\",\"hydro\",\"hydrogen\",\"solar\",\"solar_operational\",\"solar_roof\",\"tidal\",\"wind\",\"wind_offshore_operational\",\"wind_onshore_operational\"]",
+          "files": 12
+        },
+        {
+          "value": "list[\"act\",\"bess\",\"biomass\",\"caes\",\"flywheel\",\"geothermal\",\"hydro\",\"hydrogen\",\"solar\",\"solar_roof\",\"tidal\",\"wind\"]",
+          "files": 1
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "gridatlas",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/REPD_IDS.json",
+      "identity": "2608339dadf6"
+    },
+    {
+      "number": 9,
+      "symbol": "Rp",
+      "key": "const:REPD_PAGE",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "REPD_PAGE",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract",
+          "files": 3
+        },
+        {
+          "value": "https://www.gov.uk/government/publications/renewable-energy-planning-database-quarterly-extract",
+          "files": 1
+        }
+      ],
+      "repos": [
+        "globalgrid2050"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/REPD_PAGE.json",
+      "identity": "c4f78f1474d2"
+    },
+    {
+      "number": 10,
+      "symbol": "Sm",
+      "key": "const:SOLAR_MIN_EXCLUSIVE",
+      "discovered": "2026-09-13",
+      "family": "physics",
+      "name": "SOLAR_MIN_EXCLUSIVE",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "49.0",
+          "files": 1
+        },
+        {
+          "value": "1.0",
+          "files": 1
+        }
+      ],
+      "repos": [
+        "globalgrid2050"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/SOLAR_MIN_EXCLUSIVE.json",
+      "identity": "34d84bb46c6d"
+    },
+    {
+      "number": 11,
+      "symbol": "S",
+      "key": "const:STATUSES",
+      "discovered": "2026-09-13",
+      "family": "vocabulary",
+      "name": "STATUSES",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "set[\"All\",\"Application Submitted\",\"Awaiting Construction\",\"Operational\",\"Under Construction\"]",
+          "files": 5
+        },
+        {
+          "value": "list[\"All\",\"Application Submitted\",\"Awaiting Construction\",\"Operational\",\"Under Construction\"]",
+          "files": 2
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "note": "2 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/STATUSES.json",
+      "identity": "eb254db78ebe"
+    },
+    {
+      "number": 12,
+      "symbol": "T",
+      "key": "const:TECHNOLOGIES",
+      "discovered": "2026-09-13",
+      "family": "vocabulary",
+      "name": "TECHNOLOGIES",
+      "state": "UNSETTLED",
+      "candidates": [
+        {
+          "value": "set[\"all\",\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 24
+        },
+        {
+          "value": "list[\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 1
+        },
+        {
+          "value": "list[\"all\",\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 2
+        },
+        {
+          "value": "set[\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+          "files": 2
+        }
+      ],
+      "repos": [
+        "globalgrid2050",
+        "gridatlas",
+        "pipelinenews",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "note": "4 values in the wild; Claude + VIK-AI must settle which is true",
+      "evidence": "logic/TECHNOLOGIES.json",
+      "identity": "721f134ab1f9"
+    },
+    {
+      "number": 13,
+      "symbol": "Gc",
+      "key": "engine:engine/geo-core.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "geo-core.js",
+      "state": "SETTLED",
+      "note": "the one haversine + R_ATLAS/R_UK/R_MEAN, (lon,lat) order",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/geo-core.js",
+      "identity": "36549f865704"
+    },
+    {
+      "number": 14,
+      "symbol": "Ga",
+      "key": "engine:engine/geo-area.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "geo-area.js",
+      "state": "SETTLED",
+      "note": "polygonAreaKm2, polylinePerimeterKm, circleCapAreaKm2",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/geo-area.js",
+      "identity": "20078dad69ae"
+    },
+    {
+      "number": 15,
+      "symbol": "Gs",
+      "key": "engine:engine/geo-shapes.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "geo-shapes.js",
+      "state": "SETTLED",
+      "note": "destinationCirclePoints, the deduplicated circle generator",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/geo-shapes.js",
+      "identity": "f2bf7e97864c"
+    },
+    {
+      "number": 16,
+      "symbol": "Gg",
+      "key": "engine:engine/geo-geojson.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "geo-geojson.js",
+      "state": "SETTLED",
+      "note": "circleFeatureCollection, GeoJSON shaping kept out of the maths",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/geo-geojson.js",
+      "identity": "f68f29ca325a"
+    },
+    {
+      "number": 17,
+      "symbol": "Vg",
+      "key": "engine:engine/v9-geodesy.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "v9-geodesy.js",
+      "state": "SETTLED",
+      "note": "distanceKm, destinationPoint, initialBearingDeg, voltagesKv, representativePoint",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/v9-geodesy.js",
+      "identity": "adbe55faa129"
+    },
+    {
+      "number": 18,
+      "symbol": "Vn",
+      "key": "engine:engine/v9-nearest-search.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "v9-nearest-search.js",
+      "state": "SETTLED",
+      "note": "normalise + index, exhaustive scan, proven free of the ring-search bug",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/v9-nearest-search.js",
+      "identity": "21cade2de94e"
+    },
+    {
+      "number": 19,
+      "symbol": "Nt",
+      "key": "engine:engine/network-topology.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "network-topology.js",
+      "state": "SETTLED",
+      "note": "PROMOTED this session: index/at/graph over one site’s published nodes/branches",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/network-topology.js",
+      "identity": "4bc2dbc21148"
+    },
+    {
+      "number": 20,
+      "symbol": "Ed",
+      "key": "engine:engine/electrical-distance.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "electrical-distance.js",
+      "state": "SETTLED",
+      "note": "PROMOTED this session: between/within, BFS hop-count over network-topology.graph()",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/electrical-distance.js",
+      "identity": "b5da796334e2"
+    },
+    {
+      "number": 21,
+      "symbol": "Re",
+      "key": "engine:engine/rating-envelope.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "rating-envelope.js",
+      "state": "SETTLED",
+      "note": "PROMOTED this session: at(), per-season lowest/highest range, never summed",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/rating-envelope.js",
+      "identity": "fa69691a1d40"
+    },
+    {
+      "number": 22,
+      "symbol": "Ce",
+      "key": "engine:engine/corridor-estimate.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "corridor-estimate.js",
+      "state": "SETTLED",
+      "note": "PROMOTED this session: forCable(), calibrated straight-line-to-corridor multiplier",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/corridor-estimate.js",
+      "identity": "47a4d564b93e"
+    },
+    {
+      "number": 23,
+      "symbol": "Pf",
+      "key": "engine:engine/published-fault-level.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "published-fault-level.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-05: record() and quote() for a fault figure that is published, dated and named by exact metric; no callable computes a current or a headroom, and the proof asserts that absence. Vocabulary copied from data-grid-gb ingest_etys.py FAULT_COLUMNS.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/published-fault-level.js",
+      "identity": "82189d9ccd6c"
+    },
+    {
+      "number": 24,
+      "symbol": "El",
+      "key": "engine:engine/electrification-demand.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "electrification-demand.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: the arithmetic of the electrification paper made exact — average power, peak from a stated load factor, load factor measured from a published peak, nameplate at a capacity factor, and electricity for displaced fuel. Every worked example in the paper is recomputed by the proof. No callable returns headroom, connection availability, per-site uplift or adequacy, and the proof asserts that absence.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/electrification-demand.js",
+      "identity": "f9ec26dc3400"
+    },
+    {
+      "number": 25,
+      "symbol": "Fc",
+      "key": "engine:engine/firm-capacity.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "firm-capacity.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: N-1 firm capacity, apparent power from a stated power factor, and utilisation against a caller-supplied rating. Exposes the gap the paper names - a site at 42 MVA on two 30 MVA units is 70% of installed and 140% of firm. Refuses spare capacity, connection availability, cyclic ratings and P2/7 compliance; the proof asserts that absence.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/firm-capacity.js",
+      "identity": "fe6c0f10122d"
+    },
+    {
+      "number": 26,
+      "symbol": "Dd",
+      "key": "engine:engine/diversified-demand.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "diversified-demand.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: After Diversity Maximum Demand, coincidence measured from a group peak rather than assumed, and average-across-a-window kept separate from peak-inside-a-window. The 10 million vehicles in the paper read 2.85 GW annual average, 8.56 GW across an 8-hour window and 14 GW at 20% coincidence - the same vehicles, differing by a factor of five.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/diversified-demand.js",
+      "identity": "b9534799114a"
+    },
+    {
+      "number": 27,
+      "symbol": "Cc",
+      "key": "engine:engine/connection-capacity.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "connection-capacity.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: sizing against a STATED connection cap for developers, EPCs and heavy users. Exceedance over a profile, battery power from the peak excess and store from the area above the cap, solar clipping, and net position against separate import/export caps. A spike and a plateau share a peak and need eight times the store; the proof holds both.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/connection-capacity.js",
+      "identity": "b904f127e10f"
+    },
+    {
+      "number": 28,
+      "symbol": "Ro",
+      "key": "engine:engine/route-obstacles.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "route-obstacles.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: the check a scalar corridor function could not make. corridor-estimate.forCable() takes one kilometre and never sees coordinates, so it printed 177.05 km of highway corridor for South Antrim to Western HVDC - 142 km of Irish Sea. This module classifies declared crossings, refuses a corridor factor across open water, and sizes trenchless crossings where the setback dominates. corridor-estimate is UNCHANGED and remains the first pass; the proof asserts it still returns 177.05 km over land.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/route-obstacles.js",
+      "identity": "b7baf539061b"
+    },
+    {
+      "number": 29,
+      "symbol": "Ie",
+      "key": "engine:engine/interconnector-economics.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "interconnector-economics.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: an interconnector as an edge between two systems, priced. Direction follows the spread, congestion rent is gross and never called profit, and fleet capacity separates the 10.3 GW that carries a BMRS code and is observable from the 7.65 GW that is a plan. Holds NO geometry: subsea routes are licensed (TeleGeography) and neither NESO nor National Grid publishes an alternative, so the estate does not draw them. The proof asserts no export carries a coordinate.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/interconnector-economics.js",
+      "identity": "68a99b41f307"
+    },
+    {
+      "number": 30,
+      "symbol": "Po",
+      "key": "engine:engine/power-factor.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "power-factor.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: the cheapest capacity anybody buys. 1,000 kW at 0.85 draws 1,176 kVA; corrected to 0.98 it draws 1,020 and releases 156 kVA - 13.3% of the site demand on its connection, for no reduction in consumption. Reactive power is computed from the identity rather than arccos/tan so unity is exactly zero. Refuses capacitor bank design, because a real bank needs a harmonic resonance study against the supply impedance.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/power-factor.js",
+      "identity": "4c066a83fa7b"
+    },
+    {
+      "number": 31,
+      "symbol": "Vd",
+      "key": "engine:engine/voltage-drop.js",
+      "discovered": "2026-09-13",
+      "family": "engine",
+      "name": "voltage-drop.js",
+      "state": "SETTLED",
+      "note": "AUTHORED 2026-09-06: volts and watts along a run, which decides cable size on a long collection more often than ampacity does. Phase factor is sqrt(3) or 2 and never typed as 1.73; the reactance term is carried against sin(phi), because ignoring X on a large cable feeding a poorly corrected load under-states the drop by over a third. Losses take only R, and the loss load factor is required rather than derived from the load factor. Refuses cable selection and carries no conductor parameters, since a plausible default would be the dangerous thing.",
+      "source": "https://github.com/Ventusltd/ventus-grid-engine/blob/main/engine/voltage-drop.js",
+      "identity": "e9d26aae576d"
+    },
+    {
+      "number": 32,
+      "symbol": "Sp",
+      "key": "cartridge:streaming-parquet-bridge",
+      "discovered": "2026-09-13",
+      "family": "cartridge",
+      "name": "streaming-parquet-bridge",
+      "state": "SETTLED",
+      "value": "4a6b594f7705bc4d7d62cbe69d2e40726d12f9a759896430cfe5eb00d830d23e",
+      "version": "v9.112",
+      "generation": "202609041945",
+      "gives": 5,
+      "note": "replaces 202608292311-maplibre-worker-bridge.js",
+      "identity": "e677536a5fce"
+    },
+    {
+      "number": 33,
+      "symbol": "Ug",
+      "key": "cartridge:uk-gazetteer-flyto",
+      "discovered": "2026-09-13",
+      "family": "cartridge",
+      "name": "uk-gazetteer-flyto",
+      "state": "SETTLED",
+      "value": "15f324e5c279050882f7e3ce83a915c070b6ed19095efcac4ae20af4ef19fdfa",
+      "version": "v9.145",
+      "generation": "202609071213",
+      "gives": 6,
+      "note": "replaces 202608291818-place-postcode-search.js",
+      "identity": "40dd1fb8a7b1"
+    },
+    {
+      "number": 34,
+      "symbol": "Ss",
+      "key": "cartridge:sld-sandbox",
+      "discovered": "2026-09-13",
+      "family": "cartridge",
+      "name": "sld-sandbox",
+      "state": "SETTLED",
+      "value": "5d2b383ffd409e133970c0c62945624b927d12882af3823f8fda6855a7aa34f0",
+      "version": "v9.154",
+      "generation": "202609080850",
+      "gives": 130,
+      "note": "replaces 202608292126-pre-snapped-config-adapter.js",
+      "identity": "6620281a4b54"
+    },
+    {
+      "number": 35,
+      "symbol": "Si",
+      "key": "cartridge:substation-intelligence",
+      "discovered": "2026-09-13",
+      "family": "cartridge",
+      "name": "substation-intelligence",
+      "state": "SETTLED",
+      "value": "d94b0de50deddac77643325b10fbe490ce44b8c406dbc6c67e6e7cadbdaa8ec6",
+      "version": "v9.140",
+      "generation": "202609062358",
+      "gives": 20,
+      "note": "replaces ventus-corev8engine.js",
+      "identity": "ddf76f59982e"
+    },
+    {
+      "number": 36,
+      "symbol": "A",
+      "key": "layer:airports.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "airports",
+      "state": "SETTLED",
+      "note": "atlas layer airports.geojson",
+      "identity": "52485a5f7a46"
+    },
+    {
+      "number": 37,
+      "symbol": "D",
+      "key": "layer:datacentres.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "datacentres",
+      "state": "SETTLED",
+      "note": "atlas layer datacentres.geojson",
+      "identity": "60bed8ec2ef9"
+    },
+    {
+      "number": 38,
+      "symbol": "G1",
+      "key": "layer:grid_132kv.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "grid_132kv",
+      "state": "SETTLED",
+      "note": "atlas layer grid_132kv.geojson",
+      "identity": "4d929855457f"
+    },
+    {
+      "number": 39,
+      "symbol": "G2",
+      "key": "layer:grid_220kv.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "grid_220kv",
+      "state": "SETTLED",
+      "note": "atlas layer grid_220kv.geojson",
+      "identity": "978efba552ae"
+    },
+    {
+      "number": 40,
+      "symbol": "Gr",
+      "key": "layer:grid_275kv.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "grid_275kv",
+      "state": "SETTLED",
+      "note": "atlas layer grid_275kv.geojson",
+      "identity": "7279354ec05a"
+    },
+    {
+      "number": 41,
+      "symbol": "G4",
+      "key": "layer:grid_400kv.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "grid_400kv",
+      "state": "SETTLED",
+      "note": "atlas layer grid_400kv.geojson",
+      "identity": "ef3abea5e5f5"
+    },
+    {
+      "number": 42,
+      "symbol": "G6",
+      "key": "layer:grid_66kv.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "grid_66kv",
+      "state": "SETTLED",
+      "note": "atlas layer grid_66kv.geojson",
+      "identity": "3e8804a7d480"
+    },
+    {
+      "number": 43,
+      "symbol": "Gri",
+      "key": "layer:grid_substations.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "grid_substations",
+      "state": "SETTLED",
+      "note": "atlas layer grid_substations.geojson",
+      "identity": "670ea0b88352"
+    },
+    {
+      "number": 44,
+      "symbol": "Io",
+      "key": "layer:industrial_offtakers.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "industrial_offtakers",
+      "state": "SETTLED",
+      "note": "atlas layer industrial_offtakers.geojson",
+      "identity": "285591beab59"
+    },
+    {
+      "number": 45,
+      "symbol": "Pp",
+      "key": "layer:power_plants.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "power_plants",
+      "state": "SETTLED",
+      "note": "atlas layer power_plants.geojson",
+      "identity": "5f9e534d567f"
+    },
+    {
+      "number": 46,
+      "symbol": "R",
+      "key": "layer:railways.geojson",
+      "discovered": "2026-09-13",
+      "family": "data-layer",
+      "name": "railways",
+      "state": "SETTLED",
+      "note": "atlas layer railways.geojson",
+      "identity": "f3f14b5aa612"
+    },
+    {
+      "number": 47,
+      "symbol": "Dt",
+      "key": "contract:deeplink",
+      "discovered": "2026-09-13",
+      "family": "contract",
+      "name": "deeplink (the MAP button)",
+      "state": "SETTLED",
+      "contract": [
+        {
+          "name": "repd_ref",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "technology",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "latitude",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "longitude",
+          "type": "number",
+          "required": false
+        },
+        {
+          "name": "zoom",
+          "type": "number",
+          "required": false
+        }
+      ],
+      "note": "identity = repd_ref; technology is a BUCKET, not a layer id",
+      "identity": "27329156989c"
+    }
+  ]
+}
