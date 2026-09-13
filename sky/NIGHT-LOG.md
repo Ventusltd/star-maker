@@ -18,3 +18,11 @@ OUT OF SCOPE: nothing found
 DRIFT      : sky/NIGHT-LOG.md not created although RUNBOOK §7 requires it — evidence made, not recorded
 ASK HIM    : start the night log now? (Claude: started it in this watch; no decision needed)
 
+
+﻿## Watch 20260913-233426 - Codex/Alienware
+
+Stars on Alienware: 6; GREEN: 6. CPU 4%; GPU 4%; GPU 44 C; free RAM 4.13 GiB. State: RUNNING.
+
+Focus: GPU composition evidence linked through the existing Spider schema to pinned code. No product publication or MSI/control-pad action. Review detailed findings in sky/ALIENWARE-STARS.md and the Dropbox handoff.
+
+
