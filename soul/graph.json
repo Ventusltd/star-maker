@@ -1,7 +1,7 @@
 {
   "schema": "soul-graph.v1",
   "label": "Soul stars",
-  "generated_utc": "2026-09-13T22:55:13.154Z",
+  "generated_utc": "2026-09-13T22:56:07.405Z",
   "note": "Every unit of code keyed by its soul (normalized body hash) and numbered once, forever; edges are evidence: identical souls in several places, same-name twins across repos, names called across repos but defined once.",
   "focus_default": "#43 cable-trench-or-drill/onChange",
   "nodes": [

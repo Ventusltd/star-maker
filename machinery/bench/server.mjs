@@ -120,7 +120,7 @@ async function getBrowser(headed) {
   if (browserPromise && browserHeaded === headed) { const b = await browserPromise.catch(() => null); if (b && b.connected) return b; }
   if (browserPromise) { const old = await browserPromise.catch(() => null); await old?.close().catch(() => {}); }
   browserHeaded = headed;
-  browserPromise = puppeteer.launch({ executablePath: CHROME, headless: !headed, defaultViewport: { width: 1600, height: 1000 },
+  browserPromise = puppeteer.launch({ executablePath: CHROME, headless: !headed, defaultViewport: { width: 1600, height: 1000 }, protocolTimeout: 180000,
     userDataDir: path.join(BENCH, 'state', 'chrome-profile'),
     args: ['--use-angle=d3d11', '--enable-gpu', '--ignore-gpu-blocklist', '--enable-gpu-rasterization', '--disable-background-timer-throttling'] });
   return browserPromise;
@@ -185,7 +185,7 @@ async function testDrive({ headed = false, settleMs = 12000, choice = null, quer
 
   const shot = await page.screenshot({ type: 'jpeg', quality: 60 });
   await page.close();
-  const stamp = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15);
+  const stamp = new Date().toISOString().replace(/[-:.]/g, '').slice(0, 18) + '-' + Math.random().toString(36).slice(2, 6);   // ms + salt: 32 drives can finish in the same second
   const run = { stamp, universe: uid, verdict, loadMs, navError, query: query || null, arrival: expect ? { expected: expect, arrived: probe.arrived, km: probe.km, failed: deeplinkFailed } : null, composition: { generation: manifest.generation, source_generation: manifest.bench.source_generation, order: manifest.cartridge_order,
       cartridges: manifest.cartridges.map(c => ({ id: c.id, file: path.basename(c.path), swapped_from: c.bench_swapped_from || null })) },
     probe: { ...probe, scripts: undefined }, health, findings, failedRequests: failedReq.slice(0, 30), screenshot: `runs/${stamp}.jpg` };

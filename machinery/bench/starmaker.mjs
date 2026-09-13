@@ -183,7 +183,7 @@ async function push(msg) {
   // Two machines share one sky: take theirs first (their stars then count as "already made"),
   // then push ours. A conflict can only be two hosts writing the same star; ours wins locally
   // and the difference is a finding for the morning, not a failure.
-  await git('pull', '--rebase', '--quiet', '-X', 'ours').catch(e => log('pull failed: ' + e.message.slice(0, 200)));
+  await git('pull', '--rebase', '--autostash', '--quiet', '-X', 'ours').catch(e => log('pull failed: ' + e.message.slice(0, 200)));
   await git('push', '--quiet').catch(e => log('push failed: ' + e.message.slice(0, 200)));
   log(`pushed: ${msg}`);
 }

@@ -1,6 +1,6 @@
-# Soul stars — 8,680 souls in 104,962 incarnations
+# Soul stars — 8,682 souls in 104,964 incarnations
 
-Pass at 2026-09-13T22:55:13.219Z · 10037 files · 2,710,203 lines read · **171,009 unique lines** ever written · 54 s. No model; our own reading.
+Pass at 2026-09-13T22:56:07.469Z · 10038 files · 2,710,284 lines read · **171,065 unique lines** ever written · 51 s. No model; our own reading.
 
 A **soul** is the key of a unit of code: its body, normalized and hashed. It has no file, no name and no position in it — the same code anywhere, any time, has the same soul, and the soul exists before any universe it is composed into. A soul's number (`#n`) is given once and never reused. A soul can have many **incarnations** (the places it lives); copper is deep, but on the periodic table it is just copper. The full deep table lives on the MSI (`bench/state/soul/souls.jsonl`); the sky carries this summary and `soul/graph.json` for the Spider.
 
@@ -9,10 +9,10 @@ Levels at which new code falls into place: **line** (unique-line hash) → **sou
 | question | answer |
 |---|---|
 | WHY is it here? — states its purpose in a comment | 13638 (13 %) |
-| WHAT does it serve? — called from another file | 99889 |
-| Unstated **and** uncalled (the wanderer's worry) | **3888** |
+| WHAT does it serve? — called from another file | 99892 |
+| Unstated **and** uncalled (the wanderer's worry) | **3887** |
 | IS IT A DUPLICATE? — identical body in another repo | **96768** |
-| Twins — same name, another repo, different body | 46630 |
+| Twins — same name, another repo, different body | 46631 |
 | **Entanglements** — called across repos, defined once | **69** |
 
 ## Entanglements (quantum: two repos, one definition, no declared wire)
