@@ -1,0 +1,30 @@
+{
+  "name": "EXPECTED_BLOB_SHA1",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "a5b943661b1427d3ed77c21b8d811d3c41e487da",
+      "files": [
+        "gridatlas/atman/layer-performance-comparator.mjs"
+      ]
+    },
+    {
+      "value": "19d452eebcf9d6c94f94db9876d503545a72a4f3",
+      "files": [
+        "gridatlas/atman/render-ready-comparator.mjs"
+      ]
+    },
+    {
+      "value": "4535a9787905c86746842f8b7404b93c40753f6f",
+      "files": [
+        "gridatlas/compiler/build-render-ready-v9.py"
+      ]
+    }
+  ],
+  "reason": "EXPECTED_BLOB_SHA1 is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

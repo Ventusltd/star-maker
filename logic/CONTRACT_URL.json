@@ -1,0 +1,41 @@
+{
+  "name": "CONTRACT_URL",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews",
+    "testcode"
+  ],
+  "files": 17,
+  "values": [
+    {
+      "value": "contracts/release.v9.1.json",
+      "files": [
+        "globalgrid2050/testcode//pipeline/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline//scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.4/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5.1/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.1/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.2/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.7/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9/scripts/data/canonical-projects-v9-1.js",
+        "pipelinenews/archive/pipelinenews/newsv1/scripts/data/canonical-projects-newsv1.js",
+        "pipelinenews/archive/pipelinenews/newsv7/scripts/data/canonical-projects-newsv7.js",
+        "pipelinenews/archive/pipelinenews/pipelinenews/scripts/data/canonical-projects-v9-1.js",
+        "pipelinenews/archive/pipelinenews/v1-9-legacy-lessons/uk_renewables_pipeline/v9/scripts/data/canonical-projects-v9-1.js",
+        "pipelinenews/ui/javascript/canonical-projects-v9-1.js",
+        "testcode/sandbox//pipeline/scripts/data/canonical-projects-v9-1.js"
+      ]
+    },
+    {
+      "value": "../data/contracts/202608261927-release-v9-1.json",
+      "files": [
+        "pipelinenews/releases/javascript/canonical-projects-v9-1.js"
+      ]
+    }
+  ],
+  "reason": "CONTRACT_URL is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

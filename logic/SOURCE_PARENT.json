@@ -1,0 +1,30 @@
+{
+  "name": "SOURCE_PARENT",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "693ccda8e6288d449763ce2b3a4ba16ed7b93fee",
+      "files": [
+        "pipelinenews/index/compile-atlas-v9-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "fabd905977410c10be3008e2ab5ceacccfce7930",
+      "files": [
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "db9f7583b203d374781e2b38e7c7a8b86e32d8b3",
+      "files": [
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs"
+      ]
+    }
+  ],
+  "reason": "SOURCE_PARENT is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

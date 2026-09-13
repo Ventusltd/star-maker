@@ -1,0 +1,404 @@
+{
+  "name": "GENERATION",
+  "kind": "constant-drift",
+  "distinct_values": 51,
+  "repos": [
+    "chatgpt-audits",
+    "data-gridatlas",
+    "globalgrid2050",
+    "gridatlas",
+    "pipelinenews",
+    "testcode"
+  ],
+  "files": 132,
+  "values": [
+    {
+      "value": "202608310052",
+      "files": [
+        "chatgpt-audits/automation/five-hour-study/run_study.py"
+      ]
+    },
+    {
+      "value": "202608310209",
+      "files": [
+        "chatgpt-audits/automation/hourly-logic-review/review.py"
+      ]
+    },
+    {
+      "value": "202608290904",
+      "files": [
+        "data-gridatlas/atman/verify-bootstrap.py",
+        "data-gridatlas/compiler/build-dependency-catalog.py"
+      ]
+    },
+    {
+      "value": "202608291015",
+      "files": [
+        "data-gridatlas/atman/verify-v8-transplant.py",
+        "data-gridatlas/compiler/build-v8-transplant.py"
+      ]
+    },
+    {
+      "value": "202608291410",
+      "files": [
+        "data-gridatlas/atman/verify-repd-routing-release.py",
+        "data-gridatlas/compiler/build-repd-routing-release.py"
+      ]
+    },
+    {
+      "value": "202608291507",
+      "files": [
+        "data-gridatlas/atman/current-integrity.py"
+      ]
+    },
+    {
+      "value": "202608272130",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/sector-intelligence.mjs",
+        "globalgrid2050/testcode//pipeline/assets/sector-intelligence.mjs",
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/releases/javascript/sector-intelligence.js",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js",
+        "pipelinenews/releases/pipelinenews/assets/sector-intelligence.mjs",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202608282200",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/federated-relationships.mjs",
+        "globalgrid2050/testcode//pipeline/assets/federated-relationships.mjs",
+        "pipelinenews/index/compile-v8-federated-relationships.mjs",
+        "pipelinenews/releases/pipelinenews/assets/federated-relationships.mjs",
+        "pipelinenews/ui/cartridges/federated-relationships.mjs"
+      ]
+    },
+    {
+      "value": "202608291447",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "pipelinenews/atman/build-live-pointer.mjs",
+        "pipelinenews/atman/compare-incumbent-successor.mjs",
+        "pipelinenews/atman/public-browser-readback.mjs",
+        "pipelinenews/atman/wake-up-ledger.mjs",
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs"
+      ]
+    },
+    {
+      "value": "202608312109",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/sector-intelligence.mjs",
+        "globalgrid2050/testcode//pipeline/assets/sector-intelligence.mjs",
+        "pipelinenews/releases/pipelinenews/assets/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202609041945",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge.js",
+        "gridatlas/atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "gridatlas/tools/proofs/streaming-parquet-bridge.proof.mjs",
+        "gridatlas/tools/proofs/uk-gazetteer-flyto.proof.mjs",
+        "testcode/sandbox//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "testcode/sandbox//atlas/cartridges/streaming-parquet-bridge.js"
+      ]
+    },
+    {
+      "value": "202609012045",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/parts/sld-sandbox-arrival-identity.js",
+        "gridatlas/atlas/parts/sld-sandbox-body.js",
+        "gridatlas/atlas/parts/sld-sandbox-style-hoist.js",
+        "gridatlas/atlas/parts/sld-sandbox-technology-buckets.js",
+        "gridatlas/atlas/parts/substation-intelligence-body.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox-v9-8.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "202609030048",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/pipeline-news-layers.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "202608301825",
+      "files": [
+        "gridatlas/atlas/cartridges/streaming-parquet-bridge-v9-5.js"
+      ]
+    },
+    {
+      "value": "202608311910",
+      "files": [
+        "gridatlas/atlas/cartridges/neon-substation-links-v9-6.js"
+      ]
+    },
+    {
+      "value": "202608292126",
+      "files": [
+        "gridatlas/atlas/releases/atlas-v9/map-ready-fetch-bridge.js",
+        "gridatlas/atlas/releases/atlas-v9/pre-snapped-config-adapter.js"
+      ]
+    },
+    {
+      "value": "202608292311",
+      "files": [
+        "gridatlas/atlas/releases/atlas-v9/maplibre-worker-bridge.js"
+      ]
+    },
+    {
+      "value": "202608290716",
+      "files": [
+        "gridatlas/atman/verify-atlas-v9.py",
+        "gridatlas/compiler/compile-atlas-v9.py",
+        "gridatlas/ui/site/atlas-v9.mjs"
+      ]
+    },
+    {
+      "value": "202609011141",
+      "files": [
+        "gridatlas/tools/proofs/uk-gazetteer-flyto.proof.mjs"
+      ]
+    },
+    {
+      "value": "202609040219",
+      "files": [
+        "gridatlas/tools/proofs/transit-layer-availability.browser.mjs"
+      ]
+    },
+    {
+      "value": "202608271457",
+      "files": [
+        "pipelinenews/atman/mobile-ui-invariants.mjs"
+      ]
+    },
+    {
+      "value": "202608271600",
+      "files": [
+        "pipelinenews/atman/mobile-ui-invariants.mjs"
+      ]
+    },
+    {
+      "value": "202608271620",
+      "files": [
+        "pipelinenews/atman/mobile-ui-invariants.mjs"
+      ]
+    },
+    {
+      "value": "202608271631",
+      "files": [
+        "pipelinenews/atman/mobile-ui-invariants.mjs"
+      ]
+    },
+    {
+      "value": "202608271638",
+      "files": [
+        "pipelinenews/atman/mobile-ui-invariants.mjs"
+      ]
+    },
+    {
+      "value": "202608271656",
+      "files": [
+        "pipelinenews/atman/mobile-ui-invariants.mjs"
+      ]
+    },
+    {
+      "value": "202608282348",
+      "files": [
+        "pipelinenews/atman/verify-v9-6-2-equivalence.mjs"
+      ]
+    },
+    {
+      "value": "202608290020",
+      "files": [
+        "pipelinenews/atman/verify-v9-6-2-complete-equivalence.mjs"
+      ]
+    },
+    {
+      "value": "202608290146",
+      "files": [
+        "pipelinenews/atman/verify-adaptive-build-controller.mjs"
+      ]
+    },
+    {
+      "value": "202608290202",
+      "files": [
+        "pipelinenews/atman/verify-adaptive-build-controller.mjs"
+      ]
+    },
+    {
+      "value": "202608291310",
+      "files": [
+        "pipelinenews/atman/build-live-pointer.mjs",
+        "pipelinenews/atman/compare-incumbent-successor.mjs",
+        "pipelinenews/atman/public-browser-readback.mjs",
+        "pipelinenews/atman/verify-complete-equivalence.mjs",
+        "pipelinenews/index/compile-atlas-v9-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "202608291504",
+      "files": [
+        "pipelinenews/atman/build-live-pointer.mjs",
+        "pipelinenews/atman/compare-incumbent-successor.mjs",
+        "pipelinenews/atman/public-browser-readback.mjs",
+        "pipelinenews/atman/wake-up-ledger.mjs",
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "202608270844",
+      "files": [
+        "pipelinenews/discovery/javascript/live-news-runner.mjs",
+        "pipelinenews/index/compile-v8-live-news.mjs",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "202609010134",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202609010140",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202609010143",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202609010145",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202609010200",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/releases/javascript/sector-intelligence.js",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202609010719",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs",
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs",
+        "pipelinenews/releases/javascript/sector-intelligence.js",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/cartridges/sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202608261812-index",
+      "files": [
+        "pipelinenews/index/compile-index.mjs"
+      ]
+    },
+    {
+      "value": "202608261927",
+      "files": [
+        "pipelinenews/index/compile-index.mjs"
+      ]
+    },
+    {
+      "value": "202608270055",
+      "files": [
+        "pipelinenews/index/compile-v8-fast.mjs",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "202608271329",
+      "files": [
+        "pipelinenews/index/compile-v8-atlas-deep-link.mjs",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "202608271524",
+      "files": [
+        "pipelinenews/index/compile-v8-news-chronology.mjs",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "202608272015",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "202608272048",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "202608282044",
+      "files": [
+        "pipelinenews/index/compile-v8-federated-relationships.mjs",
+        "pipelinenews/ui/cartridges/federated-relationships.mjs"
+      ]
+    },
+    {
+      "value": "202609010836",
+      "files": [
+        "pipelinenews/index/compile-index.mjs"
+      ]
+    },
+    {
+      "value": "202609020010",
+      "files": [
+        "pipelinenews/releases/pipelinenews/assets/codex-atlas-lab-deep-link.mjs",
+        "pipelinenews/releases/pipelinenews/codex-atlas-lab.proof.mjs"
+      ]
+    },
+    {
+      "value": "{GEN}",
+      "files": [
+        "pipelinenews/tools/intelligence/cartridges/news-and-sector-clean/assets/{GEN}-sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "__FAST_GENERATION__",
+      "files": [
+        "pipelinenews/ui/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-live-news-runtime.js"
+      ]
+    }
+  ],
+  "reason": "GENERATION is defined 51 different ways across 6 repo(s); a reader of one file cannot know which is true."
+}

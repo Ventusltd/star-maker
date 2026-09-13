@@ -1,0 +1,39 @@
+{
+  "name": "ROOT",
+  "kind": "constant-drift",
+  "distinct_values": 4,
+  "repos": [
+    "claude",
+    "gridatlas"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "../clones",
+      "files": [
+        "claude/sessions/estate-and-corridor/scripts/dupcheck.py",
+        "claude/sessions/estate-and-corridor/scripts/growth.py",
+        "claude/sessions/estate-and-corridor/scripts/parquet_count.py"
+      ]
+    },
+    {
+      "value": "../extra",
+      "files": [
+        "claude/sessions/estate-and-corridor/scripts/extra_count.py"
+      ]
+    },
+    {
+      "value": "https://planetarycomputer.microsoft.com",
+      "files": [
+        "gridatlas/atlas/testcode//satellite.js"
+      ]
+    },
+    {
+      "value": "https://ventusltd.github.io/gridatlas/atlas/",
+      "files": [
+        "gridatlas/atlas/testcode//browser-proof.py"
+      ]
+    }
+  ],
+  "reason": "ROOT is defined 4 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

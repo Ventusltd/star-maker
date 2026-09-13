@@ -1,0 +1,36 @@
+{
+  "name": "TIMEOUT",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "claude",
+    "globalgrid2050"
+  ],
+  "files": 13,
+  "values": [
+    {
+      "value": "30",
+      "files": [
+        "claude/scripts/estate_link_crawl.py"
+      ]
+    },
+    {
+      "value": "12",
+      "files": [
+        "globalgrid2050/scripts/update_uk_energy.py",
+        "globalgrid2050/scripts/update_uk_energy_v2.py",
+        "globalgrid2050/scripts/update_uk_energy_v3.py",
+        "globalgrid2050/scripts/update_uk_energy_v4.py",
+        "globalgrid2050/scripts/update_uk_energy_v5.py",
+        "globalgrid2050/scripts/update_uk_energy_v6.py",
+        "globalgrid2050/scripts/update_uk_price.py",
+        "globalgrid2050/scripts/update_uk_price_v2.py",
+        "globalgrid2050/scripts/update_uk_price_v3.py",
+        "globalgrid2050/scripts/update_uk_price_v4.py",
+        "globalgrid2050/scripts/update_uk_price_v5.py",
+        "globalgrid2050/scripts/update_uk_price_v6.py"
+      ]
+    }
+  ],
+  "reason": "TIMEOUT is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

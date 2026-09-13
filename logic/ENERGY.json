@@ -1,0 +1,33 @@
+{
+  "name": "ENERGY",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "./live_grid_energy.json",
+      "files": [
+        "globalgrid2050/scripts/update_uk_energy.py",
+        "globalgrid2050/scripts/update_uk_energy_v2.py",
+        "globalgrid2050/scripts/update_uk_energy_v3.py",
+        "globalgrid2050/scripts/update_uk_energy_v4.py"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v4/live_grid_energy.json",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v4/live-config.js"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v5/live_grid_energy.json",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v5/live-config.js"
+      ]
+    }
+  ],
+  "reason": "ENERGY is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

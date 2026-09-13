@@ -1,0 +1,25 @@
+{
+  "name": "BOUNDARY",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "data-gridatlas",
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "contracts/202608291015-repository-boundary.json",
+      "files": [
+        "data-gridatlas/atman/verify-v8-transplant.py"
+      ]
+    },
+    {
+      "value": "409600",
+      "files": [
+        "gridatlas/tools/proofs/sld-styles.proof.mjs"
+      ]
+    }
+  ],
+  "reason": "BOUNDARY is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

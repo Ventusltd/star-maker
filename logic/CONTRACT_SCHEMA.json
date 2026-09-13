@@ -1,0 +1,41 @@
+{
+  "name": "CONTRACT_SCHEMA",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews",
+    "testcode"
+  ],
+  "files": 17,
+  "values": [
+    {
+      "value": "globalgrid2050.v7.projects-plugin-contract.v1",
+      "files": [
+        "globalgrid2050/testcode//pipeline/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline//scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v7/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v8/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.4/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5.1/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.1/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.2/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.7/scripts/data/canonical-projects.js",
+        "globalgrid2050/uk_renewables_pipeline/v9/scripts/data/canonical-projects.js",
+        "pipelinenews/archive/pipelinenews/v1-9-legacy-lessons/uk_renewables_pipeline/v7/scripts/data/canonical-projects.js",
+        "pipelinenews/archive/pipelinenews/v1-9-legacy-lessons/uk_renewables_pipeline/v8/scripts/data/canonical-projects.js",
+        "pipelinenews/archive/pipelinenews/v1-9-legacy-lessons/uk_renewables_pipeline/v9/scripts/data/canonical-projects.js",
+        "testcode/sandbox//pipeline/scripts/data/canonical-projects.js"
+      ]
+    },
+    {
+      "value": "pipelinenews.sector-intelligence-contract.v3",
+      "files": [
+        "pipelinenews/discovery/javascript/sector-intelligence-runner.mjs"
+      ]
+    }
+  ],
+  "reason": "CONTRACT_SCHEMA is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,36 @@
+{
+  "name": "DIARY_MARKER",
+  "kind": "constant-drift",
+  "distinct_values": 4,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "## Diary entry: 2026-05-25 V3 price history correctness patch",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_history_correctness.py"
+      ]
+    },
+    {
+      "value": "## Diary entry: 2026-05-26 V3 price history date window controls patch",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_history_date_window.py"
+      ]
+    },
+    {
+      "value": "## Diary entry: 2026-05-25 V3 price history full screen chart patch",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_history_fullscreen.py"
+      ]
+    },
+    {
+      "value": "## Diary entry: 2026-05-25 V3 price history table dark UI patch",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_history_ui.py"
+      ]
+    }
+  ],
+  "reason": "DIARY_MARKER is defined 4 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

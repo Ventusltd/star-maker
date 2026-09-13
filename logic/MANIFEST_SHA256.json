@@ -1,0 +1,40 @@
+{
+  "name": "MANIFEST_SHA256",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode"
+  ],
+  "files": 16,
+  "values": [
+    {
+      "value": "8850567ff9f1d2b6996b4e0d9707320030f3466a0b821cdcfc5325322b8be8c8",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/place-global-search-v9-5.js",
+        "globalgrid2050/testcode//atlas/cartridges/uk-gazetteer-flyto.js",
+        "gridatlas/atlas/cartridges/place-global-search-v9-5.js",
+        "gridatlas/atlas/cartridges/place-postcode-search.js",
+        "gridatlas/atlas/parts/place-global-search-arrival-identity.js",
+        "gridatlas/atlas/releases/atlas-v9/place-postcode-search.js",
+        "testcode/sandbox//atlas/cartridges/place-global-search-v9-5.js",
+        "testcode/sandbox//atlas/cartridges/uk-gazetteer-flyto.js"
+      ]
+    },
+    {
+      "value": "3246dbdaa042ae8352ec9b7128cb6c2fe65e4f1aba0534302510661828df2526",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge.js",
+        "gridatlas/atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "gridatlas/atlas/releases/atlas-v9/map-ready-fetch-bridge.js",
+        "gridatlas/atlas/releases/atlas-v9/maplibre-worker-bridge.js",
+        "gridatlas/atlas/releases/atlas-v9/v9-parquet-fetch-bridge.js",
+        "testcode/sandbox//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "testcode/sandbox//atlas/cartridges/streaming-parquet-bridge.js"
+      ]
+    }
+  ],
+  "reason": "MANIFEST_SHA256 is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

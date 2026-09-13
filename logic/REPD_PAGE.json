@@ -1,0 +1,26 @@
+{
+  "name": "REPD_PAGE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract",
+      "files": [
+        "globalgrid2050/repd_grid_atlasv6/scripts/repd_updaterv6.py",
+        "globalgrid2050/repd_grid_atlasv7/scripts/repd_updaterv6.py",
+        "globalgrid2050/repd_grid_atlasv8/scripts/repd_updaterv8.py"
+      ]
+    },
+    {
+      "value": "https://www.gov.uk/government/publications/renewable-energy-planning-database-quarterly-extract",
+      "files": [
+        "globalgrid2050/scripts/repd_updater.py"
+      ]
+    }
+  ],
+  "reason": "REPD_PAGE is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

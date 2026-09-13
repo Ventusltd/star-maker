@@ -1,0 +1,31 @@
+{
+  "name": "OFFSHORE_NOTE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "This is a straight line from the project to the nearest mapped ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/modules/technology-coverage.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox-v9-8.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox.js"
+      ]
+    },
+    {
+      "value": "No distance is measured for an offshore project. An offshore turbine ",
+      "files": [
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js"
+      ]
+    }
+  ],
+  "reason": "OFFSHORE_NOTE is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

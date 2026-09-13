@@ -1,0 +1,33 @@
+{
+  "name": "ACTIVE_TARGET",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews",
+    "ventus-grid-engine"
+  ],
+  "files": 9,
+  "values": [
+    {
+      "value": "legacy",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/atlas-pointer-deep-link.mjs",
+        "globalgrid2050/testcode//pipeline/assets/atlas-pointer-deep-link.mjs",
+        "pipelinenews/releases/pipelinenews/assets/atlas-pointer-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "ported",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/atlas-pointer-deep-link.mjs",
+        "globalgrid2050/testcode//pipeline/assets/atlas-pointer-deep-link.mjs",
+        "pipelinenews/releases/pipelinenews/assets/atlas-pointer-deep-link.mjs",
+        "pipelinenews/tools/intelligence/cartridges/atlas-live-handoff/assets/{GEN}-atlas-pointer-deep-link.mjs",
+        "pipelinenews/tools/intelligence/cartridges/project-intelligence/assets/{GEN}-atlas-pointer-deep-link.mjs",
+        "ventus-grid-engine/sources/deeplink-extracts/emitter/atlas-pointer-deep-link.mjs"
+      ]
+    }
+  ],
+  "reason": "ACTIVE_TARGET is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

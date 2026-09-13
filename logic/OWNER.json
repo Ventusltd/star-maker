@@ -1,0 +1,27 @@
+{
+  "name": "OWNER",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "claude",
+    "gridatlas",
+    "registry_of_all_content_in_repos_and_dependencies"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "Ventusltd",
+      "files": [
+        "claude/familiars/triage.py",
+        "registry_of_all_content_in_repos_and_dependencies/scripts/build_registry.py"
+      ]
+    },
+    {
+      "value": "atlas/modules/202609012350-owner-boundary.js",
+      "files": [
+        "gridatlas/tools/proofs/modules/owner-boundary.proof.mjs"
+      ]
+    }
+  ],
+  "reason": "OWNER is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

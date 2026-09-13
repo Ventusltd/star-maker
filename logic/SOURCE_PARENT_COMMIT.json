@@ -1,0 +1,54 @@
+{
+  "name": "SOURCE_PARENT_COMMIT",
+  "kind": "constant-drift",
+  "distinct_values": 7,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "270f069182d272f85575fda1a3906764a8603080",
+      "files": [
+        "pipelinenews/index/compile-v8-atlas-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "b6a2b441799307ca55751d770a6083d05cdf15b5",
+      "files": [
+        "pipelinenews/index/compile-v8-news-chronology.mjs"
+      ]
+    },
+    {
+      "value": "cb3ac848c4d40722df2a9c1e6349d965d4794f2e",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "8c3d9443f175aacaf533b9148fe80106b207fd22",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "8648067694b8ffa30270a1db8664317d62dea176",
+      "files": [
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "a1516f23a2f8f1e2a3b286ed73cd580ce501c179",
+      "files": [
+        "pipelinenews/index/compile-v8-federated-relationships.mjs"
+      ]
+    },
+    {
+      "value": "678a99033106d9837aa8c63b8fb3a56074d1bbd6",
+      "files": [
+        "pipelinenews/index/compile-v8-federated-relationships.mjs"
+      ]
+    }
+  ],
+  "reason": "SOURCE_PARENT_COMMIT is defined 7 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

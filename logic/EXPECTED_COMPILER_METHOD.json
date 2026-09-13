@@ -1,0 +1,64 @@
+{
+  "name": "EXPECTED_COMPILER_METHOD",
+  "kind": "constant-drift",
+  "distinct_values": 8,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews"
+  ],
+  "files": 11,
+  "values": [
+    {
+      "value": "pipelinenews-atlas-pointer-exact-identity-successor-v2",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-fast-dictionary-index-lazy-detail-v1",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-live-news-discovery-reuse-fast-spine-v1",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-atlas-deep-link-cartridge-v1",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-news-chronology-stable-sort-v1",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-mobile-orientation-css-v3",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-sector-intelligence-three-grain-lazy-v3",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "__FAST_COMPILER_METHOD__",
+      "files": [
+        "pipelinenews/ui/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-live-news-runtime.js"
+      ]
+    }
+  ],
+  "reason": "EXPECTED_COMPILER_METHOD is defined 8 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

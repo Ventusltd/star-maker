@@ -1,0 +1,46 @@
+{
+  "name": "SOURCE",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "cable-trench-or-drill",
+    "data-interconnectors",
+    "gis-sld-sandbox",
+    "gridatlas",
+    "layout-tool"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "src/cable-geometry/render-readiness.js",
+      "files": [
+        "cable-trench-or-drill/tools/verify_derived.py"
+      ]
+    },
+    {
+      "value": "Elexon BMRS FUELINST",
+      "files": [
+        "data-interconnectors/pipelines/build_interconnectors.py"
+      ]
+    },
+    {
+      "value": "src/gis-sld/route-state.js",
+      "files": [
+        "gis-sld-sandbox/tools/verify_derived.py"
+      ]
+    },
+    {
+      "value": "list[\"sat-test-s2-0\",\"sat-test-s2-1\"]",
+      "files": [
+        "gridatlas/atlas/testcode//satellite.js"
+      ]
+    },
+    {
+      "value": "src/module-layout/draw-readiness.js",
+      "files": [
+        "layout-tool/tools/verify_derived.py"
+      ]
+    }
+  ],
+  "reason": "SOURCE is defined 5 different ways across 5 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "LIMIT",
+  "kind": "physics-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas",
+    "solar-electrical-topology-analysis-engine-text-based"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "Screening only: not solved power flow, available headroom, queue position, a connection offer or a connection assessment.",
+      "files": [
+        "gridatlas/atlas/codex//assets/lab.js"
+      ]
+    },
+    {
+      "value": "100",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/scripts/check_line_lengths.py"
+      ]
+    }
+  ],
+  "reason": "LIMIT is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

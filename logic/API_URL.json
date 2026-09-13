@@ -1,0 +1,28 @@
+{
+  "name": "API_URL",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "data-interconnectors",
+    "globalgrid2050"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELINST",
+      "files": [
+        "data-interconnectors/pipelines/build_interconnectors.py"
+      ]
+    },
+    {
+      "value": "https://api.openchargemap.io/v3/poi/",
+      "files": [
+        "globalgrid2050/repd_grid_atlasv6/scripts/fetch_ev_chargersv6.py",
+        "globalgrid2050/repd_grid_atlasv7/scripts/fetch_ev_chargersv6.py",
+        "globalgrid2050/repd_grid_atlasv8/scripts/fetch_ev_chargersv8.py",
+        "globalgrid2050/scripts/fetch_ev_chargers.py"
+      ]
+    }
+  ],
+  "reason": "API_URL is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

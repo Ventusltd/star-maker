@@ -1,0 +1,34 @@
+{
+  "name": "FIELDS",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "list[\"generationMW\",\"source\",\"technology\",\"time\"]",
+      "files": [
+        "globalgrid2050/scripts/backfill_generation_clean_halfhourly_month_v6.py",
+        "globalgrid2050/scripts/backfill_generation_fuelhh_halfhourly_all_months_v6.py"
+      ]
+    },
+    {
+      "value": "list[\"fetchedAtUTC\",\"fuelType\",\"generationMW\",\"periodStartUTC\",\"publishTimeUTC\",\"source\"]",
+      "files": [
+        "globalgrid2050/scripts/backfill_generation_sources_year_v6.py",
+        "globalgrid2050/scripts/merge_generation_sources_annual_to_master_v6.py",
+        "globalgrid2050/scripts/split_elexon_generation_sources_by_year.py",
+        "globalgrid2050/scripts/split_generation_sources_year_to_months_v6.py"
+      ]
+    },
+    {
+      "value": "list[\"fetchedAtUTC\",\"netImbalanceVolumeMWh\",\"periodStartUTC\",\"settlementDate\",\"settlementPeriod\",\"source\",\"systemBuyPriceGBPperMWh\",\"systemSellPriceGBPperMWh\"]",
+      "files": [
+        "globalgrid2050/scripts/split_elexon_system_prices_by_year.py"
+      ]
+    }
+  ],
+  "reason": "FIELDS is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

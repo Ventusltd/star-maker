@@ -1,0 +1,25 @@
+{
+  "name": "ALLOWED",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas",
+    "pipelinenews"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "set[\"runGridAtPoint\",\"topologyBlockHtml\"]",
+      "files": [
+        "gridatlas/tools/proofs/sld-sandbox.proof.mjs"
+      ]
+    },
+    {
+      "value": "set[\"EXPECTED_CHANGE\",\"MATCH\",\"REGRESSION\",\"UNKNOWN\"]",
+      "files": [
+        "pipelinenews/atman/compare-incumbent-successor.mjs"
+      ]
+    }
+  ],
+  "reason": "ALLOWED is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

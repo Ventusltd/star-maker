@@ -1,0 +1,31 @@
+{
+  "name": "MAX_RESOURCES",
+  "kind": "physics-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "teleprinter",
+    "testcode"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "1500",
+      "files": [
+        "globalgrid2050/testcode//teleprinter/runtime-source.js",
+        "teleprinter/drivers/codex/runtime-source.js",
+        "testcode/sandbox//teleprinter/runtime-source.js"
+      ]
+    },
+    {
+      "value": "400",
+      "files": [
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/teleprint-controls.js",
+        "teleprinter/drivers/gridatlas/print-source-code.js"
+      ]
+    }
+  ],
+  "reason": "MAX_RESOURCES is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

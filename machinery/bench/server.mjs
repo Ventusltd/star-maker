@@ -18,6 +18,9 @@ import puppeteer from 'puppeteer-core';
 
 const PORT = Number(process.env.BENCH_PORT || 8790);
 const ATLAS_DIR = process.env.ATLAS_DIR || 'C:/Users/vikra/Documents/GitHub/gridatlas/atlas';
+// The shell's canonical deep link fetches /uk_renewables_pipeline/v9/... (served on the live
+// site by the globalgrid2050 repo). Serve the same bytes here so deep-link stars arrive for real.
+const GG_DIR = process.env.GG_DIR || 'C:/Users/vikra/Documents/GitHub/globalgrid2050';
 const CHROME = process.env.CHROME_PATH || 'C:/Program Files/Google/Chrome/Application/chrome.exe';
 const BENCH = path.dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = path.join(BENCH, 'state', 'choice.json');
@@ -122,7 +125,7 @@ async function getBrowser(headed) {
   return browserPromise;
 }
 
-async function testDrive({ headed = false, settleMs = 12000, choice = null } = {}) {
+async function testDrive({ headed = false, settleMs = 12000, choice = null, query = '', expect = null } = {}) {
   const manifest = await composedManifest(choice || undefined);
   let uid = null;
   if (choice) { uid = universeId(choice); universes.set(uid, choice); }
@@ -139,16 +142,18 @@ async function testDrive({ headed = false, settleMs = 12000, choice = null } = {
   page.on('requestfailed', r => failedReq.push(`${r.failure()?.errorText} ${r.url()}`.slice(0, 200)));
   page.on('response', r => { if (r.status() >= 400) failedReq.push(`HTTP ${r.status()} ${r.url()}`.slice(0, 200)); });
 
-  const url = uid ? `http://127.0.0.1:${PORT}/u/${uid}/atlas/` : `http://127.0.0.1:${PORT}/atlas/`;
+  const url = (uid ? `http://127.0.0.1:${PORT}/u/${uid}/atlas/` : `http://127.0.0.1:${PORT}/atlas/`) + (query ? (query.startsWith('?') ? query : '?' + query) : '');
   const t0 = Date.now();
   let navError = null;
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 90000 }).catch(e => { navError = e.message.slice(0, 200); });
   await new Promise(r => setTimeout(r, settleMs));
   const loadMs = Date.now() - t0;
 
-  const probe = await page.evaluate(() => {
+  const probe = await page.evaluate((expect) => {
     const text = document.body?.innerText || '';
     return {
+      arrived: expect ? text.includes(expect) : null,
+      km: (text.match(/\b\d+(?:\.\d+)?\s?km\b/g) || []).slice(0, 5),
       router: document.body?.dataset?.gridatlasRouter || (document.documentElement.dataset.gridatlasGeneration ? 'composed' : 'unknown'),
       generation: document.documentElement.dataset.gridatlasGeneration || null,
       loaded: (window.__GRIDATLAS_ATLAS__ || {}).loaded_cartridges || [],
@@ -159,7 +164,8 @@ async function testDrive({ headed = false, settleMs = 12000, choice = null } = {
       banners: [...document.querySelectorAll('body *')].filter(el => el.children.length === 0 && el.offsetParent && /not installed|mismatch|failed|error/i.test(el.textContent))
         .slice(0, 6).map(el => el.textContent.trim().slice(0, 200)),
     };
-  }).catch(e => ({ router: 'probe-failed', probeError: e.message, loaded: [], scripts: [], layers: {}, banners: [] }));
+  }, expect).catch(e => ({ router: 'probe-failed', probeError: e.message, loaded: [], scripts: [], layers: {}, banners: [] }));
+  const deeplinkFailed = consoleMsgs.filter(m => /DEEP LINK FAILED/.test(m.text)).map(m => m.text.slice(0, 200));
 
   const byBlob = new Map(probe.scripts.map(s => [s.src, s.id]));
   const attribute = u => byBlob.get(u) || (!u ? 'unattributed' : u.includes('/atlas/releases/') ? 'shell' : /cdn\.|unpkg|jsdelivr/.test(u) ? 'vendor' : u.includes('/atlas/') ? 'loader' : /favicon\.ico/.test(u) ? 'noise' : 'other');
@@ -179,7 +185,7 @@ async function testDrive({ headed = false, settleMs = 12000, choice = null } = {
   const shot = await page.screenshot({ type: 'jpeg', quality: 60 });
   await page.close();
   const stamp = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15);
-  const run = { stamp, universe: uid, verdict, loadMs, navError, composition: { generation: manifest.generation, source_generation: manifest.bench.source_generation, order: manifest.cartridge_order,
+  const run = { stamp, universe: uid, verdict, loadMs, navError, query: query || null, arrival: expect ? { expected: expect, arrived: probe.arrived, km: probe.km, failed: deeplinkFailed } : null, composition: { generation: manifest.generation, source_generation: manifest.bench.source_generation, order: manifest.cartridge_order,
       cartridges: manifest.cartridges.map(c => ({ id: c.id, file: path.basename(c.path), swapped_from: c.bench_swapped_from || null })) },
     probe: { ...probe, scripts: undefined }, health, findings, failedRequests: failedReq.slice(0, 30), screenshot: `runs/${stamp}.jpg` };
   const dir = await runsDir();
@@ -212,6 +218,7 @@ http.createServer(async (req, res) => {
       if (um[2] === 'current.json') return json(res, 200, await composedManifest(choice));
       const rel = decodeURIComponent(um[2]) || 'index.html'; return serveFile(res, ATLAS_DIR, rel.endsWith('/') || rel === '' ? rel + 'index.html' : rel);
     }
+    if (u.pathname.startsWith('/uk_renewables_pipeline/')) return serveFile(res, path.join(GG_DIR, 'uk_renewables_pipeline'), decodeURIComponent(u.pathname.slice(24)));
     if (u.pathname === '/atlas/current.json') return json(res, 200, await composedManifest());
     if (u.pathname.startsWith('/atlas/')) { const rel = decodeURIComponent(u.pathname.slice(7)) || 'index.html'; return serveFile(res, ATLAS_DIR, rel.endsWith('/') || rel === '' ? rel + 'index.html' : rel); }
     if (u.pathname === '/api/parts') return json(res, 200, await parts());

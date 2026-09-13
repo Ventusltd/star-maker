@@ -1,0 +1,32 @@
+{
+  "name": "BASELINE",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "cable-trench-or-drill",
+    "gis-sld-sandbox",
+    "layout-tool"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "76396fd3639dd86cddd21e392f29f43ab6d22f2d",
+      "files": [
+        "cable-trench-or-drill/tools/derive_cable.py"
+      ]
+    },
+    {
+      "value": "9fe7b2d920aaa11e95380de39b33fd98f04e9696",
+      "files": [
+        "gis-sld-sandbox/tools/derive_gis.py"
+      ]
+    },
+    {
+      "value": "e201075e052bfc71e7fef01f1360f319808cb78f",
+      "files": [
+        "layout-tool/tools/derive_module.py"
+      ]
+    }
+  ],
+  "reason": "BASELINE is defined 3 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

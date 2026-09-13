@@ -1,0 +1,37 @@
+{
+  "name": "BASE",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "claude",
+    "gridatlas",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "http://127.0.0.1:8971/releases/%s-pipelinenews/index.html",
+      "files": [
+        "claude/sessions/ab-discovery/ab.py",
+        "claude/sessions/ab-discovery/maphref.py",
+        "claude/sessions/ab-discovery/pager.py",
+        "claude/sessions/ab-discovery/probe.py"
+      ]
+    },
+    {
+      "value": "https://ventusltd.github.io/gridatlas/atlas/",
+      "files": [
+        "gridatlas/atlas/testcode//browser-proof.py",
+        "ventus-grid-engine/proofs/deeplink.proof.mjs"
+      ]
+    },
+    {
+      "value": "202609051906",
+      "files": [
+        "testcode/sandbox/tools/build-controls-candidate.py"
+      ]
+    }
+  ],
+  "reason": "BASE is defined 3 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

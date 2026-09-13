@@ -1,0 +1,39 @@
+{
+  "name": "NOT_A_CAPACITY",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 14,
+  "values": [
+    {
+      "value": "A path existing on the published network says nothing about whether ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/electrical-distance.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/engine/electrical-distance.js",
+        "ventus-grid-engine/sources/v9-extracts/electrical-distance.mjs"
+      ]
+    },
+    {
+      "value": "A rating is what a circuit is rated to carry, not what is free on ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/rating-envelope.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/engine/rating-envelope.js",
+        "ventus-grid-engine/sources/v9-extracts/rating-envelope.mjs"
+      ]
+    }
+  ],
+  "reason": "NOT_A_CAPACITY is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

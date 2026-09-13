@@ -1,0 +1,26 @@
+{
+  "name": "ATLAS_BASE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "https://ventusltd.github.io/gridatlas/202608291239-atlas-v9/",
+      "files": [
+        "pipelinenews/atman/build-live-pointer.mjs",
+        "pipelinenews/atman/compare-incumbent-successor.mjs",
+        "pipelinenews/atman/public-browser-readback.mjs"
+      ]
+    },
+    {
+      "value": "https://ventusltd.github.io/gridatlas/202608300453-atlas-v9/",
+      "files": [
+        "pipelinenews/index/compile-atlas-v9-deep-link.mjs"
+      ]
+    }
+  ],
+  "reason": "ATLAS_BASE is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

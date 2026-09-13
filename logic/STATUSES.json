@@ -1,0 +1,30 @@
+{
+  "name": "STATUSES",
+  "kind": "vocabulary-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "set[\"All\",\"Application Submitted\",\"Awaiting Construction\",\"Operational\",\"Under Construction\"]",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs",
+        "pipelinenews/ui/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-live-news-runtime.js"
+      ]
+    },
+    {
+      "value": "list[\"All\",\"Application Submitted\",\"Awaiting Construction\",\"Operational\",\"Under Construction\"]",
+      "files": [
+        "pipelinenews/atman/verify-complete-equivalence.mjs",
+        "pipelinenews/atman/verify-v9-6-2-complete-equivalence.mjs"
+      ]
+    }
+  ],
+  "reason": "STATUSES is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

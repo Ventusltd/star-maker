@@ -1,0 +1,45 @@
+{
+  "name": "METHOD_VERSION",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "data-federation-map-for-globalgrid2050-all-repos",
+    "globalgrid2050-homepage",
+    "globalgrid2050-hompage"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "federation_declared_cartridges_v1",
+      "files": [
+        "data-federation-map-for-globalgrid2050-all-repos/scripts/build_declared_cartridges.py"
+      ]
+    },
+    {
+      "value": "federation_map_dna_v3_provenance_discriminator",
+      "files": [
+        "data-federation-map-for-globalgrid2050-all-repos/scripts/build_federation_map.py"
+      ]
+    },
+    {
+      "value": "federation_publish_json_v1_duckdb_projection",
+      "files": [
+        "data-federation-map-for-globalgrid2050-all-repos/scripts/publish_federation_json.py"
+      ]
+    },
+    {
+      "value": "internal_dashboard_v1_static_duckdb",
+      "files": [
+        "data-federation-map-for-globalgrid2050-all-repos/scripts/render_internal_dashboard.py"
+      ]
+    },
+    {
+      "value": "federation_systems_map_v1_duckdb_parquet",
+      "files": [
+        "globalgrid2050-homepage/scripts/build_federation_systems_map.py",
+        "globalgrid2050-hompage/scripts/build_federation_systems_map.py"
+      ]
+    }
+  ],
+  "reason": "METHOD_VERSION is defined 5 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

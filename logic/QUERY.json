@@ -1,0 +1,25 @@
+{
+  "name": "QUERY",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas",
+    "ventus-grid-engine"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "files": [
+        "gridatlas/tools/offshore/reconcile_offshore_coordinates.py"
+      ]
+    },
+    {
+      "value": "list[\"0\",\"55\"]",
+      "files": [
+        "ventus-grid-engine/proofs/v9-engine.proof.mjs"
+      ]
+    }
+  ],
+  "reason": "QUERY is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

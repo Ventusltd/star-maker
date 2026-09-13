@@ -1,0 +1,39 @@
+{
+  "name": "HIT_RADIUS_VERTEX_PX",
+  "kind": "physics-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode"
+  ],
+  "files": 15,
+  "values": [
+    {
+      "value": "18",
+      "files": [
+        "globalgrid2050/repd_grid_atlasv6/ventus-corev6engine.js",
+        "globalgrid2050/repd_grid_atlasv7/ventus-corev7engine.js",
+        "globalgrid2050/repd_grid_atlasv8/ventus-corev8engine.js",
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "globalgrid2050/ventus-core.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-deep-link-receiver.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-exact-repd-delegation.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-layer-availability.js",
+        "gridatlas/atlas/releases/atlas-v9/ventus-corev8engine.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "22",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-polyzone-grabbable.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    }
+  ],
+  "reason": "HIT_RADIUS_VERTEX_PX is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

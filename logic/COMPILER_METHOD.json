@@ -1,0 +1,78 @@
+{
+  "name": "COMPILER_METHOD",
+  "kind": "constant-drift",
+  "distinct_values": 11,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 11,
+  "values": [
+    {
+      "value": "pipelinenews-v8-fast-dictionary-index-lazy-detail-v1",
+      "files": [
+        "pipelinenews/index/compile-v8-fast.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-live-news-discovery-reuse-fast-spine-v1",
+      "files": [
+        "pipelinenews/index/compile-v8-live-news.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-atlas-deep-link-cartridge-v1",
+      "files": [
+        "pipelinenews/index/compile-v8-atlas-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-news-chronology-stable-sort-v1",
+      "files": [
+        "pipelinenews/index/compile-v8-news-chronology.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-mobile-orientation-css-v2",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-mobile-orientation-css-v3",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-sector-intelligence-three-grain-lazy-v3",
+      "files": [
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-v8-federated-relationship-abstention-lazy-v1",
+      "files": [
+        "pipelinenews/index/compile-v8-federated-relationships.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-atlas-v9-folder-deep-link-successor-v1",
+      "files": [
+        "pipelinenews/index/compile-atlas-v9-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-atlas-pointer-exact-identity-successor-v2",
+      "files": [
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews-atlas-pointer-folder-deep-link-successor-v1",
+      "files": [
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs"
+      ]
+    }
+  ],
+  "reason": "COMPILER_METHOD is defined 11 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

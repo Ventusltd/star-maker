@@ -1,0 +1,32 @@
+{
+  "name": "CAVEAT",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "Indicative highway-corridor screening only. Not a connection ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/corridor-estimate.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/engine/corridor-estimate.js",
+        "ventus-grid-engine/sources/v9-extracts/corridor-estimate.mjs"
+      ]
+    },
+    {
+      "value": "A published figure under a stated study basis on a stated ",
+      "files": [
+        "ventus-grid-engine/engine/published-fault-level.js"
+      ]
+    }
+  ],
+  "reason": "CAVEAT is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

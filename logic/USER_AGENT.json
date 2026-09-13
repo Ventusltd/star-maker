@@ -1,0 +1,31 @@
+{
+  "name": "USER_AGENT",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "GlobalGrid2050 V5 frequency collector using public Elexon data",
+      "files": [
+        "globalgrid2050/scripts/update_uk_frequency_v5.py"
+      ]
+    },
+    {
+      "value": "GlobalGrid2050 V6 frequency collector using public Elexon data",
+      "files": [
+        "globalgrid2050/scripts/update_uk_frequency_v6.py"
+      ]
+    },
+    {
+      "value": "GridAtlas-CI/1.0 (interconnector endpoint reconciliation)",
+      "files": [
+        "gridatlas/tools/interconnectors/fetch_far_end_converters.py"
+      ]
+    }
+  ],
+  "reason": "USER_AGENT is defined 3 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

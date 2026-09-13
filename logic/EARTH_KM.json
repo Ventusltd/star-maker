@@ -1,0 +1,24 @@
+{
+  "name": "EARTH_KM",
+  "kind": "physics-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "6371.0088",
+      "files": [
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js"
+      ]
+    },
+    {
+      "value": "6378.137",
+      "files": [
+        "gridatlas/tools/interconnectors/interconnector-module.js"
+      ]
+    }
+  ],
+  "reason": "EARTH_KM is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

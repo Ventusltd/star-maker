@@ -1,0 +1,50 @@
+{
+  "name": "PARENT_GENERATION",
+  "kind": "constant-drift",
+  "distinct_values": 6,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "202608282200",
+      "files": [
+        "pipelinenews/atman/compare-incumbent-successor.mjs",
+        "pipelinenews/index/compile-atlas-pointer-deep-link.mjs",
+        "pipelinenews/index/compile-atlas-v9-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "202608270844",
+      "files": [
+        "pipelinenews/index/compile-v8-atlas-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "202608271329",
+      "files": [
+        "pipelinenews/index/compile-v8-news-chronology.mjs"
+      ]
+    },
+    {
+      "value": "202608271524",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "202608272048",
+      "files": [
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "202608272130",
+      "files": [
+        "pipelinenews/index/compile-v8-federated-relationships.mjs"
+      ]
+    }
+  ],
+  "reason": "PARENT_GENERATION is defined 6 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "CANDIDATE_GENERATION",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "202608282200",
+      "files": [
+        "pipelinenews/atman/verify-v9-6-2-complete-equivalence.mjs",
+        "pipelinenews/atman/verify-v9-6-2-equivalence.mjs"
+      ]
+    },
+    {
+      "value": "202608291310",
+      "files": [
+        "pipelinenews/atman/verify-complete-equivalence.mjs"
+      ]
+    }
+  ],
+  "reason": "CANDIDATE_GENERATION is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "RELEASE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas",
+    "testcode"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "releases/202609040144-pipelinenews",
+      "files": [
+        "gridatlas/tools/proofs/arrival-identity-corpus.proof.mjs"
+      ]
+    },
+    {
+      "value": "202609051855",
+      "files": [
+        "testcode/sandbox/capsules/tool-layers/compose.test.mjs"
+      ]
+    }
+  ],
+  "reason": "RELEASE is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "END",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "<!-- GRIDATLAS_V9_AUTOMATION_END -->",
+      "files": [
+        "globalgrid2050/scripts/sync-promoted-gridatlas-v9.py"
+      ]
+    },
+    {
+      "value": "\\n})();\\n</script>",
+      "files": [
+        "globalgrid2050/scripts/modularise_uk_energy_tracking_v4.py",
+        "globalgrid2050/scripts/patch_v4_live_tracker_modular_structure.py"
+      ]
+    }
+  ],
+  "reason": "END is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

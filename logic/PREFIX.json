@@ -1,0 +1,35 @@
+{
+  "name": "PREFIX",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "cable-trench-or-drill",
+    "gis-sld-sandbox",
+    "layout-tool"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "solar-bess-topology-v7/cable-geometry-visualiser/",
+      "files": [
+        "cable-trench-or-drill/tools/derive_cable.py",
+        "cable-trench-or-drill/tools/verify_derived.py"
+      ]
+    },
+    {
+      "value": "solar-bess-topology-v7/gis-sld-financial-sandbox/",
+      "files": [
+        "gis-sld-sandbox/tools/derive_gis.py",
+        "gis-sld-sandbox/tools/verify_derived.py"
+      ]
+    },
+    {
+      "value": "solar-bess-topology-v7/module-layout/",
+      "files": [
+        "layout-tool/tools/derive_module.py",
+        "layout-tool/tools/verify_derived.py"
+      ]
+    }
+  ],
+  "reason": "PREFIX is defined 3 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

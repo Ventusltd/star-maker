@@ -1,0 +1,52 @@
+{
+  "name": "RELEASE_ID",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "gridatlas",
+    "pipelinenews"
+  ],
+  "files": 14,
+  "values": [
+    {
+      "value": "202608291237-atlas-v9",
+      "files": [
+        "gridatlas/atlas/releases/atlas-v9/assets/atlas-v9.mjs",
+        "gridatlas/atman/compare-incumbent-successor.py",
+        "gridatlas/atman/verify-live-release.mjs",
+        "gridatlas/compiler/compile-atlas-v9-live.py"
+      ]
+    },
+    {
+      "value": "202608291239-atlas-v9",
+      "files": [
+        "gridatlas/atlas/releases/atlas-v9/assets/atlas-v9.mjs",
+        "gridatlas/atman/compare-incumbent-successor.py",
+        "gridatlas/atman/verify-live-release.mjs",
+        "gridatlas/compiler/compile-atlas-v9-live.py"
+      ]
+    },
+    {
+      "value": "202608291430-atlas-v9",
+      "files": [
+        "gridatlas/atlas/releases/atlas-v9/assets/atlas-v9.mjs",
+        "gridatlas/atman/verify-live-release.mjs",
+        "gridatlas/compiler/compile-atlas-v9-live.py"
+      ]
+    },
+    {
+      "value": "202608251929-pipelinenews",
+      "files": [
+        "pipelinenews/archive/pipelinenews/objects/modules/sha256/ae4bb559312e84d7cdcb69dfee444644b328c370e198d5939ff8abeca92d6235.js",
+        "pipelinenews/archive/pipelinenews/tooling/templates/app.js"
+      ]
+    },
+    {
+      "value": "202608300453-atlas-v9",
+      "files": [
+        "pipelinenews/ui/atlas-v9-deep-links.js"
+      ]
+    }
+  ],
+  "reason": "RELEASE_ID is defined 5 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

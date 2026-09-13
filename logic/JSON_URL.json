@@ -1,0 +1,35 @@
+{
+  "name": "JSON_URL",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "/uk_energy_tracking_v3/electricity_price_history.json",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_axis_table_fullscreen.py",
+        "globalgrid2050/scripts/patch_v3_price_history_correctness.py",
+        "globalgrid2050/scripts/patch_v3_price_range_fullscreen_fix.py",
+        "globalgrid2050/uk_energy_tracking_v3/price-history-ui.js"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v5/electricity_price_history.json",
+      "files": [
+        "globalgrid2050/scripts/patch_v5_chart_dynamic_annotations.py",
+        "globalgrid2050/uk_energy_tracking_v5/price-history-data.js",
+        "globalgrid2050/uk_energy_tracking_v5/price-history-ui.js"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v4/electricity_price_history.json",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v4/price-history-ui.js"
+      ]
+    }
+  ],
+  "reason": "JSON_URL is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "WIRE_MARKER",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "wireMapToolOverlayButtons();",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_array_visibility_and_mwp_sizing.py"
+      ]
+    },
+    {
+      "value": "wireArraySizingControls();",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_large_asset_markers_and_search.py"
+      ]
+    },
+    {
+      "value": "wireGisMapSearch();",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_site_intelligence_panel.py"
+      ]
+    }
+  ],
+  "reason": "WIRE_MARKER is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

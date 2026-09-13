@@ -1,0 +1,50 @@
+{
+  "name": "VERSION",
+  "kind": "constant-drift",
+  "distinct_values": 6,
+  "repos": [
+    "gridatlas",
+    "solar-electrical-topology-analysis-engine-text-based",
+    "spiders"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "202609110242",
+      "files": [
+        "gridatlas/atlas/testcode//satellite.js"
+      ]
+    },
+    {
+      "value": "202609110849",
+      "files": [
+        "gridatlas/atlas/testcode//satellite.js"
+      ]
+    },
+    {
+      "value": "202609111007",
+      "files": [
+        "gridatlas/atlas/testcode//satellite.js"
+      ]
+    },
+    {
+      "value": "1.0.1",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/v8-leapfrog/authority-reconciliation.js"
+      ]
+    },
+    {
+      "value": "8.2.0",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/v8-leapfrog/model.js"
+      ]
+    },
+    {
+      "value": "202609042211",
+      "files": [
+        "spiders/species/seer-spider/estate-menu/estate-menu.js"
+      ]
+    }
+  ],
+  "reason": "VERSION is defined 6 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

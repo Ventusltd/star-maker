@@ -1,0 +1,24 @@
+{
+  "name": "BASE_GENERATION",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "202608261927",
+      "files": [
+        "pipelinenews/index/compile-v8-fast.mjs"
+      ]
+    },
+    {
+      "value": "202608270055",
+      "files": [
+        "pipelinenews/index/compile-v8-live-news.mjs"
+      ]
+    }
+  ],
+  "reason": "BASE_GENERATION is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

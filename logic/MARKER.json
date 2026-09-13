@@ -1,0 +1,60 @@
+{
+  "name": "MARKER",
+  "kind": "constant-drift",
+  "distinct_values": 8,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "<h3>Detailed Screening Disclaimer</h3>",
+      "files": [
+        "globalgrid2050/scripts/add_v4_detailed_disclaimer.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 PRINT V2 COMPACT REPORT MODE */",
+      "files": [
+        "globalgrid2050/scripts/add_v6_v7_print_v2_compact_report_mode.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 PRINT V3 FINANCIALS PATCH */",
+      "files": [
+        "globalgrid2050/scripts/add_v6_v7_print_v3_financials_patch.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 MOBILE ARRAY TOGGLE VISIBILITY FIX */",
+      "files": [
+        "globalgrid2050/scripts/fix_v7_gis_sld_mobile_array_toggle_visibility.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 MOBILE MWp SIZING VISIBILITY FIX */",
+      "files": [
+        "globalgrid2050/scripts/fix_v7_gis_sld_mobile_mwp_sizing_visibility.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 MOBILE TOOLS ENERGY LAYER CLEARANCE FIX */",
+      "files": [
+        "globalgrid2050/scripts/fix_v7_gis_sld_mobile_tools_energy_layer_clearance.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 MOBILE TOOL OVERLAY SPACING FIX */",
+      "files": [
+        "globalgrid2050/scripts/fix_v7_gis_sld_mobile_tool_overlay_spacing.py"
+      ]
+    },
+    {
+      "value": "## Diary entry: 2026-05-26 V3 merged price source patch",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_history_merge_system.py"
+      ]
+    }
+  ],
+  "reason": "MARKER is defined 8 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

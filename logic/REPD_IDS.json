@@ -1,0 +1,38 @@
+{
+  "name": "REPD_IDS",
+  "kind": "vocabulary-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 13,
+  "values": [
+    {
+      "value": "list[\"act\",\"bess\",\"bess_operational\",\"biomass\",\"caes\",\"flywheel\",\"geothermal\",\"hydro\",\"hydrogen\",\"solar\",\"solar_operational\",\"solar_roof\",\"tidal\",\"wind\",\"wind_offshore_operational\",\"wind_onshore_operational\"]",
+      "files": [
+        "globalgrid2050/repd_grid_atlasv6/ventus-corev6engine.js",
+        "globalgrid2050/repd_grid_atlasv7/ventus-corev7engine.js",
+        "globalgrid2050/repd_grid_atlasv8/ventus-corev8engine.js",
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-deep-link-receiver.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-exact-repd-delegation.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-layer-availability.js",
+        "gridatlas/atlas/parts/ventus-corev8engine-polyzone-grabbable.js",
+        "gridatlas/atlas/releases/atlas-v9/ventus-corev8engine.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/sources/deeplink-extracts/receiver/ventus-corev8engine-exact-repd-delegation.excerpt.js"
+      ]
+    },
+    {
+      "value": "list[\"act\",\"bess\",\"biomass\",\"caes\",\"flywheel\",\"geothermal\",\"hydro\",\"hydrogen\",\"solar\",\"solar_roof\",\"tidal\",\"wind\"]",
+      "files": [
+        "globalgrid2050/ventus-core.js"
+      ]
+    }
+  ],
+  "reason": "REPD_IDS is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

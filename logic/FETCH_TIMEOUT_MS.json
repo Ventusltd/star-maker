@@ -1,0 +1,32 @@
+{
+  "name": "FETCH_TIMEOUT_MS",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas",
+    "pipelinenews",
+    "teleprinter"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "20000",
+      "files": [
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/teleprint-controls.js",
+        "teleprinter/drivers/gridatlas/print-source-code.js"
+      ]
+    },
+    {
+      "value": "15000",
+      "files": [
+        "pipelinenews/archive/pipelinenews/newsv1/scripts/data/canonical-projects-newsv1.js",
+        "pipelinenews/archive/pipelinenews/newsv1/scripts/plugins/newspaper-newsv1-base.js",
+        "pipelinenews/archive/pipelinenews/newsv7/scripts/data/canonical-projects-newsv7.js",
+        "pipelinenews/archive/pipelinenews/newsv7/scripts/plugins/intelligence-newsv7.js",
+        "pipelinenews/archive/pipelinenews/newsv7/scripts/plugins/newspaper-newsv7-base.js"
+      ]
+    }
+  ],
+  "reason": "FETCH_TIMEOUT_MS is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

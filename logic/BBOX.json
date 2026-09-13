@@ -1,0 +1,34 @@
+{
+  "name": "BBOX",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 12,
+  "values": [
+    {
+      "value": "49.8,-8.5,60.9,1.8",
+      "files": [
+        "globalgrid2050/repd_grid_atlasv6/scripts/fetch_motorway_servicesv6.py",
+        "globalgrid2050/repd_grid_atlasv7/scripts/fetch_motorway_servicesv6.py",
+        "globalgrid2050/repd_grid_atlasv8/scripts/fetch_motorway_servicesv8.py",
+        "globalgrid2050/scripts/fetch_motorway_services.py"
+      ]
+    },
+    {
+      "value": "49.5,-10.8,61.0,2.2",
+      "files": [
+        "globalgrid2050/repd_grid_atlasv6/scripts/fetch_stadiumsv6.py",
+        "globalgrid2050/repd_grid_atlasv6/scripts/fetch_supermarketsv6.py",
+        "globalgrid2050/repd_grid_atlasv7/scripts/fetch_stadiumsv6.py",
+        "globalgrid2050/repd_grid_atlasv7/scripts/fetch_supermarketsv6.py",
+        "globalgrid2050/repd_grid_atlasv8/scripts/fetch_stadiumsv8.py",
+        "globalgrid2050/repd_grid_atlasv8/scripts/fetch_supermarketsv8.py",
+        "globalgrid2050/scripts/fetch_stadiums.py",
+        "globalgrid2050/scripts/fetch_supermarkets.py"
+      ]
+    }
+  ],
+  "reason": "BBOX is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

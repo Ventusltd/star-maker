@@ -1,0 +1,65 @@
+{
+  "name": "TECHNOLOGIES",
+  "kind": "vocabulary-drift",
+  "distinct_values": 4,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "pipelinenews",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 29,
+  "values": [
+    {
+      "value": "set[\"all\",\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline//scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.4/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5.1/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.1/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.2/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.7/scripts/core/project-filter-v9-2.js",
+        "globalgrid2050/uk_renewables_pipeline/v9/scripts/core/project-filter-v9-2.js",
+        "pipelinenews/archive/pipelinenews/newsv1/scripts/core/project-filter-v9-2.js",
+        "pipelinenews/archive/pipelinenews/newsv7/scripts/core/project-filter-v9-2.js",
+        "pipelinenews/archive/pipelinenews/pipelinenews/scripts/core/project-filter-v9-2.js",
+        "pipelinenews/archive/pipelinenews/v1-9-legacy-lessons/uk_renewables_pipeline/v9/scripts/core/project-filter-v9-2.js",
+        "pipelinenews/releases/javascript/filters.js",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs",
+        "pipelinenews/ui/javascript/filters.js",
+        "pipelinenews/ui/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-live-news-runtime.js",
+        "testcode/sandbox//pipeline/scripts/core/project-filter-v9-2.js",
+        "ventus-grid-engine/sources/deeplink-extracts/emitter/app-technology-vocabulary.excerpt.mjs"
+      ]
+    },
+    {
+      "value": "list[\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+      "files": [
+        "gridatlas/gridatlas-next-version-builders/tools/calibrate-design-freeze.py"
+      ]
+    },
+    {
+      "value": "list[\"all\",\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+      "files": [
+        "pipelinenews/atman/verify-complete-equivalence.mjs",
+        "pipelinenews/atman/verify-v9-6-2-complete-equivalence.mjs"
+      ]
+    },
+    {
+      "value": "set[\"bess\",\"solar\",\"wind_offshore\",\"wind_onshore\"]",
+      "files": [
+        "pipelinenews/scripts/sync-atlas-v9-deep-links.py",
+        "pipelinenews/ui/atlas-v9-deep-links.js"
+      ]
+    }
+  ],
+  "reason": "TECHNOLOGIES is defined 4 different ways across 5 repo(s); a reader of one file cannot know which is true."
+}

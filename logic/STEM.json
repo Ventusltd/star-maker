@@ -1,0 +1,42 @@
+{
+  "name": "STEM",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "GENERATION_DAILY_MWH_FUELHH_CHUNKS",
+      "files": [
+        "globalgrid2050/scripts/build_generation_daily_mwh_fuelhh_chunks.py"
+      ]
+    },
+    {
+      "value": "APP_REPO_BOOTSTRAP",
+      "files": [
+        "globalgrid2050/scripts/gridbot_app_repo_bootstrap.py"
+      ]
+    },
+    {
+      "value": "BULK_DATA_WORKFLOW_FREEZE",
+      "files": [
+        "globalgrid2050/scripts/gridbot_bulk_data_workflow_freeze.py"
+      ]
+    },
+    {
+      "value": "DAILY_MWH_TITLES_LABELS",
+      "files": [
+        "globalgrid2050/scripts/gridbot_daily_mwh_titles_labels.py"
+      ]
+    },
+    {
+      "value": "REPO_SPLIT_INVENTORY",
+      "files": [
+        "globalgrid2050/scripts/gridbot_repo_split_inventory.py"
+      ]
+    }
+  ],
+  "reason": "STEM is defined 5 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

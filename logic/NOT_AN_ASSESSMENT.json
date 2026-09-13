@@ -1,0 +1,46 @@
+{
+  "name": "NOT_AN_ASSESSMENT",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 16,
+  "values": [
+    {
+      "value": "Counts, lengths, ratings and impedances are what the network operator ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/network-topology.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/engine/network-topology.js",
+        "ventus-grid-engine/sources/v9-extracts/network-topology.mjs"
+      ]
+    },
+    {
+      "value": "Nothing here states whether any project can connect at this site, ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/planned-change.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "An ownership boundary is a fact about who publishes which asset. It ",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/owner-boundary.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    }
+  ],
+  "reason": "NOT_AN_ASSESSMENT is defined 3 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

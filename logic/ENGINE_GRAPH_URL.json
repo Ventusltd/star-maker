@@ -1,0 +1,34 @@
+{
+  "name": "ENGINE_GRAPH_URL",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "pipelinenews",
+    "testcode"
+  ],
+  "files": 9,
+  "values": [
+    {
+      "value": "https://ventusltd.github.io/ventus-grid-engine/?graph=engine-graph",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs"
+      ]
+    },
+    {
+      "value": "https://ventusltd.github.io/ventus-grid-engine/genome/engine-graph.json",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "globalgrid2050/testcode//atlas/source/menu-bar.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/menu-bar.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "testcode/sandbox//atlas/source/menu-bar.js"
+      ]
+    }
+  ],
+  "reason": "ENGINE_GRAPH_URL is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

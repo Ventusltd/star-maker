@@ -1,0 +1,27 @@
+{
+  "name": "CATALOG_URL",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "globalgrid2050-homepage",
+    "globalgrid2050-hompage"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "./assets/catalog.json",
+      "files": [
+        "globalgrid2050/assets/dashboard.js"
+      ]
+    },
+    {
+      "value": "./data/catalog.json",
+      "files": [
+        "globalgrid2050-homepage/assets/dashboard.js",
+        "globalgrid2050-hompage/assets/dashboard.js"
+      ]
+    }
+  ],
+  "reason": "CATALOG_URL is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "WINDOW_SIZE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "100",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs"
+      ]
+    },
+    {
+      "value": "50",
+      "files": [
+        "pipelinenews/releases/javascript/projects-v8-foundation.js",
+        "pipelinenews/releases/javascript/projects-v8-windowed.js",
+        "pipelinenews/releases/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-live-news-runtime.js"
+      ]
+    }
+  ],
+  "reason": "WINDOW_SIZE is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

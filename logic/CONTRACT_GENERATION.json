@@ -1,0 +1,25 @@
+{
+  "name": "CONTRACT_GENERATION",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "202609040337",
+      "files": [
+        "gridatlas/tools/proofs/arrival-identity-corpus.proof.mjs",
+        "gridatlas/tools/proofs/uk-gazetteer-flyto.proof.mjs"
+      ]
+    },
+    {
+      "value": "202608301825",
+      "files": [
+        "gridatlas/tools/proofs/streaming-parquet-bridge.proof.mjs"
+      ]
+    }
+  ],
+  "reason": "CONTRACT_GENERATION is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

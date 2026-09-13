@@ -1,0 +1,25 @@
+{
+  "name": "LATITUDE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "51.5072",
+      "files": [
+        "globalgrid2050/scripts/gridbot_london_solar_daylight_geometry.py"
+      ]
+    },
+    {
+      "value": "52.6369",
+      "files": [
+        "gridatlas/tools/proofs/deep-link-technology-buckets.browser.mjs"
+      ]
+    }
+  ],
+  "reason": "LATITUDE is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

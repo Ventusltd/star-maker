@@ -1,0 +1,32 @@
+{
+  "name": "BAR_ID",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "spiders",
+    "testcode"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "gridatlas-menu-bar",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "globalgrid2050/testcode//atlas/source/menu-bar.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/menu-bar.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "testcode/sandbox//atlas/source/menu-bar.js"
+      ]
+    },
+    {
+      "value": "ventus-estate-menu-bar",
+      "files": [
+        "spiders/species/seer-spider/estate-menu/estate-menu.js"
+      ]
+    }
+  ],
+  "reason": "BAR_ID is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

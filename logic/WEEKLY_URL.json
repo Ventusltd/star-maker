@@ -1,0 +1,24 @@
+{
+  "name": "WEEKLY_URL",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "/uk_energy_tracking_v5/live_grid_frequency_weekly_health.json",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v5/frequency-history-ui.js"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v6/live_grid_frequency_weekly_health.json",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v6/frequency_history/frequency-history-ui.js"
+      ]
+    }
+  ],
+  "reason": "WEEKLY_URL is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

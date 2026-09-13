@@ -1,0 +1,25 @@
+{
+  "name": "CSS",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": ".price-history-fullscreen-overlay.open{display:block!important}.price-history-fullscreen-overlay{position:fixed!important;inset:0!important;z-index:99999!important;background:#000!important;padding:0!important;overflow:hidden!important}.price-history-fullscreen-shell{position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;border:0!important;border-radius:0!important;background:#05070c!important;display:block!important;overflow:hidden!important}.price-history-fullscreen-toolbar,.price-history-fullscreen-note,.fs-bottom-stack,.fs-mode-row,.fs-period-row,.fs-mini,.fs-period{display:none!important}#price-history-fullscreen-canvas{position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;border:0!important;background:#05070c!important}.fs-top-lite{position:fixed;right:10px;top:calc(env(safe-area-inset-top,0px) + 8px);z-index:100002;display:flex;gap:6px}.fs-top-lite button{border:1px solid rgba(0,255,255,.42);border-radius:7px;padding:6px 8px;background:rgba(5,7,12,.45);color:rgba(0,255,255,.82);font:10px Courier New,monospace;box-shadow:0 0 8px rgba(0,255,255,.12);text-shadow:0 0 5px rgba(0,255,255,.28)}.fs-nav{position:fixed;right:10px;z-index:100001;transform:none;width:44px;height:44px;border:1px solid rgba(0,255,255,.80);background:rgba(5,7,12,.76);color:#00ffff;border-radius:10px;font:26px Courier New,monospace;box-shadow:0 0 14px rgba(0,255,255,.25),0 0 9px rgba(255,51,51,.18);text-shadow:0 0 7px rgba(0,255,255,.58),0 0 5px rgba(255,51,51,.30)}.fs-nav.left{top:calc(50% - 50px);left:auto}.fs-nav.right{top:calc(50% + 10px);left:auto}@media(orientation:landscape){.fs-nav{width:42px;height:42px}.fs-top-lite button{font-size:9px;padding:5px 7px}}",
+      "files": [
+        "globalgrid2050/scripts/patch_v5_fullscreen_left_legend.py"
+      ]
+    },
+    {
+      "value": "assets/202608270055-v8-fast.css",
+      "files": [
+        "pipelinenews/tools/intelligence/cartridges/phone-first-heights/make_cartridge.py"
+      ]
+    }
+  ],
+  "reason": "CSS is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

@@ -60,21 +60,53 @@ function seeds(parts) {
     out.push({ kind: 'constellation', label: `${a.id} ⇄ ${va.stamp} × ${b.id} ⇄ ${vb.stamp}`, choice: { enabled: {}, selected: { [a.id]: va.file, [b.id]: vb.file } } });
   return out;
 }
-const starId = (gen, choice) => createHash('sha1').update(gen + JSON.stringify(choice)).digest('hex').slice(0, 12);
 
-async function makeStar(gen, seed) {
-  const id = starId(gen, seed.choice);
+// Phase 4 — deep-link stars: the MAP button, for real projects, from the same canonical
+// partitions the shell reads. A star arrives if the project's name is on the page afterwards.
+const GG_DIR = process.env.GG_DIR || 'C:/Users/vikra/Documents/GitHub/globalgrid2050';
+const DEEPLINK_MAX = Number(process.env.STAR_DEEPLINKS || 3000);
+async function deeplinkSeeds() {
+  let manifest;
+  try { manifest = JSON.parse(await readFile(path.join(GG_DIR, 'uk_renewables_pipeline/v9/data/v9.1/build_manifest.json'), 'utf8')); } catch { return []; }
+  const feats = [];
+  for (const part of manifest.atlas_partitions || []) {
+    try {
+      const g = JSON.parse(await readFile(path.join(GG_DIR, 'uk_renewables_pipeline/v9', part.path), 'utf8'));
+      for (const f of g.features || []) if (f.geometry?.type === 'Point' && f.properties?.repd_ref && f.properties?.name)
+        feats.push({ ref: String(f.properties.repd_ref), tech: part.technology, name: String(f.properties.name), lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1] });
+    } catch {}
+  }
+  // deterministic spread across technologies: order by hash of the ref, not by file order
+  feats.sort((a, b) => createHash('sha1').update(a.ref).digest('hex') < createHash('sha1').update(b.ref).digest('hex') ? -1 : 1);
+  return feats.slice(0, DEEPLINK_MAX).map(f => ({
+    kind: 'deeplink', label: `MAP → ${f.name} (${f.tech}, REPD ${f.ref})`, choice: { enabled: {}, selected: {} },
+    query: `repd_ref=${encodeURIComponent(f.ref)}&technology=${f.tech}&latitude=${f.lat}&longitude=${f.lon}&zoom=12`, expect: f.name,
+  }));
+}
+const starId = (gen, choice, query = '') => createHash('sha1').update(gen + JSON.stringify(choice) + query).digest('hex').slice(0, 12);
+
+async function makeStar(gen, seed, replayOf = null) {
+  const id = replayOf || starId(gen, seed.choice, seed.query || '');
   const file = path.join(SKY, 'stars', `${id}.json`);
-  if (await exists(file)) return null;
-  const r = await api('/api/testdrive', { choice: seed.choice });
+  if (!replayOf && await exists(file)) return null;
+  const r = await api('/api/testdrive', { choice: seed.choice, query: seed.query || '', expect: seed.expect || null });
+  let verdict = r.verdict;
+  const findings = r.findings.filter(f => f.part !== 'noise').slice(0, 25).map(f => ({ level: f.level, part: f.part, text: f.text, line: f.line }));
+  if (seed.expect && r.arrival && !r.arrival.arrived) { verdict = 'RED'; findings.unshift({ level: 'arrival', part: 'shell', text: `did not arrive at "${seed.expect}"${r.arrival.failed[0] ? ' — ' + r.arrival.failed[0] : ''}` }); }
+  if (replayOf) {
+    const prev = JSON.parse(await readFile(file, 'utf8'));
+    const same = prev.verdict === verdict && JSON.stringify(prev.findings.filter(f => f.level === 'exception').map(f => f.text)) === JSON.stringify(findings.filter(f => f.level === 'exception').map(f => f.text));
+    prev.replays = [...(prev.replays || []), { at: new Date().toISOString(), host: HOST_NAME, verdict, same, findings: same ? undefined : findings.slice(0, 5) }];
+    await writeFile(file, JSON.stringify(prev, null, 2));
+    return { ...prev, verdict: same ? 'SAME' : 'DIFF', id };
+  }
   const star = {
-    id, seed: { source_generation: gen, kind: seed.kind, label: seed.label, choice: seed.choice },
-    verdict: r.verdict, loadMs: r.loadMs, router: r.probe.router, layers: r.probe.layers, canvases: r.probe.canvases,
+    id, seed: { source_generation: gen, kind: seed.kind, label: seed.label, choice: seed.choice, query: seed.query || undefined, expect: seed.expect || undefined },
+    verdict, arrival: r.arrival || undefined, loadMs: r.loadMs, router: r.probe.router, layers: r.probe.layers, canvases: r.probe.canvases,
     loaded: r.composition.order, health: r.health,
-    findings: r.findings.filter(f => f.part !== 'noise').slice(0, 25).map(f => ({ level: f.level, part: f.part, text: f.text, line: f.line })),
-    banners: r.probe.banners, bench_run: r.stamp, made_at: new Date().toISOString(), host: HOST_NAME,
+    findings, banners: r.probe.banners, bench_run: r.stamp, made_at: new Date().toISOString(), host: HOST_NAME,
   };
-  if (r.verdict !== 'GREEN') { await copyFile(r.screenshot_path || path.join(BENCH, r.screenshot), path.join(SKY, 'shots', `${id}.jpg`)); star.shot = `shots/${id}.jpg`; }
+  if (verdict !== 'GREEN') { await copyFile(r.screenshot_path || path.join(BENCH, r.screenshot), path.join(SKY, 'shots', `${id}.jpg`)); star.shot = `shots/${id}.jpg`; }
   await writeFile(file, JSON.stringify(star, null, 2));
   return star;
 }
@@ -82,7 +114,7 @@ async function makeStar(gen, seed) {
 async function pass() {
   const parts = await api('/api/parts');
   const gen = parts.generation;
-  const queue = seeds(parts).slice(0, MAX_STARS_PER_PASS);
+  const queue = [...seeds(parts), ...await deeplinkSeeds()].slice(0, MAX_STARS_PER_PASS);
   if (ORDER === 'reverse') queue.reverse();
   await readDial();
   log(`pass on generation ${gen}: ${queue.length} seeds, dial ${dial} (max ${MAX_WORKERS})`);
@@ -142,7 +174,7 @@ ${stars.filter(s => s.seed.kind === 'unplug' && s.verdict === 'RED').flatMap(s =
 
 async function push(msg) {
   await index();
-  await git('add', '--', 'stars', 'shots', 'sky', 'SKY.md');
+  await git('add', '--', 'stars', 'shots', 'sky', 'SKY.md', 'logic', 'LOGIC.md').catch(() => git('add', '--', 'stars', 'shots', 'sky', 'SKY.md'));
   if ((await git('status', '--porcelain')).stdout.trim())
     await git('commit', '-q', '-m', `${msg}\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>`);
   // Two machines share one sky: take theirs first (their stars then count as "already made"),
@@ -153,14 +185,38 @@ async function push(msg) {
   log(`pushed: ${msg}`);
 }
 
-log(`star-maker up · sky at ${SKY}`);
+// Phase 5 — replay: never idle. Re-drive existing stars, oldest-replayed first, and record
+// whether the same seed gave the same star. A DIFF is a finding (flakiness, network, time).
+async function replayBatch(n = 200) {
+  const files = (await readdir(path.join(SKY, 'stars'))).filter(f => f.endsWith('.json'));
+  const stars = await Promise.all(files.map(async f => JSON.parse(await readFile(path.join(SKY, 'stars', f), 'utf8'))));
+  stars.sort((a, b) => (a.replays?.length || 0) - (b.replays?.length || 0) || (a.made_at < b.made_at ? -1 : 1));
+  const queue = stars.slice(0, n);
+  await readDial();
+  log(`replay batch: ${queue.length} stars, dial ${dial}`);
+  let same = 0, diff = 0;
+  const worker = async (i) => {
+    while (queue.length) {
+      if (i >= dial) { await new Promise(r => setTimeout(r, 5000)); continue; }
+      const s = queue.shift();
+      try { const r = await makeStar(s.seed.source_generation, s.seed, s.id); if (r.verdict === 'SAME') same++; else { diff++; log(`  DIFF  ${s.id} ${s.seed.label}`); } }
+      catch (e) { log(`  ERROR replay ${s.id}: ${e.message}`); }
+    }
+  };
+  await Promise.all(Array.from({ length: MAX_WORKERS }, (_, i) => worker(i)));
+  log(`replay done: ${same} same, ${diff} diff`);
+  return { same, diff };
+}
+
+log(`star-maker up · sky at ${SKY} · order ${ORDER}`);
 let lastGen = null, lastSurvey = 0;
 for (;;) {
   try {
     const parts = await api('/api/parts');
     if (parts.generation !== lastGen) { const r = await pass(); lastGen = r.gen; await push(`stars: ${r.made} new on generation ${r.gen}`); }
+    else { const r = await replayBatch(200); await push(`replay: ${r.same} same, ${r.diff} diff`); }
     if (Date.now() - lastSurvey > SURVEY_EVERY_MS) { await survey(); lastSurvey = Date.now(); await push(`sky: survey ${stampNow()}`); }
     await run('git', ['-C', ATLAS_REPO, 'pull', '--ff-only', '--quiet']).catch(() => {});
   } catch (e) { log('loop error: ' + e.message); }
-  await new Promise(r => setTimeout(r, IDLE_MS));
+  await new Promise(r => setTimeout(r, 15000));
 }

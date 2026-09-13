@@ -1,0 +1,28 @@
+{
+  "name": "TOPOLOGY",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas",
+    "solar-electrical-topology-analysis-engine-text-based"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "atlas/modules/202609012245-network-topology.js",
+      "files": [
+        "gridatlas/tools/proofs/modules/injection-response.proof.mjs",
+        "gridatlas/tools/proofs/modules/owner-boundary.proof.mjs",
+        "gridatlas/tools/proofs/modules/planned-change.proof.mjs",
+        "gridatlas/tools/proofs/modules/rating-envelope.proof.mjs"
+      ]
+    },
+    {
+      "value": "topology",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/src/solar_topology/study_registry.py"
+      ]
+    }
+  ],
+  "reason": "TOPOLOGY is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

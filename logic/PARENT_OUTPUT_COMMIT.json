@@ -1,0 +1,24 @@
+{
+  "name": "PARENT_OUTPUT_COMMIT",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "8648067694b8ffa30270a1db8664317d62dea176",
+      "files": [
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "58ca361c921264c1218d4a3f6d1f87da33f8473e",
+      "files": [
+        "pipelinenews/index/compile-v8-federated-relationships.mjs"
+      ]
+    }
+  ],
+  "reason": "PARENT_OUTPUT_COMMIT is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

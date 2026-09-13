@@ -1,0 +1,43 @@
+{
+  "name": "MODULE",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "gridatlas",
+    "solar-electrical-topology-analysis-engine-text-based"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "atlas/modules/202609012205-sizing-arithmetic.js",
+      "files": [
+        "gridatlas/tools/overnight/steps/sizing-arithmetic.mjs"
+      ]
+    },
+    {
+      "value": "atlas/modules/202609012250-rating-envelope.js",
+      "files": [
+        "gridatlas/tools/overnight/steps/rating-envelope.mjs"
+      ]
+    },
+    {
+      "value": "atlas/modules/202609012320-injection-response.js",
+      "files": [
+        "gridatlas/tools/overnight/steps/injection-response.mjs"
+      ]
+    },
+    {
+      "value": "atlas/modules/202609012345-planned-change.js",
+      "files": [
+        "gridatlas/tools/overnight/steps/planned-change.mjs"
+      ]
+    },
+    {
+      "value": "module",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/src/solar_topology/circuit.py"
+      ]
+    }
+  ],
+  "reason": "MODULE is defined 5 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "REGISTRY_URL",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "globalgrid2050-homepage",
+    "globalgrid2050-hompage",
+    "pipelinenews"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "https://ventusltd.github.io/registry_of_all_content_in_repos_and_dependencies/",
+      "files": [
+        "globalgrid2050-homepage/assets/dashboard.js",
+        "globalgrid2050-hompage/assets/dashboard.js",
+        "globalgrid2050/assets/dashboard.js"
+      ]
+    },
+    {
+      "value": "data/202608291447-registry.json",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs"
+      ]
+    }
+  ],
+  "reason": "REGISTRY_URL is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

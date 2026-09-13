@@ -1,0 +1,67 @@
+{
+  "name": "MANIFEST_URL",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "pipelinenews",
+    "testcode"
+  ],
+  "files": 27,
+  "values": [
+    {
+      "value": "https://ventusltd.github.io/gridatlas/data/repd_v9_manifest_202608290716.json",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/place-global-search-v9-5.js",
+        "globalgrid2050/testcode//atlas/cartridges/uk-gazetteer-flyto.js",
+        "gridatlas/atlas/cartridges/place-global-search-v9-5.js",
+        "gridatlas/atlas/cartridges/place-postcode-search.js",
+        "gridatlas/atlas/parts/place-global-search-arrival-identity.js",
+        "gridatlas/atlas/releases/atlas-v9/place-postcode-search.js",
+        "testcode/sandbox//atlas/cartridges/place-global-search-v9-5.js",
+        "testcode/sandbox//atlas/cartridges/uk-gazetteer-flyto.js"
+      ]
+    },
+    {
+      "value": "data/v9.1/build_manifest.json",
+      "files": [
+        "globalgrid2050/testcode//pipeline/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline//scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.4/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5.1/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.5/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.1/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6.2/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.6/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9.7/scripts/data/canonical-projects-v9-1.js",
+        "globalgrid2050/uk_renewables_pipeline/v9/scripts/data/canonical-projects-v9-1.js",
+        "pipelinenews/archive/pipelinenews/newsv1/scripts/data/canonical-projects-newsv1.js",
+        "pipelinenews/archive/pipelinenews/newsv7/scripts/data/canonical-projects-newsv7.js",
+        "pipelinenews/archive/pipelinenews/pipelinenews/scripts/data/canonical-projects-v9-1.js",
+        "pipelinenews/archive/pipelinenews/v1-9-legacy-lessons/uk_renewables_pipeline/v9/scripts/data/canonical-projects-v9-1.js",
+        "pipelinenews/ui/javascript/canonical-projects-v9-1.js",
+        "testcode/sandbox//pipeline/scripts/data/canonical-projects-v9-1.js"
+      ]
+    },
+    {
+      "value": "data/v9.8/interconnectors_manifest.json",
+      "files": [
+        "globalgrid2050/uk_renewables_pipeline//scripts/data/interconnectors-v9-8.js"
+      ]
+    },
+    {
+      "value": "manifests/202608261927-build-manifest-v9-1.json",
+      "files": [
+        "pipelinenews/releases/javascript/canonical-projects-v9-1.js"
+      ]
+    },
+    {
+      "value": "manifests/202609010836-build-manifest-v9-1.json",
+      "files": [
+        "pipelinenews/releases/javascript/canonical-projects-v9-1.js"
+      ]
+    }
+  ],
+  "reason": "MANIFEST_URL is defined 5 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

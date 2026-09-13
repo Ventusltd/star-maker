@@ -1,0 +1,31 @@
+{
+  "name": "ANCHOR",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "gridatlas",
+    "v11"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "const cartridgeSource = await readPublished(CARTRIDGE);",
+      "files": [
+        "gridatlas/tools/overnight/steps/owner-boundary.mjs"
+      ]
+    },
+    {
+      "value": "const sandboxBox = sandboxContext();\\n",
+      "files": [
+        "gridatlas/tools/overnight/steps/owner-boundary.mjs"
+      ]
+    },
+    {
+      "value": "d3b4c497144c2c9b3e8f0e82117e7e9abe4672b9",
+      "files": [
+        "v11/scripts/validate_control_plane.py"
+      ]
+    }
+  ],
+  "reason": "ANCHOR is defined 3 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

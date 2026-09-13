@@ -1,0 +1,42 @@
+{
+  "name": "PROOF",
+  "kind": "constant-drift",
+  "distinct_values": 5,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "tools/proofs/modules/202609012205-sizing-arithmetic.proof.mjs",
+      "files": [
+        "gridatlas/tools/overnight/steps/sizing-arithmetic.mjs"
+      ]
+    },
+    {
+      "value": "tools/proofs/modules/202609012245-electrical-distance.proof.mjs",
+      "files": [
+        "gridatlas/tools/overnight/steps/electrical-distance.mjs"
+      ]
+    },
+    {
+      "value": "tools/proofs/modules/202609012250-rating-envelope.proof.mjs",
+      "files": [
+        "gridatlas/tools/overnight/steps/rating-envelope.mjs"
+      ]
+    },
+    {
+      "value": "tools/proofs/modules/202609012320-injection-response.proof.mjs",
+      "files": [
+        "gridatlas/tools/overnight/steps/injection-response.mjs"
+      ]
+    },
+    {
+      "value": "tools/proofs/modules/202609012345-planned-change.proof.mjs",
+      "files": [
+        "gridatlas/tools/overnight/steps/planned-change.mjs"
+      ]
+    }
+  ],
+  "reason": "PROOF is defined 5 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

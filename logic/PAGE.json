@@ -1,0 +1,33 @@
+{
+  "name": "PAGE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews",
+    "pipelinenews-gridatlas-20260906",
+    "ventus-grid-engine"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "50",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/wider-fleet.mjs",
+        "globalgrid2050/testcode//pipeline/assets/wider-fleet.mjs",
+        "pipelinenews/releases/pipelinenews/assets/wider-fleet.mjs",
+        "pipelinenews/tools/intelligence/cartridges/map-corpus-contract/assets/{GEN}-wider-fleet.mjs",
+        "pipelinenews/tools/intelligence/cartridges/map-corpus-contract/prepare.mjs",
+        "pipelinenews/tools/intelligence/cartridges/wider-fleet/assets/{GEN}-wider-fleet.mjs",
+        "ventus-grid-engine/sources/deeplink-extracts/emitter/wider-fleet-deep-link.excerpt.mjs"
+      ]
+    },
+    {
+      "value": "25",
+      "files": [
+        "pipelinenews-gridatlas-20260906/src/all-repd.mjs"
+      ]
+    }
+  ],
+  "reason": "PAGE is defined 2 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

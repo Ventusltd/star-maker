@@ -1,0 +1,36 @@
+{
+  "name": "CARTRIDGE",
+  "kind": "constant-drift",
+  "distinct_values": 4,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "transmission-is-answerable",
+      "files": [
+        "pipelinenews/tools/overnight/steps/transmission-is-answerable.mjs"
+      ]
+    },
+    {
+      "value": "mapped-is-not-nearest",
+      "files": [
+        "pipelinenews/tools/overnight/steps/mapped-is-not-nearest.mjs"
+      ]
+    },
+    {
+      "value": "season-is-named",
+      "files": [
+        "pipelinenews/tools/overnight/steps/season-is-named.mjs"
+      ]
+    },
+    {
+      "value": "hops-are-not-kilometres",
+      "files": [
+        "pipelinenews/tools/overnight/steps/hops-are-not-kilometres.mjs"
+      ]
+    }
+  ],
+  "reason": "CARTRIDGE is defined 4 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

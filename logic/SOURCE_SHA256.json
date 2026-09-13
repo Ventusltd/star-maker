@@ -1,0 +1,24 @@
+{
+  "name": "SOURCE_SHA256",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "84c1b5f958a934d8b4b86ec88f50bdcf43830ded7ff2efc27bffca0c98695035",
+      "files": [
+        "gridatlas/compiler/compile-atlas-v9.py"
+      ]
+    },
+    {
+      "value": "7f8e91c5ed54152f5ae4cd999ec501caed8d6625fdf0df20cc418805dec3e1fa",
+      "files": [
+        "gridatlas/tools/v9_5/build_v9_5.py"
+      ]
+    }
+  ],
+  "reason": "SOURCE_SHA256 is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

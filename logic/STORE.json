@@ -1,0 +1,24 @@
+{
+  "name": "STORE",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "youengineer-code-review"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "youengineer-wc-grid-v4",
+      "files": [
+        "youengineer-code-review/world-cup-knockout/script-grid.js"
+      ]
+    },
+    {
+      "value": "youengineer-wc-grid-v5-isolated",
+      "files": [
+        "youengineer-code-review/world-cup-knockout-v5/script-grid.js"
+      ]
+    }
+  ],
+  "reason": "STORE is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "BASE_COMMIT",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "e6084f422f1fa181e331098fa080441854261475",
+      "files": [
+        "gridatlas/atman/layer-performance-comparator.mjs"
+      ]
+    },
+    {
+      "value": "0b376ebdc1b41b836d02583eed035070f9fc814d",
+      "files": [
+        "gridatlas/atman/render-ready-comparator.mjs"
+      ]
+    },
+    {
+      "value": "f9864e85ffbc4673d530ce58598ec6a528da8105",
+      "files": [
+        "gridatlas/compiler/build-render-ready-v9.py"
+      ]
+    }
+  ],
+  "reason": "BASE_COMMIT is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

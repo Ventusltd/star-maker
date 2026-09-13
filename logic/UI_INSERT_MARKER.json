@@ -1,0 +1,30 @@
+{
+  "name": "UI_INSERT_MARKER",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "function wireAtlasV8GridToggleButtons() {",
+      "files": [
+        "globalgrid2050/scripts/add_v6_v7_gis_sld_operating_asset_layers.py"
+      ]
+    },
+    {
+      "value": "// ============================================================\\n// ARRAY VISIBILITY AND TARGET MWp SIZING",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_site_intelligence_panel.py"
+      ]
+    },
+    {
+      "value": "function updateAtlasV8OperatingAssetToggleButtons() {",
+      "files": [
+        "globalgrid2050/scripts/replace_v7_gis_sld_asset_buttons_with_pipeline_dropdown.py"
+      ]
+    }
+  ],
+  "reason": "UI_INSERT_MARKER is defined 3 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

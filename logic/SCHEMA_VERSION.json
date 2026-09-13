@@ -1,0 +1,57 @@
+{
+  "name": "SCHEMA_VERSION",
+  "kind": "constant-drift",
+  "distinct_values": 7,
+  "repos": [
+    "globalgrid2050",
+    "registry_of_all_content_in_repos_and_dependencies",
+    "solar-electrical-topology-analysis-engine-text-based",
+    "spiders"
+  ],
+  "files": 7,
+  "values": [
+    {
+      "value": "1.0.0-fuelhh-shard",
+      "files": [
+        "globalgrid2050/scripts/backfill_generation_fuelhh_halfhourly_all_months_v6.py"
+      ]
+    },
+    {
+      "value": "globalgrid2050.kernel_registry.v1",
+      "files": [
+        "registry_of_all_content_in_repos_and_dependencies/scripts/build_registry.py"
+      ]
+    },
+    {
+      "value": "b9-scene-0.1.0",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/b9-sandbox/model.js"
+      ]
+    },
+    {
+      "value": "globalgrid2050.solar-dc.microbuild-plan.v1",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/scripts/check_microbuild_plan.py"
+      ]
+    },
+    {
+      "value": "globalgrid2050.solar-dc.programme-state.v1",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/scripts/sync_programme_state.py"
+      ]
+    },
+    {
+      "value": "topology_segments_v1",
+      "files": [
+        "solar-electrical-topology-analysis-engine-text-based/src/solar_topology/segments.py"
+      ]
+    },
+    {
+      "value": "spider-graph/1.0.0",
+      "files": [
+        "spiders/spider_maya/v1/scripts/scan_areas_menu.py"
+      ]
+    }
+  ],
+  "reason": "SCHEMA_VERSION is defined 7 different ways across 4 repo(s); a reader of one file cannot know which is true."
+}

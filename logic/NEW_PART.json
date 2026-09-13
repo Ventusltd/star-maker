@@ -1,0 +1,24 @@
+{
+  "name": "NEW_PART",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "atlas/parts/202609040212-ventus-corev8engine-layer-availability.js",
+      "files": [
+        "gridatlas/tools/proofs/transit-layer-availability.proof.mjs"
+      ]
+    },
+    {
+      "value": "atlas/parts/202609040400-sld-sandbox-style-hoist.js",
+      "files": [
+        "gridatlas/tools/proofs/sld-styles.proof.mjs"
+      ]
+    }
+  ],
+  "reason": "NEW_PART is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,24 @@
+{
+  "name": "SOLAR_MIN_EXCLUSIVE",
+  "kind": "physics-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "49.0",
+      "files": [
+        "globalgrid2050/scripts/major_project_news_v5.py"
+      ]
+    },
+    {
+      "value": "1.0",
+      "files": [
+        "globalgrid2050/scripts/major_project_news_v6.py"
+      ]
+    }
+  ],
+  "reason": "SOLAR_MIN_EXCLUSIVE is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

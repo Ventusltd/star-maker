@@ -1,0 +1,24 @@
+{
+  "name": "PORT",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridmachine1"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "8907",
+      "files": [
+        "gridmachine1/linux-handover/rig-kit/verify-derived.mjs"
+      ]
+    },
+    {
+      "value": "8909",
+      "files": [
+        "gridmachine1/linux-handover/rig-kit/verify-interconnector-arrival.mjs"
+      ]
+    }
+  ],
+  "reason": "PORT is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

@@ -1,0 +1,45 @@
+{
+  "name": "KEY",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode"
+  ],
+  "files": 21,
+  "values": [
+    {
+      "value": "__GRIDATLAS_DUCKDB_RUNTIME__",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/place-global-search-v9-5.js",
+        "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge.js",
+        "globalgrid2050/testcode//atlas/cartridges/uk-gazetteer-flyto.js",
+        "gridatlas/atlas/cartridges/place-global-search-v9-5.js",
+        "gridatlas/atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "gridatlas/atlas/parts/place-global-search-arrival-identity.js",
+        "testcode/sandbox//atlas/cartridges/place-global-search-v9-5.js",
+        "testcode/sandbox//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+        "testcode/sandbox//atlas/cartridges/streaming-parquet-bridge.js",
+        "testcode/sandbox//atlas/cartridges/uk-gazetteer-flyto.js"
+      ]
+    },
+    {
+      "value": "gridatlas.dash.collapsed",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/parts/sld-sandbox-arrival-identity.js",
+        "gridatlas/atlas/parts/sld-sandbox-body.js",
+        "gridatlas/atlas/parts/sld-sandbox-style-hoist.js",
+        "gridatlas/atlas/parts/sld-sandbox-technology-buckets.js",
+        "gridatlas/tools/overnight/steps/grid-at-point.mjs",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox-v9-8.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox.js"
+      ]
+    }
+  ],
+  "reason": "KEY is defined 2 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

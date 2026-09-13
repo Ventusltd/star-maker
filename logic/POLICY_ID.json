@@ -1,0 +1,36 @@
+{
+  "name": "POLICY_ID",
+  "kind": "constant-drift",
+  "distinct_values": 4,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "PN-OFFICIAL-FRONTIER-V1",
+      "files": [
+        "pipelinenews/archive/pipelinenews/objects/js/sha256/0f0adf842d22158b882f168d6c131480afd81bce6609b8453a073f15d201d18c.mjs"
+      ]
+    },
+    {
+      "value": "PN-OFFICIAL-FRONTIER-V3-AUTHORITY-SAFE",
+      "files": [
+        "pipelinenews/archive/pipelinenews/objects/js/sha256/60ebe5b31cdb881e61c7275fd3f696b33a4f134c5c0a6e6cd8f1474545156acc.mjs"
+      ]
+    },
+    {
+      "value": "PN-OFFICIAL-FRONTIER-V2-LOWERCASE-SLUG",
+      "files": [
+        "pipelinenews/archive/pipelinenews/objects/js/sha256/bf8b87533cda64fa145de9ca28998b29bf7f863f483a26a78e34fc3272fe9f7d.mjs"
+      ]
+    },
+    {
+      "value": "PN-EVIDENCE-CREDIBILITY-V1",
+      "files": [
+        "pipelinenews/archive/pipelinenews/objects/js/sha256/d7c0164d2d767996c45e86d27c4754d4388e4493a00a33e2429c6759cfe9b328.mjs"
+      ]
+    }
+  ],
+  "reason": "POLICY_ID is defined 4 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

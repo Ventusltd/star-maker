@@ -1,0 +1,49 @@
+{
+  "name": "NAME",
+  "kind": "constant-drift",
+  "distinct_values": 6,
+  "repos": [
+    "gridatlas",
+    "pipelinenews"
+  ],
+  "files": 6,
+  "values": [
+    {
+      "value": "assembler-proof",
+      "files": [
+        "gridatlas/tools/proofs/modules/assembler.proof.mjs"
+      ]
+    },
+    {
+      "value": "Live News Discovery + Atlas V8 Deep-Link Cartridge",
+      "files": [
+        "pipelinenews/index/compile-v8-atlas-deep-link.mjs"
+      ]
+    },
+    {
+      "value": "Live News Discovery + Chronology + Atlas V8 Deep-Link",
+      "files": [
+        "pipelinenews/index/compile-v8-news-chronology.mjs"
+      ]
+    },
+    {
+      "value": "Mobile Orientation Repair + Live News Discovery + Chronology + Atlas V8 Deep-Link",
+      "files": [
+        "pipelinenews/index/compile-v8-mobile-orientation.mjs"
+      ]
+    },
+    {
+      "value": "PipelineNews Live News + seven-topic sector intelligence candidate",
+      "files": [
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs"
+      ]
+    },
+    {
+      "value": "PipelineNews Live News + five-topic sector intelligence candidate",
+      "files": [
+        "pipelinenews/index/compile-v8-sector-intelligence.mjs"
+      ]
+    }
+  ],
+  "reason": "NAME is defined 6 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

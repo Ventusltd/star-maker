@@ -1,0 +1,36 @@
+{
+  "name": "CSV_URL",
+  "kind": "constant-drift",
+  "distinct_values": 4,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "/uk_energy_tracking_v3/elexon_system_prices_half_hourly.csv",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_history_correctness.py"
+      ]
+    },
+    {
+      "value": "/data/electricity/elexon_system_prices_half_hourly.csv",
+      "files": [
+        "globalgrid2050/scripts/patch_v3_price_range_fullscreen_fix.py"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v5/grid_frequency_history.csv",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v5/frequency-history-ui.js"
+      ]
+    },
+    {
+      "value": "/uk_energy_tracking_v6/grid_frequency_history.csv",
+      "files": [
+        "globalgrid2050/uk_energy_tracking_v6/frequency_history/frequency-history-ui.js"
+      ]
+    }
+  ],
+  "reason": "CSV_URL is defined 4 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

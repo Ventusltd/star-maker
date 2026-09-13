@@ -1,0 +1,60 @@
+{
+  "name": "WORKFLOW_NAME",
+  "kind": "constant-drift",
+  "distinct_values": 8,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 8,
+  "values": [
+    {
+      "value": "GridBot Generation Interconnector Split",
+      "files": [
+        "globalgrid2050/scripts/gridbot_generation_interconnector_split.py"
+      ]
+    },
+    {
+      "value": "GridBot Interconnector Bar UI Final",
+      "files": [
+        "globalgrid2050/scripts/gridbot_interconnector_bar_ui_final.py"
+      ]
+    },
+    {
+      "value": "GridBot Interconnector Bar UI Match",
+      "files": [
+        "globalgrid2050/scripts/gridbot_interconnector_bar_ui_match.py"
+      ]
+    },
+    {
+      "value": "GridBot Interconnector Mobile UI Repair",
+      "files": [
+        "globalgrid2050/scripts/gridbot_interconnector_mobile_ui_repair.py"
+      ]
+    },
+    {
+      "value": "GridBot London Solar Daylight Geometry",
+      "files": [
+        "globalgrid2050/scripts/gridbot_london_solar_daylight_geometry.py"
+      ]
+    },
+    {
+      "value": "GridBot Root Homepage Directory Audit",
+      "files": [
+        "globalgrid2050/scripts/gridbot_root_homepage_directory_audit.py"
+      ]
+    },
+    {
+      "value": "GridBot Sunrise Sunset Time Bands",
+      "files": [
+        "globalgrid2050/scripts/gridbot_sunrise_sunset_time_bands.py"
+      ]
+    },
+    {
+      "value": "GridBot Sunrise Sunset Visible Attribution",
+      "files": [
+        "globalgrid2050/scripts/gridbot_sunrise_sunset_visible_attribution.py"
+      ]
+    }
+  ],
+  "reason": "WORKFLOW_NAME is defined 8 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

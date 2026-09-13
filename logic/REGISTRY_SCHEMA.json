@@ -1,0 +1,34 @@
+{
+  "name": "REGISTRY_SCHEMA",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "gridatlas",
+    "pipelinenews",
+    "spiders"
+  ],
+  "files": 5,
+  "values": [
+    {
+      "value": "data-gridatlas.live-browser-layer-registry.v1",
+      "files": [
+        "gridatlas/atlas/releases/atlas-v9/assets/data-gridatlas-client.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews.v8.live-news-registry.v1",
+      "files": [
+        "pipelinenews/index/compile-v8-atlas-deep-link.mjs",
+        "pipelinenews/index/compile-v8-live-news.mjs",
+        "pipelinenews/index/compile-v8-news-chronology.mjs"
+      ]
+    },
+    {
+      "value": "spiders.estate-survey-registry.v1",
+      "files": [
+        "spiders/tools/estate-survey.mjs"
+      ]
+    }
+  ],
+  "reason": "REGISTRY_SCHEMA is defined 3 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

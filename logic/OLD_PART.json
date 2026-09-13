@@ -1,0 +1,24 @@
+{
+  "name": "OLD_PART",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "atlas/parts/202609040045-ventus-corev8engine-deep-link-receiver.js",
+      "files": [
+        "gridatlas/tools/proofs/transit-layer-availability.proof.mjs"
+      ]
+    },
+    {
+      "value": "atlas/parts/202609040229-sld-sandbox-arrival-identity.js",
+      "files": [
+        "gridatlas/tools/proofs/sld-styles.proof.mjs"
+      ]
+    }
+  ],
+  "reason": "OLD_PART is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

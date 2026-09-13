@@ -1,0 +1,24 @@
+{
+  "name": "TARGET_PATH",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "gridatlas"
+  ],
+  "files": 2,
+  "values": [
+    {
+      "value": "atman/202608292126-layer-performance-comparator.mjs",
+      "files": [
+        "gridatlas/atman/layer-performance-comparator.mjs"
+      ]
+    },
+    {
+      "value": "atman/202608292311-render-ready-comparator.mjs",
+      "files": [
+        "gridatlas/atman/render-ready-comparator.mjs"
+      ]
+    }
+  ],
+  "reason": "TARGET_PATH is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

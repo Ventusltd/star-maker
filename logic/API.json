@@ -1,0 +1,56 @@
+{
+  "name": "API",
+  "kind": "constant-drift",
+  "distinct_values": 6,
+  "repos": [
+    "claude",
+    "globalgrid2050",
+    "gridatlas",
+    "pipelinenews",
+    "spiders"
+  ],
+  "files": 10,
+  "values": [
+    {
+      "value": "https://api.github.com/",
+      "files": [
+        "claude/scripts/audit_estate.py",
+        "claude/scripts/ci_history_mine.py"
+      ]
+    },
+    {
+      "value": "https://api.solar.sheffield.ac.uk/pvlive/api/v4/gsp/0",
+      "files": [
+        "globalgrid2050/scripts/gridbot_solar_historic_backfill.py",
+        "globalgrid2050/scripts/gridbot_solar_immediate_data.py",
+        "globalgrid2050/scripts/gridbot_solar_monthly_backfill.py",
+        "globalgrid2050/scripts/gridbot_solar_peak_integrity_audit.py"
+      ]
+    },
+    {
+      "value": "https://api.neso.energy/api/3/action/datastore_search",
+      "files": [
+        "gridatlas/tools/offshore/fetch_neso_connection_sites.py"
+      ]
+    },
+    {
+      "value": "https://api.github.com/repos/Ventusltd/gridatlas",
+      "files": [
+        "gridatlas/tools/overnight/shift.mjs"
+      ]
+    },
+    {
+      "value": "https://api.postcodes.io/postcodes",
+      "files": [
+        "pipelinenews/tools/intelligence/cartridges/table-locality-sort/build_payload.py"
+      ]
+    },
+    {
+      "value": "https://api.github.com",
+      "files": [
+        "spiders/codex/build-plan/estate-audit.py"
+      ]
+    }
+  ],
+  "reason": "API is defined 6 different ways across 5 repo(s); a reader of one file cannot know which is true."
+}

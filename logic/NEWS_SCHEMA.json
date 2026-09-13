@@ -1,0 +1,25 @@
+{
+  "name": "NEWS_SCHEMA",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "pipelinenews"
+  ],
+  "files": 3,
+  "values": [
+    {
+      "value": "pipelinenews.v8.fast-news-index.v1",
+      "files": [
+        "pipelinenews/index/compile-v8-fast.mjs"
+      ]
+    },
+    {
+      "value": "pipelinenews.v8.live-news-index.v1",
+      "files": [
+        "pipelinenews/index/compile-v8-live-news.mjs",
+        "pipelinenews/index/compile-v8-news-chronology.mjs"
+      ]
+    }
+  ],
+  "reason": "NEWS_SCHEMA is defined 2 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

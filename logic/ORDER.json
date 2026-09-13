@@ -1,0 +1,39 @@
+{
+  "name": "ORDER",
+  "kind": "constant-drift",
+  "distinct_values": 3,
+  "repos": [
+    "globalgrid2050",
+    "gridatlas",
+    "testcode"
+  ],
+  "files": 10,
+  "values": [
+    {
+      "value": "list[\"Biomass\",\"Coal\",\"Gas\",\"Hydro\",\"Imports & Exports\",\"Nuclear\",\"Other\",\"Pumped Storage\",\"Solar\",\"Wind\"]",
+      "files": [
+        "globalgrid2050/scripts/backfill_generation_aggregates_year_v6.py"
+      ]
+    },
+    {
+      "value": "list[\"Biomass\",\"Coal\",\"Gas\",\"Hydro\",\"Imports & Exports\",\"Nuclear\",\"Pumped Storage\",\"Solar\",\"Wind\"]",
+      "files": [
+        "globalgrid2050/scripts/generate_generation_history_daily_v6.py",
+        "globalgrid2050/scripts/gridbot_v6_same_slot_reconciliation_audit.py",
+        "globalgrid2050/scripts/update_uk_energy_v6.py"
+      ]
+    },
+    {
+      "value": "list[\"canonical\",\"extract\",\"fragment\",\"reference\"]",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "globalgrid2050/testcode//atlas/source/menu-bar.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/menu-bar.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "testcode/sandbox//atlas/source/menu-bar.js"
+      ]
+    }
+  ],
+  "reason": "ORDER is defined 3 different ways across 3 repo(s); a reader of one file cannot know which is true."
+}

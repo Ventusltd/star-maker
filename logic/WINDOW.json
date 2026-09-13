@@ -1,0 +1,27 @@
+{
+  "name": "WINDOW",
+  "kind": "constant-drift",
+  "distinct_values": 2,
+  "repos": [
+    "claude",
+    "pipelinenews"
+  ],
+  "files": 4,
+  "values": [
+    {
+      "value": "80",
+      "files": [
+        "claude/logs/tools/classify_sensitivity.py"
+      ]
+    },
+    {
+      "value": "100",
+      "files": [
+        "pipelinenews/tools/intelligence/cartridges/grid-actions-inline/proof.mjs",
+        "pipelinenews/tools/intelligence/cartridges/grid-distance-column/proof.mjs",
+        "pipelinenews/tools/intelligence/cartridges/table-locality-sort/proof.mjs"
+      ]
+    }
+  ],
+  "reason": "WINDOW is defined 2 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

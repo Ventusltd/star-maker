@@ -1,0 +1,66 @@
+{
+  "name": "CSS_MARKER",
+  "kind": "constant-drift",
+  "distinct_values": 9,
+  "repos": [
+    "globalgrid2050"
+  ],
+  "files": 9,
+  "values": [
+    {
+      "value": "/* GLOBALGRID2050 OPERATING ASSET LAYER BUTTONS */",
+      "files": [
+        "globalgrid2050/scripts/add_v6_v7_gis_sld_operating_asset_layers.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 ARRAY VISIBILITY AND MWp SIZING */",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_array_visibility_and_mwp_sizing.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 LARGE ASSET MARKERS AND GIS SEARCH */",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_large_asset_markers_and_search.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 SITE INTELLIGENCE PANEL */",
+      "files": [
+        "globalgrid2050/scripts/add_v7_gis_sld_site_intelligence_panel.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 SIMPLE SAFE PRINT MAP FIX */",
+      "files": [
+        "globalgrid2050/scripts/fix_v6_v7_gis_sld_print_simple_safe.py"
+      ]
+    },
+    {
+      "value": "GridBot MWh mobile bounds repair",
+      "files": [
+        "globalgrid2050/scripts/gridbot_mwh_mobile_bounds_repair.py"
+      ]
+    },
+    {
+      "value": "GridBot sunrise sunset visible attribution",
+      "files": [
+        "globalgrid2050/scripts/gridbot_sunrise_sunset_visible_attribution.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 ASSET PIPELINE DROPDOWN FILTER */",
+      "files": [
+        "globalgrid2050/scripts/replace_v7_gis_sld_asset_buttons_with_pipeline_dropdown.py"
+      ]
+    },
+    {
+      "value": "/* GLOBALGRID2050 V7 ASSET PIPELINE DROPDOWN STATUS FILTER */",
+      "files": [
+        "globalgrid2050/scripts/replace_v7_gis_sld_asset_buttons_with_pipeline_dropdown_status.py"
+      ]
+    }
+  ],
+  "reason": "CSS_MARKER is defined 9 different ways across 1 repo(s); a reader of one file cannot know which is true."
+}

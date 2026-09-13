@@ -1,0 +1,76 @@
+{
+  "name": "EXPECTED_CACHE_IDENTITY",
+  "kind": "constant-drift",
+  "distinct_values": 10,
+  "repos": [
+    "globalgrid2050",
+    "pipelinenews"
+  ],
+  "files": 13,
+  "values": [
+    {
+      "value": "d439dda1793f26dabad006df78dfce43e0add0e7c8a57e079e1fd3b6f0b24c6c",
+      "files": [
+        "globalgrid2050/pipelinenews_intelligence//assets/app.mjs",
+        "globalgrid2050/testcode//pipeline/assets/app.mjs",
+        "pipelinenews/releases/pipelinenews/assets/app.mjs"
+      ]
+    },
+    {
+      "value": "8ab1807551bc77066e46e01cb0690dfaa41d473d8433644046f56b6984579b06",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "9ab451f4bf19ff70fa78b3bd4b4d7cf0097827b880a9344e6c4dd3922e6febfc",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "b6d619bca4667020c9c8590753238b85601df74771e11041d6e9e0258f81c70c",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "fd2212a8c76d9fb97ec50cc97b1fefa104ae8cd7ac33cd4b4adcd57c8149e844",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "f3620fff8b48a04e0e3264b472fe3af03dd8dbdb5cd65359e680d5d8d848afc2",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "38bf9950be3ef8e2d67a9401ae2b058a3349a704aee57cd6b858b97053bdd9d1",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "6fd1f3342e7ddd654cf7e2dc0f617985d0c18ce85663dd62be059334004ccf71",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "ca381c3a94ba10c61c9dd810ffd13fc12d40b4c51cb2f4392789294c6c1b2c77",
+      "files": [
+        "pipelinenews/releases/javascript/v8-fast-runtime.js"
+      ]
+    },
+    {
+      "value": "__FAST_CACHE_IDENTITY__",
+      "files": [
+        "pipelinenews/ui/javascript/v8-fast-runtime.js",
+        "pipelinenews/ui/javascript/v8-live-news-runtime.js"
+      ]
+    }
+  ],
+  "reason": "EXPECTED_CACHE_IDENTITY is defined 10 different ways across 2 repo(s); a reader of one file cannot know which is true."
+}

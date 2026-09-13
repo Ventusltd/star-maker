@@ -1,0 +1,160 @@
+{
+  "name": "SCHEMA",
+  "kind": "constant-drift",
+  "distinct_values": 17,
+  "repos": [
+    "data-gridatlas",
+    "globalgrid2050",
+    "gridatlas",
+    "pipelinenews",
+    "spiders",
+    "testcode",
+    "ventus-grid-engine"
+  ],
+  "files": 57,
+  "values": [
+    {
+      "value": "data-gridatlas.current-integrity.v1",
+      "files": [
+        "data-gridatlas/atman/current-integrity.py"
+      ]
+    },
+    {
+      "value": "globalgrid2050.project-identity.v6",
+      "files": [
+        "globalgrid2050/scripts/build_project_identity_v6.py"
+      ]
+    },
+    {
+      "value": "gridatlas.technology-coverage.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+        "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/modules/technology-coverage.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox-v9-8.js",
+        "testcode/sandbox//atlas/cartridges/sld-sandbox.js"
+      ]
+    },
+    {
+      "value": "gridatlas.module.electrical-distance.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/electrical-distance.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/engine/electrical-distance.js",
+        "ventus-grid-engine/sources/v9-extracts/electrical-distance.mjs"
+      ]
+    },
+    {
+      "value": "gridatlas.module.rating-envelope.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/rating-envelope.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "ventus-grid-engine/engine/rating-envelope.js",
+        "ventus-grid-engine/sources/v9-extracts/rating-envelope.mjs"
+      ]
+    },
+    {
+      "value": "gridatlas.module.injection-response.v2",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/injection-response.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "gridatlas.module.planned-change.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/planned-change.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "gridatlas.module.owner-boundary.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/owner-boundary.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "gridatlas.module.pinned-products.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/pinned-products.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "gridatlas.module.corridor-estimate.v1",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/corridor-estimate.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js"
+      ]
+    },
+    {
+      "value": "gridatlas.menu-bar.v2",
+      "files": [
+        "globalgrid2050/testcode//atlas/cartridges/substation-intelligence.js",
+        "globalgrid2050/testcode//atlas/source/menu-bar.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/menu-bar.js",
+        "testcode/sandbox//atlas/cartridges/substation-intelligence.js",
+        "testcode/sandbox//atlas/source/menu-bar.js"
+      ]
+    },
+    {
+      "value": "ventus.grid-engine.deeplink-receivers.v1",
+      "files": [
+        "globalgrid2050/uk_renewables_pipeline//tests/contract_failure_semantics_v9_7.mjs"
+      ]
+    },
+    {
+      "value": "gridatlas.module.injection-response.v1",
+      "files": [
+        "gridatlas/atlas/cartridges/sld-sandbox-v9-8.js",
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js",
+        "gridatlas/atlas/modules/injection-response.js"
+      ]
+    },
+    {
+      "value": "gridatlas.menu-bar.v1",
+      "files": [
+        "gridatlas/atlas/cartridges/substation-intelligence-v9-63.js"
+      ]
+    },
+    {
+      "value": "gridatlas.codex-computation-lab.v1",
+      "files": [
+        "gridatlas/atlas/codex//assets/lab.js"
+      ]
+    },
+    {
+      "value": "pipelinenews.adaptive-build-controller.v1",
+      "files": [
+        "pipelinenews/atman/verify-adaptive-build-controller.mjs"
+      ]
+    },
+    {
+      "value": "ventus.estate-menu.v1",
+      "files": [
+        "spiders/species/seer-spider/estate-menu/estate-menu.js"
+      ]
+    }
+  ],
+  "reason": "SCHEMA is defined 17 different ways across 7 repo(s); a reader of one file cannot know which is true."
+}
