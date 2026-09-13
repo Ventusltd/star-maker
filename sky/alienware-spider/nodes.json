@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "star:0369d793b59c",
+      "id": "star:00225794c628",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -12,15 +12,15 @@
         ]
       },
       "properties": {
-        "label": "star:0369d793b59c",
+        "label": "star:00225794c628",
         "repo_type": "star",
         "scope_type": "star",
-        "rag": "green",
-        "status": "green",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/0369d793b59c.json",
+        "rag": "red",
+        "status": "red",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/00225794c628.json",
         "importance_score": 0.5,
         "child_manifest": null,
-        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/0369d793b59c.json"
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/00225794c628.json"
       }
     },
     {
@@ -30,7 +30,7 @@
         "type": "Point",
         "coordinates": [
           59.99,
-          1.29
+          0.94
         ]
       },
       "properties": {
@@ -51,8 +51,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.94,
-          2.57
+          59.97,
+          1.87
         ]
       },
       "properties": {
@@ -73,8 +73,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.88,
-          3.86
+          59.93,
+          2.81
         ]
       },
       "properties": {
@@ -95,8 +95,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.78,
-          5.14
+          59.88,
+          3.74
         ]
       },
       "properties": {
@@ -113,12 +113,78 @@
     },
     {
       "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012155-sld-sandbox-v9-8.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.82,
+          4.67
+        ]
+      },
+      "properties": {
+        "label": "202609012155-sld-sandbox-v9-8.js",
+        "repo_type": "cartridge:sld-sandbox",
+        "scope_type": "cartridge:sld-sandbox",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012155-sld-sandbox-v9-8.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012155-sld-sandbox-v9-8.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051526-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.74,
+          5.6
+        ]
+      },
+      "properties": {
+        "label": "202609051526-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051526-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051526-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:0369d793b59c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.64,
+          6.54
+        ]
+      },
+      "properties": {
+        "label": "star:0369d793b59c",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/0369d793b59c.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/0369d793b59c.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012130-sld-sandbox-v9-8.js",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.66,
-          6.42
+          59.53,
+          7.46
         ]
       },
       "properties": {
@@ -139,8 +205,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.5,
-          7.7
+          59.41,
+          8.39
         ]
       },
       "properties": {
@@ -161,8 +227,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.33,
-          8.97
+          59.27,
+          9.32
         ]
       },
       "properties": {
@@ -205,8 +271,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.89,
-          11.51
+          58.95,
+          11.16
         ]
       },
       "properties": {
@@ -227,8 +293,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.63,
-          12.77
+          58.77,
+          12.08
         ]
       },
       "properties": {
@@ -249,8 +315,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.34,
-          14.02
+          58.58,
+          12.99
         ]
       },
       "properties": {
@@ -271,8 +337,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.02,
-          15.27
+          58.37,
+          13.9
         ]
       },
       "properties": {
@@ -293,8 +359,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.68,
-          16.51
+          58.14,
+          14.81
         ]
       },
       "properties": {
@@ -315,8 +381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.32,
-          17.74
+          57.9,
+          15.72
         ]
       },
       "properties": {
@@ -337,8 +403,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.92,
-          18.97
+          57.65,
+          16.62
         ]
       },
       "properties": {
@@ -359,8 +425,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.5,
-          20.18
+          57.39,
+          17.51
         ]
       },
       "properties": {
@@ -381,8 +447,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.06,
-          21.39
+          57.11,
+          18.41
         ]
       },
       "properties": {
@@ -403,8 +469,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.59,
-          22.59
+          56.81,
+          19.3
         ]
       },
       "properties": {
@@ -425,8 +491,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.09,
-          23.78
+          56.5,
+          20.18
         ]
       },
       "properties": {
@@ -447,8 +513,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.57,
-          24.95
+          56.18,
+          21.06
         ]
       },
       "properties": {
@@ -469,8 +535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.02,
-          26.12
+          55.85,
+          21.93
         ]
       },
       "properties": {
@@ -487,12 +553,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:074845f5ea2a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.5,
+          22.8
+        ]
+      },
+      "properties": {
+        "label": "star:074845f5ea2a",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "red",
+        "status": "red",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/074845f5ea2a.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/074845f5ea2a.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:075092ba17f4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.14,
+          23.66
+        ]
+      },
+      "properties": {
+        "label": "star:075092ba17f4",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/075092ba17f4.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/075092ba17f4.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:080cd4c7132c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          53.45,
-          27.27
+          54.76,
+          24.52
         ]
       },
       "properties": {
@@ -513,8 +623,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.85,
-          28.41
+          54.37,
+          25.37
         ]
       },
       "properties": {
@@ -535,8 +645,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.23,
-          29.53
+          53.97,
+          26.21
         ]
       },
       "properties": {
@@ -557,8 +667,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.58,
-          30.65
+          53.56,
+          27.05
         ]
       },
       "properties": {
@@ -579,8 +689,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.91,
-          31.75
+          53.13,
+          27.88
         ]
       },
       "properties": {
@@ -601,8 +711,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.22,
-          32.83
+          52.69,
+          28.71
         ]
       },
       "properties": {
@@ -619,12 +729,122 @@
     },
     {
       "type": "Feature",
+      "id": "star:0b9465dad2f1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.23,
+          29.53
+        ]
+      },
+      "properties": {
+        "label": "star:0b9465dad2f1",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/0b9465dad2f1.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/0b9465dad2f1.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041957-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.77,
+          30.34
+        ]
+      },
+      "properties": {
+        "label": "202609041957-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041957-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041957-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:0e60b7ff177a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.29,
+          31.14
+        ]
+      },
+      "properties": {
+        "label": "star:0e60b7ff177a",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/0e60b7ff177a.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/0e60b7ff177a.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032012-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.79,
+          31.94
+        ]
+      },
+      "properties": {
+        "label": "202609032012-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032012-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032012-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:0eea2a8a4701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.29,
+          32.72
+        ]
+      },
+      "properties": {
+        "label": "star:0eea2a8a4701",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/0eea2a8a4701.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/0eea2a8a4701.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:0f6c617208f6",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.51,
-          33.9
+          49.77,
+          33.5
         ]
       },
       "properties": {
@@ -645,8 +865,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.77,
-          34.95
+          49.25,
+          34.28
         ]
       },
       "properties": {
@@ -667,8 +887,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.01,
-          35.99
+          48.71,
+          35.04
         ]
       },
       "properties": {
@@ -689,8 +909,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.22,
-          37.01
+          48.15,
+          35.79
         ]
       },
       "properties": {
@@ -711,8 +931,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.42,
-          38.02
+          47.59,
+          36.54
         ]
       },
       "properties": {
@@ -729,12 +949,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:12371981409a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.01,
+          37.28
+        ]
+      },
+      "properties": {
+        "label": "star:12371981409a",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/12371981409a.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/12371981409a.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051307-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.43,
+          38.01
+        ]
+      },
+      "properties": {
+        "label": "202609051307-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051307-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051307-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:12385838d11d",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.59,
-          39
+          45.83,
+          38.73
         ]
       },
       "properties": {
@@ -755,8 +1019,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.75,
-          39.97
+          45.22,
+          39.44
         ]
       },
       "properties": {
@@ -777,8 +1041,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.88,
-          40.92
+          44.6,
+          40.14
         ]
       },
       "properties": {
@@ -799,8 +1063,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.99,
-          41.85
+          43.97,
+          40.83
         ]
       },
       "properties": {
@@ -821,8 +1085,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.08,
-          42.77
+          43.33,
+          41.51
         ]
       },
       "properties": {
@@ -843,8 +1107,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.16,
-          43.66
+          42.67,
+          42.18
         ]
       },
       "properties": {
@@ -865,8 +1129,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.21,
-          44.53
+          42.01,
+          42.84
         ]
       },
       "properties": {
@@ -887,8 +1151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.25,
-          45.38
+          41.34,
+          43.49
         ]
       },
       "properties": {
@@ -909,8 +1173,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.27,
-          46.21
+          40.66,
+          44.13
         ]
       },
       "properties": {
@@ -931,8 +1195,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.27,
-          47.02
+          39.96,
+          44.76
         ]
       },
       "properties": {
@@ -953,8 +1217,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          47.81
+          39.26,
+          45.37
         ]
       },
       "properties": {
@@ -975,8 +1239,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.22,
-          48.58
+          38.55,
+          45.98
         ]
       },
       "properties": {
@@ -997,8 +1261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.17,
-          49.32
+          37.83,
+          46.57
         ]
       },
       "properties": {
@@ -1019,8 +1283,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.1,
-          50.04
+          37.1,
+          47.16
         ]
       },
       "properties": {
@@ -1041,8 +1305,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.02,
-          50.74
+          36.36,
+          47.73
         ]
       },
       "properties": {
@@ -1059,12 +1323,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:188a8bdc6e32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.61,
+          48.29
+        ]
+      },
+      "properties": {
+        "label": "star:188a8bdc6e32",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/188a8bdc6e32.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/188a8bdc6e32.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609042123-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.85,
+          48.84
+        ]
+      },
+      "properties": {
+        "label": "202609042123-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609042123-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609042123-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:1912b0caf550",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.92,
-          51.42
+          34.08,
+          49.38
         ]
       },
       "properties": {
@@ -1085,8 +1393,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.81,
-          52.07
+          33.31,
+          49.9
         ]
       },
       "properties": {
@@ -1107,8 +1415,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.69,
-          52.7
+          32.53,
+          50.42
         ]
       },
       "properties": {
@@ -1129,8 +1437,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.55,
-          53.3
+          31.74,
+          50.92
         ]
       },
       "properties": {
@@ -1151,8 +1459,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.41,
-          53.88
+          30.94,
+          51.41
         ]
       },
       "properties": {
@@ -1173,8 +1481,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.24,
-          54.43
+          30.13,
+          51.88
         ]
       },
       "properties": {
@@ -1195,8 +1503,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.07,
-          54.96
+          29.32,
+          52.35
         ]
       },
       "properties": {
@@ -1217,8 +1525,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.89,
-          55.46
+          28.5,
+          52.8
         ]
       },
       "properties": {
@@ -1235,12 +1543,166 @@
     },
     {
       "type": "Feature",
+      "id": "star:1c1da6d39aba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.68,
+          53.24
+        ]
+      },
+      "properties": {
+        "label": "star:1c1da6d39aba",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/1c1da6d39aba.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/1c1da6d39aba.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012211-sld-sandbox-v9-8.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.84,
+          53.66
+        ]
+      },
+      "properties": {
+        "label": "202609012211-sld-sandbox-v9-8.js",
+        "repo_type": "cartridge:sld-sandbox",
+        "scope_type": "cartridge:sld-sandbox",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012211-sld-sandbox-v9-8.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012211-sld-sandbox-v9-8.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609030200-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26,
+          54.07
+        ]
+      },
+      "properties": {
+        "label": "202609030200-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609030200-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609030200-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:1cf9dee9a4f2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.16,
+          54.47
+        ]
+      },
+      "properties": {
+        "label": "star:1cf9dee9a4f2",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "red",
+        "status": "red",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/1cf9dee9a4f2.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/1cf9dee9a4f2.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3,
+          54.86
+        ]
+      },
+      "properties": {
+        "label": "202609051525-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:1d9dec17acd9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.45,
+          55.23
+        ]
+      },
+      "properties": {
+        "label": "star:1d9dec17acd9",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/1d9dec17acd9.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/1d9dec17acd9.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051510-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.58,
+          55.59
+        ]
+      },
+      "properties": {
+        "label": "202609051510-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051510-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051510-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:1db9f5aa2715",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.69,
-          55.94
+          21.71,
+          55.93
         ]
       },
       "properties": {
@@ -1261,8 +1723,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.49,
-          56.39
+          20.84,
+          56.27
         ]
       },
       "properties": {
@@ -1279,12 +1741,122 @@
     },
     {
       "type": "Feature",
+      "id": "star:1dda415c5ce5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.96,
+          56.58
+        ]
+      },
+      "properties": {
+        "label": "star:1dda415c5ce5",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/1dda415c5ce5.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/1dda415c5ce5.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:1e7718e2d2d7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.07,
+          56.89
+        ]
+      },
+      "properties": {
+        "label": "star:1e7718e2d2d7",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/1e7718e2d2d7.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/1e7718e2d2d7.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020006-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.18,
+          57.18
+        ]
+      },
+      "properties": {
+        "label": "202609020006-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020006-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020006-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:1ead8145ca84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.29,
+          57.45
+        ]
+      },
+      "properties": {
+        "label": "star:1ead8145ca84",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "red",
+        "status": "red",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/1ead8145ca84.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/1ead8145ca84.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:21a6f182906b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.39,
+          57.72
+        ]
+      },
+      "properties": {
+        "label": "star:21a6f182906b",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/21a6f182906b.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/21a6f182906b.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:2304dc40a142",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.27,
-          56.82
+          15.49,
+          57.97
         ]
       },
       "properties": {
@@ -1305,8 +1877,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.05,
-          57.22
+          14.59,
+          58.2
         ]
       },
       "properties": {
@@ -1327,8 +1899,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.82,
-          57.59
+          13.68,
+          58.42
         ]
       },
       "properties": {
@@ -1345,12 +1917,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:23ed9e8ffc31",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.76,
+          58.63
+        ]
+      },
+      "properties": {
+        "label": "star:23ed9e8ffc31",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/23ed9e8ffc31.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/23ed9e8ffc31.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062358-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.85,
+          58.82
+        ]
+      },
+      "properties": {
+        "label": "202609062358-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062358-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062358-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:24bd48cdf2de",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.58,
-          57.94
+          10.93,
+          59
         ]
       },
       "properties": {
@@ -1371,8 +1987,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.33,
-          58.26
+          10.01,
+          59.16
         ]
       },
       "properties": {
@@ -1393,8 +2009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.08,
-          58.56
+          9.09,
+          59.31
         ]
       },
       "properties": {
@@ -1411,34 +2027,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062358-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.82,
-          58.82
-        ]
-      },
-      "properties": {
-        "label": "202609062358-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062358-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062358-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:24ec81adda60",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.56,
-          59.06
+          8.16,
+          59.44
         ]
       },
       "properties": {
@@ -1459,8 +2053,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.29,
-          59.28
+          7.23,
+          59.56
         ]
       },
       "properties": {
@@ -1481,8 +2075,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.02,
-          59.46
+          6.3,
+          59.67
         ]
       },
       "properties": {
@@ -1499,34 +2093,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020006-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.74,
-          59.62
-        ]
-      },
-      "properties": {
-        "label": "202609020006-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020006-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020006-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:257662867669",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.46,
-          59.75
+          5.37,
+          59.76
         ]
       },
       "properties": {
@@ -1547,8 +2119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.18,
-          59.85
+          4.44,
+          59.84
         ]
       },
       "properties": {
@@ -1569,8 +2141,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.89,
-          59.93
+          3.51,
+          59.9
         ]
       },
       "properties": {
@@ -1591,8 +2163,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.61,
-          59.98
+          2.57,
+          59.94
         ]
       },
       "properties": {
@@ -1613,8 +2185,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.32,
-          60
+          1.64,
+          59.98
         ]
       },
       "properties": {
@@ -1631,12 +2203,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:285b81c88efb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7,
+          60
+        ]
+      },
+      "properties": {
+        "label": "star:285b81c88efb",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/285b81c88efb.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/285b81c88efb.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:287fb0658664",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.96,
-          59.99
+          -0.23,
+          60
         ]
       },
       "properties": {
@@ -1657,8 +2251,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.25,
-          59.96
+          -1.17,
+          59.99
         ]
       },
       "properties": {
@@ -1675,12 +2269,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:28ffdfc96105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1,
+          59.96
+        ]
+      },
+      "properties": {
+        "label": "star:28ffdfc96105",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/28ffdfc96105.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/28ffdfc96105.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:29df7645b70a",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.54,
-          59.9
+          -3.04,
+          59.92
         ]
       },
       "properties": {
@@ -1701,8 +2317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.82,
-          59.81
+          -3.97,
+          59.87
         ]
       },
       "properties": {
@@ -1723,8 +2339,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.1,
-          59.69
+          -4.91,
+          59.8
         ]
       },
       "properties": {
@@ -1745,8 +2361,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.38,
-          59.54
+          -5.84,
+          59.72
         ]
       },
       "properties": {
@@ -1767,8 +2383,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.65,
-          59.37
+          -6.77,
+          59.62
         ]
       },
       "properties": {
@@ -1789,8 +2405,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.93,
-          59.17
+          -7.7,
+          59.5
         ]
       },
       "properties": {
@@ -1807,12 +2423,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:2dd0bc994997",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.62,
+          59.38
+        ]
+      },
+      "properties": {
+        "label": "star:2dd0bc994997",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/2dd0bc994997.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/2dd0bc994997.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:30307208c11e",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.19,
-          58.95
+          -9.55,
+          59.24
         ]
       },
       "properties": {
@@ -1833,8 +2471,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.45,
-          58.69
+          -10.47,
+          59.08
         ]
       },
       "properties": {
@@ -1855,8 +2493,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.71,
-          58.41
+          -11.39,
+          58.91
         ]
       },
       "properties": {
@@ -1877,8 +2515,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.96,
-          58.11
+          -12.31,
+          58.72
         ]
       },
       "properties": {
@@ -1899,8 +2537,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -16.2,
-          57.77
+          -13.22,
+          58.53
         ]
       },
       "properties": {
@@ -1921,8 +2559,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.44,
-          57.41
+          -14.13,
+          58.31
         ]
       },
       "properties": {
@@ -1943,8 +2581,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -18.66,
-          57.02
+          -15.04,
+          58.08
         ]
       },
       "properties": {
@@ -1965,8 +2603,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -19.88,
-          56.61
+          -15.94,
+          57.84
         ]
       },
       "properties": {
@@ -1987,8 +2625,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -21.09,
-          56.17
+          -16.84,
+          57.59
         ]
       },
       "properties": {
@@ -2009,8 +2647,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -22.29,
-          55.71
+          -17.74,
+          57.32
         ]
       },
       "properties": {
@@ -2031,8 +2669,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.48,
-          55.21
+          -18.63,
+          57.03
         ]
       },
       "properties": {
@@ -2053,8 +2691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -24.66,
-          54.7
+          -19.52,
+          56.74
         ]
       },
       "properties": {
@@ -2075,8 +2713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -25.83,
-          54.16
+          -20.4,
+          56.43
         ]
       },
       "properties": {
@@ -2097,8 +2735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -26.98,
-          53.59
+          -21.28,
+          56.1
         ]
       },
       "properties": {
@@ -2119,8 +2757,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -28.12,
-          53
+          -22.15,
+          55.76
         ]
       },
       "properties": {
@@ -2137,12 +2775,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:37aeaf60b8bf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.02,
+          55.41
+        ]
+      },
+      "properties": {
+        "label": "star:37aeaf60b8bf",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/37aeaf60b8bf.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/37aeaf60b8bf.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:37cde098f223",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.25,
-          52.39
+          -23.88,
+          55.04
         ]
       },
       "properties": {
@@ -2163,8 +2823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -30.37,
-          51.75
+          -24.73,
+          54.67
         ]
       },
       "properties": {
@@ -2181,34 +2841,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051307-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -31.47,
-          51.08
-        ]
-      },
-      "properties": {
-        "label": "202609051307-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051307-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051307-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:393228993f0c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.56,
-          50.4
+          -25.58,
+          54.27
         ]
       },
       "properties": {
@@ -2229,8 +2867,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.63,
-          49.69
+          -26.42,
+          53.87
         ]
       },
       "properties": {
@@ -2247,12 +2885,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:3edb6dd8f626",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.26,
+          53.45
+        ]
+      },
+      "properties": {
+        "label": "star:3edb6dd8f626",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/3edb6dd8f626.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/3edb6dd8f626.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:3f604ab59f0b",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.69,
-          48.95
+          -28.09,
+          53.02
         ]
       },
       "properties": {
@@ -2269,24 +2929,24 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051510-substation-intelligence-v9-63.js",
+      "id": "star:413780eb5346",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.73,
-          48.2
+          -28.91,
+          52.57
         ]
       },
       "properties": {
-        "label": "202609051510-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051510-substation-intelligence-v9-63.js",
+        "label": "star:413780eb5346",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/413780eb5346.json",
         "importance_score": 0.5,
         "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051510-substation-intelligence-v9-63.js"
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/413780eb5346.json"
       }
     },
     {
@@ -2295,8 +2955,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -36.76,
-          47.42
+          -29.73,
+          52.12
         ]
       },
       "properties": {
@@ -2317,8 +2977,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -37.77,
-          46.62
+          -30.54,
+          51.65
         ]
       },
       "properties": {
@@ -2335,34 +2995,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.76,
-          45.8
-        ]
-      },
-      "properties": {
-        "label": "202609051525-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:431db127517b",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -39.73,
-          44.96
+          -31.34,
+          51.16
         ]
       },
       "properties": {
@@ -2379,24 +3017,24 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609030200-substation-intelligence-v9-63.js",
+      "id": "star:438c1dfc4813",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -40.69,
-          44.1
+          -32.13,
+          50.67
         ]
       },
       "properties": {
-        "label": "202609030200-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609030200-substation-intelligence-v9-63.js",
+        "label": "star:438c1dfc4813",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/438c1dfc4813.json",
         "importance_score": 0.5,
         "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609030200-substation-intelligence-v9-63.js"
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/438c1dfc4813.json"
       }
     },
     {
@@ -2405,8 +3043,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -41.62,
-          43.21
+          -32.92,
+          50.16
         ]
       },
       "properties": {
@@ -2427,8 +3065,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.54,
-          42.31
+          -33.7,
+          49.64
         ]
       },
       "properties": {
@@ -2449,8 +3087,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.44,
-          41.39
+          -34.47,
+          49.11
         ]
       },
       "properties": {
@@ -2471,8 +3109,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -44.32,
-          40.45
+          -35.23,
+          48.57
         ]
       },
       "properties": {
@@ -2493,8 +3131,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -45.17,
-          39.49
+          -35.98,
+          48.01
         ]
       },
       "properties": {
@@ -2515,8 +3153,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.01,
-          38.51
+          -36.73,
+          47.45
         ]
       },
       "properties": {
@@ -2533,24 +3171,24 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051526-substation-intelligence-v9-63.js",
+      "id": "star:47416e19f247",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.82,
-          37.52
+          -37.46,
+          46.87
         ]
       },
       "properties": {
-        "label": "202609051526-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051526-substation-intelligence-v9-63.js",
+        "label": "star:47416e19f247",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/47416e19f247.json",
         "importance_score": 0.5,
         "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051526-substation-intelligence-v9-63.js"
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/47416e19f247.json"
       }
     },
     {
@@ -2559,8 +3197,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -47.62,
-          36.5
+          -38.19,
+          46.28
         ]
       },
       "properties": {
@@ -2577,12 +3215,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:4b2a05192933",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9,
+          45.68
+        ]
+      },
+      "properties": {
+        "label": "star:4b2a05192933",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/4b2a05192933.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/4b2a05192933.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:4c40b82e4bd2",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.39,
-          35.47
+          -39.61,
+          45.07
         ]
       },
       "properties": {
@@ -2603,8 +3263,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -49.14,
-          34.43
+          -40.31,
+          44.44
         ]
       },
       "properties": {
@@ -2625,8 +3285,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -49.87,
-          33.37
+          -41,
+          43.81
         ]
       },
       "properties": {
@@ -2643,34 +3303,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041957-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -50.57,
-          32.29
-        ]
-      },
-      "properties": {
-        "label": "202609041957-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041957-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041957-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:4d9d30964ee0",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.25,
-          31.2
+          -41.68,
+          43.16
         ]
       },
       "properties": {
@@ -2687,12 +3325,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:4dd3a002ca0c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.34,
+          42.51
+        ]
+      },
+      "properties": {
+        "label": "star:4dd3a002ca0c",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/4dd3a002ca0c.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/4dd3a002ca0c.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:4e53d07b8f6d",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.91,
-          30.09
+          -43,
+          41.84
         ]
       },
       "properties": {
@@ -2709,12 +3369,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:514b30a5fbdc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.65,
+          41.17
+        ]
+      },
+      "properties": {
+        "label": "star:514b30a5fbdc",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/514b30a5fbdc.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/514b30a5fbdc.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:5175f976e3d5",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.54,
-          28.97
+          -44.28,
+          40.48
         ]
       },
       "properties": {
@@ -2735,8 +3417,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.15,
-          27.84
+          -44.91,
+          39.79
         ]
       },
       "properties": {
@@ -2753,12 +3435,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:52a156561ae2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.53,
+          39.08
+        ]
+      },
+      "properties": {
+        "label": "star:52a156561ae2",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/52a156561ae2.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/52a156561ae2.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:5425f3c844f9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.13,
+          38.37
+        ]
+      },
+      "properties": {
+        "label": "star:5425f3c844f9",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/5425f3c844f9.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/5425f3c844f9.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:55101597ca71",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.74,
-          26.69
+          -46.72,
+          37.64
         ]
       },
       "properties": {
@@ -2779,8 +3505,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.3,
-          25.54
+          -47.3,
+          36.91
         ]
       },
       "properties": {
@@ -2797,12 +3523,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:56b5b342fa45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.87,
+          36.17
+        ]
+      },
+      "properties": {
+        "label": "star:56b5b342fa45",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/56b5b342fa45.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/56b5b342fa45.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051556-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.43,
+          35.42
+        ]
+      },
+      "properties": {
+        "label": "202609051556-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051556-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051556-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:57125ae07e9a",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.83,
-          24.37
+          -48.98,
+          34.66
         ]
       },
       "properties": {
@@ -2823,8 +3593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.34,
-          23.18
+          -49.51,
+          33.89
         ]
       },
       "properties": {
@@ -2845,8 +3615,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.82,
-          21.99
+          -50.03,
+          33.12
         ]
       },
       "properties": {
@@ -2867,8 +3637,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.28,
-          20.79
+          -50.54,
+          32.33
         ]
       },
       "properties": {
@@ -2889,8 +3659,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.72,
-          19.58
+          -51.04,
+          31.54
         ]
       },
       "properties": {
@@ -2911,8 +3681,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.12,
-          18.36
+          -51.53,
+          30.74
         ]
       },
       "properties": {
@@ -2933,8 +3703,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.5,
-          17.13
+          -52,
+          29.93
         ]
       },
       "properties": {
@@ -2955,8 +3725,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.86,
-          15.89
+          -52.46,
+          29.12
         ]
       },
       "properties": {
@@ -2977,8 +3747,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.18,
-          14.65
+          -52.91,
+          28.3
         ]
       },
       "properties": {
@@ -2999,8 +3769,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.49,
-          13.4
+          -53.34,
+          27.47
         ]
       },
       "properties": {
@@ -3017,12 +3787,100 @@
     },
     {
       "type": "Feature",
+      "id": "star:5fcc1fe63262",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.76,
+          26.63
+        ]
+      },
+      "properties": {
+        "label": "star:5fcc1fe63262",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/5fcc1fe63262.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/5fcc1fe63262.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040337-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.17,
+          25.79
+        ]
+      },
+      "properties": {
+        "label": "202609040337-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040337-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040337-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:6028033754d3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.57,
+          24.94
+        ]
+      },
+      "properties": {
+        "label": "star:6028033754d3",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/6028033754d3.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/6028033754d3.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.95,
+          24.09
+        ]
+      },
+      "properties": {
+        "label": "202609012045-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:6093a7214bf3",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.76,
-          12.14
+          -55.32,
+          23.23
         ]
       },
       "properties": {
@@ -3043,8 +3901,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.01,
-          10.88
+          -55.68,
+          22.37
         ]
       },
       "properties": {
@@ -3065,8 +3923,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.23,
-          9.61
+          -56.02,
+          21.49
         ]
       },
       "properties": {
@@ -3083,12 +3941,78 @@
     },
     {
       "type": "Feature",
+      "id": "star:62497e10b098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.35,
+          20.62
+        ]
+      },
+      "properties": {
+        "label": "star:62497e10b098",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/62497e10b098.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/62497e10b098.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:639ef886a437",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.66,
+          19.74
+        ]
+      },
+      "properties": {
+        "label": "star:639ef886a437",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/639ef886a437.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/639ef886a437.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:642c91abf5d8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96,
+          18.85
+        ]
+      },
+      "properties": {
+        "label": "star:642c91abf5d8",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/642c91abf5d8.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/642c91abf5d8.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:64835b9ff53d",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.42,
-          8.34
+          -57.25,
+          17.96
         ]
       },
       "properties": {
@@ -3109,8 +4033,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.58,
-          7.06
+          -57.52,
+          17.07
         ]
       },
       "properties": {
@@ -3127,34 +4051,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051556-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.72,
-          5.78
-        ]
-      },
-      "properties": {
-        "label": "202609051556-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051556-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051556-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:64a9cd502e88",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.83,
-          4.5
+          -57.78,
+          16.17
         ]
       },
       "properties": {
@@ -3175,8 +4077,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.91,
-          3.22
+          -58.03,
+          15.27
         ]
       },
       "properties": {
@@ -3197,8 +4099,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.97,
-          1.93
+          -58.26,
+          14.36
         ]
       },
       "properties": {
@@ -3215,34 +4117,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609042123-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60,
-          0.64
-        ]
-      },
-      "properties": {
-        "label": "202609042123-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609042123-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609042123-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:659c971654c9",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60,
-          -0.64
+          -58.47,
+          13.45
         ]
       },
       "properties": {
@@ -3259,12 +4139,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:663d3baca975",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.68,
+          12.54
+        ]
+      },
+      "properties": {
+        "label": "star:663d3baca975",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/663d3baca975.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/663d3baca975.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020018-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.86,
+          11.62
+        ]
+      },
+      "properties": {
+        "label": "202609020018-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020018-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020018-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:6705ff688a42",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.97,
-          -1.93
+          -59.04,
+          10.7
         ]
       },
       "properties": {
@@ -3285,8 +4209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.91,
-          -3.22
+          -59.2,
+          9.78
         ]
       },
       "properties": {
@@ -3307,8 +4231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.83,
-          -4.5
+          -59.34,
+          8.85
         ]
       },
       "properties": {
@@ -3329,8 +4253,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.72,
-          -5.78
+          -59.47,
+          7.93
         ]
       },
       "properties": {
@@ -3351,8 +4275,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.58,
-          -7.06
+          -59.59,
+          7
         ]
       },
       "properties": {
@@ -3373,8 +4297,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.42,
-          -8.34
+          -59.69,
+          6.07
         ]
       },
       "properties": {
@@ -3395,8 +4319,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.23,
-          -9.61
+          -59.78,
+          5.14
         ]
       },
       "properties": {
@@ -3417,8 +4341,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.01,
-          -10.88
+          -59.85,
+          4.21
         ]
       },
       "properties": {
@@ -3439,8 +4363,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.76,
-          -12.14
+          -59.91,
+          3.27
         ]
       },
       "properties": {
@@ -3461,8 +4385,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.49,
-          -13.4
+          -59.95,
+          2.34
         ]
       },
       "properties": {
@@ -3483,8 +4407,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.18,
-          -14.65
+          -59.98,
+          1.4
         ]
       },
       "properties": {
@@ -3501,12 +4425,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:6b4bb02a4fe8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60,
+          0.47
+        ]
+      },
+      "properties": {
+        "label": "star:6b4bb02a4fe8",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "red",
+        "status": "red",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/6b4bb02a4fe8.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/6b4bb02a4fe8.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:6be951395c89",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.86,
-          -15.89
+          -60,
+          -0.47
         ]
       },
       "properties": {
@@ -3523,12 +4469,144 @@
     },
     {
       "type": "Feature",
+      "id": "star:6c07f54309d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.98,
+          -1.4
+        ]
+      },
+      "properties": {
+        "label": "star:6c07f54309d5",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/6c07f54309d5.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/6c07f54309d5.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:6d04e49ecb42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.95,
+          -2.34
+        ]
+      },
+      "properties": {
+        "label": "star:6d04e49ecb42",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/6d04e49ecb42.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/6d04e49ecb42.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:6dcd310c0e92",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.91,
+          -3.27
+        ]
+      },
+      "properties": {
+        "label": "star:6dcd310c0e92",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/6dcd310c0e92.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/6dcd310c0e92.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032001-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.85,
+          -4.21
+        ]
+      },
+      "properties": {
+        "label": "202609032001-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032001-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032001-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:6e704d8cfbed",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.78,
+          -5.14
+        ]
+      },
+      "properties": {
+        "label": "star:6e704d8cfbed",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/6e704d8cfbed.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/6e704d8cfbed.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032246-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.69,
+          -6.07
+        ]
+      },
+      "properties": {
+        "label": "202609032246-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032246-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032246-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:6f7603a1c005",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.5,
-          -17.13
+          -59.59,
+          -7
         ]
       },
       "properties": {
@@ -3549,8 +4627,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.12,
-          -18.36
+          -59.47,
+          -7.93
         ]
       },
       "properties": {
@@ -3567,12 +4645,78 @@
     },
     {
       "type": "Feature",
+      "id": "star:7211ff1dad64",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.34,
+          -8.85
+        ]
+      },
+      "properties": {
+        "label": "star:7211ff1dad64",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/7211ff1dad64.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/7211ff1dad64.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:72e4d4d06e6f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2,
+          -9.78
+        ]
+      },
+      "properties": {
+        "label": "star:72e4d4d06e6f",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/72e4d4d06e6f.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/72e4d4d06e6f.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:74cfc1fbd6d3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.04,
+          -10.7
+        ]
+      },
+      "properties": {
+        "label": "star:74cfc1fbd6d3",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/74cfc1fbd6d3.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/74cfc1fbd6d3.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:74e482dc1d0b",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.72,
-          -19.58
+          -58.86,
+          -11.62
         ]
       },
       "properties": {
@@ -3593,8 +4737,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.28,
-          -20.79
+          -58.68,
+          -12.54
         ]
       },
       "properties": {
@@ -3615,8 +4759,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.82,
-          -21.99
+          -58.47,
+          -13.45
         ]
       },
       "properties": {
@@ -3633,12 +4777,122 @@
     },
     {
       "type": "Feature",
+      "id": "star:77caf2a57c82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.26,
+          -14.36
+        ]
+      },
+      "properties": {
+        "label": "star:77caf2a57c82",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/77caf2a57c82.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/77caf2a57c82.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:77fe5e1b3c49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.03,
+          -15.27
+        ]
+      },
+      "properties": {
+        "label": "star:77fe5e1b3c49",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/77fe5e1b3c49.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/77fe5e1b3c49.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:7aa3892182f0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.78,
+          -16.17
+        ]
+      },
+      "properties": {
+        "label": "star:7aa3892182f0",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/7aa3892182f0.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/7aa3892182f0.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:7aa4d61095a6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.52,
+          -17.07
+        ]
+      },
+      "properties": {
+        "label": "star:7aa4d61095a6",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/7aa4d61095a6.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/7aa4d61095a6.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:7b3b7de464de",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.25,
+          -17.96
+        ]
+      },
+      "properties": {
+        "label": "star:7b3b7de464de",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/7b3b7de464de.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/7b3b7de464de.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:7cb7afcf9828",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.34,
-          -23.18
+          -56.96,
+          -18.85
         ]
       },
       "properties": {
@@ -3655,12 +4909,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:7d63de91cb4e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.66,
+          -19.74
+        ]
+      },
+      "properties": {
+        "label": "star:7d63de91cb4e",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/7d63de91cb4e.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/7d63de91cb4e.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:7d7c045dd5e7",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.83,
-          -24.37
+          -56.35,
+          -20.62
         ]
       },
       "properties": {
@@ -3681,8 +4957,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.3,
-          -25.54
+          -56.02,
+          -21.49
         ]
       },
       "properties": {
@@ -3703,8 +4979,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.74,
-          -26.69
+          -55.68,
+          -22.37
         ]
       },
       "properties": {
@@ -3725,8 +5001,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.15,
-          -27.84
+          -55.32,
+          -23.23
         ]
       },
       "properties": {
@@ -3743,12 +5019,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:816f5a802cba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.95,
+          -24.09
+        ]
+      },
+      "properties": {
+        "label": "star:816f5a802cba",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/816f5a802cba.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/816f5a802cba.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:82a4a03b9503",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.57,
+          -24.94
+        ]
+      },
+      "properties": {
+        "label": "star:82a4a03b9503",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/82a4a03b9503.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/82a4a03b9503.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:831db54b1b7b",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.54,
-          -28.97
+          -54.17,
+          -25.79
         ]
       },
       "properties": {
@@ -3769,8 +5089,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.91,
-          -30.09
+          -53.76,
+          -26.63
         ]
       },
       "properties": {
@@ -3791,8 +5111,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.25,
-          -31.2
+          -53.34,
+          -27.47
         ]
       },
       "properties": {
@@ -3809,34 +5129,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040337-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -50.57,
-          -32.29
-        ]
-      },
-      "properties": {
-        "label": "202609040337-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040337-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040337-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:83e83669d83c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -49.87,
-          -33.37
+          -52.91,
+          -28.3
         ]
       },
       "properties": {
@@ -3857,8 +5155,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -49.14,
-          -34.43
+          -52.46,
+          -29.12
         ]
       },
       "properties": {
@@ -3875,12 +5173,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:856de47db136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52,
+          -29.93
+        ]
+      },
+      "properties": {
+        "label": "star:856de47db136",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/856de47db136.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/856de47db136.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:85838ee77a8c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.39,
-          -35.47
+          -51.53,
+          -30.74
         ]
       },
       "properties": {
@@ -3897,12 +5217,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:86b94a4436e5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.04,
+          -31.54
+        ]
+      },
+      "properties": {
+        "label": "star:86b94a4436e5",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/86b94a4436e5.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/86b94a4436e5.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:870eef5252e5",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -47.62,
-          -36.5
+          -50.54,
+          -32.33
         ]
       },
       "properties": {
@@ -3919,34 +5261,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032012-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.82,
-          -37.52
-        ]
-      },
-      "properties": {
-        "label": "202609032012-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032012-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032012-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:879d034d44d4",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.01,
-          -38.51
+          -50.03,
+          -33.12
         ]
       },
       "properties": {
@@ -3963,12 +5283,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:87afd06710e2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.51,
+          -33.89
+        ]
+      },
+      "properties": {
+        "label": "star:87afd06710e2",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/87afd06710e2.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/87afd06710e2.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:893d79982d5e",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -45.17,
-          -39.49
+          -48.98,
+          -34.66
         ]
       },
       "properties": {
@@ -3985,12 +5327,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:895f5510a0b0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.43,
+          -35.42
+        ]
+      },
+      "properties": {
+        "label": "star:895f5510a0b0",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/895f5510a0b0.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/895f5510a0b0.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:8b117913631f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.87,
+          -36.17
+        ]
+      },
+      "properties": {
+        "label": "star:8b117913631f",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/8b117913631f.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/8b117913631f.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:8b45ebee625c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -44.32,
-          -40.45
+          -47.3,
+          -36.91
         ]
       },
       "properties": {
@@ -4011,8 +5397,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.44,
-          -41.39
+          -46.72,
+          -37.64
         ]
       },
       "properties": {
@@ -4029,12 +5415,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:8bd571c24db5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.13,
+          -38.37
+        ]
+      },
+      "properties": {
+        "label": "star:8bd571c24db5",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/8bd571c24db5.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/8bd571c24db5.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:8cb81a66af70",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.54,
-          -42.31
+          -45.53,
+          -39.08
         ]
       },
       "properties": {
@@ -4055,8 +5463,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -41.62,
-          -43.21
+          -44.91,
+          -39.79
         ]
       },
       "properties": {
@@ -4073,24 +5481,24 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032246-substation-intelligence-v9-63.js",
+      "id": "star:8d2034a5d751",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -40.69,
-          -44.1
+          -44.28,
+          -40.48
         ]
       },
       "properties": {
-        "label": "202609032246-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032246-substation-intelligence-v9-63.js",
+        "label": "star:8d2034a5d751",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/8d2034a5d751.json",
         "importance_score": 0.5,
         "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032246-substation-intelligence-v9-63.js"
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/8d2034a5d751.json"
       }
     },
     {
@@ -4099,8 +5507,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -39.73,
-          -44.96
+          -43.65,
+          -41.17
         ]
       },
       "properties": {
@@ -4117,12 +5525,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:8ed8c0d9d458",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43,
+          -41.84
+        ]
+      },
+      "properties": {
+        "label": "star:8ed8c0d9d458",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/8ed8c0d9d458.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/8ed8c0d9d458.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:8fc3648096e1",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.76,
-          -45.8
+          -42.34,
+          -42.51
         ]
       },
       "properties": {
@@ -4143,8 +5573,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -37.77,
-          -46.62
+          -41.68,
+          -43.16
         ]
       },
       "properties": {
@@ -4165,8 +5595,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -36.76,
-          -47.42
+          -41,
+          -43.81
         ]
       },
       "properties": {
@@ -4187,8 +5617,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.73,
-          -48.2
+          -40.31,
+          -44.44
         ]
       },
       "properties": {
@@ -4205,12 +5635,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:92d844c1cf85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.61,
+          -45.07
+        ]
+      },
+      "properties": {
+        "label": "star:92d844c1cf85",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/92d844c1cf85.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/92d844c1cf85.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:9357cc9b4471",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9,
+          -45.68
+        ]
+      },
+      "properties": {
+        "label": "star:9357cc9b4471",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/9357cc9b4471.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/9357cc9b4471.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:9534f5c8585b",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -34.69,
-          -48.95
+          -38.19,
+          -46.28
         ]
       },
       "properties": {
@@ -4227,12 +5701,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:957c9f76b214",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.46,
+          -46.87
+        ]
+      },
+      "properties": {
+        "label": "star:957c9f76b214",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/957c9f76b214.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/957c9f76b214.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:964dc8a4dcd1",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.63,
-          -49.69
+          -36.73,
+          -47.45
         ]
       },
       "properties": {
@@ -4249,12 +5745,78 @@
     },
     {
       "type": "Feature",
+      "id": "star:966d90bdc21b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.98,
+          -48.01
+        ]
+      },
+      "properties": {
+        "label": "star:966d90bdc21b",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/966d90bdc21b.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/966d90bdc21b.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:96e3a64fa8f7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.23,
+          -48.57
+        ]
+      },
+      "properties": {
+        "label": "star:96e3a64fa8f7",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/96e3a64fa8f7.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/96e3a64fa8f7.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:9741db785a1c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.47,
+          -49.11
+        ]
+      },
+      "properties": {
+        "label": "star:9741db785a1c",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/9741db785a1c.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/9741db785a1c.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:976339c0f1ff",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.56,
-          -50.4
+          -33.7,
+          -49.64
         ]
       },
       "properties": {
@@ -4275,8 +5837,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -31.47,
-          -51.08
+          -32.92,
+          -50.16
         ]
       },
       "properties": {
@@ -4297,8 +5859,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -30.37,
-          -51.75
+          -32.13,
+          -50.67
         ]
       },
       "properties": {
@@ -4315,12 +5877,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:99c66e62c92c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.34,
+          -51.16
+        ]
+      },
+      "properties": {
+        "label": "star:99c66e62c92c",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/99c66e62c92c.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/99c66e62c92c.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:9a50379f9845",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.25,
-          -52.39
+          -30.54,
+          -51.65
         ]
       },
       "properties": {
@@ -4341,8 +5925,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -28.12,
-          -53
+          -29.73,
+          -52.12
         ]
       },
       "properties": {
@@ -4363,8 +5947,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -26.98,
-          -53.59
+          -28.91,
+          -52.57
         ]
       },
       "properties": {
@@ -4381,34 +5965,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020018-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.83,
-          -54.16
-        ]
-      },
-      "properties": {
-        "label": "202609020018-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020018-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609020018-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:9c65e9f13c73",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -24.66,
-          -54.7
+          -28.09,
+          -53.02
         ]
       },
       "properties": {
@@ -4429,8 +5991,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.48,
-          -55.21
+          -27.26,
+          -53.45
         ]
       },
       "properties": {
@@ -4447,12 +6009,78 @@
     },
     {
       "type": "Feature",
+      "id": "star:a0044a22f447",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.42,
+          -53.87
+        ]
+      },
+      "properties": {
+        "label": "star:a0044a22f447",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/a0044a22f447.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/a0044a22f447.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:a1064beea0f0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.58,
+          -54.27
+        ]
+      },
+      "properties": {
+        "label": "star:a1064beea0f0",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/a1064beea0f0.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/a1064beea0f0.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.73,
+          -54.67
+        ]
+      },
+      "properties": {
+        "label": "202609062246-substation-intelligence-v9-63.js",
+        "repo_type": "cartridge:substation-intelligence",
+        "scope_type": "cartridge:substation-intelligence",
+        "rag": "amber",
+        "status": "amber",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:a29fafcaf3a6",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -22.29,
-          -55.71
+          -23.88,
+          -55.04
         ]
       },
       "properties": {
@@ -4473,8 +6101,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -21.09,
-          -56.17
+          -23.02,
+          -55.41
         ]
       },
       "properties": {
@@ -4495,8 +6123,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -19.88,
-          -56.61
+          -22.15,
+          -55.76
         ]
       },
       "properties": {
@@ -4513,12 +6141,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:a86890491cb3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.28,
+          -56.1
+        ]
+      },
+      "properties": {
+        "label": "star:a86890491cb3",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/a86890491cb3.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/a86890491cb3.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:a9e445121a41",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -18.66,
-          -57.02
+          -20.4,
+          -56.43
         ]
       },
       "properties": {
@@ -4535,12 +6185,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:ad336a10ae6c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.52,
+          -56.74
+        ]
+      },
+      "properties": {
+        "label": "star:ad336a10ae6c",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ad336a10ae6c.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ad336a10ae6c.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:aebb10d2b026",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.44,
-          -57.41
+          -18.63,
+          -57.03
         ]
       },
       "properties": {
@@ -4561,8 +6233,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -16.2,
-          -57.77
+          -17.74,
+          -57.32
         ]
       },
       "properties": {
@@ -4579,12 +6251,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:b109bd6719c1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.84,
+          -57.59
+        ]
+      },
+      "properties": {
+        "label": "star:b109bd6719c1",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b109bd6719c1.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b109bd6719c1.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:b12204aeb8c3",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.96,
-          -58.11
+          -15.94,
+          -57.84
         ]
       },
       "properties": {
@@ -4605,8 +6299,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.71,
-          -58.41
+          -15.04,
+          -58.08
         ]
       },
       "properties": {
@@ -4627,8 +6321,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.45,
-          -58.69
+          -14.13,
+          -58.31
         ]
       },
       "properties": {
@@ -4645,24 +6339,24 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032001-substation-intelligence-v9-63.js",
+      "id": "star:b27518e3eacb",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.19,
-          -58.95
+          -13.22,
+          -58.53
         ]
       },
       "properties": {
-        "label": "202609032001-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032001-substation-intelligence-v9-63.js",
+        "label": "star:b27518e3eacb",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b27518e3eacb.json",
         "importance_score": 0.5,
         "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609032001-substation-intelligence-v9-63.js"
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b27518e3eacb.json"
       }
     },
     {
@@ -4671,8 +6365,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.93,
-          -59.17
+          -12.31,
+          -58.72
         ]
       },
       "properties": {
@@ -4689,12 +6383,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:b3f85bf21f45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.39,
+          -58.91
+        ]
+      },
+      "properties": {
+        "label": "star:b3f85bf21f45",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b3f85bf21f45.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b3f85bf21f45.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:b45839cac476",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.47,
+          -59.08
+        ]
+      },
+      "properties": {
+        "label": "star:b45839cac476",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b45839cac476.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b45839cac476.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:b4aa03d6008d",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.65,
-          -59.37
+          -9.55,
+          -59.24
         ]
       },
       "properties": {
@@ -4711,12 +6449,78 @@
     },
     {
       "type": "Feature",
+      "id": "star:b556848f06c0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.62,
+          -59.38
+        ]
+      },
+      "properties": {
+        "label": "star:b556848f06c0",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "red",
+        "status": "red",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b556848f06c0.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b556848f06c0.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:b5e4509bd601",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7,
+          -59.5
+        ]
+      },
+      "properties": {
+        "label": "star:b5e4509bd601",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b5e4509bd601.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b5e4509bd601.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:b699a70757ec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.77,
+          -59.62
+        ]
+      },
+      "properties": {
+        "label": "star:b699a70757ec",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b699a70757ec.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b699a70757ec.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:b7104d5bb28a",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.38,
-          -59.54
+          -5.84,
+          -59.72
         ]
       },
       "properties": {
@@ -4733,12 +6537,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:b73e663163dd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.91,
+          -59.8
+        ]
+      },
+      "properties": {
+        "label": "star:b73e663163dd",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/b73e663163dd.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/b73e663163dd.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:b7d0a1a331fa",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.1,
-          -59.69
+          -3.97,
+          -59.87
         ]
       },
       "properties": {
@@ -4759,8 +6585,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.82,
-          -59.81
+          -3.04,
+          -59.92
         ]
       },
       "properties": {
@@ -4781,8 +6607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.54,
-          -59.9
+          -2.1,
+          -59.96
         ]
       },
       "properties": {
@@ -4799,33 +6625,11 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.25,
-          -59.96
-        ]
-      },
-      "properties": {
-        "label": "202609062246-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:ba3a319e049c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.96,
+          -1.17,
           -59.99
         ]
       },
@@ -4843,11 +6647,33 @@
     },
     {
       "type": "Feature",
+      "id": "star:ba8a8e99a140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.23,
+          -60
+        ]
+      },
+      "properties": {
+        "label": "star:ba8a8e99a140",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ba8a8e99a140.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ba8a8e99a140.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:bc286a2c3041",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.32,
+          0.7,
           -60
         ]
       },
@@ -4869,7 +6695,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.61,
+          1.64,
           -59.98
         ]
       },
@@ -4891,8 +6717,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.89,
-          -59.93
+          2.57,
+          -59.94
         ]
       },
       "properties": {
@@ -4913,8 +6739,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.18,
-          -59.85
+          3.51,
+          -59.9
         ]
       },
       "properties": {
@@ -4935,8 +6761,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.46,
-          -59.75
+          4.44,
+          -59.84
         ]
       },
       "properties": {
@@ -4957,8 +6783,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.74,
-          -59.62
+          5.37,
+          -59.76
         ]
       },
       "properties": {
@@ -4975,12 +6801,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:c2b42aae5a38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3,
+          -59.67
+        ]
+      },
+      "properties": {
+        "label": "star:c2b42aae5a38",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/c2b42aae5a38.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/c2b42aae5a38.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:c36cc42d7b46",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.02,
-          -59.46
+          7.23,
+          -59.56
         ]
       },
       "properties": {
@@ -5001,8 +6849,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.29,
-          -59.28
+          8.16,
+          -59.44
         ]
       },
       "properties": {
@@ -5019,12 +6867,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:c57d10a3f3f2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.09,
+          -59.31
+        ]
+      },
+      "properties": {
+        "label": "star:c57d10a3f3f2",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/c57d10a3f3f2.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/c57d10a3f3f2.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:c5bb3bc396f9",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.56,
-          -59.06
+          10.01,
+          -59.16
         ]
       },
       "properties": {
@@ -5045,8 +6915,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.82,
-          -58.82
+          10.93,
+          -59
         ]
       },
       "properties": {
@@ -5067,8 +6937,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.08,
-          -58.56
+          11.85,
+          -58.82
         ]
       },
       "properties": {
@@ -5085,34 +6955,12 @@
     },
     {
       "type": "Feature",
-      "id": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-substation-intelligence-v9-63.js",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.33,
-          -58.26
-        ]
-      },
-      "properties": {
-        "label": "202609012045-substation-intelligence-v9-63.js",
-        "repo_type": "cartridge:substation-intelligence",
-        "scope_type": "cartridge:substation-intelligence",
-        "rag": "amber",
-        "status": "amber",
-        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-substation-intelligence-v9-63.js",
-        "importance_score": 0.5,
-        "child_manifest": null,
-        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-substation-intelligence-v9-63.js"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "star:c81981a7d9ba",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.58,
-          -57.94
+          12.76,
+          -58.63
         ]
       },
       "properties": {
@@ -5133,8 +6981,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.82,
-          -57.59
+          13.68,
+          -58.42
         ]
       },
       "properties": {
@@ -5151,12 +6999,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:c995c3f8dd0c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.59,
+          -58.2
+        ]
+      },
+      "properties": {
+        "label": "star:c995c3f8dd0c",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/c995c3f8dd0c.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/c995c3f8dd0c.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:ca752b965276",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.49,
+          -57.97
+        ]
+      },
+      "properties": {
+        "label": "star:ca752b965276",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ca752b965276.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ca752b965276.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:caa8b12bab53",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.05,
-          -57.22
+          16.39,
+          -57.72
         ]
       },
       "properties": {
@@ -5177,8 +7069,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.27,
-          -56.82
+          17.29,
+          -57.45
         ]
       },
       "properties": {
@@ -5199,8 +7091,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.49,
-          -56.39
+          18.18,
+          -57.18
         ]
       },
       "properties": {
@@ -5217,12 +7109,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:cb86c934fc23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.07,
+          -56.89
+        ]
+      },
+      "properties": {
+        "label": "star:cb86c934fc23",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/cb86c934fc23.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/cb86c934fc23.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:cbe7521609df",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.69,
-          -55.94
+          19.96,
+          -56.58
         ]
       },
       "properties": {
@@ -5243,8 +7157,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.89,
-          -55.46
+          20.84,
+          -56.27
         ]
       },
       "properties": {
@@ -5265,8 +7179,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.07,
-          -54.96
+          21.71,
+          -55.93
         ]
       },
       "properties": {
@@ -5287,8 +7201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.24,
-          -54.43
+          22.58,
+          -55.59
         ]
       },
       "properties": {
@@ -5309,8 +7223,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.41,
-          -53.88
+          23.45,
+          -55.23
         ]
       },
       "properties": {
@@ -5331,8 +7245,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.55,
-          -53.3
+          24.3,
+          -54.86
         ]
       },
       "properties": {
@@ -5353,8 +7267,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.69,
-          -52.7
+          25.16,
+          -54.47
         ]
       },
       "properties": {
@@ -5375,8 +7289,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.81,
-          -52.07
+          26,
+          -54.07
         ]
       },
       "properties": {
@@ -5397,8 +7311,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.92,
-          -51.42
+          26.84,
+          -53.66
         ]
       },
       "properties": {
@@ -5419,8 +7333,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.02,
-          -50.74
+          27.68,
+          -53.24
         ]
       },
       "properties": {
@@ -5441,8 +7355,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.1,
-          -50.04
+          28.5,
+          -52.8
         ]
       },
       "properties": {
@@ -5463,8 +7377,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.17,
-          -49.32
+          29.32,
+          -52.35
         ]
       },
       "properties": {
@@ -5485,8 +7399,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.22,
-          -48.58
+          30.13,
+          -51.88
         ]
       },
       "properties": {
@@ -5507,8 +7421,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          -47.81
+          30.94,
+          -51.41
         ]
       },
       "properties": {
@@ -5525,12 +7439,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:d97f55c09fd9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.74,
+          -50.92
+        ]
+      },
+      "properties": {
+        "label": "star:d97f55c09fd9",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/d97f55c09fd9.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/d97f55c09fd9.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:da4986472824",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.27,
-          -47.02
+          32.53,
+          -50.42
         ]
       },
       "properties": {
@@ -5551,8 +7487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.27,
-          -46.21
+          33.31,
+          -49.9
         ]
       },
       "properties": {
@@ -5573,8 +7509,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.25,
-          -45.38
+          34.08,
+          -49.38
         ]
       },
       "properties": {
@@ -5591,12 +7527,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:dcc5d7b057ec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.85,
+          -48.84
+        ]
+      },
+      "properties": {
+        "label": "star:dcc5d7b057ec",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/dcc5d7b057ec.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/dcc5d7b057ec.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:dce98d4c10f1",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.21,
-          -44.53
+          35.61,
+          -48.29
         ]
       },
       "properties": {
@@ -5613,12 +7571,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:dd7e2d1385a8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36,
+          -47.73
+        ]
+      },
+      "properties": {
+        "label": "star:dd7e2d1385a8",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/dd7e2d1385a8.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/dd7e2d1385a8.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:dea1599317e7",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          41.16,
-          -43.66
+          37.1,
+          -47.16
         ]
       },
       "properties": {
@@ -5635,12 +7615,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:dea8fe7b95c8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.83,
+          -46.57
+        ]
+      },
+      "properties": {
+        "label": "star:dea8fe7b95c8",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/dea8fe7b95c8.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/dea8fe7b95c8.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:e12427b33bea",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.08,
-          -42.77
+          38.55,
+          -45.98
         ]
       },
       "properties": {
@@ -5657,12 +7659,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:e12610a6fb79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.26,
+          -45.37
+        ]
+      },
+      "properties": {
+        "label": "star:e12610a6fb79",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/e12610a6fb79.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/e12610a6fb79.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:e140f8e945a7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.96,
+          -44.76
+        ]
+      },
+      "properties": {
+        "label": "star:e140f8e945a7",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/e140f8e945a7.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/e140f8e945a7.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:e35a2f15ee90",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.99,
-          -41.85
+          40.66,
+          -44.13
         ]
       },
       "properties": {
@@ -5683,8 +7729,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.88,
-          -40.92
+          41.34,
+          -43.49
         ]
       },
       "properties": {
@@ -5705,8 +7751,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.75,
-          -39.97
+          42.01,
+          -42.84
         ]
       },
       "properties": {
@@ -5723,12 +7769,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:e4da569dd229",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.67,
+          -42.18
+        ]
+      },
+      "properties": {
+        "label": "star:e4da569dd229",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/e4da569dd229.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/e4da569dd229.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:e56783b50838",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.59,
-          -39
+          43.33,
+          -41.51
         ]
       },
       "properties": {
@@ -5745,12 +7813,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:e6d619e1a98f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97,
+          -40.83
+        ]
+      },
+      "properties": {
+        "label": "star:e6d619e1a98f",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/e6d619e1a98f.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/e6d619e1a98f.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:e7daa6e8760d",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.42,
-          -38.02
+          44.6,
+          -40.14
         ]
       },
       "properties": {
@@ -5771,8 +7861,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.22,
-          -37.01
+          45.22,
+          -39.44
         ]
       },
       "properties": {
@@ -5793,8 +7883,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.01,
-          -35.99
+          45.83,
+          -38.73
         ]
       },
       "properties": {
@@ -5815,8 +7905,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.77,
-          -34.95
+          46.43,
+          -38.01
         ]
       },
       "properties": {
@@ -5837,8 +7927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.51,
-          -33.9
+          47.01,
+          -37.28
         ]
       },
       "properties": {
@@ -5859,8 +7949,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.22,
-          -32.83
+          47.59,
+          -36.54
         ]
       },
       "properties": {
@@ -5877,12 +7967,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:e971c9553762",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.15,
+          -35.79
+        ]
+      },
+      "properties": {
+        "label": "star:e971c9553762",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/e971c9553762.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/e971c9553762.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:ea360f42c2aa",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.91,
-          -31.75
+          48.71,
+          -35.04
         ]
       },
       "properties": {
@@ -5899,12 +8011,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:ea60ba7d2da4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.25,
+          -34.28
+        ]
+      },
+      "properties": {
+        "label": "star:ea60ba7d2da4",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ea60ba7d2da4.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ea60ba7d2da4.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:eaf5c6e915c2",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.58,
-          -30.65
+          49.77,
+          -33.5
         ]
       },
       "properties": {
@@ -5917,6 +8051,94 @@
         "importance_score": 0.5,
         "child_manifest": null,
         "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/eaf5c6e915c2.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:eb57fa598de5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.29,
+          -32.72
+        ]
+      },
+      "properties": {
+        "label": "star:eb57fa598de5",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/eb57fa598de5.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/eb57fa598de5.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:eb85002144e3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.79,
+          -31.94
+        ]
+      },
+      "properties": {
+        "label": "star:eb85002144e3",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/eb85002144e3.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/eb85002144e3.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:ebe9824cf90e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.29,
+          -31.14
+        ]
+      },
+      "properties": {
+        "label": "star:ebe9824cf90e",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ebe9824cf90e.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ebe9824cf90e.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:ec0a96d049fb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.77,
+          -30.34
+        ]
+      },
+      "properties": {
+        "label": "star:ec0a96d049fb",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ec0a96d049fb.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ec0a96d049fb.json"
       }
     },
     {
@@ -5947,8 +8169,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.85,
-          -28.41
+          52.69,
+          -28.71
         ]
       },
       "properties": {
@@ -5969,8 +8191,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          53.45,
-          -27.27
+          53.13,
+          -27.88
         ]
       },
       "properties": {
@@ -5991,8 +8213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.02,
-          -26.12
+          53.56,
+          -27.05
         ]
       },
       "properties": {
@@ -6009,12 +8231,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:ef8f9cf38ef8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.97,
+          -26.21
+        ]
+      },
+      "properties": {
+        "label": "star:ef8f9cf38ef8",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ef8f9cf38ef8.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ef8f9cf38ef8.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:f111cef2d4c6",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.57,
-          -24.95
+          54.37,
+          -25.37
         ]
       },
       "properties": {
@@ -6035,8 +8279,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.09,
-          -23.78
+          54.76,
+          -24.52
         ]
       },
       "properties": {
@@ -6053,12 +8297,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:f1ed106da243",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.14,
+          -23.66
+        ]
+      },
+      "properties": {
+        "label": "star:f1ed106da243",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/f1ed106da243.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/f1ed106da243.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:f1f3cee78cd8",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.59,
-          -22.59
+          55.5,
+          -22.8
         ]
       },
       "properties": {
@@ -6079,8 +8345,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.06,
-          -21.39
+          55.85,
+          -21.93
         ]
       },
       "properties": {
@@ -6101,8 +8367,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.5,
-          -20.18
+          56.18,
+          -21.06
         ]
       },
       "properties": {
@@ -6119,12 +8385,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:f26e315a0ca1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.5,
+          -20.18
+        ]
+      },
+      "properties": {
+        "label": "star:f26e315a0ca1",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/f26e315a0ca1.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/f26e315a0ca1.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:f3c7fdd8d5c5",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          56.92,
-          -18.97
+          56.81,
+          -19.3
         ]
       },
       "properties": {
@@ -6141,12 +8429,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:f3cb54673d0f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.11,
+          -18.41
+        ]
+      },
+      "properties": {
+        "label": "star:f3cb54673d0f",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/f3cb54673d0f.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/f3cb54673d0f.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:f48d97db0a72",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.32,
-          -17.74
+          57.39,
+          -17.51
         ]
       },
       "properties": {
@@ -6163,12 +8473,56 @@
     },
     {
       "type": "Feature",
+      "id": "star:f4d2c24badd7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.65,
+          -16.62
+        ]
+      },
+      "properties": {
+        "label": "star:f4d2c24badd7",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/f4d2c24badd7.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/f4d2c24badd7.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:f5814db42f28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.9,
+          -15.72
+        ]
+      },
+      "properties": {
+        "label": "star:f5814db42f28",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/f5814db42f28.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/f5814db42f28.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:f6e2d5044e7f",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.68,
-          -16.51
+          58.14,
+          -14.81
         ]
       },
       "properties": {
@@ -6189,8 +8543,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.02,
-          -15.27
+          58.37,
+          -13.9
         ]
       },
       "properties": {
@@ -6211,8 +8565,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.34,
-          -14.02
+          58.58,
+          -12.99
         ]
       },
       "properties": {
@@ -6233,8 +8587,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.63,
-          -12.77
+          58.77,
+          -12.08
         ]
       },
       "properties": {
@@ -6251,12 +8605,34 @@
     },
     {
       "type": "Feature",
+      "id": "star:f8c202393ab3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.95,
+          -11.16
+        ]
+      },
+      "properties": {
+        "label": "star:f8c202393ab3",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/f8c202393ab3.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/f8c202393ab3.json"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "star:f9587c8695a2",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          58.89,
-          -11.51
+          59.12,
+          -10.24
         ]
       },
       "properties": {
@@ -6277,8 +8653,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.12,
-          -10.24
+          59.27,
+          -9.32
         ]
       },
       "properties": {
@@ -6299,8 +8675,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.33,
-          -8.97
+          59.41,
+          -8.39
         ]
       },
       "properties": {
@@ -6321,8 +8697,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.5,
-          -7.7
+          59.53,
+          -7.46
         ]
       },
       "properties": {
@@ -6343,8 +8719,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.66,
-          -6.42
+          59.64,
+          -6.54
         ]
       },
       "properties": {
@@ -6365,8 +8741,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.78,
-          -5.14
+          59.74,
+          -5.6
         ]
       },
       "properties": {
@@ -6387,8 +8763,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.88,
-          -3.86
+          59.82,
+          -4.67
         ]
       },
       "properties": {
@@ -6409,8 +8785,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.94,
-          -2.57
+          59.88,
+          -3.74
         ]
       },
       "properties": {
@@ -6431,8 +8807,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.99,
-          -1.29
+          59.93,
+          -2.81
         ]
       },
       "properties": {
@@ -6445,6 +8821,50 @@
         "importance_score": 0.5,
         "child_manifest": null,
         "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/fe01c2e8b94f.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:ff1e6e4ac884",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.97,
+          -1.87
+        ]
+      },
+      "properties": {
+        "label": "star:ff1e6e4ac884",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ff1e6e4ac884.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ff1e6e4ac884.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "star:ffbfd3b96c50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.99,
+          -0.94
+        ]
+      },
+      "properties": {
+        "label": "star:ffbfd3b96c50",
+        "repo_type": "star",
+        "scope_type": "star",
+        "rag": "green",
+        "status": "green",
+        "status_reason": "Observed composition evidence; https://github.com/Ventusltd/star-maker/blob/main/stars/ffbfd3b96c50.json",
+        "importance_score": 0.5,
+        "child_manifest": null,
+        "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/ffbfd3b96c50.json"
       }
     }
   ]
