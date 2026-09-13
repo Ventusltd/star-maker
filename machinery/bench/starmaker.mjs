@@ -177,7 +177,7 @@ ${stars.filter(s => s.seed.kind === 'unplug' && s.verdict === 'RED').flatMap(s =
 
 async function push(msg) {
   await index();
-  for (const p of ['stars', 'shots', 'sky', 'SKY.md', 'logic', 'LOGIC.md', 'wanderer', 'WANDERER.md', 'elements', 'PERIODIC-TABLE.md']) await git('add', '--', p).catch(() => {});
+  for (const p of ['stars', 'shots', 'sky', 'SKY.md', 'logic', 'LOGIC.md', 'soul', 'SOUL.md', 'chemistry', 'CHEMISTRY.md', 'elements', 'PERIODIC-TABLE.md']) await git('add', '--', p).catch(() => {});
   if ((await git('status', '--porcelain')).stdout.trim())
     await git('commit', '-q', '-m', `${msg}\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>`);
   // Two machines share one sky: take theirs first (their stars then count as "already made"),

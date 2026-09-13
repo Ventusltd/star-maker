@@ -14,7 +14,8 @@ import path from 'node:path';
 
 const ROOT = process.env.ESTATE_DIR || 'C:/Users/vikra/Documents/GitHub';
 const SKY = process.env.SKY_DIR || 'C:/Users/vikra/Documents/GitHub/star-maker';
-const OUT = path.join(SKY, 'wanderer');
+const OUT = path.join(SKY, 'soul');                                      // published: graph, summary
+const DEEP = path.join(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), 'state', 'soul');   // sandbox: the full table (large)
 const SKIP = /[\\/](\.git|node_modules|dist|build|vendor|\.venv|homepage_versions|restore_points|site_versions|_codemap|star-maker[\\/]stars)[\\/]/;
 const EXT = new Set(['.js', '.mjs', '.cjs', '.py']);
 const MINIFIED = t => t.length > 20000 && t.split('\n').some(l => l.length > 3000);
@@ -53,10 +54,12 @@ function purposeBefore(text, start) {
 
 async function pass() {
   const t0 = Date.now();
-  await mkdir(OUT, { recursive: true });
-  // persisted numbering: number is assigned once per key and never reused
+  await mkdir(OUT, { recursive: true }); await mkdir(DEEP, { recursive: true });
+  // THE SOUL: the key of a unit is its normalized body, hashed — formless (no file, no name, no
+  // position in it), eternal (the same code anywhere, any time, has the same soul), and prior to
+  // any universe it appears in. Numbers are assigned once per soul and never reused.
   const prev = new Map();
-  try { for (const l of (await readFile(path.join(OUT, 'units.jsonl'), 'utf8')).split('\n')) if (l) { const u = JSON.parse(l); prev.set(u.key, u.number); } } catch {}
+  try { for (const l of (await readFile(path.join(DEEP, 'souls.jsonl'), 'utf8')).split('\n')) if (l) { const u = JSON.parse(l); prev.set(u.soul, u.number); } } catch {}
   let nextNumber = prev.size ? Math.max(...prev.values()) + 1 : 1;
 
   const units = []; const callsByFile = new Map(); const files = []; let totalLines = 0; const uniqueLines = new Set();
@@ -75,9 +78,10 @@ async function pass() {
         if (seen.has(start)) continue; seen.add(start);
         const body = bodyFrom(text, start, py); const lines = body.split('\n').length;
         if (lines < 2 && kind !== 'arrow') continue;
-        const key = `${lin}#${kind}:${name}`;
-        units.push({ key, number: prev.get(key) || nextNumber++, name, kind, repo, file: rel, lineage: lin, line: text.slice(0, start).split('\n').length, lines,
-          body_hash: sha(normBody(body)), purpose: purposeBefore(text, start) });
+        const soul = sha(normBody(body));
+        const number = prev.get(soul) || (prev.set(soul, nextNumber), nextNumber++);
+        units.push({ soul, number, key: `${lin}#${kind}:${name}`, name, kind, repo, file: rel, lineage: lin, line: text.slice(0, start).split('\n').length, lines,
+          body_hash: soul, purpose: purposeBefore(text, start) });
       }
     }
   }
@@ -101,8 +105,9 @@ async function pass() {
   const BUILTIN = new Set(['slice','Number','String','Boolean','Array','Object','round','floor','ceil','abs','min','max','open','has','get','set','add','delete','entries','keys','values','next','range','len','print','int','str','float','list','dict','sorted','function','require','fetch','setTimeout','setInterval','clearTimeout','querySelector','querySelectorAll','createElement','getAttribute','setAttribute','dispatchEvent','addEventListener','contains','closest','assert','assertEqual','expect','describe','it','test','main','init','run','render','update','log','load','save','build','parse','draw','toString','valueOf','constructor','push','pop','map','filter','reduce','forEach','join','split','trim','replace','match','indexOf','includes','find','some','every','sort','concat','then','catch','resolve','reject','end','write','read','close','start','stop','send','emit','on','off','once','error','warn','info','debug','format','stringify','encode','decode','hash','now','date','time','sleep','wait','exit']);
   const entangled = units.filter(u => u.kind !== 'method' && u.name.length >= 4 && !BUILTIN.has(u.name) && !/^[a-z]$/.test(u.name) && defFiles.get(u.name).size === 1 && u.caller_repos.filter(r => r !== u.repo).length >= 1);
 
-  units.sort((a, b) => a.number - b.number);
-  await writeFile(path.join(OUT, 'units.jsonl'), units.map(u => JSON.stringify(u)).join('\n') + '\n');
+  units.sort((a, b) => a.number - b.number || a.file.localeCompare(b.file));
+  await writeFile(path.join(DEEP, 'souls.jsonl'), units.map(u => JSON.stringify(u)).join('\n') + '\n');   // deep: every incarnation of every soul (sandbox only)
+  const soulsDistinct = new Set(units.map(u => u.soul)).size;
 
   // a graph the Spider can load (receiver idiom: nodes {label,type,rag,reason,gh}, edges {from,to,kind})
   const score = u => u.duplicates.length * 3 + u.twins.length * 2 + (entangled.includes(u) ? 5 : 0) + (u.why === 'unstated-and-uncalled' ? 1 : 0);
@@ -120,14 +125,21 @@ async function pass() {
   }
   for (const u of entangled) if (inTop.has(u.number)) for (const r of u.caller_repos) if (r !== u.repo) edges.push({ from: `repo ${r}`, to: label(u), kind: 'ENTANGLED_WITH' });
   const repoNodes = [...new Set(edges.filter(e => e.from.startsWith('repo ')).map(e => e.from))].map(l => ({ label: l, type: 'repo', rag: 'green', reason: 'calls a unit defined in another repo by name alone', gh: `https://github.com/Ventusltd/${l.slice(5)}` }));
-  await writeFile(path.join(OUT, 'graph.json'), JSON.stringify({ schema: 'wanderer-graph.v1', label: 'The Wanderer', generated_utc: new Date().toISOString(),
-    note: 'Units of code numbered once and forever; edges are evidence: identical bodies, same-name twins across repos, names called across repos but defined once.',
+  await writeFile(path.join(OUT, 'graph.json'), JSON.stringify({ schema: 'soul-graph.v1', label: 'Soul stars', generated_utc: new Date().toISOString(),
+    note: 'Every unit of code keyed by its soul (normalized body hash) and numbered once, forever; edges are evidence: identical souls in several places, same-name twins across repos, names called across repos but defined once.',
     focus_default: nodes[0]?.label, nodes: [...nodes, ...repoNodes], edges }, null, 2));
+  await writeFile(path.join(OUT, 'summary.json'), JSON.stringify({ generated_utc: new Date().toISOString(), files: files.length, lines_read: totalLines, unique_lines: uniqueLines.size,
+    incarnations: units.length, souls: soulsDistinct, stated: units.filter(u => u.purpose).length, uncalled_unstated: units.filter(u => u.why === 'unstated-and-uncalled').length,
+    cross_repo_duplicates: units.filter(u => u.duplicate_repos.length).length, entanglements: entangled.length }, null, 2));
 
   const orphans = units.filter(u => u.why === 'unstated-and-uncalled'), dups = units.filter(u => u.duplicate_repos.length), stated = units.filter(u => u.purpose);
-  const md = `# The Wanderer — ${units.length} units of code, numbered once and forever
+  const md = `# Soul stars — ${soulsDistinct.toLocaleString()} souls in ${units.length.toLocaleString()} incarnations
 
-Pass at ${new Date().toISOString()} · ${files.length} files · ${totalLines.toLocaleString()} lines read · **${uniqueLines.size.toLocaleString()} unique lines** ever written (trimmed, hashed) · ${Math.round((Date.now() - t0) / 1000)} s. No model; our own reading. A unit's number (\`#n\`) never changes; find it with \`grep '"number":n' wanderer/units.jsonl\`.
+Pass at ${new Date().toISOString()} · ${files.length} files · ${totalLines.toLocaleString()} lines read · **${uniqueLines.size.toLocaleString()} unique lines** ever written · ${Math.round((Date.now() - t0) / 1000)} s. No model; our own reading.
+
+A **soul** is the key of a unit of code: its body, normalized and hashed. It has no file, no name and no position in it — the same code anywhere, any time, has the same soul, and the soul exists before any universe it is composed into. A soul's number (\`#n\`) is given once and never reused. A soul can have many **incarnations** (the places it lives); copper is deep, but on the periodic table it is just copper. The full deep table lives on the MSI (\`bench/state/soul/souls.jsonl\`); the sky carries this summary and \`soul/graph.json\` for the Spider.
+
+Levels at which new code falls into place: **line** (unique-line hash) → **soul** (unit body hash) → **element** (a soul that is a named primitive on the periodic table) → **compound** (a composition of elements, judged by the Chemistry star).
 
 | question | answer |
 |---|---|
@@ -148,10 +160,10 @@ ${dups.sort((a, b) => b.duplicate_repos.length - a.duplicate_repos.length).slice
 ${orphans.filter(u => u.lines >= 8).sort((a, b) => b.lines - a.lines).slice(0, 40).map(u => `- **#${u.number} ${u.name}** · ${u.lines} lines · \`${u.file}:${u.line}\``).join('\n') || '- none'}
 
 ## For the Spider
-\`wanderer/graph.json\` — ${nodes.length + repoNodes.length} nodes, ${edges.length} edges, in the receiver's own idiom. To let a reader get lost in it on https://ventusltd.github.io/ventus-grid-engine/, add a graph entry to \`spider/manifest.json\` pointing at this file's published URL (publishing is the architect's).
+\`soul/graph.json\` — ${nodes.length + repoNodes.length} nodes, ${edges.length} edges, in the receiver's own idiom. To let a reader get lost in it on https://ventusltd.github.io/ventus-grid-engine/, add a graph entry to \`spider/manifest.json\` pointing at this file's published URL (publishing is the architect's).
 `;
-  await writeFile(path.join(SKY, 'WANDERER.md'), md);
-  console.log(`wanderer: ${units.length} units, ${uniqueLines.size} unique lines, ${orphans.length} orphans, ${dups.length} cross-repo duplicates, ${entangled.length} entanglements, ${Math.round((Date.now() - t0) / 1000)} s`);
+  await writeFile(path.join(SKY, 'SOUL.md'), md);
+  console.log(`soul stars: ${soulsDistinct} souls / ${units.length} incarnations, ${uniqueLines.size} unique lines, ${orphans.length} orphans, ${dups.length} cross-repo duplicates, ${entangled.length} entanglements, ${Math.round((Date.now() - t0) / 1000)} s`);
 }
 
 if (process.argv.includes('--loop')) { for (;;) { try { await pass(); } catch (e) { console.error('wanderer error', e.message); } await new Promise(r => setTimeout(r, 60 * 60 * 1000)); } }

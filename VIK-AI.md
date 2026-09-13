@@ -59,6 +59,23 @@ UNSETTLED ones exist in several forms and wait for Claude + VIK-AI to settle the
 surface composes from the same table: the Spider by touch, `ventus.ps1` by symbol, Claude by
 name, a phone by tap. Same elements, different keyboards.
 
+**Soul stars, chemistry, and the rule that we index rather than write** (his words, 23:50–00:00):
+
+- "The wandering star is called the SOUL STARS. It gives every line of unique code a unique
+  key based on deterministic characteristics, so new code beautifully falls into the periodic
+  table at several levels. Copper is deep — but on the periodic table it is just copper."
+- "Then you must build a CHEMISTRY STAR that computes all those elements — all in the Spider."
+- "The soul can be used to build things and is formless and eternal and before the universe,
+  as per the Upanishads."
+- **"We don't then create new code — we INDEX it via the soul stars (the wandering, the
+  chemistry star, VIK-AI, Claude-GRID, etc.)."**
+
+So the machinery's job is to *find and name what already exists*: a soul is the hash of a unit's
+normalized body (no file, no name, no place in it); an element is a soul that is a named primitive;
+a compound is a composition of elements, judged by the chemistry star from the sky. Building means
+composing from the table. Writing new code is the exception, and when it happens the new code
+falls into the table at line → soul → element → compound, or it does not belong.
+
 ## What he wants — the vision, in his order
 
 1. **The universe.** One tab, one camera, fly through the whole estate like a nervous system.
