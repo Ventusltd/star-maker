@@ -25,7 +25,7 @@ const ORDER = process.env.STAR_ORDER || 'forward';   // a second machine runs 'r
 const CONCURRENCY = Number(process.env.STAR_CONCURRENCY || 12);  // measured at 4: GPU 9 %, VRAM 1.6 GB, CPU 2 % — a drive is 12 s of waiting, so breadth is the lever
 // Live control: state/star-control.json {"concurrency": N} is re-read every few seconds, so the
 // watch can turn the dial without a restart. Workers above the dial idle; below it, they work.
-const MAX_WORKERS = 16;
+const MAX_WORKERS = Number(process.env.STAR_MAX_WORKERS || 32);   // 24 cores: each universe is a Chrome renderer; the tick's headroom law sets the live dial
 const CONTROL_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), 'state', 'star-control.json');
 let dial = CONCURRENCY;
 async function readDial() { try { const c = JSON.parse(await readFile(CONTROL_FILE, 'utf8')); if (Number.isFinite(c.concurrency)) dial = Math.max(1, Math.min(MAX_WORKERS, c.concurrency)); } catch {} }

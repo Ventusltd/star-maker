@@ -15,8 +15,9 @@ $tail = Get-Content "$b\state\starmaker.log" | Select-Object -Last 1
 $errs = (Get-Content "$b\state\starmaker.log" | Select-Object -Last 200 | Select-String 'ERROR|failed').Count
 $dial = 12; if (Test-Path $ctl) { $dial = [int](Get-Content $ctl -Raw | ConvertFrom-Json).concurrency }
 $new = $dial
-if ($g -lt 40 -and $cpu -lt 50 -and $vram -lt 6144 -and $temp -lt 75) { $new = [math]::Min(16, $dial + 2) }
-if ($g -gt 70 -or $cpu -gt 70 -or $vram -gt 8192 -or $temp -gt 80) { $new = [math]::Max(4, $dial - 2) }
+# Target: keep at least 12 of 24 cores and >= 10 % GPU busy, never hot. Climb fast when cold.
+if ($g -lt 40 -and $cpu -lt 50 -and $vram -lt 6144 -and $temp -lt 75 -and $ram -gt 6) { $new = [math]::Min(32, $dial + $(if ($cpu -lt 25) { 4 } else { 2 })) }
+if ($g -gt 70 -or $cpu -gt 70 -or $vram -gt 8192 -or $temp -gt 80 -or $ram -lt 4) { $new = [math]::Max(4, $dial - 4) }
 if ($tail -match 'pass done') { $new = $dial }   # nothing to speed up
 if ($new -ne $dial) { "{`"concurrency`": $new}" | Set-Content $ctl -Encoding ascii }
 $storage = try { (Invoke-RestMethod http://127.0.0.1:8790/api/storage -TimeoutSec 5) } catch { $null }
