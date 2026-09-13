@@ -1,0 +1,73 @@
+{
+  "id": "41b535873b77",
+  "seed": {
+    "source_generation": "202609080850",
+    "kind": "constellation",
+    "label": "sld-sandbox ⇄ 202609040337 × substation-intelligence ⇄ 202609050301",
+    "choice": {
+      "enabled": {},
+      "selected": {
+        "sld-sandbox": "202609040337-sld-sandbox-v9-8.js",
+        "substation-intelligence": "202609050301-substation-intelligence-v9-63.js"
+      }
+    }
+  },
+  "verdict": "GREEN",
+  "loadMs": 12706,
+  "router": "composed",
+  "layers": {
+    "ok": 0,
+    "wait": 0,
+    "fail": 0
+  },
+  "canvases": 1,
+  "loaded": [
+    "streaming-parquet-bridge",
+    "uk-gazetteer-flyto",
+    "substation-intelligence",
+    "sld-sandbox"
+  ],
+  "health": {
+    "streaming-parquet-bridge": {
+      "colour": "green",
+      "findings": 0
+    },
+    "uk-gazetteer-flyto": {
+      "colour": "green",
+      "findings": 0
+    },
+    "substation-intelligence": {
+      "colour": "green",
+      "findings": 0
+    },
+    "sld-sandbox": {
+      "colour": "green",
+      "findings": 0
+    },
+    "shell": {
+      "colour": "green",
+      "findings": 0
+    },
+    "loader": {
+      "colour": "green",
+      "findings": 0
+    },
+    "vendor": {
+      "colour": "green",
+      "findings": 0
+    },
+    "other": {
+      "colour": "green",
+      "findings": 0
+    },
+    "unattributed": {
+      "colour": "green",
+      "findings": 0
+    }
+  },
+  "findings": [],
+  "banners": [],
+  "bench_run": "20260913T223529",
+  "made_at": "2026-09-13T22:35:29.362Z",
+  "host": "MSI · RTX 5070 Ti"
+}
