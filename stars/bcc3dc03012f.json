@@ -1,0 +1,98 @@
+{
+  "id": "bcc3dc03012f",
+  "seed": {
+    "source_generation": "202609080850",
+    "kind": "constellation",
+    "label": "sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609062246",
+    "choice": {
+      "enabled": {},
+      "selected": {
+        "sld-sandbox": "202609012045-sld-sandbox-v9-8.js",
+        "substation-intelligence": "202609062246-substation-intelligence-v9-63.js"
+      }
+    }
+  },
+  "verdict": "GREEN",
+  "loadMs": 12817,
+  "router": "composed",
+  "layers": {
+    "ok": 0,
+    "wait": 0,
+    "fail": 0
+  },
+  "canvases": 1,
+  "loaded": [
+    "streaming-parquet-bridge",
+    "uk-gazetteer-flyto",
+    "substation-intelligence",
+    "sld-sandbox"
+  ],
+  "health": {
+    "streaming-parquet-bridge": {
+      "colour": "green",
+      "findings": 0
+    },
+    "uk-gazetteer-flyto": {
+      "colour": "green",
+      "findings": 0
+    },
+    "substation-intelligence": {
+      "colour": "green",
+      "findings": 0
+    },
+    "sld-sandbox": {
+      "colour": "green",
+      "findings": 0
+    },
+    "shell": {
+      "colour": "green",
+      "findings": 0
+    },
+    "loader": {
+      "colour": "green",
+      "findings": 0
+    },
+    "vendor": {
+      "colour": "green",
+      "findings": 0
+    },
+    "other": {
+      "colour": "green",
+      "findings": 0
+    },
+    "unattributed": {
+      "colour": "green",
+      "findings": 0
+    }
+  },
+  "findings": [],
+  "banners": [],
+  "bench_run": "20260913T225018946-440bd9e1",
+  "made_at": "2026-09-13T22:50:18.951Z",
+  "host": "Alienware",
+  "source_commit": "ece848117a6d21b7fccb232557194877698c48a9",
+  "gpu_renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Laptop GPU (0x00002D58) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "links": {
+    "sourceManifest": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/current.json",
+    "shell": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/releases/202608300453-atlas-v9/index.html",
+    "cartridges": [
+      {
+        "id": "streaming-parquet-bridge",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041945-streaming-parquet-bridge-v9-5.js"
+      },
+      {
+        "id": "uk-gazetteer-flyto",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609071213-place-global-search-v9-5.js"
+      },
+      {
+        "id": "sld-sandbox",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012045-sld-sandbox-v9-8.js"
+      },
+      {
+        "id": "substation-intelligence",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609062246-substation-intelligence-v9-63.js"
+      }
+    ],
+    "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/bcc3dc03012f.json"
+  }
+}
