@@ -42,3 +42,15 @@ Stars on Alienware: 154; GREEN: 148; RED: 6. CPU 7%; GPU 19%; GPU 43 C; free RAM
 Focus: GPU composition evidence linked through the existing Spider schema to pinned code. No product publication or MSI/control-pad action. Review detailed findings in sky/ALIENWARE-STARS.md and the Dropbox handoff.
 
 
+
+## Watch · 2026-09-14 00:10 local · Claude — night's end (MSI shut down early by the architect to save energy)
+
+- Stars in the sky: 3613 — MSI 3459, other hosts 154 · GREEN 2686 · AMBER 0 · RED 927
+- Reds by cause:
+  - 702 × Error: sld-sandbox requires the sld-styles module
+  - 168 × SyntaxError: Invalid or unexpected token
+  - 57 × Error: grid-scope requires the geodesy module
+- Headroom at shutdown: GPU 13 %, 1878 MiB, 48 · CPU 7 %
+- Index stars on disk and pushed: LOGIC, PERIODIC-TABLE, SOUL, CHEMISTRY, ELECTRON, MAGNETAR, VEDIC, RANDOM, VOLTAGE
+- The MSI's workers and Windows tasks are stopped; the Alienware continues on its own governor until 08:00 London.
+- Codex: Jobs 2 and 3 of the Dropbox handover run tomorrow when the MSI is on; Job 1 (hourly watch) is off tonight.
