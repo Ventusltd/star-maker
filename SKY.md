@@ -1,12 +1,12 @@
-# The sky — 2573 stars
+# The sky — 2673 stars
 
-Generated on the MSI (RTX 5070 Ti) by star-maker. A star is one composition of GridAtlas driven on the GPU. Updated 2026-09-13T22:42:11.687Z.
+Generated on the MSI (RTX 5070 Ti) by star-maker. A star is one composition of GridAtlas driven on the GPU. Updated 2026-09-13T22:42:51.857Z.
 
 | verdict | stars |
 |---|---|
-| 🟢 GREEN | 1708 |
+| 🟢 GREEN | 1800 |
 | 🟡 AMBER | 0 |
-| 🔴 RED | 865 |
+| 🔴 RED | 873 |
 
 Source generations: 202609080850
 
@@ -101,6 +101,7 @@ Source generations: 202609080850
 - `1ae11481b98b` substation-intelligence ⇄ 202609032012-substation-intelligence-v9-63.js — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/1ae11481b98b.jpg))
 - `1b259270a14a` sld-sandbox ⇄ 202609072329 × substation-intelligence ⇄ 202609030234 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/1b259270a14a.jpg))
 - `1b4d2cc1a423` sld-sandbox ⇄ 202609051540 × substation-intelligence ⇄ 202609030234 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/1b4d2cc1a423.jpg))
+- `1b60ba531534` sld-sandbox ⇄ 202609031809 × substation-intelligence ⇄ 202609012045 — **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/1b60ba531534.jpg))
 - `1be8706f0469` sld-sandbox ⇄ 202609042123 × substation-intelligence ⇄ 202609031316 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/1be8706f0469.jpg))
 - `1c82bb8472b2` sld-sandbox ⇄ 202609041945 × substation-intelligence ⇄ 202609030233 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/1c82bb8472b2.jpg))
 - `1cf9ce4fe355` sld-sandbox ⇄ 202609032246 × substation-intelligence ⇄ 202609051526 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/1cf9ce4fe355.jpg))
@@ -184,6 +185,7 @@ Source generations: 202609080850
 - `3695c258c063` sld-sandbox ⇄ 202609080430 × substation-intelligence ⇄ 202609032222 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/3695c258c063.jpg))
 - `373f46ffcdef` sld-sandbox ⇄ 202609050238 × substation-intelligence ⇄ 202609040058 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/373f46ffcdef.jpg))
 - `37537af6e0d3` sld-sandbox ⇄ 202609051522 × substation-intelligence ⇄ 202609032315 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/37537af6e0d3.jpg))
+- `3793b428294b` sld-sandbox ⇄ 202609031751 × substation-intelligence ⇄ 202609051529 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/3793b428294b.jpg))
 - `37a5c40ffa9b` sld-sandbox ⇄ 202609080030 × substation-intelligence ⇄ 202609032041 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/37a5c40ffa9b.jpg))
 - `3826a86c0040` sld-sandbox ⇄ 202609080000 × substation-intelligence ⇄ 202609032001 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/3826a86c0040.jpg))
 - `3878f810bd84` sld-sandbox ⇄ 202609080850 × substation-intelligence ⇄ 202609020018 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/3878f810bd84.jpg))
@@ -330,8 +332,10 @@ Source generations: 202609080850
 - `5fec4ca474cf` sld-sandbox ⇄ 202609070857 × substation-intelligence ⇄ 202609032315 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/5fec4ca474cf.jpg))
 - `60a0f89175b5` sld-sandbox ⇄ 202609080030 × substation-intelligence ⇄ 202609032005 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/60a0f89175b5.jpg))
 - `6187f4bdb3ab` sld-sandbox ⇄ 202609051540 × substation-intelligence ⇄ 202609051525 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/6187f4bdb3ab.jpg))
+- `61d241f0d1c9` sld-sandbox ⇄ 202609031316 × substation-intelligence ⇄ 202609051526 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/61d241f0d1c9.jpg))
 - `6211fd693d93` sld-sandbox ⇄ 202609040403 × substation-intelligence ⇄ 202609032246 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/6211fd693d93.jpg))
 - `62168069be63` sld-sandbox ⇄ 202609071232 × substation-intelligence ⇄ 202609040134 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/62168069be63.jpg))
+- `628849a0a441` sld-sandbox ⇄ 202609031316 × substation-intelligence ⇄ 202609051525 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/628849a0a441.jpg))
 - `630e8d7e8ad8` sld-sandbox ⇄ 202609041954 × substation-intelligence ⇄ 202609030234 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/630e8d7e8ad8.jpg))
 - `6368e93f3d97` sld-sandbox ⇄ 202609072337 × substation-intelligence ⇄ 202609032213 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/6368e93f3d97.jpg))
 - `638a57be93c1` sld-sandbox ⇄ 202609070913 × substation-intelligence ⇄ 202609030109 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/638a57be93c1.jpg))
@@ -378,6 +382,7 @@ Source generations: 202609080850
 - `6f14534254cd` sld-sandbox ⇄ 202609050354 × substation-intelligence ⇄ 202609030137 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/6f14534254cd.jpg))
 - `6f156a79e31e` sld-sandbox ⇄ 202609070857 × substation-intelligence ⇄ 202609012045 — **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/6f156a79e31e.jpg))
 - `6f35f2bb7baf` sld-sandbox ⇄ 202609072337 × substation-intelligence ⇄ 202609040047 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/6f35f2bb7baf.jpg))
+- `70093a28a00b` sld-sandbox ⇄ 202609031316 × substation-intelligence ⇄ 202609051529 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/70093a28a00b.jpg))
 - `70455addca85` sld-sandbox ⇄ 202609080430 × substation-intelligence ⇄ 202609030151 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/70455addca85.jpg))
 - `704be8a401f5` sld-sandbox ⇄ 202609041957 × substation-intelligence ⇄ 202609030151 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/704be8a401f5.jpg))
 - `70cc1bee08df` sld-sandbox ⇄ 202609070857 × substation-intelligence ⇄ 202609020018 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/70cc1bee08df.jpg))
@@ -404,6 +409,7 @@ Source generations: 202609080850
 - `75c668356783` sld-sandbox ⇄ 202609050249 × substation-intelligence ⇄ 202609032222 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/75c668356783.jpg))
 - `76eff5630294` sld-sandbox ⇄ 202609080846 × substation-intelligence ⇄ 202609040134 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/76eff5630294.jpg))
 - `772b03f92d3e` sld-sandbox ⇄ 202609042123 × substation-intelligence ⇄ 202609040337 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/772b03f92d3e.jpg))
+- `773a40539095` sld-sandbox ⇄ 202609031751 × substation-intelligence ⇄ 202609051526 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/773a40539095.jpg))
 - `7761c329e746` sld-sandbox ⇄ 202609040403 × substation-intelligence ⇄ 202609040337 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/7761c329e746.jpg))
 - `777966db258c` sld-sandbox ⇄ 202609032213 × substation-intelligence ⇄ 202609051525 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/777966db258c.jpg))
 - `778abc4bd10c` sld-sandbox ⇄ 202609051540 × substation-intelligence ⇄ 202609030151 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/778abc4bd10c.jpg))
@@ -639,6 +645,7 @@ Source generations: 202609080850
 - `b8f06203a584` sld-sandbox ⇄ 202609051522 × substation-intelligence ⇄ 202609020006 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/b8f06203a584.jpg))
 - `b8fd7edce913` sld-sandbox ⇄ 202609050249 × substation-intelligence ⇄ 202609030234 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/b8fd7edce913.jpg))
 - `b97cc6f8f8dd` sld-sandbox ⇄ 202609042123 × substation-intelligence ⇄ 202609040219 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/b97cc6f8f8dd.jpg))
+- `b97f2e28eace` sld-sandbox ⇄ 202609031751 × substation-intelligence ⇄ 202609051525 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/b97f2e28eace.jpg))
 - `b9e4614bf563` sld-sandbox ⇄ 202609050249 × substation-intelligence ⇄ 202609040047 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/b9e4614bf563.jpg))
 - `ba2368aa4f7c` sld-sandbox ⇄ 202609050301 × substation-intelligence ⇄ 202609030233 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/ba2368aa4f7c.jpg))
 - `ba28645c6725` sld-sandbox ⇄ 202609050238 × substation-intelligence ⇄ 202609030109 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/ba28645c6725.jpg))
@@ -700,6 +707,7 @@ Source generations: 202609080850
 - `cbc975ed0588` sld-sandbox ⇄ 202609051522 × substation-intelligence ⇄ 202609040058 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/cbc975ed0588.jpg))
 - `cc1827516f4e` sld-sandbox ⇄ 202609051522 × substation-intelligence ⇄ 202609051526 — **substation-intelligence**: SyntaxError: Invalid or unexpected token; **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/cc1827516f4e.jpg))
 - `cc5550be1ffb` sld-sandbox ⇄ 202609080030 × substation-intelligence ⇄ 202609030156 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/cc5550be1ffb.jpg))
+- `cca990373876` sld-sandbox ⇄ 202609031751 × substation-intelligence ⇄ 202609012045 — **sld-sandbox**: Error: grid-scope requires the geodesy module ([shot](shots/cca990373876.jpg))
 - `ccdb2641ee56` sld-sandbox ⇄ 202609050301 × substation-intelligence ⇄ 202609020006 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/ccdb2641ee56.jpg))
 - `cce7a0dcf00d` sld-sandbox ⇄ 202609041957 × substation-intelligence ⇄ 202609030200 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/cce7a0dcf00d.jpg))
 - `cd70f306ef5e` sld-sandbox ⇄ 202609070857 × substation-intelligence ⇄ 202609031809 — **sld-sandbox**: Error: sld-sandbox requires the sld-styles module ([shot](shots/cd70f306ef5e.jpg))
