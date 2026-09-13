@@ -1,0 +1,2940 @@
+{
+  "generated_utc": "2026-09-13T22:59:04.609Z",
+  "voltages": [
+    {
+      "kv": 400,
+      "role": "transmission (E&W, GB backbone)",
+      "mentions": 10662,
+      "repos": [
+        "cable-trench-or-drill",
+        "chatgpt-audits",
+        "claude",
+        "codex-chatgpt",
+        "cvaa",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-grid-gb",
+        "data-gridatlas",
+        "gemini",
+        "gis-sld-sandbox",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "gridmachine1",
+        "gridmachine2",
+        "linux-for-the-power-grid",
+        "pipelinenews",
+        "pipelinenews-gridatlas-20260906",
+        "spiders",
+        "star-maker",
+        "teleprinter",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "lineages": 1004,
+      "context": [
+        {
+          "file": "cable-trench-or-drill/DEVELOPMENT-PLAN.md",
+          "lineage": "cable-trench-or-drill/DEVELOPMENT-PLAN.md",
+          "line": 10,
+          "text": "These are planned stages. The baseline includes existing visual geometry and indicative trench/bend calculations only; it is not an implemented automated drilli"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 98,
+          "text": "| 16:32 | `3ce1b8b` | Added GRID proximity over 66-400 kV: radius search, sorting, indicative connection GeoJSON, and a method panel. Changed from nearest sampl"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 48,
+          "text": "| grid_400kv | 4,106 | 869,466 | 14.6 | at the line |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 63,
+          "text": "| grid_400kv | 1,469,779 | 869,466 | 1.69× | 0.59 |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 110,
+          "text": "5. `preload: false` unless the layer is on the critical path. Only `grid_400kv` is."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 169,
+          "text": "| **desktop** | `navigator.deviceMemory >= 8` or no signal and viewport ≥ 1024 wide | full static GeoJSON; PMTiles for the heavy four | DuckDB on explicit query"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 170,
+          "text": "| **tablet** | viewport 768–1023, or `deviceMemory` 4–7 | static GeoJSON ≤ 2 MB; PMTiles for anything heavier | DuckDB on explicit query | 400 kV only |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-1545372119.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-1545372119.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.24 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-1545372119.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-1545372119.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-016-dcgb-osm-way-164113041.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-016-dcgb-osm-way-164113041.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 13.26 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1055031579.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1055031579.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 5.25 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1055031579.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1055031579.md",
+          "line": 45,
+          "text": "Within 5.25 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1254986167.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1254986167.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 3.88 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1254986167.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-1254986167.md",
+          "line": 45,
+          "text": "Within 3.88 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-13655340206.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-13655340206.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 3.23 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-13655340206.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-13655340206.md",
+          "line": 45,
+          "text": "Within 3.23 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649197.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649197.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.95 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649197.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649197.md",
+          "line": 45,
+          "text": "Within 2.95 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649213.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649213.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.96 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649213.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649213.md",
+          "line": 45,
+          "text": "Within 2.96 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649214.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649214.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.97 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649214.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-200649214.md",
+          "line": 45,
+          "text": "Within 2.97 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-29120456.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-29120456.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.95 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-29120456.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-29120456.md",
+          "line": 45,
+          "text": "Within 2.95 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-036-tata-communications-highbridge-datacentre.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-036-tata-communications-highbridge-datacentre.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 3.77 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-036-tata-communications-highbridge-datacentre.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-036-tata-communications-highbridge-datacentre.md",
+          "line": 50,
+          "text": "Within 3.77 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1545872018.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1545872018.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.06 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1545872018.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1545872018.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-28093960.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-28093960.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.72 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-28093960.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-28093960.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-38246899.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-38246899.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.90 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-38246899.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-38246899.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-42031440.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-42031440.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.31 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-42031440.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-42031440.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-431542356.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-431542356.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.92 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-431542356.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-431542356.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-45131691.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-45131691.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.21 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-45131691.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-45131691.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-459613192.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-459613192.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.30 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-459613192.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-459613192.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-526426719.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-526426719.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.50 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-526426719.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-526426719.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-595216849.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-595216849.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.62 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-595216849.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-595216849.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-61995368.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-61995368.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.83 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-61995368.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-61995368.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-989525011.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-989525011.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.38 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-989525011.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-989525011.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-digital-realty-lgw14.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-digital-realty-lgw14.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 4.52 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-digital-realty-lgw14.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-digital-realty-lgw14.md",
+          "line": 50,
+          "text": "Within 4.52 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-evoque-data-center-solutions.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-evoque-data-center-solutions.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 4.93 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-evoque-data-center-solutions.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-evoque-data-center-solutions.md",
+          "line": 50,
+          "text": "Within 4.93 km of a 400 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-706624302.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-706624302.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.27 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-706624302.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-706624302.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-longcross-park.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-longcross-park.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 1.46 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-longcross-park.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-longcross-park.md",
+          "line": 50,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-048-astrohouse.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-048-astrohouse.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 0.63 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-048-astrohouse.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-048-astrohouse.md",
+          "line": 50,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-048-centerprise-international-distribution.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-048-centerprise-international-distribution.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 0.42 km at 400 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-048-centerprise-international-distribution.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-048-centerprise-international-distribution.md",
+          "line": 50,
+          "text": "Sitting within 2 km of a 400 kV circuit. For a data centre that is the difference between a"
+        }
+      ],
+      "atlas_layer": {
+        "file": "grid_400kv.geojson",
+        "features": 4106
+      },
+      "neso_connection_points": 355
+    },
+    {
+      "kv": 275,
+      "role": "transmission (E&W)",
+      "mentions": 2629,
+      "repos": [
+        "chatgpt-audits",
+        "claude",
+        "codex-chatgpt",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-grid-gb",
+        "data-gridatlas",
+        "gemini",
+        "gis-sld-sandbox",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "gridmachine1",
+        "pipelinenews",
+        "spiders",
+        "star-maker",
+        "teleprinter",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "lineages": 550,
+      "context": [
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 66,
+          "text": "| grid_275kv | 1,022,298 | 604,554 | 1.69× | 0.41 |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-056-dcgb-osm-way-324811964.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-056-dcgb-osm-way-324811964.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.97 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-056-dcgb-osm-way-324811964.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-056-dcgb-osm-way-324811964.md",
+          "line": 45,
+          "text": "Within 2.97 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-326884636.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-326884636.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.57 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-326884636.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-326884636.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-37867853.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-37867853.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.40 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-37867853.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-077-dcgb-osm-way-37867853.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-43126267.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-43126267.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 3.44 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-43126267.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-43126267.md",
+          "line": 45,
+          "text": "Within 3.44 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-prescient-coleraine.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-prescient-coleraine.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 36.28 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1268715673.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1268715673.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 4.35 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1268715673.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1268715673.md",
+          "line": 45,
+          "text": "Within 4.35 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-034-dcgb-osm-way-658909713.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-034-dcgb-osm-way-658909713.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.35 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-034-dcgb-osm-way-658909713.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-034-dcgb-osm-way-658909713.md",
+          "line": 45,
+          "text": "Within 2.35 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-12292494768.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-12292494768.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.70 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-12292494768.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-12292494768.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-14062735949.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-14062735949.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.75 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-14062735949.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-node-14062735949.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1543080891.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1543080891.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.56 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1543080891.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-1543080891.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571722.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571722.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.28 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571722.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571722.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571724.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571724.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.25 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571724.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-23571724.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-633645074.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-633645074.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.77 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-633645074.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-633645074.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865179.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865179.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.01 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865179.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865179.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865180.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865180.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.98 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865180.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-996865180.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-datum-datacentres-mcr2.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-datum-datacentres-mcr2.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 2.92 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-datum-datacentres-mcr2.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-datum-datacentres-mcr2.md",
+          "line": 50,
+          "text": "Within 2.92 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-delta-house.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-delta-house.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 2.87 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-delta-house.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-delta-house.md",
+          "line": 50,
+          "text": "Within 2.87 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-joule-house.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-joule-house.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 3.54 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-joule-house.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-joule-house.md",
+          "line": 50,
+          "text": "Within 3.54 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-microsoft-ireland.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-microsoft-ireland.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 4.45 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-microsoft-ireland.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-microsoft-ireland.md",
+          "line": 50,
+          "text": "Within 4.45 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-virtus-london1.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-virtus-london1.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 2.13 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-virtus-london1.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-virtus-london1.md",
+          "line": 50,
+          "text": "Within 2.13 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-1495920404.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-1495920404.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.59 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-1495920404.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-1495920404.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-194508831.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-194508831.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 3.29 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-194508831.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-194508831.md",
+          "line": 45,
+          "text": "Within 3.29 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-37868350.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-37868350.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.24 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-37868350.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-042-dcgb-osm-way-37868350.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-1414750854.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-1414750854.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.59 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-1414750854.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-043-dcgb-osm-way-1414750854.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-ark-data-centres-meridian-park.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-ark-data-centres-meridian-park.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 0.40 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-ark-data-centres-meridian-park.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-ark-data-centres-meridian-park.md",
+          "line": 50,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-cgi-datacenter.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-cgi-datacenter.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 0.50 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-cgi-datacenter.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-cgi-datacenter.md",
+          "line": 50,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-cyrusone-lon2.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-cyrusone-lon2.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 2.46 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-cyrusone-lon2.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-cyrusone-lon2.md",
+          "line": 50,
+          "text": "Within 2.46 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-morgan-stanley-data-centre.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-morgan-stanley-data-centre.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 3.84 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-morgan-stanley-data-centre.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-morgan-stanley-data-centre.md",
+          "line": 50,
+          "text": "Within 3.84 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-redcentric-london-west.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-redcentric-london-west.md",
+          "line": 45,
+          "text": "| nearest transmission circuit | 3.64 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-redcentric-london-west.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-redcentric-london-west.md",
+          "line": 50,
+          "text": "Within 3.64 km of a 275 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-047-dcgb-osm-way-838773806.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-047-dcgb-osm-way-838773806.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.21 km at 275 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-047-dcgb-osm-way-838773806.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-047-dcgb-osm-way-838773806.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 275 kV circuit. For a data centre that is the difference between a"
+        }
+      ],
+      "atlas_layer": {
+        "file": "grid_275kv.geojson",
+        "features": 2935
+      },
+      "neso_connection_points": 261
+    },
+    {
+      "kv": 220,
+      "role": "not a GB standard level — check the code: interconnector or continental data?",
+      "mentions": 638,
+      "repos": [
+        "chatgpt-audits",
+        "claude",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-gridatlas",
+        "data-interconnectors",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "gridmachine1",
+        "pipelinenews",
+        "spiders",
+        "star-maker",
+        "testcode"
+      ],
+      "lineages": 55,
+      "context": [
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 70,
+          "text": "| grid_220kv | 62,038 | 36,941 | 1.68× | 0.02 |"
+        },
+        {
+          "file": "claude/sessions/202609030120-codex-audit/00-baseline.md",
+          "lineage": "claude/sessions/codex-audit/00-baseline.md",
+          "line": 91,
+          "text": "`SGRX` is the partial exception: `SGRO` SEAGREEN ONE 220KV ONSHORE also exists and"
+        },
+        {
+          "file": "claude/sessions/202609030120-codex-audit/00-baseline.md",
+          "lineage": "claude/sessions/codex-audit/00-baseline.md",
+          "line": 136,
+          "text": "`MORAY EAST ONSHORE`, 400 vs 220 kV), where only one is located."
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "line": 77,
+          "text": "￼ ⁠220kV⁠"
+        },
+        {
+          "file": "data-gridatlas/atman/202608291015-verify-v8-transplant.py",
+          "lineage": "data-gridatlas/atman/verify-v8-transplant.py",
+          "line": 39,
+          "text": "\"grid_220kv\": (150, 93), \"grid_132kv\": (7218, 4342), \"grid_66kv\": (1353, 828),"
+        },
+        {
+          "file": "data-gridatlas/compiler/202608291015-build-v8-transplant.py",
+          "lineage": "data-gridatlas/compiler/build-v8-transplant.py",
+          "line": 47,
+          "text": "\"grid_220kv\": (150, 93),"
+        },
+        {
+          "file": "data-interconnectors/research/interconnectors-research-with-claude-ai-opus-4-8.md",
+          "lineage": "data-interconnectors/research/interconnectors-research-with-claude-ai-opus-4-8.md",
+          "line": 54,
+          "text": "Russia’s grid is the historical proof that a single synchronous/interconnected system can span a continent. It descends from the 1920 **GOELRO** electrification"
+        },
+        {
+          "file": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "lineage": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "line": 180,
+          "text": "\"<span style='color: #ff9900; font-weight: bold;'>220kV Cables</span>\": grid220Layer,"
+        },
+        {
+          "file": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "lineage": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "line": 189,
+          "text": "fetch('{{ site.baseurl }}/grid_220kv.geojson').then(r => r.json()).then(data => L.geoJSON(data, { style: { color: '#ff9900', weight: 2, opacity: 0.8 } }).addTo("
+        },
+        {
+          "file": "globalgrid2050/blog/index.md",
+          "lineage": "globalgrid2050/blog/index.md",
+          "line": 88,
+          "text": "**Files:** `/grid_400kv.geojson`, `/grid_275kv.geojson`, `/grid_220kv.geojson`, `/grid_132kv.geojson`, `/grid_66kv.geojson`"
+        },
+        {
+          "file": "globalgrid2050/blog/index.md",
+          "lineage": "globalgrid2050/blog/index.md",
+          "line": 277,
+          "text": "├── grid_220kv.geojson"
+        },
+        {
+          "file": "globalgrid2050/CLAUDE-AUDIT-V1.md",
+          "lineage": "globalgrid2050/CLAUDE-AUDIT-V1.md",
+          "line": 118,
+          "text": "This is the platform’s flagship geospatial product: an interactive Leaflet map that overlays the UK electricity network (lines coded by voltage — 11 kV, 33 kV b"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "line": 876,
+          "text": "\"path\": \"grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "line": 888,
+          "text": "\"path\": \"repd_grid_atlasv6/data/grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "line": 900,
+          "text": "\"path\": \"repd_grid_atlasv7/data/grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T141128Z.md",
+          "line": 912,
+          "text": "\"path\": \"repd_grid_atlasv8/data/grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "line": 876,
+          "text": "\"path\": \"grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "line": 888,
+          "text": "\"path\": \"repd_grid_atlasv6/data/grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "line": 900,
+          "text": "\"path\": \"repd_grid_atlasv7/data/grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/GRIDBOT_MEGA_UPGRADE_20260608T174446Z.md",
+          "line": 912,
+          "text": "\"path\": \"repd_grid_atlasv8/data/grid_220kv.geojson\","
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "line": 161,
+          "text": "| grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "line": 162,
+          "text": "| repd_grid_atlasv6/data/grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "line": 163,
+          "text": "| repd_grid_atlasv7/data/grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/repo_size_guard_20260608T131955Z.md",
+          "line": 164,
+          "text": "| repd_grid_atlasv8/data/grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "line": 161,
+          "text": "| grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "line": 162,
+          "text": "| repd_grid_atlasv6/data/grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "line": 163,
+          "text": "| repd_grid_atlasv7/data/grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "lineage": "globalgrid2050/data_science_protocol/audit_reports/REPO_SIZE_GUARD_LATEST.md",
+          "line": 164,
+          "text": "| repd_grid_atlasv8/data/grid_220kv.geojson | 0.073 | pass | gis geometry |"
+        },
+        {
+          "file": "globalgrid2050/repd_atlas_grid_model_v1backup.md",
+          "lineage": "globalgrid2050/repd_atlas_grid_model_v1backup.md",
+          "line": 450,
+          "text": "\"<span style='color: #ff9900; font-weight: bold;'>220kV Cables</span>\": grid220Layer,"
+        },
+        {
+          "file": "globalgrid2050/repd_atlas_grid_model_v1backup.md",
+          "lineage": "globalgrid2050/repd_atlas_grid_model_v1backup.md",
+          "line": 478,
+          "text": "fetch('{{ site.baseurl }}/grid_220kv.geojson').then(r => r.json()).then(data => L.geoJSON(data, { style: { color: '#ff9900', weight: 2, opacity: 0.8 } }).addTo("
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv3/index.html",
+          "lineage": "globalgrid2050/repd_grid_atlasv3/index.html",
+          "line": 398,
+          "text": "{ id: \"220\",  label: \"220kV\", color: \"#ff9900\", type: \"line\", width: 1.8, url: \"/grid_220kv.geojson\", snap: true, preload: true },"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv4/index.html",
+          "lineage": "globalgrid2050/repd_grid_atlasv4/index.html",
+          "line": 399,
+          "text": "{ id: \"220\",  label: \"220kV\", color: \"#ff9900\", type: \"line\", width: 1.8, url: \"/grid_220kv.geojson\", snap: true, preload: true },"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv5/index.html",
+          "lineage": "globalgrid2050/repd_grid_atlasv5/index.html",
+          "line": 141,
+          "text": "{ id: \"220\",  label: \"220kV\", color: \"#ff9900\", type: \"line\", width: 1.8, url: \"/grid_220kv.geojson\", snap: true, preload: true },"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv6/index.html",
+          "lineage": "globalgrid2050/repd_grid_atlasv6/index.html",
+          "line": 142,
+          "text": "{ id: \"220\",  label: \"220kV\", color: \"#ff9900\", type: \"line\", width: 1.8, url: \"data/grid_220kv.geojson\", snap: true, preload: true },"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv6/scripts/fetch_220kv_datav6.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv6/scripts/fetch_220kv_datav6.py",
+          "line": 5,
+          "text": "def fetch_220kv_data(filename=\"grid_220kv.geojson\"):"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv6/scripts/fetch_220kv_datav6.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv6/scripts/fetch_220kv_datav6.py",
+          "line": 6,
+          "text": "print(\"\\n🌊 Fetching 220kV UK Network (Offshore Cables & Interconnectors)...\")"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv6/scripts/fetch_220kv_datav6.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv6/scripts/fetch_220kv_datav6.py",
+          "line": 25,
+          "text": "print(\"✅ 220kV Data successfully downloaded!\")"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv7/captains_log/captains_log_20260501.md",
+          "lineage": "globalgrid2050/repd_grid_atlasv7/captains_log/captains_log_20260501.md",
+          "line": 43,
+          "text": "- `grid_220kv.geojson` — 75 KB — 220kV (primarily Scottish interconnects), orange"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv7/index.html",
+          "lineage": "globalgrid2050/repd_grid_atlasv7/index.html",
+          "line": 147,
+          "text": "{ id: \"220\",  label: \"220kV\", color: \"#ff9900\", type: \"line\", width: 1.8, url: \"data/grid_220kv.geojson\", snap: true, preload: true },"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv7/scripts/fetch_220kv_datav6.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv7/scripts/fetch_220kv_datav6.py",
+          "line": 5,
+          "text": "def fetch_220kv_data(filename=\"grid_220kv.geojson\"):"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv7/scripts/fetch_220kv_datav6.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv7/scripts/fetch_220kv_datav6.py",
+          "line": 6,
+          "text": "print(\"\\n🌊 Fetching 220kV UK Network (Offshore Cables & Interconnectors)...\")"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv7/scripts/fetch_220kv_datav6.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv7/scripts/fetch_220kv_datav6.py",
+          "line": 25,
+          "text": "print(\"✅ 220kV Data successfully downloaded!\")"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv8/index.html",
+          "lineage": "globalgrid2050/repd_grid_atlasv8/index.html",
+          "line": 144,
+          "text": "{ id: \"220\",  label: \"220kV\", color: \"#ff9900\", type: \"line\", width: 1.8, url: \"data/grid_220kv.geojson\", snap: true, preload: true },"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv8/scripts/fetch_220kv_datav8.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv8/scripts/fetch_220kv_datav8.py",
+          "line": 5,
+          "text": "def fetch_220kv_data(filename=\"grid_220kv.geojson\"):"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv8/scripts/fetch_220kv_datav8.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv8/scripts/fetch_220kv_datav8.py",
+          "line": 6,
+          "text": "print(\"\\n🌊 Fetching 220kV UK Network (Offshore Cables & Interconnectors)...\")"
+        },
+        {
+          "file": "globalgrid2050/repd_grid_atlasv8/scripts/fetch_220kv_datav8.py",
+          "lineage": "globalgrid2050/repd_grid_atlasv8/scripts/fetch_220kv_datav8.py",
+          "line": 25,
+          "text": "print(\"✅ 220kV Data successfully downloaded!\")"
+        },
+        {
+          "file": "globalgrid2050/scripts/fetch_220kv_data.py",
+          "lineage": "globalgrid2050/scripts/fetch_220kv_data.py",
+          "line": 5,
+          "text": "def fetch_220kv_data(filename=\"grid_220kv.geojson\"):"
+        },
+        {
+          "file": "globalgrid2050/scripts/fetch_220kv_data.py",
+          "lineage": "globalgrid2050/scripts/fetch_220kv_data.py",
+          "line": 6,
+          "text": "print(\"\\n🌊 Fetching 220kV UK Network (Offshore Cables & Interconnectors)...\")"
+        },
+        {
+          "file": "globalgrid2050/scripts/fetch_220kv_data.py",
+          "lineage": "globalgrid2050/scripts/fetch_220kv_data.py",
+          "line": 25,
+          "text": "print(\"✅ 220kV Data successfully downloaded!\")"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051152/atlas/cartridges/202609041945-streaming-parquet-bridge-v9-5.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge-v9-5.js",
+          "line": 14,
+          "text": "'data/grid_220kv.geojson',"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051152/atlas/cartridges/202609050354-sld-sandbox-v9-8.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+          "line": 1296,
+          "text": "(-0.2598, 53.6582) and Hornsea Two (-0.2604, 53.6568) at 400/220 kV,"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051152/atlas/cartridges/202609050354-sld-sandbox-v9-8.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+          "line": 1422,
+          "text": "+ 'the name would drop those 4 - including Hornsea at 400/220 kV, which is '"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051152/atlas/cartridges/202609050354-sld-sandbox-v9-8.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+          "line": 3464,
+          "text": "220 kV        transmission, and the class being built out for offshore"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051152/atlas/cartridges/202609050354-sld-sandbox-v9-8.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox-v9-8.js",
+          "line": 5587,
+          "text": "400/220 kV among them, which is exactly a landfall connection. A"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051214/atlas/cartridges/202609051214-sld-sandbox.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+          "line": 1296,
+          "text": "(-0.2598, 53.6582) and Hornsea Two (-0.2604, 53.6568) at 400/220 kV,"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051214/atlas/cartridges/202609051214-sld-sandbox.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+          "line": 1422,
+          "text": "+ 'the name would drop those 4 - including Hornsea at 400/220 kV, which is '"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051214/atlas/cartridges/202609051214-sld-sandbox.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+          "line": 3464,
+          "text": "220 kV        transmission, and the class being built out for offshore"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051214/atlas/cartridges/202609051214-sld-sandbox.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/sld-sandbox.js",
+          "line": 5587,
+          "text": "400/220 kV among them, which is exactly a landfall connection. A"
+        },
+        {
+          "file": "globalgrid2050/testcode/202609051344/atlas/cartridges/202609051344-streaming-parquet-bridge.js",
+          "lineage": "globalgrid2050/testcode//atlas/cartridges/streaming-parquet-bridge.js",
+          "line": 14,
+          "text": "'data/grid_220kv.geojson',"
+        },
+        {
+          "file": "grid-distance-maths/docs/EARTH-MODEL.md",
+          "lineage": "grid-distance-maths/docs/EARTH-MODEL.md",
+          "line": 127,
+          "text": "| 220 kV | 1 | 126 | 1,875 | 1,749 |"
+        }
+      ],
+      "atlas_layer": {
+        "file": "grid_220kv.geojson",
+        "features": 126
+      },
+      "neso_connection_points": 32
+    },
+    {
+      "kv": 132,
+      "role": "transmission in Scotland; distribution (DNO) in England & Wales",
+      "mentions": 12779,
+      "repos": [
+        "cable-trench-or-drill",
+        "chatgpt-audits",
+        "claude",
+        "codex-chatgpt",
+        "cvaa",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-grid-gb",
+        "data-gridatlas",
+        "data_uk_dno_and_tso",
+        "gemini",
+        "gis-sld-sandbox",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "gridmachine1",
+        "gridmachine2",
+        "layout-tool",
+        "pipelinenews",
+        "spiders",
+        "star-maker",
+        "teleprinter",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "lineages": 3283,
+      "context": [
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 34,
+          "text": "* Anchored on: Utility 66kV (300,400mm²), Utility 132kV (300,630,1000,1200,1600mm²),"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 53,
+          "text": "// 132kV (Uo=76)"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 352,
+          "text": "\"132\": { label: \"132 kV (76/132 kV) ★\",  Uo: 76,  mbr_factor: 15, cores: [\"single\"] },"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 58,
+          "text": "<option value=\"ehv\">132kV AC</option>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 126,
+          "text": "<option value=\"132\">132 kV (76/132 kV) ★</option>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 228,
+          "text": "<li>Primary source for LV to 132kV burial depth guidance in this tool is <a href=\"https://g81.ukpowernetworks.co.uk/library/installation/cables/ecs-02-0019-inst"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 228,
+          "text": "<li>Primary source for LV to 132kV burial depth guidance in this tool is <a href=\"https://g81.ukpowernetworks.co.uk/library/installation/cables/ecs-02-0019-inst"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 228,
+          "text": "<li>Primary source for LV to 132kV burial depth guidance in this tool is <a href=\"https://g81.ukpowernetworks.co.uk/library/installation/cables/ecs-02-0019-inst"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 248,
+          "text": "<span class=\"legend-item\"><span class=\"legend-swatch\" style=\"background:#ffd700; border-color:#ff8800;\"></span>132kV AC</span>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 65,
+          "text": "const labels = { lv: \"LV AC\", mv: \"33kV AC\", ehv: \"132kV AC\", dc: \"DC\" };"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609052001/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 228,
+          "text": "<li>Primary source for LV to 132kV burial depth guidance in this tool is <a href=\"https://g81.ukpowernetworks.co.uk/library/installation/cables/ecs-02-0019-inst"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609052001/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 228,
+          "text": "<li>Primary source for LV to 132kV burial depth guidance in this tool is <a href=\"https://g81.ukpowernetworks.co.uk/library/installation/cables/ecs-02-0019-inst"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609052001/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 228,
+          "text": "<li>Primary source for LV to 132kV burial depth guidance in this tool is <a href=\"https://g81.ukpowernetworks.co.uk/library/installation/cables/ecs-02-0019-inst"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/CARTRIDGE-CATALOG.md",
+          "lineage": "chatgpt-audits/study/CARTRIDGE-CATALOG.md",
+          "line": 241,
+          "text": "window layer. A browser does not need the topology loaded to display \"2.1 km from a 132 kV circuit\"."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 47,
+          "text": "| grid_132kv | 6,227 | 1,411,851 | 14.8 | at the line |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 62,
+          "text": "| grid_132kv | 2,835,650 | 1,411,851 | 2.01× | 1.13 |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-713367718.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-713367718.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.41 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-713367718.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-068-dcgb-osm-way-713367718.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-10708918.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-10708918.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.81 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-10708918.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-10708918.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1302345665.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1302345665.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 1.67 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1302345665.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1302345665.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1542072469.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1542072469.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.63 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1542072469.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/1-proposed-073-dcgb-osm-way-1542072469.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602301.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602301.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.72 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602301.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602301.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602302.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602302.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.66 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602302.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-058-dcgb-osm-way-1460602302.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-1482180008.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-1482180008.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.86 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-1482180008.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-1482180008.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-712277377.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-712277377.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 0.72 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-712277377.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/2-construction-062-dcgb-osm-way-712277377.md",
+          "line": 45,
+          "text": "Sitting within 2 km of a 132 kV circuit. For a data centre that is the difference between a"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-016-dcgb-osm-way-1303852315.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-016-dcgb-osm-way-1303852315.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 12.84 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-210931289.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-210931289.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.67 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-210931289.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-210931289.md",
+          "line": 45,
+          "text": "Within 2.67 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-218905097.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-218905097.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 5.13 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-218905097.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-218905097.md",
+          "line": 45,
+          "text": "Within 5.13 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-364385695.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-364385695.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.32 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-364385695.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-364385695.md",
+          "line": 45,
+          "text": "Within 2.32 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-49695385.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-49695385.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 3.34 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-49695385.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-49695385.md",
+          "line": 45,
+          "text": "Within 3.34 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-516481255.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-516481255.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.09 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-516481255.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-dcgb-osm-way-516481255.md",
+          "line": 45,
+          "text": "Within 2.09 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-14056400574.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-14056400574.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 3.68 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-14056400574.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-node-14056400574.md",
+          "line": 45,
+          "text": "Within 3.68 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1131944103.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1131944103.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.29 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1131944103.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1131944103.md",
+          "line": 45,
+          "text": "Within 2.29 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1164817477.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1164817477.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.66 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1164817477.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1164817477.md",
+          "line": 45,
+          "text": "Within 2.66 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1540942790.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1540942790.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.38 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1540942790.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1540942790.md",
+          "line": 45,
+          "text": "Within 2.38 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1551100328.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1551100328.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.93 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1551100328.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1551100328.md",
+          "line": 45,
+          "text": "Within 2.93 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-220442829.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-220442829.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 4.10 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-220442829.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-220442829.md",
+          "line": 45,
+          "text": "Within 4.10 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-460010263.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-460010263.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.73 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-460010263.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-460010263.md",
+          "line": 45,
+          "text": "Within 2.73 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-703959498.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-703959498.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.32 km at 132 kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-703959498.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-703959498.md",
+          "line": 45,
+          "text": "Within 2.32 km of a 132 kV circuit - a workable connection distance for a load of this kind."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-838655597.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-838655597.md",
+          "line": 40,
+          "text": "| nearest transmission circuit | 2.55 km at 132 kV |"
+        }
+      ],
+      "atlas_layer": {
+        "file": "grid_132kv.geojson",
+        "features": 6227
+      },
+      "neso_connection_points": 575
+    },
+    {
+      "kv": 66,
+      "role": "distribution (DNO, some EHV networks)",
+      "mentions": 2054,
+      "repos": [
+        "cable-trench-or-drill",
+        "chatgpt-audits",
+        "claude",
+        "codex-chatgpt",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-grid-gb",
+        "data-gridatlas",
+        "data_uk_dno_and_tso",
+        "gemini",
+        "gis-sld-sandbox",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "gridmachine1",
+        "layout-tool",
+        "linux-for-the-power-grid",
+        "pipelinenews",
+        "spiders",
+        "star-maker",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "lineages": 151,
+      "context": [
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 34,
+          "text": "* Anchored on: Utility 66kV (300,400mm²), Utility 132kV (300,630,1000,1200,1600mm²),"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 38,
+          "text": "* Lower voltages from catalogue; 66kV+ single-core only —"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 39,
+          "text": "* three-core cables do not exist at 66 kV and above."
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 50,
+          "text": "// 66kV (Uo=38)"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 350,
+          "text": "\"66\":  { label: \"66 kV (38/66 kV) ★\",   Uo: 38,  mbr_factor: 15, cores: [\"single\"] },"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 124,
+          "text": "<option value=\"66\">66 kV (38/66 kV) ★</option>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 116,
+          "text": "noteEl.innerHTML = \"<strong>Three-core cables are not used at 66 kV and above.</strong> \" +"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 67,
+          "text": "| grid_66kv | 597,395 | 319,120 | 1.87× | 0.24 |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 274,
+          "text": "| Topology 400/275/220/132/66 kV | map-ready-geojson (pre-snapped) | ≤ 1.2 s each | all tiers |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-231762788.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-038-dcgb-osm-way-231762788.md",
+          "line": 43,
+          "text": "| that substation, name | Tankersley 66KV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.2-20867-sherwin-williams-diversified-brands-thorncliffe-road-solar.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.2-20867-sherwin-williams-diversified-brands-thorncliffe-road-solar.md",
+          "line": 60,
+          "text": "| that substation, name | Tankersley 66KV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00049.9-10624-moat-farm-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00049.9-10624-moat-farm-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Newent 66kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00049.9-8100-camblesforth-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00049.9-8100-camblesforth-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Drax Primary 66kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00099.0-17577-station-road-carlton-battery-energy-storage-system.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00099.0-17577-station-road-carlton-battery-energy-storage-system.md",
+          "line": 72,
+          "text": "| that substation, name | Drax Primary 66kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/summary.md",
+          "lineage": "chatgpt-audits/study/summary.md",
+          "line": 115,
+          "text": "Whatever takes it **must reproduce the pre-snap rewrite** (`snap: false` for 400/275/220/132/66 kV) or the browser"
+        },
+        {
+          "file": "claude/sessions/202609021835-estate-and-corridor/00-LOG.md",
+          "lineage": "claude/sessions/estate-and-corridor/00-LOG.md",
+          "line": 108,
+          "text": "400KV|275KV|132KV|66KV|33KV|NGET|SSE|SP|SHE)\\b/g;"
+        },
+        {
+          "file": "claude/sessions/202609021835-estate-and-corridor/01-findings.md",
+          "lineage": "claude/sessions/estate-and-corridor/01-findings.md",
+          "line": 56,
+          "text": "400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b/g;"
+        },
+        {
+          "file": "claude/sessions/202609031710-user-pain-log/00-PAIN.md",
+          "lineage": "claude/sessions/user-pain-log/00-PAIN.md",
+          "line": 62,
+          "text": "gone. Two adjacent rows in my screenshot both read `GRID 0.07 km · 66kV` / `SUB 0.17 km` and"
+        },
+        {
+          "file": "claude/sessions/202609031710-user-pain-log/00-PAIN.md",
+          "lineage": "claude/sessions/user-pain-log/00-PAIN.md",
+          "line": 195,
+          "text": "The 44 rows that do carry values show them as `GRID 0.07 km · 66kV` and `SUB 0.17 km` — which"
+        },
+        {
+          "file": "claude/sessions/202609031759-identity-leak/00-FINDING.md",
+          "lineage": "claude/sessions/identity-leak/00-FINDING.md",
+          "line": 61,
+          "text": "| nearest ≥33 kV | 3.43 km Yarnton (132 kV) | 3.71 km Shipston (66 kV) |"
+        },
+        {
+          "file": "claude/sessions/202609031759-identity-leak/00-FINDING.md",
+          "lineage": "claude/sessions/identity-leak/00-FINDING.md",
+          "line": 62,
+          "text": "| ETYS join | Cowley → NESO site **COWL** (NGET); 400, 132 kV | Feckenham → NESO site **FECK** (NGET); 400, 275, 66 kV |"
+        },
+        {
+          "file": "claude/sessions/202609031759-identity-leak/00-FINDING.md",
+          "lineage": "claude/sessions/identity-leak/00-FINDING.md",
+          "line": 205,
+          "text": "33 kV primary distribution…\"* became *\"66 kV largely legacy industrial distribution, much of it being"
+        },
+        {
+          "file": "codex-chatgpt/codex/2026-09-03-phase0/INCOMING_GEMINI_DIRECTIVE_VERBATIM.md",
+          "lineage": "codex-chatgpt/codex/2026-09-03-phase0/INCOMING_GEMINI_DIRECTIVE_VERBATIM.md",
+          "line": 46,
+          "text": "`NOISE = /\\b(SUBSTATION|SUB STATION|SUBSTN|GRID|SUPPLY|POINT|GSP|NATIONAL|POWER|STATION|WIND|FARM|WINDFARM|OFFSHORE|ONSHORE|EXTENSION|400KV|275KV|132KV|66KV|33K"
+        },
+        {
+          "file": "codex-chatgpt/threads/2026-09-03-gridatlas-routing-support/transcript.md",
+          "lineage": "codex-chatgpt/threads/2026-09-03-gridatlas-routing-support/transcript.md",
+          "line": 257,
+          "text": "❯ There are always rivers as you rightly said, find at least 3 definitive civil engineering studies on these points and tell me if its possible to spend time wr"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "line": 21,
+          "text": "The six DNO open-data portals. UK Power Networks runs Opendatasoft Explore v2.1 at ukpowernetworks.opendatasoft.com, with the Embedded Capacity Register ≥1MW da"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "line": 79,
+          "text": "￼ ⁠66kV⁠"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "line": 92,
+          "text": "132kV, 66kV"
+        },
+        {
+          "file": "data-grid-gb/derived/build_connection_points.py",
+          "lineage": "data-grid-gb/derived/build_connection_points.py",
+          "line": 47,
+          "text": "r\"400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b\")"
+        },
+        {
+          "file": "data-grid-gb/derived/verify_phase0_acceptance.py",
+          "lineage": "data-grid-gb/derived/verify_phase0_acceptance.py",
+          "line": 51,
+          "text": "r\"400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b\")"
+        },
+        {
+          "file": "data-grid-gb/docs/routing/LEGACY_LAYER_AUDIT.md",
+          "lineage": "data-grid-gb/docs/routing/LEGACY_LAYER_AUDIT.md",
+          "line": 15,
+          "text": "The historical v8 shell registers 400, 275, 220, 132 and 66 kV line and"
+        },
+        {
+          "file": "data-gridatlas/atman/202608291015-verify-v8-transplant.py",
+          "lineage": "data-gridatlas/atman/verify-v8-transplant.py",
+          "line": 39,
+          "text": "\"grid_220kv\": (150, 93), \"grid_132kv\": (7218, 4342), \"grid_66kv\": (1353, 828),"
+        },
+        {
+          "file": "data-gridatlas/compiler/202608291015-build-v8-transplant.py",
+          "lineage": "data-gridatlas/compiler/build-v8-transplant.py",
+          "line": 49,
+          "text": "\"grid_66kv\": (1353, 828),"
+        },
+        {
+          "file": "data_uk_dno_and_tso/dno_tso_second_stage_study_apis_datasets_joins.md.md",
+          "lineage": "data_uk_dno_and_tso/dno_tso_second_stage_study_apis_datasets_joins.md.md",
+          "line": 108,
+          "text": "**Substation datasets for atlas join.** UKPN GSP overview + GSP area polygons (`ukpn-grid-supply-points`, transmission sites feeding primaries), primary/grid po"
+        },
+        {
+          "file": "gemini/scripts/verify_all_claims.py",
+          "lineage": "gemini/scripts/verify_all_claims.py",
+          "line": 108,
+          "text": "NOISE_RE = re.compile(r'\\b(SUBSTATION|SUB STATION|SUBSTN|GRID|SUPPLY|POINT|GSP|NATIONAL|POWER|STATION|WIND|FARM|WINDFARM|OFFSHORE|ONSHORE|EXTENSION|400KV|275KV|"
+        },
+        {
+          "file": "gemini/sessions/20260903-cluster-audit-and-next-steps/01-cluster-findings-and-defects.md",
+          "lineage": "gemini/sessions/20260903-cluster-audit-and-next-steps/01-cluster-findings-and-defects.md",
+          "line": 46,
+          "text": "400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b/g;"
+        },
+        {
+          "file": "gemini/sessions/20260903-cluster-audit-and-next-steps/05-next-steps-and-build-authorisation.md",
+          "lineage": "gemini/sessions/20260903-cluster-audit-and-next-steps/05-next-steps-and-build-authorisation.md",
+          "line": 68,
+          "text": "* Render straight/calibrated neon corridor lines coloured by target substation voltage (400 kV, 275 kV, 132 kV, 66 kV, 33 kV)."
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 7,
+          "text": "\"66kv\": false,"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 14,
+          "text": "\"66kv\": \"atlas-v8-grid-66kv-line\","
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 137,
+          "text": "map.addSource(\"atlas-v8-grid-66kv\", {"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 139,
+          "text": "data: \"../../repd_grid_atlasv8/data/grid_66kv.geojson\""
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 142,
+          "text": "id: \"atlas-v8-grid-66kv-line\","
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 144,
+          "text": "source: \"atlas-v8-grid-66kv\","
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-map.js",
+          "line": 145,
+          "text": "layout: { visibility: atlasV8GridLayerVisibility[\"66kv\"] ? \"visible\" : \"none\" },"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui-core.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui-core.js",
+          "line": 102,
+          "text": "${atlasV8LegendItem(\"66kv\", \"Atlas V8 66 kV Lines\", \"#66ff66\", 2)}"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "line": 559,
+          "text": "\"66 kV\": [],"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "line": 567,
+          "text": "\"66 kV\": \"/repd_grid_atlasv8/data/grid_66kv.geojson\","
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "line": 637,
+          "text": "fetch(siteIntelGridUrls[\"66 kV\"], { cache: \"no-cache\" }),"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "line": 646,
+          "text": "const gridKeys = [\"66 kV\", \"132 kV\", \"275 kV\", \"400 kV\"];"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "line": 806,
+          "text": "[\"66 kV\", \"132 kV\", \"275 kV\", \"400 kV\"].forEach(key => {"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/gis-sld-v5-ui.js",
+          "line": 993,
+          "text": "const labels = { \"66kv\": \"66 kV\", \"132kv\": \"132 kV\", \"275kv\": \"275 kV\", \"400kv\": \"400 kV\" };"
+        },
+        {
+          "file": "gis-sld-sandbox/releases/202609051855/solar-bess-topology-v7/gis-sld-financial-sandbox/index.html",
+          "lineage": "gis-sld-sandbox/releases//solar-bess-topology-v7/gis-sld-financial-sandbox/index.html",
+          "line": 422,
+          "text": "<button id=\"btn_atlas_66kv\" class=\"map-toggle-btn active atlas-voltage-btn atlas-66kv\" data-atlas-voltage=\"66kv\">66 kV ON</button>"
+        },
+        {
+          "file": "gis-sld-sandbox/tools/test_verify_derived.py",
+          "lineage": "gis-sld-sandbox/tools/test_verify_derived.py",
+          "line": 20,
+          "text": "'repd_grid_atlasv8/data/grid_66kv.geojson': b'{\"type\":\"FeatureCollection\",\"features\":[]}'}"
+        },
+        {
+          "file": "gis-sld-sandbox/tools/test_verify_derived.py",
+          "lineage": "gis-sld-sandbox/tools/test_verify_derived.py",
+          "line": 117,
+          "text": "self.replace('repd_grid_atlasv8/data/grid_66kv.geojson', b'{\"changed\":true}')"
+        },
+        {
+          "file": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "lineage": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "line": 182,
+          "text": "\"<span style='color: #b200ff; font-weight: bold;'>66kV Cables</span>\": grid66Layer"
+        },
+        {
+          "file": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "lineage": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+          "line": 191,
+          "text": "fetch('{{ site.baseurl }}/grid_66kv.geojson').then(r => r.json()).then(data => L.geoJSON(data, { style: { color: '#b200ff', weight: 1.5, opacity: 0.7 } }).addTo"
+        },
+        {
+          "file": "globalgrid2050/blog/index.md",
+          "lineage": "globalgrid2050/blog/index.md",
+          "line": 22,
+          "text": "The same was true of the National Grid topology — the 400kV, 275kV, 132kV and 66kV transmission lines that form the physical backbone of UK electricity. Open da"
+        },
+        {
+          "file": "globalgrid2050/blog/index.md",
+          "lineage": "globalgrid2050/blog/index.md",
+          "line": 88,
+          "text": "**Files:** `/grid_400kv.geojson`, `/grid_275kv.geojson`, `/grid_220kv.geojson`, `/grid_132kv.geojson`, `/grid_66kv.geojson`"
+        },
+        {
+          "file": "globalgrid2050/blog/index.md",
+          "lineage": "globalgrid2050/blog/index.md",
+          "line": 279,
+          "text": "├── grid_66kv.geojson"
+        },
+        {
+          "file": "globalgrid2050/blog/index.md",
+          "lineage": "globalgrid2050/blog/index.md",
+          "line": 395,
+          "text": "**GeoJSON simplification** — reduce coordinate precision and strip unused properties from all data files before serving. Will improve hydration speed and pan/zo"
+        },
+        {
+          "file": "globalgrid2050/CLAUDE-AUDIT-V1.md",
+          "lineage": "globalgrid2050/CLAUDE-AUDIT-V1.md",
+          "line": 118,
+          "text": "This is the platform’s flagship geospatial product: an interactive Leaflet map that overlays the UK electricity network (lines coded by voltage — 11 kV, 33 kV b"
+        }
+      ],
+      "atlas_layer": {
+        "file": "grid_66kv.geojson",
+        "features": 1171
+      },
+      "neso_connection_points": 31
+    },
+    {
+      "kv": 33,
+      "role": "distribution (DNO, EHV)",
+      "mentions": 5070,
+      "repos": [
+        "cable-trench-or-drill",
+        "chatgpt-audits",
+        "claude",
+        "codex-chatgpt",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-grid-gb",
+        "data_uk_dno_and_tso",
+        "gemini",
+        "gis-sld-sandbox",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "gridmachine1",
+        "layout-tool",
+        "pipelinenews",
+        "pipelinenews-gridatlas-20260906",
+        "star-maker",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "lineages": 297,
+      "context": [
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/calculations.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/calculations.js",
+          "line": 152,
+          "text": "reviewPoints.push(\"33kV trefoil group spacing is tight. Check separation against the relevant rating and installation standard before use.\");"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 35,
+          "text": "* Manufacturer 110kV (630mm²), Catalogue 33kV full series."
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 36,
+          "text": "* Three-core Al: Catalogue direct values (33kV unarmoured Al)."
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 37,
+          "text": "* Three-core Cu: Catalogue direct values (33kV unarmoured Cu)."
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 61,
+          "text": "// 33kV single core (Uo=18) — catalogue values"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 74,
+          "text": "// 33kV three core ALUMINIUM unarmoured (Uo=18) — catalogue values"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 85,
+          "text": "// 33kV three core COPPER unarmoured (Uo=18) — Power Cable Catalogue"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 348,
+          "text": "\"33\":  { label: \"33 kV (19/33 kV) — Al\", Uo: 18, mbr_factor: 15, cores: [\"single\",\"three\"] },"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/data.js",
+          "line": 349,
+          "text": "\"33cu\": { label: \"33 kV (19/33 kV) — Cu 3-core\", Uo: 18, mbr_factor: 15, cores: [\"three\"] },"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 57,
+          "text": "<option value=\"mv\">33kV AC</option>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 120,
+          "text": "<option value=\"33\">33 kV (19/33 kV) — Al</option>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 121,
+          "text": "<option value=\"33cu\">33 kV (19/33 kV) — Cu 3-core</option>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/index.html",
+          "line": 247,
+          "text": "<span class=\"legend-item\"><span class=\"legend-swatch\" style=\"background:#b87333; border-color:#ff5555;\"></span>33kV AC</span>"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 65,
+          "text": "const labels = { lv: \"LV AC\", mv: \"33kV AC\", ehv: \"132kV AC\", dc: \"DC\" };"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 123,
+          "text": "noteEl.textContent = \"Three-core OD data is only available up to 33 kV. Use single core for HV.\";"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 130,
+          "text": "noteEl.innerHTML = \"<strong>33 kV Cu 3-core:</strong> This entry is for three-core copper conductor cables only. \" +"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 131,
+          "text": "\"For single-core 33 kV entries use the <em>33 kV (19/33 kV) — Al</em> category (which also uses the model for single-core). \" +"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 168,
+          "text": "noteEl.innerHTML = \"<strong>33 kV Cu 3-core unarmoured.</strong> \" +"
+        },
+        {
+          "file": "cable-trench-or-drill/releases/202609051921/solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "lineage": "cable-trench-or-drill/releases//solar-bess-topology-v7/cable-geometry-visualiser/ui.js",
+          "line": 244,
+          "text": "noteEl.innerHTML = `<strong>33 kV Cu 3-core unarmoured — ${csa}mm²:</strong> OD = ${result.od}mm. ` +"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 15,
+          "text": "33 kV distribution, separately labelled estimated UKPN 11 kV points, and separate transmission and"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 101,
+          "text": "| 17:11 | `92a69ad` | Added 104,557 33 kV segments, capped estimated UKPN 11 kV points at 15 km, and split transmission from distribution. |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 140,
+          "text": "- network: 400/275/220/132/66/33 kV, 253,897 segments, 5,800 substations;"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 183,
+          "text": "the 253,897-segment, 33 kV, estimated-11 kV, and transmission/distribution claims."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 311,
+          "text": "### F4 - MEDIUM: the clickable GRID explanation falsely says 33 kV is not modelled"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 315,
+          "text": "> 33 kV and 11 kV distribution, where most sub-50 MW schemes connect"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 318,
+          "text": "declares 33 kV as its distribution layer, includes 104,557 such segments, and produces a 33 kV"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 322,
+          "text": "**Required action:** in a successor release, say that 33 kV is modelled from the pinned mapped line"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-026-prescient-coleraine.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-026-prescient-coleraine.md",
+          "line": 48,
+          "text": "| that substation, name | ______ 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1268715673.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-030-dcgb-osm-way-1268715673.md",
+          "line": 43,
+          "text": "| that substation, name | East Central 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-036-tata-communications-highbridge-datacentre.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-036-tata-communications-highbridge-datacentre.md",
+          "line": 48,
+          "text": "| that substation, name | Watchfield Lawn 33kV Solar |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-040-microsoft-ireland.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-040-microsoft-ireland.md",
+          "line": 48,
+          "text": "| that substation, name | Talbot Street 33kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.0-14124-drum-road-cookstown-solar-battery-development.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.0-14124-drum-road-cookstown-solar-battery-development.md",
+          "line": 60,
+          "text": "| that substation, name | Cookstown South 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.0-15281-battery-energy-storage-system-in-broughshane.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.0-15281-battery-energy-storage-system-in-broughshane.md",
+          "line": 72,
+          "text": "| that substation, name | Buckna Central 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.0-15516-battery-energy-storage-system-in-ballycastle.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.0-15516-battery-energy-storage-system-in-ballycastle.md",
+          "line": 72,
+          "text": "| that substation, name | Ballycastle Central 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.0-6105-drumcairn-road.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.0-6105-drumcairn-road.md",
+          "line": 59,
+          "text": "| that substation, name | Armagh North 33kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.3-13689-momentive-speciality-chemicals-sully-moors-road-solar-pane.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.3-13689-momentive-speciality-chemicals-sully-moors-road-solar-pane.md",
+          "line": 72,
+          "text": "| that substation, name | Peakgen Barry Stor 33Kv Sw Stn Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00002.0-16445-solar-pv-energy-alterations-in-belfast.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00002.0-16445-solar-pv-energy-alterations-in-belfast.md",
+          "line": 60,
+          "text": "| that substation, name | East Central 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00002.0-16451-solar-pv-energy-development-in-ballymena.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00002.0-16451-solar-pv-energy-development-in-ballymena.md",
+          "line": 72,
+          "text": "| that substation, name | Harryville 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00002.0-16583-solar-pv-energy-development-in-newry.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00002.0-16583-solar-pv-energy-development-in-newry.md",
+          "line": 72,
+          "text": "| that substation, name | Poyntzpass 33kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00002.1-11606-fairy-hill-compton-dando-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00002.1-11606-fairy-hill-compton-dando-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Marksbury 33kV Solar Park |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00002.5-16454-solar-pv-development-in-ballymena.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00002.5-16454-solar-pv-development-in-ballymena.md",
+          "line": 72,
+          "text": "| that substation, name | Harryville 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00003.0-8171-dunore-point-treatment-works.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00003.0-8171-dunore-point-treatment-works.md",
+          "line": 72,
+          "text": "| that substation, name | 33kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00003.5-18060-solar-farm-development-in-ballymena.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00003.5-18060-solar-farm-development-in-ballymena.md",
+          "line": 72,
+          "text": "| that substation, name | Ballymena East 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00003.8-8870-dunore-road-aldergrove-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00003.8-8870-dunore-road-aldergrove-solar-farm.md",
+          "line": 60,
+          "text": "| that substation, name | 33kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00004.5-17357-woodland-barton-farm-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00004.5-17357-woodland-barton-farm-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Victoria 33kV Wind Farm |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.0-11078-menear-road-solar-battery-storage.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.0-11078-menear-road-solar-battery-storage.md",
+          "line": 72,
+          "text": "| that substation, name | West Carclaze 33kv Solar P |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.0-12912-trekenning-farm-battery-storage-facility-co-op.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.0-12912-trekenning-farm-battery-storage-facility-co-op.md",
+          "line": 72,
+          "text": "| that substation, name | Trekenning Farm 33kV Solar |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.0-18205-castor-bay-water-treatment-works-castor-bay-road-solar-far.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.0-18205-castor-bay-water-treatment-works-castor-bay-road-solar-far.md",
+          "line": 60,
+          "text": "| that substation, name | Aghagallon 33 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.0-18708-st-columb-major-battery-energy-storage-facility.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.0-18708-st-columb-major-battery-energy-storage-facility.md",
+          "line": 72,
+          "text": "| that substation, name | Trekenning Farm 33kV Solar |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.0-4741-land-at-new-orchard-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.0-4741-land-at-new-orchard-farm.md",
+          "line": 59,
+          "text": "| that substation, name | Rookery Farm 33kV Solar Pk |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.0-5205-red-brae.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.0-5205-red-brae.md",
+          "line": 59,
+          "text": "| that substation, name | Carrickfergus North 33kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.2-16633-aston-martin-lagonda-banbury-road-solar-panels.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.2-16633-aston-martin-lagonda-banbury-road-solar-panels.md",
+          "line": 72,
+          "text": "| that substation, name | Jaguar Land Rover Substation 33kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00005.2-16945-aston-martin-lagonda-banbury-road-solar-panels.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00005.2-16945-aston-martin-lagonda-banbury-road-solar-panels.md",
+          "line": 60,
+          "text": "| that substation, name | Jaguar Land Rover Substation 33kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00006.0-13629-abbotsley-country-homes-drewels-lane-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00006.0-13629-abbotsley-country-homes-drewels-lane-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Little Barford 33kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00006.0-5940-wiseburrow-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00006.0-5940-wiseburrow-farm.md",
+          "line": 60,
+          "text": "| that substation, name | Red Hill 33kv Solar Park |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00006.5-12972-limebury-farm-horns-cross-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00006.5-12972-limebury-farm-horns-cross-solar-farm.md",
+          "line": 59,
+          "text": "| that substation, name | Walland Farm 33kv Solar Pk |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00010.0-13862-bradley-road-battery-energy-storage-system.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00010.0-13862-bradley-road-battery-energy-storage-system.md",
+          "line": 72,
+          "text": "| that substation, name | Low Farm Solar 33kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00015.0-10525-marksbury-plain-solar-park.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00015.0-10525-marksbury-plain-solar-park.md",
+          "line": 72,
+          "text": "| that substation, name | Marksbury 33kV Solar Park |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00016.0-17767-st-mary-in-the-marsh-solar-panels.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00016.0-17767-st-mary-in-the-marsh-solar-panels.md",
+          "line": 60,
+          "text": "| that substation, name | Romney Warren 33kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00016.0-18718-martin-farm-st-marys-road-solar-panels.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00016.0-18718-martin-farm-st-marys-road-solar-panels.md",
+          "line": 72,
+          "text": "| that substation, name | Romney Warren 33kV |"
+        }
+      ],
+      "atlas_layer": null,
+      "neso_connection_points": 343
+    },
+    {
+      "kv": 11,
+      "role": "distribution (DNO, HV)",
+      "mentions": 420,
+      "repos": [
+        "chatgpt-audits",
+        "claude",
+        "codex-chatgpt",
+        "data-federation-map-for-globalgrid2050-all-repos",
+        "data-grid-gb",
+        "data-gridatlas",
+        "data_uk_dno_and_tso",
+        "gemini",
+        "globalgrid2050",
+        "grid-distance-maths",
+        "gridatlas",
+        "linux-for-the-power-grid",
+        "pipelinenews",
+        "testcode",
+        "ventus-grid-engine"
+      ],
+      "lineages": 108,
+      "context": [
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 15,
+          "text": "33 kV distribution, separately labelled estimated UKPN 11 kV points, and separate transmission and"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 101,
+          "text": "| 17:11 | `92a69ad` | Added 104,557 33 kV segments, capped estimated UKPN 11 kV points at 15 km, and split transmission from distribution. |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 119,
+          "text": "| Estimated UKPN 11 kV result within 15 km | 966 | 657 |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 183,
+          "text": "the 253,897-segment, 33 kV, estimated-11 kV, and transmission/distribution claims."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 315,
+          "text": "> 33 kV and 11 kV distribution, where most sub-50 MW schemes connect"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 319,
+          "text": "distance for every row. Estimated 11 kV is also modelled separately for 966 rows, although it is not"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 323,
+          "text": "set and that 11 kV is a separately labelled, UKPN-only estimated point layer with a 15 km cap."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 364,
+          "text": "- Separate confirmed network layers from estimated UKPN 11 kV data."
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/202608311735-pipelinenews-grid-distance-maths-audit.md",
+          "lineage": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+          "line": 379,
+          "text": "4. **Next immutable release:** correct the visible 33/11 kV disclosure and decide whether GRID"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/CARTRIDGE-CATALOG.md",
+          "lineage": "chatgpt-audits/study/CARTRIDGE-CATALOG.md",
+          "line": 405,
+          "text": "promotable** and must not be presented as a maintained dataset until reacquired. Same for `grid_11kv_ukpn`"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 43,
+          "text": "| grid_11kv_ukpn | 15,126 | 1,738,387 | **15.0** | at the line |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 86,
+          "text": "| grid_11kv_ukpn | 1,738,387 | ~1.8 MB | 0.7 | fine (but quarantined) |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATA-DELIVERY-PLAN.md",
+          "lineage": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+          "line": 275,
+          "text": "| 11 kV UKPN | map-ready-geojson | 0.7 s | desktop only (**quarantined identity**) |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-036-data-vault-bournemouth-bcp01.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-036-data-vault-bournemouth-bcp01.md",
+          "line": 48,
+          "text": "| that substation, name | Winton 33/11KV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-4d-data-centers-gatwick.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-4d-data-centers-gatwick.md",
+          "line": 48,
+          "text": "| that substation, name | Crawley Industrial East 33/11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-digital-realty-lgw15.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-digital-realty-lgw15.md",
+          "line": 48,
+          "text": "| that substation, name | Crawley Industrial East 33/11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/DATACENTRE-STUDIES/3-built-044-digital-realty-lgw16.md",
+          "lineage": "chatgpt-audits/study/DATACENTRE-STUDIES/3-built-044-digital-realty-lgw16.md",
+          "line": 48,
+          "text": "| that substation, name | Crawley Industrial East 33/11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00001.0-15515-hht-battery-energy-storage-system-in-randalstown.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00001.0-15515-hht-battery-energy-storage-system-in-randalstown.md",
+          "line": 72,
+          "text": "| that substation, name | Randalstown Central 33/11 kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00003.0-8461-blandford-hill-ev-charging-station-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00003.0-8461-blandford-hill-ev-charging-station-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Winterborne Kingston 33/11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00009.9-19282-longman-landfill-stadium-road-solar-array.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00009.9-19282-longman-landfill-stadium-road-solar-array.md",
+          "line": 60,
+          "text": "| that substation, name | Waterloo Place 33/11kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00013.5-18110-byde-mill-solar-farm-poulshot-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00013.5-18110-byde-mill-solar-farm-poulshot-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Devizes 33/11Kv |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00015.0-8462-blandford-hill-ev-charging-station-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00015.0-8462-blandford-hill-ev-charging-station-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Winterborne Kingston 33/11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00017.0-7918-oulton-street.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00017.0-7918-oulton-street.md",
+          "line": 60,
+          "text": "| that substation, name | Sall Local 11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00020.0-11447-sherbourne-warwick-solar-hampton-lodge.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00020.0-11447-sherbourne-warwick-solar-hampton-lodge.md",
+          "line": 72,
+          "text": "| that substation, name | Tournament Fields 33/11KV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00025.0-13257-sherbourne-solar-farm.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00025.0-13257-sherbourne-solar-farm.md",
+          "line": 72,
+          "text": "| that substation, name | Tournament Fields 33/11KV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00028.0-10640-docking-farm-solar.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00028.0-10640-docking-farm-solar.md",
+          "line": 72,
+          "text": "| that substation, name | Sall Local 11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00030.0-16176-highland-wind-farm-battery-storage.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00030.0-16176-highland-wind-farm-battery-storage.md",
+          "line": 60,
+          "text": "| that substation, name | Waterloo Place 33/11kV Substation |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00030.0-18268-heydon-road-heydon-solar-pv-panels.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00030.0-18268-heydon-road-heydon-solar-pv-panels.md",
+          "line": 72,
+          "text": "| that substation, name | Sall Local 11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/PROJECT-STUDIES/00040.0-16707-nowhere-lane-norwich-solar-photovoltaic-panels.md",
+          "lineage": "chatgpt-audits/study/PROJECT-STUDIES/00040.0-16707-nowhere-lane-norwich-solar-photovoltaic-panels.md",
+          "line": 72,
+          "text": "| that substation, name | Sall Local 11kV |"
+        },
+        {
+          "file": "chatgpt-audits/202608310033-study/questions.md",
+          "lineage": "chatgpt-audits/study/questions.md",
+          "line": 335,
+          "text": "(`QUARANTINED_OUTPUT_NOT_REPRODUCIBLE_FROM_ADJACENT_FETCHER`), `grid_11kv_ukpn`"
+        },
+        {
+          "file": "claude/docs/boards/estate-link-crawl.md",
+          "lineage": "claude/docs/boards/estate-link-crawl.md",
+          "line": 60,
+          "text": "| `404` `https://ventusltd.github.io/gridatlas/atlas/releases/202608300453-atlas-v9/data/grid_11kv_ukpn.geojson` | 1 |"
+        },
+        {
+          "file": "claude/docs/boards/estate-link-crawl.md",
+          "lineage": "claude/docs/boards/estate-link-crawl.md",
+          "line": 82,
+          "text": "| `404` `https://ventusltd.github.io/gridatlas/atlas/releases/202608292311-atlas-v9/data/grid_11kv_ukpn.geojson` | 1 |"
+        },
+        {
+          "file": "claude/docs/boards/estate-link-crawl.md",
+          "lineage": "claude/docs/boards/estate-link-crawl.md",
+          "line": 104,
+          "text": "| `404` `https://ventusltd.github.io/gridatlas/atlas/releases/202608292126-atlas-v9/data/grid_11kv_ukpn.geojson` | 1 |"
+        },
+        {
+          "file": "claude/sessions/202609021835-estate-and-corridor/01-findings.md",
+          "lineage": "claude/sessions/estate-and-corridor/01-findings.md",
+          "line": 56,
+          "text": "400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b/g;"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/00-LOG.md",
+          "lineage": "claude/sessions/release-cadence/00-LOG.md",
+          "line": 275,
+          "text": "The `features < 1` rows (`11kv`, `ind`, `dc`, `rail`, `tram`) are the only ones"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/00-LOG.md",
+          "lineage": "claude/sessions/release-cadence/00-LOG.md",
+          "line": 632,
+          "text": "run A   4 layer failures    empty sources: 11kv, 132, 275, air, subs"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/00-LOG.md",
+          "lineage": "claude/sessions/release-cadence/00-LOG.md",
+          "line": 633,
+          "text": "run B   2 layer failures    empty sources: 11kv, 132, 66"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/00-LOG.md",
+          "lineage": "claude/sessions/release-cadence/00-LOG.md",
+          "line": 643,
+          "text": "errors**, and **`src-11kv` and `src-132` produce no features under any camera or"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/02-blocked.md",
+          "lineage": "claude/sessions/release-cadence/02-blocked.md",
+          "line": 303,
+          "text": "run A   4 layer failures   empty sources: 11kv, 132, 275, air, subs"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/02-blocked.md",
+          "lineage": "claude/sessions/release-cadence/02-blocked.md",
+          "line": 304,
+          "text": "run B   2 layer failures   empty sources: 11kv, 132, 66"
+        },
+        {
+          "file": "claude/sessions/202609030241-release-cadence/02-blocked.md",
+          "lineage": "claude/sessions/release-cadence/02-blocked.md",
+          "line": 322,
+          "text": "src-11kv and src-132               no features in ANY run"
+        },
+        {
+          "file": "claude/sessions/202609031044-next-ten/00-BUILD-QUEUE.md",
+          "lineage": "claude/sessions/next-ten/00-BUILD-QUEUE.md",
+          "line": 137,
+          "text": "| **finding** | `202608301931-layer-fidelity.yml` has failed on **all six runs it has ever had** — run 1 at 2026-08-30T17:56:57Z through run 6 at 2026-09-03T08:"
+        },
+        {
+          "file": "claude/sessions/202609031044-next-ten/00-BUILD-QUEUE.md",
+          "lineage": "claude/sessions/next-ten/00-BUILD-QUEUE.md",
+          "line": 137,
+          "text": "| **finding** | `202608301931-layer-fidelity.yml` has failed on **all six runs it has ever had** — run 1 at 2026-08-30T17:56:57Z through run 6 at 2026-09-03T08:"
+        },
+        {
+          "file": "claude/sessions/202609031044-next-ten/00-BUILD-QUEUE.md",
+          "lineage": "claude/sessions/next-ten/00-BUILD-QUEUE.md",
+          "line": 265,
+          "text": "| `data-gridatlas` layer-fidelity **red since 08:09Z today**; **50 of 120** checks fail; **four** layers return zero features | **all six runs since 2026-08-30T"
+        },
+        {
+          "file": "codex-chatgpt/codex/2026-09-03-phase0/INCOMING_GEMINI_DIRECTIVE_VERBATIM.md",
+          "lineage": "codex-chatgpt/codex/2026-09-03-phase0/INCOMING_GEMINI_DIRECTIVE_VERBATIM.md",
+          "line": 46,
+          "text": "`NOISE = /\\b(SUBSTATION|SUB STATION|SUBSTN|GRID|SUPPLY|POINT|GSP|NATIONAL|POWER|STATION|WIND|FARM|WINDFARM|OFFSHORE|ONSHORE|EXTENSION|400KV|275KV|132KV|66KV|33K"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "line": 21,
+          "text": "The six DNO open-data portals. UK Power Networks runs Opendatasoft Explore v2.1 at ukpowernetworks.opendatasoft.com, with the Embedded Capacity Register ≥1MW da"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "line": 21,
+          "text": "The six DNO open-data portals. UK Power Networks runs Opendatasoft Explore v2.1 at ukpowernetworks.opendatasoft.com, with the Embedded Capacity Register ≥1MW da"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+          "line": 43,
+          "text": "The engineering mission. These ten sources generalise the Ventus-funded Braintree EV Forecourt cable-sizing methodology — IEC 60287 thermal current ratings, IEC"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "line": 80,
+          "text": "￼ ⁠11kV (UKPN)⁠"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+          "line": 96,
+          "text": "11kV (UKPN)"
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/GlobalGrid2050 Federation Control Ledger_ MapLibre Flat-Plane Atlas Architecture and Implementation Study.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/GlobalGrid2050 Federation Control Ledger_ MapLibre Flat-Plane Atlas Architecture and Implementation Study.md",
+          "line": 43,
+          "text": "- **`minzoom` gates** — fine-grained layers (files, evidence, commits) do not draw until you zoom in, exactly like v8’s 11kV-past-zoom-13.5 rule."
+        },
+        {
+          "file": "data-federation-map-for-globalgrid2050-all-repos/ventus_spider_dna_study/SPIDER_EYES_AND_SENSES.md",
+          "lineage": "data-federation-map-for-globalgrid2050-all-repos/ventus_spider_dna_study/SPIDER_EYES_AND_SENSES.md",
+          "line": 11,
+          "text": "An eye is a geospatial rendering app: a page that draws the physical world. The proven specimen is the REPD grid atlas, a self-contained organism of one shell, "
+        },
+        {
+          "file": "data-grid-gb/derived/build_connection_points.py",
+          "lineage": "data-grid-gb/derived/build_connection_points.py",
+          "line": 47,
+          "text": "r\"400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b\")"
+        },
+        {
+          "file": "data-grid-gb/derived/verify_phase0_acceptance.py",
+          "lineage": "data-grid-gb/derived/verify_phase0_acceptance.py",
+          "line": 51,
+          "text": "r\"400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b\")"
+        },
+        {
+          "file": "data-gridatlas/atman/202608291015-verify-v8-transplant.py",
+          "lineage": "data-gridatlas/atman/verify-v8-transplant.py",
+          "line": 307,
+          "text": "require(by_id[\"grid_11kv_ukpn\"][\"disposition\"] == \"QUARANTINED_SYNTHETIC_UKPN_11KV_IDENTITY\", \"11kV identity not quarantined\")"
+        },
+        {
+          "file": "data-gridatlas/README.md",
+          "lineage": "data-gridatlas/README.md",
+          "line": 39,
+          "text": "This remains a parity candidate, not V9 truth. Estimated 11 kV/UKPN identity,"
+        },
+        {
+          "file": "data_uk_dno_and_tso/dno_tso_second_stage_study_apis_datasets_joins.md.md",
+          "lineage": "data_uk_dno_and_tso/dno_tso_second_stage_study_apis_datasets_joins.md.md",
+          "line": 98,
+          "text": "**LTDS + CIM + Capacity Heatmap.** Licence-condition (SLC25) network data: substation firm capacity, demand, fault levels. Ofgem’s direction of 30 Apr 2024 adde"
+        },
+        {
+          "file": "data_uk_dno_and_tso/dno_tso_second_stage_study_apis_datasets_joins.md.md",
+          "lineage": "data_uk_dno_and_tso/dno_tso_second_stage_study_apis_datasets_joins.md.md",
+          "line": 117,
+          "text": "|NIE Networks|TO + DSO (NI)                        |Network Capacity Map (RAG demand/generation/fault; BSP transmission headroom from SONI as of 2026; “Bulk” = "
+        },
+        {
+          "file": "gemini/scripts/verify_all_claims.py",
+          "lineage": "gemini/scripts/verify_all_claims.py",
+          "line": 108,
+          "text": "NOISE_RE = re.compile(r'\\b(SUBSTATION|SUB STATION|SUBSTN|GRID|SUPPLY|POINT|GSP|NATIONAL|POWER|STATION|WIND|FARM|WINDFARM|OFFSHORE|ONSHORE|EXTENSION|400KV|275KV|"
+        },
+        {
+          "file": "gemini/sessions/20260903-cluster-audit-and-next-steps/01-cluster-findings-and-defects.md",
+          "lineage": "gemini/sessions/20260903-cluster-audit-and-next-steps/01-cluster-findings-and-defects.md",
+          "line": 46,
+          "text": "400KV|275KV|132KV|66KV|33KV|11KV|NGET|SSE|SP|SHE)\\b/g;"
+        }
+      ],
+      "atlas_layer": null,
+      "neso_connection_points": 37
+    }
+  ],
+  "source_connection_points": {
+    "schema": "data-grid-gb.connection-points.v3",
+    "source": {
+      "publisher": "NESO",
+      "publication": "Electricity Ten Year Statement 2025",
+      "appendices": [
+        "B - system technical data",
+        "D - fault levels (peak and minimum)"
+      ],
+      "note": "parameters as published; no power flow is solved here"
+    },
+    "sites": 886
+  },
+  "neso_open_datasets": [
+    {
+      "name": "transmission-losses",
+      "title": "Transmission Losses",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/transmission-losses",
+      "resources": 2,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "transmission-network-use-of-system-tnuos-tariffs",
+      "title": "Transmission Network Use of System (TNUoS) Tariffs",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/transmission-network-use-of-system-tnuos-tariffs",
+      "resources": 8,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "outturn-voltage-costs",
+      "title": "Voltage System Costs",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/outturn-voltage-costs",
+      "resources": 13,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "operational-transparency-forum-network-congestion-data",
+      "title": "Operational Transparency Forum - Network congestion data",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/operational-transparency-forum-network-congestion-data",
+      "resources": 1,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "constraint-breakdown",
+      "title": "Constraint Breakdown Costs and Volume",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/constraint-breakdown",
+      "resources": 10,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "24-months-ahead-constraint-cost-forecast",
+      "title": "24 Months Ahead Constraint Cost Forecast",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/24-months-ahead-constraint-cost-forecast",
+      "resources": 1,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "index-linked-contract-volume",
+      "title": "Index Linked Contracted Energy Volume",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/index-linked-contract-volume",
+      "resources": 5,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "24-months-ahead-constraint-limits",
+      "title": "24 Months Ahead Constraint Limits",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/24-months-ahead-constraint-limits",
+      "resources": 3,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "gis-boundaries-for-gb-grid-supply-points",
+      "title": "GIS Boundaries for GB Grid Supply Points",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/gis-boundaries-for-gb-grid-supply-points",
+      "resources": 10,
+      "matched": "transmission network voltage"
+    },
+    {
+      "name": "capacity-market-register",
+      "title": "Capacity Market Register",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/capacity-market-register",
+      "resources": 8,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "transmission-entry-capacity-tec-register",
+      "title": "Transmission Entry Capacity (TEC) register",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register",
+      "resources": 1,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "eleclink",
+      "title": "ElecLink - NESO's Net Transfer Capacity",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/eleclink",
+      "resources": 2,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "nsl",
+      "title": "North Sea Link - NESO's Net Transfer Capacity",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/nsl",
+      "resources": 2,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "viking",
+      "title": "Viking Link - NESO's Net Transfer Capacity",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/viking",
+      "resources": 2,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "nemolink",
+      "title": "NemoLink - NESO's Net Transfer Capacity",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/nemolink",
+      "resources": 4,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "interconnector-register",
+      "title": "Interconnector Register",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/interconnector-register",
+      "resources": 1,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "ifa2",
+      "title": "IFA2 - NESO's Intraday Transfer Limit",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/ifa2",
+      "resources": 2,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "ifa",
+      "title": "IFA - NESO's Intraday Transfer Limit",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/ifa",
+      "resources": 2,
+      "matched": "connection capacity headroom"
+    },
+    {
+      "name": "thermal-constraint-costs",
+      "title": "Thermal Constraint Costs",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/thermal-constraint-costs",
+      "resources": 11,
+      "matched": "constraint"
+    },
+    {
+      "name": "constraint-management-intertrip-service-information-cmis",
+      "title": "Constraint Management Intertrip Service Information (CMIS)",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/constraint-management-intertrip-service-information-cmis",
+      "resources": 5,
+      "matched": "constraint"
+    },
+    {
+      "name": "day-ahead-constraint-flows-and-limits",
+      "title": "Day Ahead Constraint Flows and Limits",
+      "licence": "NESO Open Data Licence",
+      "url": "https://www.neso.energy/data-portal/day-ahead-constraint-flows-and-limits",
+      "resources": 3,
+      "matched": "constraint"
+    }
+  ],
+  "neso_other": []
+}

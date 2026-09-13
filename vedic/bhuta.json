@@ -1,0 +1,4032 @@
+{
+  "generated_utc": "2026-09-13T22:58:57.318Z",
+  "counts": {
+    "akasha (ether)": 5,
+    "vayu (air)": 30,
+    "agni (fire)": 53,
+    "apas (water)": 16,
+    "prithvi (earth)": 443
+  },
+  "forms": [
+    {
+      "kind": "element",
+      "name": "At ALLOWED_TECHNOLOGIES",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ek EARTH_KM",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Hr HIT_RADIUS_EDGE_PX",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Hi HIT_RADIUS_VERTEX_PX",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "L LIMIT",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Mr MAX_RESOURCES",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Mt MAX_TRIES",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ri REPD_IDS",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Rp REPD_PAGE",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Sm SOLAR_MIN_EXCLUSIVE",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "S STATUSES",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "T TECHNOLOGIES",
+      "bhuta": "prithvi (earth)",
+      "state": "UNSETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Gc geo-core.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ga geo-area.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Gs geo-shapes.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Gg geo-geojson.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Vg v9-geodesy.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Vn v9-nearest-search.js",
+      "bhuta": "vayu (air)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Nt network-topology.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ed electrical-distance.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Re rating-envelope.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ce corridor-estimate.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Pf published-fault-level.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "El electrification-demand.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Fc firm-capacity.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Dd diversified-demand.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Cc connection-capacity.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ro route-obstacles.js",
+      "bhuta": "vayu (air)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ie interconnector-economics.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Po power-factor.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Vd voltage-drop.js",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Sp streaming-parquet-bridge",
+      "bhuta": "apas (water)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ug uk-gazetteer-flyto",
+      "bhuta": "vayu (air)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Ss sld-sandbox",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Si substation-intelligence",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "A airports",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "D datacentres",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "G1 grid_132kv",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "G2 grid_220kv",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Gr grid_275kv",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "G4 grid_400kv",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "G6 grid_66kv",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Gri grid_substations",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Io industrial_offtakers",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Pp power_plants",
+      "bhuta": "agni (fire)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "R railways",
+      "bhuta": "prithvi (earth)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "element",
+      "name": "Dt deeplink (the MAP button)",
+      "bhuta": "akasha (ether)",
+      "state": "SETTLED"
+    },
+    {
+      "kind": "soul",
+      "name": "#2039 Number",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6554 centre",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8421 function",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#766 geometry",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#7846 cable",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#2138 files",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5246 finding",
+      "bhuta": "prithvi (earth)",
+      "class": "conductor",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8297 header",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4402 category",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8099 mount",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3978 click",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#7335 child",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4674 encode",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3606 release",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4076 reset",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3615 array",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3616 cleanText",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4568 outcome",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5214 grab",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5403 nativeFetch",
+      "bhuta": "apas (water)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8351 assess",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8398 tool",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8552 compute",
+      "bhuta": "agni (fire)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3262 startCableRouteMode",
+      "bhuta": "vayu (air)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3263 finishCableRouteMode",
+      "bhuta": "vayu (air)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3265 addCableRouteWaypoint",
+      "bhuta": "vayu (air)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5909 projects",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8630 getLayerConfig",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#346 fetcher",
+      "bhuta": "apas (water)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6847 cell",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#7050 clamp",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3571 network",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6743 cartridge",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8538 quote",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#980 cells",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5490 pair",
+      "bhuta": "prithvi (earth)",
+      "class": "halogen",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6974 log_message",
+      "bhuta": "vayu (air)",
+      "class": "halogen",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4299 fetchImpl",
+      "bhuta": "apas (water)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4093 dispose",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4336 capacity",
+      "bhuta": "agni (fire)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4621 graph",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1197 migrateFinanceUnitsToWp",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4364 schedule",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4711 waitForResolvedIdentity",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#2926 indexed",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#2966 composition",
+      "bhuta": "akasha (ether)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4538 nearest",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5324 element",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1822 createGeoJSONCircle",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1792 _zoneDrawCirclePoints",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1793 _zoneDrawCalcArea",
+      "bhuta": "agni (fire)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1811 updateMeasureDisplay",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1817 doRadiusAreaMeasure",
+      "bhuta": "agni (fire)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4340 passed",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1724 centroid",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4624 crossing",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4646 relation",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#401 head_sha",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5372 measured",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#2055 union",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4804 answer",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8209 body",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#537 query",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5096 classified",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5587 dump",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6161 item",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4942 sourceId",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5556 sha256PublishedFile",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#2141 scripts",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3573 published",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3579 ratings",
+      "bhuta": "agni (fire)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3979 detach",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5547 writeText",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8299 writeSourceCodeBundle",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8391 buildNavigationRegistry",
+      "bhuta": "akasha (ether)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8493 auditProjectRows",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#411 cartridges",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4870 savePdf",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5885 groupFor",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8298 verifySourceCodeBundleAgainstRepository",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8436 overlap",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8445 distance",
+      "bhuta": "agni (fire)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8492 isRetiredReceiver",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#190 replay",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#352 sweep",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1431 modules",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4466 words",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4569 success",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4843 envelope",
+      "bhuta": "agni (fire)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5253 evidence",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5439 title",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5440 panel",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5726 counts",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5889 authority",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5914 repoUrl",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6580 curvature",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6588 nearest_segment",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6589 nearest_substations",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6652 megawatts",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6688 releases",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#7851 available",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#7945 notify",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8336 publishes",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8341 blocks",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8471 edit",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8579 drawLegend",
+      "bhuta": "prithvi (earth)",
+      "class": "alkali",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1529 invariant",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3360 sharedDuckDBRuntime",
+      "bhuta": "apas (water)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3366 rowObject",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3705 round2",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3709 fetchRelease",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3800 signalLabel",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3805 validPayload",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3806 payloadTime",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3807 fetchPayload",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3810 refreshProjects",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3812 indexNewsItems",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3818 payloadTime",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3869 updateResultSummary",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3880 repdUpdatedTimestamp",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4281 layoutSnapshot",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4282 assertContained",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4317 readText",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4318 readJson",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1209 intVal",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1683 declineExport",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1686 carried",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4320 gitBlob",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4304 readText",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4305 readJson",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4312 readText",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4313 readJson",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4315 readText",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4316 readJson",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1531 finiteInRange",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1533 selfTest",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1211 setText",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1532 buildAtlasV9DeepLink",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1465 validateAsset",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1467 loadPayload",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1468 renderRows",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3789 formatCapacityV9_2",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3790 formatLargestV9_2",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3792 setGaugeUniverseV9_2",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3793 updateGaugesV9_2",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4272 preparePage",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1470 invariant",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1476 invariant",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1535 invariant",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1233 recalcAll",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3845 signalForProject",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1463 installStyles",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1676 writeDeepLink",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1677 selectTechnology",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1464 sha256Hex",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3801 signalForProjectV9_2",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3804 renderNews",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3817 validPayload",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3819 fetchPayload",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3820 renderNews",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3827 renderNews",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3828 validPayload",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3829 fetchPayload",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3848 renderNews",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3707 loadCanonicalProjectsV9_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1200 renderFinance",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1232 updateSelectedSubstationDisplay",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1530 buildAtlasV9DeepLink",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1469 select",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1542 select",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1684 clearWider",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1201 renderFinanceWarnings",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1219 toggleAtlasV8GridLayer",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3799 indexNewsItems",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3816 drawNewsV9_5_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1567 select",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1680 presentSummary",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1206 setFetchStatus",
+      "bhuta": "apas (water)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3725 deepFreeze",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1205 pickProp",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1218 toggleAtlasV8OperatingAssetLayer",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1666 bindWiderFleet",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1179 computeStats",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1199 computeFinance",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1220 initMap",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1231 renderBenchmark",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1241 updateArrayRotationDisplay",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1236 updateLegend",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1240 updateExportCableLengthDisplay",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1248 updateCableRouteStatus",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1191 computeAndDraw",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4114 mountMapControlsLayout",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1222 showPopup",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3570 cancel",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3706 fetchJson",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3734 fetchJson",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3738 classifyRegionalV9_7",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3748 hasValidatedModel",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3754 createCanonicalProjectControls",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3764 hasValidatedModel",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3769 buildAtlasV8Url",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3786 setGaugeUniverseV9_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3787 updateGaugesV9_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3811 canonicalItem",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3813 signalForProjectV9_5_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3821 loadNewsV9_5_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3822 bindNewspaperV9_5_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3823 canonicalItem",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3824 signalForProjectV9_5",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3832 queryMatches",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3833 regionalRows",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3834 drawRegional",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3838 queryMatches",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3839 regionalRows",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3840 drawRegional",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3855 drawProjectTable",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1175 getCentralInverterDcMwdc",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1228 normaliseSubstations",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1230 renderTechSummary",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3969 decodePngPixels",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4034 captureGeometry",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4035 assertStableGeometry",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4037 cloneVisiblePrinterUi",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1 clampInteger",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4 normaliseBurialDepthFieldOnBlur",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#5 normaliseIntegerFields",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#6 getInputs",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#8 computeLayout",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#9 buildReview",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#10 lookupOD",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#13 renderStatus",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#14 renderIssues",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#19 drawFormation",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#20 drawTrench",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#21 drawBend",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#22 buildSnapshot",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1687 visible",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1483 displayDate",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1497 setButtonState",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1504 csvCell",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3402 classOf",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3403 scope",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3404 survey",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3405 ready",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3406 provisional",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3408 nearestTransmission",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3409 physicalInputs",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3411 consistency",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3412 stringStats",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3413 centralStats",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3415 applyMountingBifacial",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3416 screeningFinance",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3418 fitToStatedCapacity",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3419 bucketOf",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3420 policy",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3421 namedOffshore",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3422 widerFleetNames",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3423 widerFleetBuckets",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3424 measuredCount",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3425 isProjectTech",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3427 provisionalDeclaredConnection",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3428 resolveDeclaredConnection",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3429 nearestTransmission",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3431 corridorTargets",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3432 corridorAction",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3433 installCorridorSheet",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3434 openCorridorSheet",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3435 armCorridorGestures",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3436 nearestScope",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3437 declaredBlockHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3439 topologyModule",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3440 ensureTopology",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3441 distanceModule",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3442 ownerModule",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3443 plannedModule",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3444 flowModule",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3445 flowModelFor",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3446 ratingModule",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3447 runGridAtPoint",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3448 topologyBlockHtml",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3449 fillTopologyBlocks",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3450 topologyInnerHtml",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3451 setFlowDash",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3452 flowIndex",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3453 flowDash",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3454 noteFailure",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3455 recoverFailures",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3457 voltagesKv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3458 representativePoint",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3459 deepLinkPlan",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3460 createArrivalGate",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3461 continueVerifiedArrival",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3462 arrivalKey",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3463 claimPendingArrival",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3464 invalidatePendingArrival",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3467 nearestProjects",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3470 caveatHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3471 kvContext",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3472 policyNotesHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3473 cardBlockHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3474 parkingSpot",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3475 sheetTarget",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3476 dockAsSheet",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3477 undockSheet",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3478 boundCardToMap",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3479 addCardBar",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3480 resetCardGeometry",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3481 injectIntoCard",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3482 removeArrivalFallback",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3483 markArrivalIdentityState",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3484 ensureArrivalCard",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3485 injectDeclaredOnly",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3486 armCardKeeper",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3487 disarmCardKeeper",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3488 removeCardBlock",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3489 emptyCollection",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3490 ensureLayers",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3491 stopAnimation",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3492 startAnimation",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3493 clearLinks",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3494 drawLinks",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3495 enableSubstationLayer",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3496 fromOwnUi",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3497 statusHost",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3498 showStatus",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3499 clearStatus",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3500 retryIdentityOwnerThenArrival",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3501 injectStatusStyle",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3502 watchForLayerControls",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3503 waitForLayerControls",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3504 enableTechnologyLayer",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3505 ensurePinLayers",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3506 setPin",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3507 clearPin",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3508 togglePin",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3509 styleTextFont",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3510 glyphsReachable",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3511 addLabelLayerWhenDrawable",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3512 gbRow",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3513 gbProductError",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3514 renderGbConditions",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3515 ledgerStamp",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3516 installVersionLedger",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3517 scopeModule",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3518 ensureScopeLayers",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3519 clearScope",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3520 scopeHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3521 runGridScope",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3523 engineLayerBox",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3524 installMobileTray",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3525 quickChip",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3527 installGbConditions",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3528 setSourceData",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3529 interactiveLayerIds",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3531 selectAt",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3533 honourRequestedZoom",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3534 runArrivalSelection",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3538 PatchedMap",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3544 rectPolygon",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3545 footOnSegment",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3547 applyMountingBifacial",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3548 computeScreeningFinance",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3549 buildLayout",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3550 ensureSldLayers",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3551 animateSld",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3552 attachSldDragging",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3553 installSldStyles",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3554 sldPanel",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3555 normalizeElectricalInput",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3556 electricalInputAttributes",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3557 renderSldPanel",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3558 closeSld",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3559 openSldAt",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3560 openSldFromProject",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3561 keepLayersInFullscreen",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3562 installSld",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3563 worksAt",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3564 financeNumber",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3576 reflectFullscreen",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3578 caveat",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3585 push",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3590 retryArrival",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3591 gbNumber",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3592 framed",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3594 coordsUsable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3595 enableBoth",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3596 arrive",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3598 bootOnce",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3599 freshFinanceInputs",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3600 computeSldStats",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3601 push",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3607 financeFieldHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3608 moneyText",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3784 updateChart",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3867 relationshipSummary",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3871 populateCounties",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3875 copyProjectId",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3892 updateSortHeader",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3944 representativePoint",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3945 voltagesKv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4338 require",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1204 isValidLngLat",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3532 runDeepLink",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3883 syncFilterUrl",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3886 clearFilters",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1466 decodePayload",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1685 renderWider",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1866 focusCanonicalProjectDeepLink",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3426 layerIdForBucket",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3430 corridorBeside",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3466 nearestSubstations",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3603 walk",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3535 arrivalHasVisibleOutcome",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3536 attemptArrival",
+      "bhuta": "vayu (air)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1806 openPopup",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3861 populateCounties",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3917 populateCounties",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4036 captureAppFrame",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3577 show",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3858 displayDate",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3862 downloadCsv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3873 downloadCsv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3885 downloadCsv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3894 downloadCsv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3902 downloadCsv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3910 downloadCsv",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1629 select",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1640 decodePayload",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3539 destinationPoint",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3540 initialBearingDeg",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3541 pathLengthKm",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3542 localScaleKm",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3870 syncFilterUrl",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3874 clearFilters",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3946 destinationPoint",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3947 initialBearingDeg",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#15 renderStats",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1198 applyDevelopmentStageDefaults",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1202 money",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1203 debounce",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1229 loadSubstations",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3802 newsMatches",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3815 newsMatches",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3825 newsMatches",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3846 newsMatches",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#522 distanceKm",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3456 distanceKm",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3537 attach",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3543 distanceToSegmentKm",
+      "bhuta": "agni (fire)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3783 createGauge",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3788 createGauge",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3794 createGauge",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1474 escapeHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1646 escapeHtml",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3859 renderTable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3868 renderTable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3882 renderTable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3893 renderTable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3901 renderTable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3909 renderTable",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1212 setClass",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3797 updateGauges",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3701 normaliseProject",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4256 canonical_sha",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4257 atomic_write_json",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4261 resolve_geometry",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1480 project",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1699 renderWider",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3884 hydrateFiltersFromUrl",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4051 bindLayerDismissal",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4289 check",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4361 check",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#4363 check",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1210 checked",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1517 bindSectorIntelligence",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1608 hydrateFiltersFromUrl",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1838 FetchQueue",
+      "bhuta": "apas (water)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3872 hydrateFiltersFromUrl",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1694 selfTest",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#938 sha256",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#1659 boot",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "unpaired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3389 requestPath",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3390 mapReadyKey",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3391 legacyStem",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3393 getManifest",
+      "bhuta": "akasha (ether)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3397 queryOnDemand",
+      "bhuta": "agni (fire)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3898 atlasUrlV9_5_1",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3899 compareProjectUpdatesV9_5_1",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3355 sqlString",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3356 normaliseCompact",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3357 parseGroups",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3359 verifyManifest",
+      "bhuta": "akasha (ether)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3361 runtime",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3363 installMapCapture",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3364 buildWhere",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3365 buildScore",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3367 queryOfficialRepd",
+      "bhuta": "prithvi (earth)",
+      "class": "ambiguous",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3368 hasSafeMapPoint",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3369 setDeepLink",
+      "bhuta": "vayu (air)",
+      "class": "noble",
+      "spin": "paired"
+    },
+    {
+      "kind": "soul",
+      "name": "#3370 geocoderGet",
+      "bhuta": "prithvi (earth)",
+      "class": "noble",
+      "spin": "paired"
+    }
+  ],
+  "neti_neti": [
+    {
+      "soul": "b89e5a3b7ca6",
+      "number": 1470,
+      "name": "invariant",
+      "kind": "function",
+      "lines": 3,
+      "purpose": null,
+      "incarnations": 311,
+      "homes": [
+        "globalgrid2050",
+        "gridatlas",
+        "pipelinenews",
+        "testcode"
+      ],
+      "shells": {
+        "K": 49,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "bcb8db540cbf",
+      "number": 1476,
+      "name": "invariant",
+      "kind": "function",
+      "lines": 3,
+      "purpose": null,
+      "incarnations": 92,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 49,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "39c069461a3d",
+      "number": 1535,
+      "name": "invariant",
+      "kind": "function",
+      "lines": 3,
+      "purpose": null,
+      "incarnations": 91,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 49,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "beb3a69eb64a",
+      "number": 1530,
+      "name": "buildAtlasV9DeepLink",
+      "kind": "function",
+      "lines": 9,
+      "purpose": null,
+      "incarnations": 91,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 43,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "b0dbac41820b",
+      "number": 1469,
+      "name": "select",
+      "kind": "function",
+      "lines": 23,
+      "purpose": null,
+      "incarnations": 102,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 42,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "898ba7015dfd",
+      "number": 1542,
+      "name": "select",
+      "kind": "function",
+      "lines": 26,
+      "purpose": null,
+      "incarnations": 91,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 42,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "189c05dae000",
+      "number": 1567,
+      "name": "select",
+      "kind": "function",
+      "lines": 17,
+      "purpose": null,
+      "incarnations": 87,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 39,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "288ddbc03a31",
+      "number": 1629,
+      "name": "select",
+      "kind": "function",
+      "lines": 23,
+      "purpose": null,
+      "incarnations": 66,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 21,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "d0c64b95ab52",
+      "number": 1694,
+      "name": "selfTest",
+      "kind": "function",
+      "lines": 32,
+      "purpose": null,
+      "incarnations": 28,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 8,
+        "L": 61,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    },
+    {
+      "soul": "c9bae8263fcf",
+      "number": 1659,
+      "name": "boot",
+      "kind": "function",
+      "lines": 52,
+      "purpose": null,
+      "incarnations": 21,
+      "homes": [
+        "globalgrid2050",
+        "pipelinenews"
+      ],
+      "shells": {
+        "K": 10,
+        "L": 58,
+        "M": 60
+      },
+      "valence": 0,
+      "valence_repos": [],
+      "class": "ambiguous",
+      "spin": "unpaired",
+      "tunnelling": false
+    }
+  ],
+  "rita": {
+    "kept": 3414,
+    "broke": 0
+  }
+}

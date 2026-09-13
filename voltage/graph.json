@@ -1,0 +1,501 @@
+{
+  "schema": "voltage-graph.v1",
+  "label": "The Voltage star",
+  "generated_utc": "2026-09-13T22:59:04.616Z",
+  "note": "Voltage levels the code speaks of, the code that speaks of them, the data we hold, and NESO open datasets that match.",
+  "focus_default": "400 kV",
+  "nodes": [
+    {
+      "label": "400 kV",
+      "type": "voltage",
+      "rag": "green",
+      "reason": "transmission (E&W, GB backbone) · 10662 mentions in 1004 files · atlas 4106 features · NESO sites 355"
+    },
+    {
+      "label": "275 kV",
+      "type": "voltage",
+      "rag": "green",
+      "reason": "transmission (E&W) · 2629 mentions in 550 files · atlas 2935 features · NESO sites 261"
+    },
+    {
+      "label": "220 kV",
+      "type": "voltage",
+      "rag": "amber",
+      "reason": "not a GB standard level — check the code: interconnector or continental data? · 638 mentions in 55 files · atlas 126 features · NESO sites 32"
+    },
+    {
+      "label": "132 kV",
+      "type": "voltage",
+      "rag": "green",
+      "reason": "transmission in Scotland; distribution (DNO) in England & Wales · 12779 mentions in 3283 files · atlas 6227 features · NESO sites 575"
+    },
+    {
+      "label": "66 kV",
+      "type": "voltage",
+      "rag": "green",
+      "reason": "distribution (DNO, some EHV networks) · 2054 mentions in 151 files · atlas 1171 features · NESO sites 31"
+    },
+    {
+      "label": "33 kV",
+      "type": "voltage",
+      "rag": "green",
+      "reason": "distribution (DNO, EHV) · 5070 mentions in 297 files · atlas no layer · NESO sites 343"
+    },
+    {
+      "label": "11 kV",
+      "type": "voltage",
+      "rag": "green",
+      "reason": "distribution (DNO, HV) · 420 mentions in 108 files · atlas no layer · NESO sites 37"
+    },
+    {
+      "label": "cable-trench-or-drill/DEVELOPMENT-PLAN.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "These are planned stages. The baseline includes existing visual geometry and indicative trench/bend "
+    },
+    {
+      "label": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "| 16:32 | `3ce1b8b` | Added GRID proximity over 66-400 kV: radius search, sorting, indicative connec"
+    },
+    {
+      "label": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "| grid_400kv | 4,106 | 869,466 | 14.6 | at the line |"
+    },
+    {
+      "label": "chatgpt-audits/study/DATACENTRE-STUDIES",
+      "type": "code",
+      "rag": "green",
+      "reason": "| nearest transmission circuit | 1.24 km at 400 kV |"
+    },
+    {
+      "label": "claude/sessions/codex-audit",
+      "type": "code",
+      "rag": "green",
+      "reason": "`SGRX` is the partial exception: `SGRO` SEAGREEN ONE 220KV ONSHORE also exists and"
+    },
+    {
+      "label": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "￼ ⁠220kV⁠"
+    },
+    {
+      "label": "data-gridatlas/atman/verify-v8-transplant.py",
+      "type": "code",
+      "rag": "green",
+      "reason": "\"grid_220kv\": (150, 93), \"grid_132kv\": (7218, 4342), \"grid_66kv\": (1353, 828),"
+    },
+    {
+      "label": "data-gridatlas/compiler/build-v8-transplant.py",
+      "type": "code",
+      "rag": "green",
+      "reason": "\"grid_220kv\": (150, 93),"
+    },
+    {
+      "label": "data-interconnectors/research/interconnectors-research-with-claude-ai-opus-4-8.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "Russia’s grid is the historical proof that a single synchronous/interconnected system can span a con"
+    },
+    {
+      "label": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "\"<span style='color: #ff9900; font-weight: bold;'>220kV Cables</span>\": grid220Layer,"
+    },
+    {
+      "label": "globalgrid2050/blog/index.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "**Files:** `/grid_400kv.geojson`, `/grid_275kv.geojson`, `/grid_220kv.geojson`, `/grid_132kv.geojson"
+    },
+    {
+      "label": "globalgrid2050/CLAUDE-AUDIT-V1.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "This is the platform’s flagship geospatial product: an interactive Leaflet map that overlays the UK "
+    },
+    {
+      "label": "globalgrid2050/data_science_protocol/audit_reports",
+      "type": "code",
+      "rag": "green",
+      "reason": "\"path\": \"grid_220kv.geojson\","
+    },
+    {
+      "label": "cable-trench-or-drill/releases/",
+      "type": "code",
+      "rag": "green",
+      "reason": "* Anchored on: Utility 66kV (300,400mm²), Utility 132kV (300,630,1000,1200,1600mm²),"
+    },
+    {
+      "label": "chatgpt-audits/study/CARTRIDGE-CATALOG.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "window layer. A browser does not need the topology loaded to display \"2.1 km from a 132 kV circuit\"."
+    },
+    {
+      "label": "chatgpt-audits/study/PROJECT-STUDIES",
+      "type": "code",
+      "rag": "green",
+      "reason": "| that substation, name | Tankersley 66KV |"
+    },
+    {
+      "label": "chatgpt-audits/study/summary.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "Whatever takes it **must reproduce the pre-snap rewrite** (`snap: false` for 400/275/220/132/66 kV) "
+    },
+    {
+      "label": "claude/sessions/estate-and-corridor",
+      "type": "code",
+      "rag": "green",
+      "reason": "400KV|275KV|132KV|66KV|33KV|NGET|SSE|SP|SHE)\\b/g;"
+    },
+    {
+      "label": "claude/sessions/user-pain-log",
+      "type": "code",
+      "rag": "green",
+      "reason": "gone. Two adjacent rows in my screenshot both read `GRID 0.07 km · 66kV` / `SUB 0.17 km` and"
+    },
+    {
+      "label": "claude/sessions/identity-leak",
+      "type": "code",
+      "rag": "green",
+      "reason": "| nearest ≥33 kV | 3.43 km Yarnton (132 kV) | 3.71 km Shipston (66 kV) |"
+    },
+    {
+      "label": "codex-chatgpt/codex/2026-09-03-phase0",
+      "type": "code",
+      "rag": "green",
+      "reason": "`NOISE = /\\b(SUBSTATION|SUB STATION|SUBSTN|GRID|SUPPLY|POINT|GSP|NATIONAL|POWER|STATION|WIND|FARM|WI"
+    },
+    {
+      "label": "codex-chatgpt/threads/2026-09-03-gridatlas-routing-support",
+      "type": "code",
+      "rag": "green",
+      "reason": "❯ There are always rivers as you rightly said, find at least 3 definitive civil engineering studies "
+    },
+    {
+      "label": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+      "type": "code",
+      "rag": "green",
+      "reason": "The six DNO open-data portals. UK Power Networks runs Opendatasoft Explore v2.1 at ukpowernetworks.o"
+    },
+    {
+      "label": "Transmission Losses",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/transmission-losses"
+    },
+    {
+      "label": "Transmission Network Use of System (TNUoS) Tariffs",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/transmission-network-use-of-system-tnuos-tariffs"
+    },
+    {
+      "label": "Voltage System Costs",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/outturn-voltage-costs"
+    },
+    {
+      "label": "Operational Transparency Forum - Network congestion data",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/operational-transparency-forum-network-congestion-data"
+    },
+    {
+      "label": "Constraint Breakdown Costs and Volume",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/constraint-breakdown"
+    },
+    {
+      "label": "24 Months Ahead Constraint Cost Forecast",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/24-months-ahead-constraint-cost-forecast"
+    },
+    {
+      "label": "Index Linked Contracted Energy Volume",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/index-linked-contract-volume"
+    },
+    {
+      "label": "24 Months Ahead Constraint Limits",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/24-months-ahead-constraint-limits"
+    },
+    {
+      "label": "GIS Boundaries for GB Grid Supply Points",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/gis-boundaries-for-gb-grid-supply-points"
+    },
+    {
+      "label": "Capacity Market Register",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/capacity-market-register"
+    },
+    {
+      "label": "Transmission Entry Capacity (TEC) register",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register"
+    },
+    {
+      "label": "ElecLink - NESO's Net Transfer Capacity",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/eleclink"
+    },
+    {
+      "label": "North Sea Link - NESO's Net Transfer Capacity",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/nsl"
+    },
+    {
+      "label": "Viking Link - NESO's Net Transfer Capacity",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/viking"
+    },
+    {
+      "label": "NemoLink - NESO's Net Transfer Capacity",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/nemolink"
+    },
+    {
+      "label": "Interconnector Register",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/interconnector-register"
+    },
+    {
+      "label": "IFA2 - NESO's Intraday Transfer Limit",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/ifa2"
+    },
+    {
+      "label": "IFA - NESO's Intraday Transfer Limit",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/ifa"
+    },
+    {
+      "label": "Thermal Constraint Costs",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/thermal-constraint-costs"
+    },
+    {
+      "label": "Constraint Management Intertrip Service Information (CMIS)",
+      "type": "neso-open-data",
+      "rag": "green",
+      "reason": "NESO Open Data Licence · https://www.neso.energy/data-portal/constraint-management-intertrip-service-information-cmis"
+    }
+  ],
+  "edges": [
+    {
+      "from": "cable-trench-or-drill/DEVELOPMENT-PLAN.md",
+      "to": "400 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+      "to": "400 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "to": "400 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATACENTRE-STUDIES",
+      "to": "400 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "to": "275 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATACENTRE-STUDIES",
+      "to": "275 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "claude/sessions/codex-audit",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "data-federation-map-for-globalgrid2050-all-repos/every-drop-is-the-ocean/Gemini-Ventus Global-Grid-2050-Repository-Federation-for-an-Electrified-Future.md",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "data-gridatlas/atman/verify-v8-transplant.py",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "data-gridatlas/compiler/build-v8-transplant.py",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "data-interconnectors/research/interconnectors-research-with-claude-ai-opus-4-8.md",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "globalgrid2050/backup270326_ repd_atlas_grid_model.md",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "globalgrid2050/blog/index.md",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "globalgrid2050/CLAUDE-AUDIT-V1.md",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "globalgrid2050/data_science_protocol/audit_reports",
+      "to": "220 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "cable-trench-or-drill/releases/",
+      "to": "132 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/CARTRIDGE-CATALOG.md",
+      "to": "132 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "to": "132 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATACENTRE-STUDIES",
+      "to": "132 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "cable-trench-or-drill/releases/",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATACENTRE-STUDIES",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/PROJECT-STUDIES",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/summary.md",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "claude/sessions/estate-and-corridor",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "claude/sessions/user-pain-log",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "claude/sessions/identity-leak",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "codex-chatgpt/codex/2026-09-03-phase0",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "codex-chatgpt/threads/2026-09-03-gridatlas-routing-support",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "data-federation-map-for-globalgrid2050-all-repos/dashboard/TEN_APIs_INTEGRATION.md",
+      "to": "66 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "cable-trench-or-drill/releases/",
+      "to": "33 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+      "to": "33 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/pipelinenews-grid-distance-maths-audit.md",
+      "to": "11 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/CARTRIDGE-CATALOG.md",
+      "to": "11 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATA-DELIVERY-PLAN.md",
+      "to": "11 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/DATACENTRE-STUDIES",
+      "to": "11 kV",
+      "kind": "SPEAKS_OF"
+    },
+    {
+      "from": "chatgpt-audits/study/PROJECT-STUDIES",
+      "to": "11 kV",
+      "kind": "SPEAKS_OF"
+    }
+  ]
+}

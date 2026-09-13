@@ -1,0 +1,1599 @@
+{
+  "generated_utc": "2026-09-13T22:58:56.019Z",
+  "poles": [
+    {
+      "repo": "globalgrid2050",
+      "mass": 53
+    },
+    {
+      "repo": "gridatlas",
+      "mass": 49
+    }
+  ],
+  "field": [
+    {
+      "repo": "globalgrid2050",
+      "mass": 53,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 12
+    },
+    {
+      "repo": "pipelinenews",
+      "mass": 25,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 9
+    },
+    {
+      "repo": "testcode",
+      "mass": 34,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 7
+    },
+    {
+      "repo": "gridatlas",
+      "mass": 49,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 9
+    },
+    {
+      "repo": "spiders",
+      "mass": 3,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 6
+    },
+    {
+      "repo": "ventus-grid-engine",
+      "mass": 8,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 6
+    },
+    {
+      "repo": "claude",
+      "mass": 6,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 7
+    },
+    {
+      "repo": "layout-tool",
+      "mass": 1,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 4
+    },
+    {
+      "repo": "gis-sld-sandbox",
+      "mass": 1,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 3
+    },
+    {
+      "repo": "cable-trench-or-drill",
+      "mass": 0,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 6
+    },
+    {
+      "repo": "cvaa",
+      "mass": 0,
+      "field": 102,
+      "toward": "globalgrid2050",
+      "bonds_out": 3
+    },
+    {
+      "repo": "data-federation-map-for-globalgrid2050-all-repos",
+      "mass": 5,
+      "field": 59.1,
+      "toward": "globalgrid2050",
+      "bonds_out": 3
+    },
+    {
+      "repo": "data-gridatlas",
+      "mass": 0,
+      "field": 59.1,
+      "toward": "globalgrid2050",
+      "bonds_out": 2
+    },
+    {
+      "repo": "crm",
+      "mass": 0,
+      "field": 59.1,
+      "toward": "globalgrid2050",
+      "bonds_out": 1
+    },
+    {
+      "repo": "teleprinter",
+      "mass": 9,
+      "field": 55.6,
+      "toward": "gridatlas",
+      "bonds_out": 3
+    },
+    {
+      "repo": "youengineer-code-review",
+      "mass": 3,
+      "field": 55.6,
+      "toward": "gridatlas",
+      "bonds_out": 2
+    },
+    {
+      "repo": "star-maker",
+      "mass": 1,
+      "field": 55.6,
+      "toward": "gridatlas",
+      "bonds_out": 1
+    },
+    {
+      "repo": "solar-electrical-topology-analysis-engine-text-based",
+      "mass": 13,
+      "field": 12.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 2
+    },
+    {
+      "repo": "grid-distance-maths",
+      "mass": 1,
+      "field": 12.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 1
+    },
+    {
+      "repo": "gb-electricity-ui",
+      "mass": 0,
+      "field": 12.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 1
+    },
+    {
+      "repo": "gridmachine1",
+      "mass": 0,
+      "field": 12.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 1
+    },
+    {
+      "repo": "pipelinenews-gridatlas-20260906",
+      "mass": 2,
+      "field": 3.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 0
+    },
+    {
+      "repo": "data-grid-gb",
+      "mass": 2,
+      "field": 3.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 0
+    },
+    {
+      "repo": "chatgpt-audits",
+      "mass": 1,
+      "field": 3.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 0
+    },
+    {
+      "repo": "gpu-drivers-for-global-grid",
+      "mass": 1,
+      "field": 3.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 1
+    },
+    {
+      "repo": "v11",
+      "mass": 0,
+      "field": 3.8,
+      "toward": "globalgrid2050",
+      "bonds_out": 1
+    }
+  ],
+  "starquakes": [
+    {
+      "repo": "chatgpt-audits",
+      "sha": "6e243ce",
+      "date": "2026-08-31 00:38",
+      "subject": "chatgpt study",
+      "files": 3217
+    },
+    {
+      "repo": "star-maker",
+      "sha": "56e1095",
+      "date": "2026-09-13 23:35",
+      "subject": "stars: +100 (100 this pass) on 202609080850",
+      "files": 404
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "17d2733d",
+      "date": "2026-09-06 04:47",
+      "subject": "Publish wider search ordering export and accurate coverage0337 to0342",
+      "files": 342
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "22f337b9",
+      "date": "2026-09-06 04:52",
+      "subject": "Publish core SUB sorting geometry review and phone actions0343 to0349",
+      "files": 264
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "17d93008",
+      "date": "2026-09-06 04:23",
+      "subject": "Publish wider-fleet GRID SUB and phone actions Pipeline0315 0316 0318",
+      "files": 240
+    },
+    {
+      "repo": "star-maker",
+      "sha": "4f357e3",
+      "date": "2026-09-13 23:27",
+      "subject": "stars: +100 (100 this pass) on 202609080850",
+      "files": 240
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "bbdedab1",
+      "date": "2026-09-08 23:30",
+      "subject": "Pipeline News 202609082224 (V9.10): the ACTIONS column fits its buttons, and homepage v100",
+      "files": 234
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "99fe5b30",
+      "date": "2026-09-08 11:19",
+      "subject": "Pipeline News 202609081016 (V9.9): the MAP button on an offshore row opens on the offshore",
+      "files": 231
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "bfad3231",
+      "date": "2026-09-07 13:30",
+      "subject": "202609071221: INTERCONNECTORS is a tab in Pipeline News, outside the REPD spine",
+      "files": 227
+    },
+    {
+      "repo": "star-maker",
+      "sha": "ea5c48b",
+      "date": "2026-09-13 23:18",
+      "subject": "stars: +100 (100 this pass) on 202609080850",
+      "files": 221
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "87fe1250",
+      "date": "2026-09-05 12:57",
+      "subject": "202609051156: a new timestamped Pipeline release carries the fixes; v9.7 is put back exact",
+      "files": 219
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "cf2b27af",
+      "date": "2026-09-08 02:51",
+      "subject": "Publish engine-labelled Pipeline News entry",
+      "files": 214
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "dee1b8bb",
+      "date": "2026-09-06 14:33",
+      "subject": "202609061329: the seven columns come back on a phone, and every MAP button is tested - all",
+      "files": 214
+    },
+    {
+      "repo": "testcode",
+      "sha": "2d2a4dd",
+      "date": "2026-09-05 21:29",
+      "subject": "Prepare 202609052028: Original GIS map frame capture cartridge",
+      "files": 213
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "6f4a8e7c",
+      "date": "2026-09-06 12:53",
+      "subject": "202609061149: twenty rows, a cache that is allowed to work, and a release that says its ow",
+      "files": 212
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "ccb37624",
+      "date": "2026-09-06 11:08",
+      "subject": "202609061004: Pipeline News 202609061004 - the table stops freezing the page",
+      "files": 212
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "39873303",
+      "date": "2026-09-05 21:24",
+      "subject": "Deploy 202609052023: File-at-a-time source reader for independently owned tools",
+      "files": 212
+    },
+    {
+      "repo": "testcode",
+      "sha": "53561ee",
+      "date": "2026-09-05 21:23",
+      "subject": "Prepare 202609052023: File-at-a-time source reader for independently owned tools",
+      "files": 212
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "ff669004",
+      "date": "2026-09-05 21:21",
+      "subject": "Deploy 202609052020: Separate pinned source inventories for standalone tools",
+      "files": 209
+    },
+    {
+      "repo": "testcode",
+      "sha": "4f3cec0",
+      "date": "2026-09-05 21:20",
+      "subject": "Prepare 202609052020: Separate pinned source inventories for standalone tools",
+      "files": 209
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "616c2df2",
+      "date": "2026-09-05 21:16",
+      "subject": "Deploy 202609052015: Resolve current sibling layer owner and restart destination",
+      "files": 208
+    },
+    {
+      "repo": "testcode",
+      "sha": "7cc598e",
+      "date": "2026-09-05 21:16",
+      "subject": "Prepare 202609052015: Resolve current sibling layer owner and restart destination",
+      "files": 208
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "30e55559",
+      "date": "2026-09-05 21:12",
+      "subject": "Deploy 202609052011: Read-only original GIS manual route adapter",
+      "files": 207
+    },
+    {
+      "repo": "testcode",
+      "sha": "004ab31",
+      "date": "2026-09-05 21:11",
+      "subject": "Prepare 202609052011: Read-only original GIS manual route adapter",
+      "files": 207
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "cbaaa66a",
+      "date": "2026-09-05 21:08",
+      "subject": "Deploy 202609052008: Cable geometry render completion signal",
+      "files": 206
+    },
+    {
+      "repo": "testcode",
+      "sha": "18a7273",
+      "date": "2026-09-05 21:08",
+      "subject": "Prepare 202609052008: Cable geometry render completion signal",
+      "files": 206
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "53745c3f",
+      "date": "2026-09-05 20:59",
+      "subject": "Deploy 202609051958: Guard Module drawing until original map source and layers exist",
+      "files": 205
+    },
+    {
+      "repo": "testcode",
+      "sha": "a640aa3",
+      "date": "2026-09-05 20:58",
+      "subject": "Prepare 202609051958: Guard Module drawing until original map source and layers exist",
+      "files": 205
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "c6cdf4fc",
+      "date": "2026-09-05 20:54",
+      "subject": "Deploy 202609051953: Recover failed tool loads through explicit confirmation",
+      "files": 204
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "7dbec708",
+      "date": "2026-08-24 16:46",
+      "subject": "Build V9.7 auditable regional news candidate",
+      "files": 204
+    },
+    {
+      "repo": "testcode",
+      "sha": "2da0f11",
+      "date": "2026-09-05 20:53",
+      "subject": "Prepare 202609051953: Recover failed tool loads through explicit confirmation",
+      "files": 204
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "a7fb24c2",
+      "date": "2026-09-05 20:49",
+      "subject": "Deploy 202609051948: Restart one design tool while preserving sibling sessions",
+      "files": 203
+    },
+    {
+      "repo": "testcode",
+      "sha": "510d3fa",
+      "date": "2026-09-05 20:48",
+      "subject": "Prepare 202609051948: Restart one design tool while preserving sibling sessions",
+      "files": 203
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "ea4ed427",
+      "date": "2026-09-05 20:45",
+      "subject": "Deploy 202609051945: Fit design tool header and frame to responsive viewport",
+      "files": 202
+    },
+    {
+      "repo": "testcode",
+      "sha": "fb6f5f3",
+      "date": "2026-09-05 20:45",
+      "subject": "Prepare 202609051945: Fit design tool header and frame to responsive viewport",
+      "files": 202
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "41907936",
+      "date": "2026-09-05 20:43",
+      "subject": "Deploy1940 phased tool readiness cartridge",
+      "files": 201
+    },
+    {
+      "repo": "testcode",
+      "sha": "2ac3316",
+      "date": "2026-09-05 20:41",
+      "subject": "Prepare 202609051940: Add phased interface and drawing readiness cartridge",
+      "files": 201
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "64085673",
+      "date": "2026-09-05 20:37",
+      "subject": "Deploy 202609051936: Add keyboard focus boundary cartridge for original tools",
+      "files": 200
+    },
+    {
+      "repo": "testcode",
+      "sha": "cf4d342",
+      "date": "2026-09-05 20:36",
+      "subject": "Prepare 202609051936: Add keyboard focus boundary cartridge for original tools",
+      "files": 200
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "b48e406e",
+      "date": "2026-09-05 20:33",
+      "subject": "Deploy 202609051932: Add Escape dismissal cartridge to persistent design layers",
+      "files": 199
+    },
+    {
+      "repo": "testcode",
+      "sha": "9bef6d2",
+      "date": "2026-09-05 20:32",
+      "subject": "Prepare 202609051932: Add Escape dismissal cartridge to persistent design layers",
+      "files": 199
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1f8be09f",
+      "date": "2026-09-05 20:28",
+      "subject": "Deploy 202609051927: Pin Cable Geometry to dedicated cable-trench-or-drill producer",
+      "files": 198
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "c4c704e2",
+      "date": "2026-09-05 20:07",
+      "subject": "Deploy 202609051906: Cable Geometry isolated layer",
+      "files": 198
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "16967319",
+      "date": "2026-09-05 20:05",
+      "subject": "Deploy 202609051905: Module Layout isolated layer",
+      "files": 198
+    },
+    {
+      "repo": "testcode",
+      "sha": "83bed5d",
+      "date": "2026-09-05 20:28",
+      "subject": "Prepare 202609051927: Pin Cable Geometry to dedicated cable-trench-or-drill producer",
+      "files": 198
+    },
+    {
+      "repo": "testcode",
+      "sha": "174a88b",
+      "date": "2026-09-05 20:06",
+      "subject": "Prepare 202609051906: Cable Geometry isolated layer",
+      "files": 198
+    },
+    {
+      "repo": "testcode",
+      "sha": "f77b8a3",
+      "date": "2026-09-05 20:05",
+      "subject": "Prepare 202609051905: Module Layout isolated layer",
+      "files": 198
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "600923d2",
+      "date": "2026-08-24 11:27",
+      "subject": "Build V9.6.2 regional renewable news views",
+      "files": 193
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "f9f4e472",
+      "date": "2026-08-24 00:05",
+      "subject": "Add V9.6 mobile cards and official capacity ranges",
+      "files": 190
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "e9dc56ca",
+      "date": "2026-08-24 10:08",
+      "subject": "Build V9.6.1 mobile-only from frozen V9.5.1; discontinue V9.6",
+      "files": 187
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "91e94833",
+      "date": "2026-08-23 23:23",
+      "subject": "Build V9.5.1 full newspaper with canonical signals",
+      "files": 181
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "9fe82394",
+      "date": "2026-09-05 20:02",
+      "subject": "Deploy 202609051901: Original GIS SLD standalone layer",
+      "files": 180
+    },
+    {
+      "repo": "testcode",
+      "sha": "33317ea",
+      "date": "2026-09-05 20:01",
+      "subject": "Prepare 202609051901: Original GIS SLD standalone layer",
+      "files": 180
+    },
+    {
+      "repo": "star-maker",
+      "sha": "8fa18b8",
+      "date": "2026-09-13 23:08",
+      "subject": "stars: +100 (100 this pass) on 202609080850",
+      "files": 179
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "7ddc71e7",
+      "date": "2026-09-05 14:50",
+      "subject": "202609051349: publish measured Test Code grid detector and remove screenshot assets",
+      "files": 174
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1e22f7ec",
+      "date": "2026-08-23 22:24",
+      "subject": "Build isolated V9.5 canonical REPD news binder",
+      "files": 171
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "42f2b3a8",
+      "date": "2026-09-06 04:39",
+      "subject": "Publish accessible metric details and filtered project GeoJSON0333 and0334",
+      "files": 167
+    },
+    {
+      "repo": "star-maker",
+      "sha": "5e7e645",
+      "date": "2026-09-13 23:29",
+      "subject": "stars: +100 (300 this pass) on 202609080850",
+      "files": 164
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "4185020a",
+      "date": "2026-09-05 19:50",
+      "subject": "Deploy 202609051850: Separate Layout command cartridge",
+      "files": 161
+    },
+    {
+      "repo": "testcode",
+      "sha": "0dac751",
+      "date": "2026-09-05 19:50",
+      "subject": "Prepare 202609051850: Separate Layout command cartridge",
+      "files": 161
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "f92b97d5",
+      "date": "2026-08-23 21:24",
+      "subject": "V9.4: add clickable REPD updated-date sorting",
+      "files": 160
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "fc947ad0",
+      "date": "2026-09-05 19:49",
+      "subject": "Deploy 202609051848: Collapsed Layers arrival policy cartridge",
+      "files": 159
+    },
+    {
+      "repo": "testcode",
+      "sha": "2bf27b1",
+      "date": "2026-09-05 19:48",
+      "subject": "Prepare 202609051848: Collapsed Layers arrival policy cartridge",
+      "files": 159
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "d1443c2f",
+      "date": "2026-09-05 19:47",
+      "subject": "Deploy 202609051847: Grid and Subs quick-control cartridge",
+      "files": 158
+    },
+    {
+      "repo": "testcode",
+      "sha": "109aea6",
+      "date": "2026-09-05 19:47",
+      "subject": "Prepare 202609051847: Grid and Subs quick-control cartridge",
+      "files": 158
+    },
+    {
+      "repo": "star-maker",
+      "sha": "c7f80e2",
+      "date": "2026-09-13 23:20",
+      "subject": "stars: +100 (200 this pass) on 202609080850",
+      "files": 158
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "322ba189",
+      "date": "2026-09-05 19:46",
+      "subject": "Deploy 202609051845: Isolated visible UI clone cartridge",
+      "files": 157
+    },
+    {
+      "repo": "testcode",
+      "sha": "57d6104",
+      "date": "2026-09-05 19:46",
+      "subject": "Prepare 202609051845: Isolated visible UI clone cartridge",
+      "files": 157
+    },
+    {
+      "repo": "star-maker",
+      "sha": "1765423",
+      "date": "2026-09-13 23:14",
+      "subject": "stars: +100 (400 this pass) on 202609080850",
+      "files": 157
+    },
+    {
+      "repo": "star-maker",
+      "sha": "b20220c",
+      "date": "2026-09-13 23:10",
+      "subject": "stars: +100 (200 this pass) on 202609080850",
+      "files": 157
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "8a204015",
+      "date": "2026-09-05 19:45",
+      "subject": "Deploy 202609051844: Fractional display scaling capture",
+      "files": 156
+    },
+    {
+      "repo": "testcode",
+      "sha": "e85c494",
+      "date": "2026-09-05 19:44",
+      "subject": "Prepare 202609051844: Fractional display scaling capture",
+      "files": 156
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "30df31f3",
+      "date": "2026-09-05 19:21",
+      "subject": "Deploy1820 corrected app-only printing for verification",
+      "files": 155
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "169f7160",
+      "date": "2026-09-05 19:17",
+      "subject": "Deploy1817 app-only PDF path for browser verification",
+      "files": 155
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "dfcbc3f2",
+      "date": "2026-09-05 17:09",
+      "subject": "Publish Pipeline and Atlas candidate 202609051608 with fail-closed parse checks",
+      "files": 155
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "93460731",
+      "date": "2026-09-05 16:30",
+      "subject": "Publish print candidate 202609051531 with reduced-frame refusal",
+      "files": 155
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1febc56c",
+      "date": "2026-09-05 16:23",
+      "subject": "Publish menu-only print candidate 202609051517 for testing",
+      "files": 155
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "619c6d31",
+      "date": "2026-09-05 15:58",
+      "subject": "Publish 202609051457 print candidate with separate File source command",
+      "files": 155
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "f5225e4",
+      "date": "2026-08-31 21:37",
+      "subject": "202608312037: point the MAP action at the Atlas that has the grid maths",
+      "files": 155
+    },
+    {
+      "repo": "testcode",
+      "sha": "faa6644",
+      "date": "2026-09-05 19:21",
+      "subject": "Build1820 app-only print with decoded map images",
+      "files": 155
+    },
+    {
+      "repo": "testcode",
+      "sha": "d4b014d",
+      "date": "2026-09-05 19:16",
+      "subject": "Build1817 app-only printing comparison",
+      "files": 155
+    },
+    {
+      "repo": "testcode",
+      "sha": "2e7d9f4",
+      "date": "2026-09-05 14:49",
+      "subject": "202609051349: publish grid computation detector and 100-record coded observations",
+      "files": 155
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "2cd57d15",
+      "date": "2026-09-05 15:26",
+      "subject": "202609051426: Test Code Teleprinter screen and source print options",
+      "files": 154
+    },
+    {
+      "repo": "star-maker",
+      "sha": "a762775",
+      "date": "2026-09-13 23:22",
+      "subject": "stars: +100 (300 this pass) on 202609080850",
+      "files": 154
+    },
+    {
+      "repo": "testcode",
+      "sha": "1579fda",
+      "date": "2026-09-05 16:17",
+      "subject": "Prepare 202609051517 menu-only print candidate with direct source transport",
+      "files": 153
+    },
+    {
+      "repo": "testcode",
+      "sha": "9ec66f4",
+      "date": "2026-09-05 15:45",
+      "subject": "Prepare Teleprinter 202609051441 full screen and runtime source candidate",
+      "files": 153
+    },
+    {
+      "repo": "star-maker",
+      "sha": "24ac4fc",
+      "date": "2026-09-13 23:38",
+      "subject": "stars: +100 (100 this pass) on 202609080850",
+      "files": 153
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "0f73abf1",
+      "date": "2026-09-05 17:24",
+      "subject": "Deploy1623 candidate for pre-homepage browser checks",
+      "files": 152
+    },
+    {
+      "repo": "testcode",
+      "sha": "faf1b3e",
+      "date": "2026-09-05 17:23",
+      "subject": "Prepare1623 comparison with quicker guarded capture refusal",
+      "files": 152
+    },
+    {
+      "repo": "testcode",
+      "sha": "9261119",
+      "date": "2026-09-05 17:08",
+      "subject": "Build Pipeline and Atlas test candidate 202609051608 behind parse gate",
+      "files": 152
+    },
+    {
+      "repo": "testcode",
+      "sha": "6c2cc14",
+      "date": "2026-09-05 16:30",
+      "subject": "Build print candidate 202609051531 with guarded native capture",
+      "files": 152
+    },
+    {
+      "repo": "testcode",
+      "sha": "0bed878",
+      "date": "2026-09-05 15:57",
+      "subject": "Prepare 202609051457 separate File PDF and source print candidate",
+      "files": 152
+    },
+    {
+      "repo": "testcode",
+      "sha": "e24c0b2",
+      "date": "2026-09-05 14:03",
+      "subject": "202609051303: fix five Pipeline MAP journeys with screenshot evidence and sourced Morgan s",
+      "files": 151
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "80bceba4",
+      "date": "2026-09-06 12:46",
+      "subject": "Converge the pin chain: hashes live in more places than the runners",
+      "files": 150
+    },
+    {
+      "repo": "star-maker",
+      "sha": "9717d4e",
+      "date": "2026-09-13 23:31",
+      "subject": "stars: +100 (400 this pass) on 202609080850",
+      "files": 149
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "0f045db5",
+      "date": "2026-09-05 14:03",
+      "subject": "202609051303: publish Test Code 202609051300 with five Chrome calculation screenshots",
+      "files": 145
+    },
+    {
+      "repo": "testcode",
+      "sha": "4342f90",
+      "date": "2026-09-05 15:19",
+      "subject": "202609051419: add Teleprinter screen and source controls to Test Code 202609051419",
+      "files": 142
+    },
+    {
+      "repo": "star-maker",
+      "sha": "a54b880",
+      "date": "2026-09-13 23:28",
+      "subject": "stars: +100 (200 this pass) on 202609080850",
+      "files": 141
+    },
+    {
+      "repo": "star-maker",
+      "sha": "7cf689a",
+      "date": "2026-09-13 23:24",
+      "subject": "stars: +100 (400 this pass) on 202609080850",
+      "files": 140
+    },
+    {
+      "repo": "star-maker",
+      "sha": "7ee0fc0",
+      "date": "2026-09-13 23:12",
+      "subject": "stars: +100 (300 this pass) on 202609080850",
+      "files": 140
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "9bd0d11e",
+      "date": "2026-09-05 13:19",
+      "subject": "202609051219: publish Test Code 202609051214 correcting reported project arrivals",
+      "files": 131
+    },
+    {
+      "repo": "testcode",
+      "sha": "eb896da",
+      "date": "2026-09-05 13:19",
+      "subject": "202609051219: resolve reported Firefox arrivals from pinned Pipeline identity and explain ",
+      "files": 131
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "95dfa2ce",
+      "date": "2026-09-06 05:04",
+      "subject": "Publish polygon fit CSV and corrected coordinate validity tools",
+      "files": 128
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "0acdff8",
+      "date": "2026-09-01 00:40",
+      "subject": "202608312339: add attested GB electricity context",
+      "files": 125
+    },
+    {
+      "repo": "testcode",
+      "sha": "988ab93",
+      "date": "2026-09-05 12:59",
+      "subject": "202609051159: add timestamped Test Code Pipeline and Atlas comparison with browser evidenc",
+      "files": 122
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "7c21f271",
+      "date": "2026-09-05 12:59",
+      "subject": "202609051159: publish Test Code comparison builds and measured Chrome outcomes",
+      "files": 121
+    },
+    {
+      "repo": "star-maker",
+      "sha": "0dc89eb",
+      "date": "2026-09-13 23:01",
+      "subject": "README: the sky, the seed, and The Night Watch Man job for Codex; first stars",
+      "files": 121
+    },
+    {
+      "repo": "star-maker",
+      "sha": "05900a2",
+      "date": "2026-09-13 23:50",
+      "subject": "stars: +100 (1200 this pass) on 202609080850",
+      "files": 110
+    },
+    {
+      "repo": "star-maker",
+      "sha": "5889061",
+      "date": "2026-09-13 23:49",
+      "subject": "stars: +100 (1000 this pass) on 202609080850",
+      "files": 110
+    },
+    {
+      "repo": "star-maker",
+      "sha": "b02ac09",
+      "date": "2026-09-13 23:48",
+      "subject": "stars: +100 (900 this pass) on 202609080850",
+      "files": 110
+    },
+    {
+      "repo": "star-maker",
+      "sha": "c64b7e5",
+      "date": "2026-09-13 23:42",
+      "subject": "stars: +100 (700 this pass) on 202609080850",
+      "files": 110
+    },
+    {
+      "repo": "star-maker",
+      "sha": "5e63860",
+      "date": "2026-09-13 23:36",
+      "subject": "stars: +100 (200 this pass) on 202609080850",
+      "files": 110
+    },
+    {
+      "repo": "gridatlas",
+      "sha": "e5ad420",
+      "date": "2026-08-30 14:18",
+      "subject": "202608301321-gridatlas-scope-01: Scope 1 — move the Atlas into `atlas/`",
+      "files": 109
+    },
+    {
+      "repo": "star-maker",
+      "sha": "33039ac",
+      "date": "2026-09-13 23:41",
+      "subject": "stars: +100 (500 this pass) on 202609080850",
+      "files": 109
+    },
+    {
+      "repo": "star-maker",
+      "sha": "19b0421",
+      "date": "2026-09-13 23:40",
+      "subject": "stars: +100 (400 this pass) on 202609080850",
+      "files": 109
+    },
+    {
+      "repo": "star-maker",
+      "sha": "071b599",
+      "date": "2026-09-13 23:32",
+      "subject": "logic stars (our own scanner), deep-link + replay stars, machinery",
+      "files": 109
+    },
+    {
+      "repo": "star-maker",
+      "sha": "e6d2239",
+      "date": "2026-09-13 23:57",
+      "subject": "stars: +100 (1400 this pass) on 202609080850",
+      "files": 108
+    },
+    {
+      "repo": "star-maker",
+      "sha": "af1e4af",
+      "date": "2026-09-13 23:39",
+      "subject": "stars: +100 (200 this pass) on 202609080850",
+      "files": 108
+    },
+    {
+      "repo": "star-maker",
+      "sha": "e171c79",
+      "date": "2026-09-13 23:51",
+      "subject": "stars: +100 (1300 this pass) on 202609080850",
+      "files": 106
+    },
+    {
+      "repo": "star-maker",
+      "sha": "307847e",
+      "date": "2026-09-13 23:42",
+      "subject": "stars: +100 (600 this pass) on 202609080850",
+      "files": 106
+    },
+    {
+      "repo": "star-maker",
+      "sha": "155c1c1",
+      "date": "2026-09-13 23:37",
+      "subject": "stars: +100 (300 this pass) on 202609080850",
+      "files": 106
+    },
+    {
+      "repo": "star-maker",
+      "sha": "0f8da57",
+      "date": "2026-09-13 23:45",
+      "subject": "stars: +100 (800 this pass) on 202609080850",
+      "files": 105
+    },
+    {
+      "repo": "star-maker",
+      "sha": "3382b6e",
+      "date": "2026-09-13 23:40",
+      "subject": "stars: +100 (300 this pass) on 202609080850",
+      "files": 105
+    },
+    {
+      "repo": "star-maker",
+      "sha": "5868154",
+      "date": "2026-09-13 23:49",
+      "subject": "stars: +100 (1100 this pass) on 202609080850",
+      "files": 102
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "3ce1b8b",
+      "date": "2026-08-31 16:32",
+      "subject": "202608311530: grid-proximity cartridge - radius search, sorting, auto-drawn connections",
+      "files": 101
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "62728009",
+      "date": "2026-09-06 04:28",
+      "subject": "Publish polygon persistence GeoJSON export and import0320 0322 0324",
+      "files": 97
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "93afd30",
+      "date": "2026-08-31 14:36",
+      "subject": "Revert \"202608311325 project intelligence panel, repaired map deep link, byte-stable relea",
+      "files": 93
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "9937d1e",
+      "date": "2026-08-31 14:25",
+      "subject": "202608311325 project intelligence panel, repaired map deep link, byte-stable releases",
+      "files": 93
+    },
+    {
+      "repo": "data-gridatlas",
+      "sha": "3245923",
+      "date": "2026-08-29 13:06",
+      "subject": "202608291237: publish immutable Data Grid Atlas V9 data",
+      "files": 86
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "50a6df6c",
+      "date": "2026-08-23 14:35",
+      "subject": "Publish V9 interim dashboard with canonical Atlas deep links",
+      "files": 83
+    },
+    {
+      "repo": "testcode",
+      "sha": "e76597e",
+      "date": "2026-09-05 14:37",
+      "subject": "202609051337: stop tracking browser screenshots and exclude future captures",
+      "files": 80
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "2357cd23",
+      "date": "2026-09-06 03:35",
+      "subject": "Publish Pipeline 202609060232 RSS and latest tested builds under Test Code",
+      "files": 78
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "51442d6",
+      "date": "2026-09-06 03:33",
+      "subject": "Build Pipeline 202609060232 with automated BBC RSS discovery",
+      "files": 76
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "20514b7",
+      "date": "2026-09-04 01:45",
+      "subject": "202609040044: prove every Pipeline MAP handoff",
+      "files": 72
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "ea6d52c",
+      "date": "2026-09-06 03:14",
+      "subject": "Build Pipeline candidate with Cearn's provisional REPD intake row",
+      "files": 71
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "e46a2c9b",
+      "date": "2026-09-04 03:10",
+      "subject": "202609040208: publish Pipeline 0144 and catalogue Grid v9.104",
+      "files": 70
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1c551a29",
+      "date": "2026-09-06 03:15",
+      "subject": "Publish full Pipeline candidate with Cearn REPD-pending row",
+      "files": 69
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "fbfd2c0b",
+      "date": "2026-08-23 13:07",
+      "subject": "V8.0: create fast-track test copy with V7 fallback",
+      "files": 68
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "9ffb4f3",
+      "date": "2026-09-03 23:53",
+      "subject": "202609032251: grid proximity is computed for the whole fleet, not just solar and battery",
+      "files": 67
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1a339a02",
+      "date": "2026-09-06 04:31",
+      "subject": "Publish polygon Undo Redo and vertex lock0325 and0327",
+      "files": 66
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1b9a9867",
+      "date": "2026-09-06 04:16",
+      "subject": "Publish Poly Zone labels and explicit reset versions0308 and0309",
+      "files": 66
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "6e30dc0",
+      "date": "2026-09-05 04:11",
+      "subject": "202609050310: the estate is in this product's own menu, and the engine list is read not re",
+      "files": 65
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "6b7890d",
+      "date": "2026-09-05 03:35",
+      "subject": "202609050235: every status the register has, not the four the row draws",
+      "files": 65
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "e9aef6f",
+      "date": "2026-09-05 03:19",
+      "subject": "202609050219: the pager belongs to the cut on screen, and stops naming a window it does no",
+      "files": 65
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "4fc83af",
+      "date": "2026-09-05 03:05",
+      "subject": "202609050205: the WIDER FLEET control stops naming a cut the table has stopped showing",
+      "files": 65
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "362b679a",
+      "date": "2026-09-05 04:11",
+      "subject": "202609050311: publish Pipeline News 202609050309 -- the estate is in the menu",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "347d93fa",
+      "date": "2026-09-05 03:35",
+      "subject": "202609050235: publish Pipeline News 202609050233 -- every status the register has",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1b51cf26",
+      "date": "2026-09-05 03:20",
+      "subject": "202609050220: publish Pipeline News 202609050216 -- the pager belongs to the cut on screen",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "e4f32ae4",
+      "date": "2026-09-05 03:06",
+      "subject": "202609050206: publish Pipeline News 202609050200 -- the WIDER FLEET control stops naming a",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "ea97bf09",
+      "date": "2026-09-04 00:35",
+      "subject": "202609032335: Pipeline News 202609032329 is live - a dash stops claiming a search that nev",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "d62d5125",
+      "date": "2026-09-03 23:57",
+      "subject": "202609032257: two lanes shipped in one hour and the homepage names both - Grid Atlas v9.98",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "d5aafefb",
+      "date": "2026-09-03 23:27",
+      "subject": "202609032227: the homepage names what is actually live - Grid Atlas v9.97 and Pipeline New",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "9c4a0df3",
+      "date": "2026-09-03 14:17",
+      "subject": "publish Pipeline News 202609031308 — the wider fleet is one control",
+      "files": 64
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "802d991",
+      "date": "2026-09-04 02:44",
+      "subject": "202609040144: promote MAP corpus for Pages",
+      "files": 64
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "e0d3a71",
+      "date": "2026-09-03 14:13",
+      "subject": "202609031313: the wider fleet is one control, not twenty tabs",
+      "files": 64
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "bb76e46",
+      "date": "2026-08-31 23:48",
+      "subject": "202608312244: withdraw nonanswers and prove the visible surface",
+      "files": 64
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "05929aa",
+      "date": "2026-08-31 23:25",
+      "subject": "202608312212: Codex's Pipeline iteration two -- sector intelligence was broken live",
+      "files": 64
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1f8ecfe9",
+      "date": "2026-09-01 02:20",
+      "subject": "202608312339: withdraw the non-answers, and give the pipeline its electricity context",
+      "files": 63
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "b1e09fb",
+      "date": "2026-09-03 23:05",
+      "subject": "202609032205: one summary drives every surface, and the Pages gate names what it cannot pu",
+      "files": 63
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "c993b8e7",
+      "date": "2026-09-02 00:43",
+      "subject": "202609020042: name the published Pipeline News versions nothing linked to, and correct the",
+      "files": 62
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "6528be3",
+      "date": "2026-08-31 22:10",
+      "subject": "202608312109: clean the newspaper and the sector panel",
+      "files": 62
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "b510db5",
+      "date": "2026-08-31 20:01",
+      "subject": "202608311858: GRID moves into ACTIONS, beside MAP, with a 33 kV+ substation",
+      "files": 62
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "864b92ea",
+      "date": "2026-09-03 01:10",
+      "subject": "publish Pipeline News 202609030009 — wider fleet MAP resolves",
+      "files": 61
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "3462a079",
+      "date": "2026-09-03 00:10",
+      "subject": "publish Pipeline News 202609022308 — wider fleet tabs in the technology row",
+      "files": 61
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "8183d31e",
+      "date": "2026-09-02 21:13",
+      "subject": "publish Pipeline News 202609021945 — wider fleet",
+      "files": 61
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "face863",
+      "date": "2026-09-04 00:32",
+      "subject": "202609032329: a dash stops claiming a search that never ran",
+      "files": 61
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "47a99b0",
+      "date": "2026-09-03 01:10",
+      "subject": "release 202609030009-pipelinenews: wider fleet MAP resolves",
+      "files": 61
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "049bdf0",
+      "date": "2026-09-03 00:10",
+      "subject": "release 202609022308-pipelinenews: wider fleet tabs in the technology row",
+      "files": 61
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "c3546f0",
+      "date": "2026-09-02 19:58",
+      "subject": "release 202609021945-pipelinenews: wider fleet",
+      "files": 61
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "c000456",
+      "date": "2026-09-02 00:30",
+      "subject": "202609020010: pair Pipeline MAP with isolated Codex Atlas",
+      "files": 61
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "483e5d9e",
+      "date": "2026-08-31 22:10",
+      "subject": "Publish Pipeline News 202608312109: the newspaper and sector panel only show the sector",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "7c40695",
+      "date": "2026-09-02 06:11",
+      "subject": "202609020611: the connections panel says a kilometre is not a connection, and points at th",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "b06b4e6",
+      "date": "2026-09-02 05:52",
+      "subject": "202609020552: the strip says a rating without its season is ambiguous, and that the Atlas ",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "09ad5a6",
+      "date": "2026-09-02 01:25",
+      "subject": "202609020025: the GRID + SUB strip states the limit of the word \"nearest\"",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "15233b0",
+      "date": "2026-09-02 00:26",
+      "subject": "202609012326: the GRID + SUB strip names what the published transmission network can now a",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "db5526e",
+      "date": "2026-08-31 22:46",
+      "subject": "202608312145: report the distance, never grade it -- and let a cartridge reach any asset",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "2642cc1",
+      "date": "2026-08-31 21:32",
+      "subject": "202608312018: prove Pipeline News to GridAtlas handoff",
+      "files": 60
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "f3a2ea8",
+      "date": "2026-08-31 19:03",
+      "subject": "202608311800: a GRID distance column in the table, marked BETA",
+      "files": 60
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1bbb0b21",
+      "date": "2026-09-02 06:11",
+      "subject": "202609020611: publish Pipeline News 202609020611-pipelinenews",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "1b2b4b32",
+      "date": "2026-09-02 05:52",
+      "subject": "202609020552: publish Pipeline News 202609020552-pipelinenews",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "34ba41db",
+      "date": "2026-09-02 01:25",
+      "subject": "202609020025: publish Pipeline News 202609020025-pipelinenews",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "38ef3474",
+      "date": "2026-09-02 00:26",
+      "subject": "202609012326: publish Pipeline News 202609012326-pipelinenews",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "d7a81bc8",
+      "date": "2026-08-31 23:25",
+      "subject": "202608312212: sector intelligence opens again, and the sort stops ranking",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "96b2fa9a",
+      "date": "2026-08-31 23:03",
+      "subject": "202608312202: build for the phone first -- portrait was never covered",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "af9bc43e",
+      "date": "2026-08-31 22:46",
+      "subject": "202608312145: grid proximity reports a distance and stops grading it",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "74d3b275",
+      "date": "2026-08-31 22:15",
+      "subject": "Publish Pipeline News 202608312114: unbound stories carry no project detail",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "a9777cc1",
+      "date": "2026-08-31 21:57",
+      "subject": "Publish Pipeline News 202608312056: only headlines bound to a project",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "0f262749",
+      "date": "2026-08-31 21:38",
+      "subject": "Publish Pipeline News 202608312037: MAP opens the Atlas with the grid maths",
+      "files": 59
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "3e9b784",
+      "date": "2026-08-31 23:03",
+      "subject": "202608312202: phone-first heights -- portrait was pinned to 100vh, landscape was already c",
+      "files": 59
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "222b821",
+      "date": "2026-08-31 22:14",
+      "subject": "202608312114: an unbound story carries no project detail at all",
+      "files": 59
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "34c0b689",
+      "date": "2026-08-31 20:01",
+      "subject": "Publish Pipeline News 202608311858: GRID and SUB inside ACTIONS",
+      "files": 58
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "aac03e6",
+      "date": "2026-08-31 21:57",
+      "subject": "202608312056: show only headlines the register binds to a project",
+      "files": 58
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "1a39e34",
+      "date": "2026-08-31 18:34",
+      "subject": "Pipeline News 202608311731: narrow TOWN, reachable scrollbar, one search bar",
+      "files": 57
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "db24cd6",
+      "date": "2026-08-31 17:48",
+      "subject": "Pipeline News 202608311645: town and postcode columns, sortable headings",
+      "files": 57
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "ffc356b8",
+      "date": "2026-08-31 19:17",
+      "subject": "Publish Pipeline News 202608311816: the PROJECT SIZE range filter",
+      "files": 56
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "58d91d44",
+      "date": "2026-08-31 19:05",
+      "subject": "Publish Pipeline News 202608311800: the GRID distance column",
+      "files": 56
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "a10b287",
+      "date": "2026-08-31 19:17",
+      "subject": "202608311816: a PROJECT SIZE range filter, 1 to 5000 MW",
+      "files": 56
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "92a69ad",
+      "date": "2026-08-31 17:11",
+      "subject": "202608311610: 33 kV, estimated 11 kV, and transmission split from distribution",
+      "files": 56
+    },
+    {
+      "repo": "pipelinenews",
+      "sha": "61260cc",
+      "date": "2026-08-31 16:59",
+      "subject": "202608311558: targeting scope, grid probable band, and three corrected searches",
+      "files": 56
+    },
+    {
+      "repo": "globalgrid2050",
+      "sha": "0f1b96fa",
+      "date": "2026-08-31 18:35",
+      "subject": "Publish Pipeline News 202608311731",
+      "files": 54
+    }
+  ]
+}

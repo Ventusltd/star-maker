@@ -1,0 +1,287 @@
+{
+  "schema": "magnetar-graph.v1",
+  "label": "The Magnetar",
+  "generated_utc": "2026-09-13T22:58:56.024Z",
+  "note": "Repos as bodies in the field of the two heaviest; FIELD_LINE points where a repo is drawn.",
+  "focus_default": "repo globalgrid2050",
+  "nodes": [
+    {
+      "label": "repo globalgrid2050",
+      "type": "pole",
+      "rag": "red",
+      "reason": "mass 53 · field 102 · drawn toward globalgrid2050 · 97 starquakes in 60 days"
+    },
+    {
+      "label": "repo pipelinenews",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 25 · field 102 · drawn toward globalgrid2050 · 44 starquakes in 60 days"
+    },
+    {
+      "label": "repo testcode",
+      "type": "body",
+      "rag": "red",
+      "reason": "mass 34 · field 102 · drawn toward globalgrid2050 · 36 starquakes in 60 days"
+    },
+    {
+      "label": "repo gridatlas",
+      "type": "pole",
+      "rag": "green",
+      "reason": "mass 49 · field 102 · drawn toward globalgrid2050 · 1 starquakes in 60 days"
+    },
+    {
+      "label": "repo spiders",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 3 · field 102 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo ventus-grid-engine",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 8 · field 102 · drawn toward globalgrid2050 · 1 starquakes in 60 days"
+    },
+    {
+      "label": "repo claude",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 6 · field 102 · drawn toward globalgrid2050 · 1 starquakes in 60 days"
+    },
+    {
+      "label": "repo layout-tool",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 1 · field 102 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo gis-sld-sandbox",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 1 · field 102 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo cable-trench-or-drill",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 102 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo cvaa",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 102 · drawn toward globalgrid2050 · 1 starquakes in 60 days"
+    },
+    {
+      "label": "repo data-federation-map-for-globalgrid2050-all-repos",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 5 · field 59.1 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo data-gridatlas",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 59.1 · drawn toward globalgrid2050 · 1 starquakes in 60 days"
+    },
+    {
+      "label": "repo crm",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 59.1 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo teleprinter",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 9 · field 55.6 · drawn toward gridatlas · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo youengineer-code-review",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 3 · field 55.6 · drawn toward gridatlas · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo star-maker",
+      "type": "body",
+      "rag": "red",
+      "reason": "mass 1 · field 55.6 · drawn toward gridatlas · 31 starquakes in 60 days"
+    },
+    {
+      "label": "repo solar-electrical-topology-analysis-engine-text-based",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 13 · field 12.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo grid-distance-maths",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 1 · field 12.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo gb-electricity-ui",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 12.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo gridmachine1",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 12.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo pipelinenews-gridatlas-20260906",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 2 · field 3.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo data-grid-gb",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 2 · field 3.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo chatgpt-audits",
+      "type": "body",
+      "rag": "red",
+      "reason": "mass 1 · field 3.8 · drawn toward globalgrid2050 · 1 starquakes in 60 days"
+    },
+    {
+      "label": "repo gpu-drivers-for-global-grid",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 1 · field 3.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    },
+    {
+      "label": "repo v11",
+      "type": "body",
+      "rag": "green",
+      "reason": "mass 0 · field 3.8 · drawn toward globalgrid2050 · 0 starquakes in 60 days"
+    }
+  ],
+  "edges": [
+    {
+      "from": "repo pipelinenews",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo testcode",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo spiders",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo ventus-grid-engine",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo claude",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo layout-tool",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo gis-sld-sandbox",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo cable-trench-or-drill",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo cvaa",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo data-federation-map-for-globalgrid2050-all-repos",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo data-gridatlas",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo crm",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo teleprinter",
+      "to": "repo gridatlas",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo youengineer-code-review",
+      "to": "repo gridatlas",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo star-maker",
+      "to": "repo gridatlas",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo solar-electrical-topology-analysis-engine-text-based",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo grid-distance-maths",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo gb-electricity-ui",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo gridmachine1",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo pipelinenews-gridatlas-20260906",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo data-grid-gb",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo chatgpt-audits",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo gpu-drivers-for-global-grid",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    },
+    {
+      "from": "repo v11",
+      "to": "repo globalgrid2050",
+      "kind": "FIELD_LINE"
+    }
+  ]
+}

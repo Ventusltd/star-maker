@@ -31,10 +31,14 @@ for (const u of rows) {
     if (/test|proof|spec|selftest|check/i.test(c)) a.paired = true;
   }
 }
+// Pauli: a name bound to several distinct souls cannot bond by name — the electron would be in
+// two states at once. Such atoms are 'ambiguous' and carry no valence until they are renamed.
+const soulsPerName = new Map(); for (const a of atoms.values()) soulsPerName.set(a.name, (soulsPerName.get(a.name) || 0) + 1);
 const list = [...atoms.values()].map(a => {
-  const mRepos = [...new Set([...a.M].map(c => c.split('/')[0]))].filter(r => !a.homes.has(r));   // callers in repos with no copy = tunnelling
+  const ambiguous = soulsPerName.get(a.name) > 1 || /^__\w+__$/.test(a.name);
+  const mRepos = ambiguous ? [] : [...new Set([...a.M].map(c => c.split('/')[0]))].filter(r => !a.homes.has(r));   // callers in repos with no copy = tunnelling
   const valence = mRepos.length;
-  const cls = valence === 0 ? (a.K.size + a.L.size ? 'noble' : 'inert-unused') : valence === 1 ? 'alkali' : valence <= 3 ? 'halogen' : 'conductor';
+  const cls = ambiguous ? 'ambiguous' : valence === 0 ? (a.K.size + a.L.size ? 'noble' : 'inert-unused') : valence === 1 ? 'alkali' : valence <= 3 ? 'halogen' : 'conductor';
   return { soul: a.soul, number: a.number, name: a.name, kind: a.kind, lines: a.lines, purpose: a.purpose, incarnations: a.incarnations, homes: [...a.homes].sort(),
     shells: { K: a.K.size, L: a.L.size, M: a.M.size }, valence, valence_repos: mRepos.sort(), class: cls, spin: a.paired ? 'paired' : 'unpaired', tunnelling: mRepos.length > 0 };
 });
@@ -61,6 +65,7 @@ Electron physics applied to code where it holds: **nucleus** = a soul · **elect
 | **alkali** | valence 1 — one lone external bond, reactive and fragile | **${by('alkali').length}** |
 | noble | full outer shell — used only at home, safe to change | ${by('noble').length} |
 | inert-unused | no electrons at all — nothing calls it anywhere | ${by('inert-unused').length} |
+| ambiguous | Pauli: the name is bound to several souls, so it cannot bond by name | ${by('ambiguous').length} |
 
 Unpaired spins with external bonds (**bonded across repos, and no test or proof ever calls them**): **${list.filter(a => a.spin === 'unpaired' && a.valence > 0).length}**
 
