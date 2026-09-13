@@ -1,0 +1,54 @@
+{
+  "id": "59dc29fe6dcd",
+  "seed": {
+    "source_generation": "202609080850",
+    "kind": "unplug",
+    "label": "without streaming-parquet-bridge + uk-gazetteer-flyto + substation-intelligence + sld-sandbox",
+    "choice": {
+      "enabled": {
+        "streaming-parquet-bridge": false,
+        "uk-gazetteer-flyto": false,
+        "substation-intelligence": false,
+        "sld-sandbox": false
+      },
+      "selected": {}
+    }
+  },
+  "verdict": "GREEN",
+  "loadMs": 13004,
+  "router": "composed",
+  "layers": {
+    "ok": 12,
+    "wait": 48,
+    "fail": 0
+  },
+  "canvases": 1,
+  "loaded": [],
+  "health": {
+    "shell": {
+      "colour": "green",
+      "findings": 0
+    },
+    "loader": {
+      "colour": "green",
+      "findings": 0
+    },
+    "vendor": {
+      "colour": "green",
+      "findings": 0
+    },
+    "other": {
+      "colour": "green",
+      "findings": 0
+    },
+    "unattributed": {
+      "colour": "green",
+      "findings": 0
+    }
+  },
+  "findings": [],
+  "banners": [],
+  "bench_run": "20260913T215552",
+  "made_at": "2026-09-13T21:55:52.095Z",
+  "host": "MSI · RTX 5070 Ti"
+}
