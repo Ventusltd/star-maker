@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ventus OS · The Bench</title>
+<style>
+  :root{color-scheme:dark;--bg:#0b0e13;--panel:#11161d;--line:#232b36;--cyan:#22d3ee;--dim:#7f8ea3;--txt:#e6edf3;--green:#22c55e;--amber:#f59e0b;--red:#ef4444;--purple:#a78bfa}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--txt);font:13px/1.45 ui-monospace,Consolas,monospace;padding-inline:16px;padding-block:14px}
+  header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
+  .brand small{display:block;color:var(--cyan);letter-spacing:.2em;font-size:10px} .brand b{font-size:18px}
+  .meta{color:var(--dim)} .meta b{color:var(--txt)}
+  .actions{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  button,.btn{background:#0e1319;color:var(--txt);border:1px solid var(--line);padding:8px 14px;font:inherit;cursor:pointer;border-radius:6px;text-decoration:none}
+  button.primary{border-color:var(--cyan);color:var(--cyan);font-weight:700} button:hover,.btn:hover{border-color:var(--cyan)} button:disabled{opacity:.5;cursor:wait}
+  main{display:grid;grid-template-columns:minmax(320px,440px) 1fr;gap:16px} @media(max-width:900px){main{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px;position:relative}
+  .card.off{opacity:.55} .card h3{margin:0 0 4px;font-size:14px;display:flex;align-items:center;gap:8px}
+  .tag{font-size:10px;letter-spacing:.1em;color:var(--dim);border:1px solid var(--line);padding:1px 6px;border-radius:4px}
+  .dot{width:11px;height:11px;border-radius:50%;background:#2a3441;box-shadow:0 0 8px transparent;flex:none}
+  .dot.green{background:var(--green);box-shadow:0 0 8px var(--green)} .dot.amber{background:var(--amber);box-shadow:0 0 8px var(--amber)} .dot.red{background:var(--red);box-shadow:0 0 8px var(--red)}
+  .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px;color:var(--dim)} .row b{color:var(--txt)}
+  select{background:#0e1319;color:var(--txt);border:1px solid var(--line);padding:5px 8px;font:inherit;border-radius:6px;max-width:100%}
+  .chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px} .chip{font-size:10px;color:var(--purple);border:1px solid #3b3564;padding:1px 6px;border-radius:10px}
+  .switch{margin-left:auto;display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none} .switch input{accent-color:var(--cyan);width:16px;height:16px}
+  .findings{margin-top:8px;font-size:12px} .findings div{padding:3px 0;border-top:1px dashed var(--line);color:#f3b4b4;overflow-wrap:anywhere} .findings div.amber{color:#f6d28b} .findings div.warning{color:var(--dim)}
+  .verdict{font-size:22px;font-weight:800;letter-spacing:.1em} .verdict.GREEN{color:var(--green)} .verdict.AMBER{color:var(--amber)} .verdict.RED{color:var(--red)}
+  img.shot{width:100%;max-width:100%;border:1px solid var(--line);border-radius:8px;margin-top:10px;background:#000}
+  table{width:100%;border-collapse:collapse;font-size:12px} td,th{text-align:left;padding:5px 6px;border-bottom:1px solid var(--line);vertical-align:top} th{color:var(--cyan);font-weight:600}
+  .stat{display:inline-block;margin-right:14px;color:var(--dim)} .stat b{color:var(--txt)}
+  #log{white-space:pre-wrap;color:var(--dim);font-size:11px;max-height:120px;overflow:auto}
+  .hint{color:var(--dim);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><small>VENTUS OS · THE BENCH</small><b>GridAtlas on the lift</b></div>
+  <div class="meta" id="meta">loading parts…</div>
+  <div class="actions">
+    <label class="switch hint"><input type="checkbox" id="headed"> watch in a Chrome window</label>
+    <a class="btn" href="/atlas/" target="_blank">Open composed car in my Chrome ↗</a>
+    <button id="reset">Reset to live</button>
+    <button id="drive" class="primary">▶ Test drive</button>
+  </div>
+</header>
+<main>
+  <section>
+    <p class="hint">Each card is a part bolted into the immutable shell. Switch one OFF and the shell's original script comes back. Pick another version and its SHA-256 is verified by the real loader. Then test drive.</p>
+    <div id="parts"></div>
+    <div class="card" id="shell"><h3><span class="dot" id="dot-shell"></span>Immutable shell <span class="tag">SHELL</span></h3><div class="row" id="shellinfo"></div><div class="findings" id="f-shell"></div></div>
+  </section>
+  <section>
+    <div class="card" id="result"><div class="verdict" id="verdict">—</div><div class="hint">No test drive yet. Compose the car on the left, then press ▶ Test drive.</div></div>
+    <div class="card"><h3>Test drives</h3><table id="runs"><thead><tr><th>when</th><th>verdict</th><th>load</th><th>composition</th></tr></thead><tbody></tbody></table></div>
+    <div class="card"><h3>Log</h3><div id="log"></div></div>
+  </section>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const log = m => { $('#log').textContent = `${new Date().toLocaleTimeString()}  ${m}\n` + $('#log').textContent; };
+let PARTS = null, CHOICE = { enabled: {}, selected: {} }, LAST = null;
+const api = (p, o) => fetch(p, o ? { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(o) } : undefined).then(r => r.json());
+
+function renderParts() {
+  $('#meta').innerHTML = `live composition <b>${esc(PARTS.generation)}</b> · release <b>${esc(PARTS.release_id)}</b> · ${PARTS.cartridges.length} cartridges on a ${PARTS.shell_scripts.length}-slot shell`;
+  $('#parts').innerHTML = PARTS.cartridges.map(c => {
+    const on = CHOICE.enabled[c.id] !== false, sel = CHOICE.selected[c.id] || c.live_file;
+    const h = LAST?.health?.[c.id];
+    return `<div class="card ${on ? '' : 'off'}" data-id="${esc(c.id)}">
+      <h3><span class="dot ${h ? h.colour : ''}"></span>${esc(c.id)} <span class="tag">CARTRIDGE</span>
+        <label class="switch"><input type="checkbox" data-toggle="${esc(c.id)}" ${on ? 'checked' : ''}> ${on ? 'ON' : 'OFF → shell original'}</label></h3>
+      <div class="row">version <select data-select="${esc(c.id)}">${c.versions.map(v => `<option value="${esc(v.file)}" ${v.file === sel ? 'selected' : ''}>${esc(v.stamp)} · contract v${esc(v.contract)} · ${Math.round(v.bytes/1024)} KB${v.live ? ' · LIVE' : ''}</option>`).join('')}</select> <span>${c.versions.length} on the shelf</span></div>
+      <div class="row">live <b>${esc(c.live_version)}</b> · replaces slot <b>${esc(c.replace_script)}</b></div>
+      <details><summary class="hint" style="cursor:pointer">${c.capabilities.length} declared capabilities (GIVES)</summary><div class="chips">${c.capabilities.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div></details>
+      <div class="findings" id="f-${esc(c.id)}">${renderFindings(c.id)}</div>
+    </div>`;
+  }).join('');
+  $('#shellinfo').innerHTML = `release <b>${esc(PARTS.shell.release_id)}</b> · slots: ${PARTS.shell_scripts.map(s => `<span class="tag">${esc(s.split('/').pop())}</span>`).join(' ')}`;
+  $('#dot-shell').className = 'dot ' + (LAST?.health?.shell?.colour || '');
+  $('#f-shell').innerHTML = renderFindings('shell') + renderFindings('loader') + renderFindings('vendor') + renderFindings('unattributed');
+}
+function renderFindings(id) {
+  if (!LAST) return '';
+  return LAST.findings.filter(f => f.part === id).slice(0, 8).map(f => `<div class="${f.level === 'exception' ? '' : f.level === 'console-error' ? 'amber' : 'warning'}">${f.level === 'exception' ? '✖' : f.level === 'console-error' ? '▲' : '·'} ${esc(f.text)}${f.line != null ? ` <span class="hint">L${f.line}</span>` : ''}${id !== f.part ? '' : ''}${f.part === 'unattributed' ? '' : ''}</div>`).join('');
+}
+function renderResult(r) {
+  LAST = r;
+  const p = r.probe;
+  $('#result').innerHTML = `<div class="verdict ${r.verdict}">${r.verdict}</div>
+    <div><span class="stat">composition <b>${esc(r.composition.generation)}</b></span><span class="stat">router <b>${esc(p.router)}</b></span><span class="stat">load <b>${r.loadMs} ms</b></span>
+    <span class="stat">layers <b>${p.layers?.ok ?? '?'} OK</b> / ${p.layers?.wait ?? '?'} WAIT / ${p.layers?.fail ?? '?'} FAIL</span><span class="stat">canvases <b>${p.canvases ?? '?'}</b></span>
+    <span class="stat">loaded <b>${(p.loaded || []).map(x => x.id).join(', ') || 'none'}</b></span></div>
+    ${r.navError ? `<div class="findings"><div>navigation: ${esc(r.navError)}</div></div>` : ''}
+    ${p.loaderText && p.router === 'failed' ? `<div class="findings"><div>${esc(p.loaderText)}</div></div>` : ''}
+    ${p.banners?.length ? `<div class="findings">${p.banners.map(b => `<div class="amber">banner: ${esc(b)}</div>`).join('')}</div>` : ''}
+    ${r.failedRequests?.length ? `<details><summary class="hint">${r.failedRequests.length} failed requests</summary><div class="findings">${r.failedRequests.map(x => `<div class="warning">${esc(x)}</div>`).join('')}</div></details>` : ''}
+    <img class="shot" src="/${r.screenshot}?t=${Date.now()}" alt="test drive screenshot">`;
+  renderParts();
+}
+async function loadRuns() {
+  const runs = await api('/api/runs');
+  $('#runs tbody').innerHTML = runs.map(r => `<tr><td>${esc(r.stamp)}</td><td class="verdict ${r.verdict}" style="font-size:12px">${r.verdict}</td><td>${r.loadMs} ms</td>
+    <td>${r.cartridges.map(c => `${esc(c.id)}${c.swapped_from ? ' ⇄ ' + esc(c.file.slice(0,12)) : ''}`).join(', ') || '<i>shell only</i>'}${PARTS ? PARTS.cartridges.filter(c => !r.order.includes(c.id)).map(c => ` <s>${esc(c.id)}</s>`).join('') : ''}</td></tr>`).join('');
+}
+async function saveChoice() { await api('/api/choice', CHOICE); log('composition saved — /atlas/ now serves it'); }
+
+document.addEventListener('change', async ev => {
+  const t = ev.target;
+  if (t.dataset.toggle) { CHOICE.enabled[t.dataset.toggle] = t.checked; await saveChoice(); renderParts(); }
+  if (t.dataset.select) { CHOICE.selected[t.dataset.select] = t.value; await saveChoice(); renderParts(); }
+});
+$('#reset').onclick = async () => { await api('/api/reset'); CHOICE = { enabled: {}, selected: {} }; log('reset to live composition'); renderParts(); };
+$('#drive').onclick = async () => {
+  $('#drive').disabled = true; $('#drive').textContent = '… driving (GPU)';
+  log('test drive started');
+  try { const r = await api('/api/testdrive', { headed: $('#headed').checked }); renderResult(r); log(`test drive ${r.verdict}: ${r.findings.length} findings, ${r.loadMs} ms`); await loadRuns(); }
+  catch (e) { log('test drive failed: ' + e.message); }
+  $('#drive').disabled = false; $('#drive').textContent = '▶ Test drive';
+};
+(async () => { PARTS = await api('/api/parts'); CHOICE = await api('/api/choice'); renderParts(); await loadRuns(); log('parts loaded from the gridatlas repo (read-only)'); })();
+</script>
+</body>
+</html>

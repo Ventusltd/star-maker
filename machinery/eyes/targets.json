@@ -1,0 +1,13 @@
+[
+  { "id": "01-spider-sandbox",    "url": "https://ventusltd.github.io/data-federation-map-for-globalgrid2050-all-repos/dashboard/sandbox/spider_full_po_test.html" },
+  { "id": "02-spiders-hub",       "url": "https://ventusltd.github.io/spiders/" },
+  { "id": "03-federation-spider", "url": "https://ventusltd.github.io/spiders/species/federation-spider/" },
+  { "id": "04-seer-spider",       "url": "https://ventusltd.github.io/spiders/species/seer-spider/" },
+  { "id": "05-seer-estate-menu",  "url": "https://ventusltd.github.io/spiders/species/seer-spider/estate-menu/demo.html" },
+  { "id": "06-genome-spider",     "url": "https://ventusltd.github.io/spiders/species/genome-spider/" },
+  { "id": "07-spider-printer",    "url": "https://ventusltd.github.io/spiders/spider_printer_v1/" },
+  { "id": "08-spider-maya",       "url": "https://ventusltd.github.io/spiders/spider_maya/v1/" },
+  { "id": "09-build-plan",        "url": "https://ventusltd.github.io/spiders/codex/build-plan/" },
+  { "id": "10-federation-radial", "url": "https://ventusltd.github.io/data-federation-map-for-globalgrid2050-all-repos/dashboard/federation_radial.html" },
+  { "id": "11-gridatlas",         "url": "https://ventusltd.github.io/gridatlas/atlas/", "timeoutSec": 90, "settleSec": 15 }
+]
