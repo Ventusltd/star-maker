@@ -69,6 +69,9 @@ composition, or navigation failure.
 
 ## THE NIGHT WATCH MAN — a job for Codex
 
+**Read `VIK-AI.md` first.** It is the architect in spirit — what he wants, what he hates, how he
+decides — so that a decision made at 3 a.m. is one he would have made.
+
 The machine makes stars on its own. The Night Watch Man keeps it making them, all night, and
 reads the sky in the morning. Duties, in order, every hour:
 
@@ -80,8 +83,12 @@ reads the sky in the morning. Duties, in order, every hour:
    read it, fix it in the sandbox, restart only star-maker. A pass is idempotent: restarting
    loses nothing.
 3. **Headroom.** `nvidia-smi` — VRAM under 8 GB, GPU under 70 %, CPU under 70 %, temperature
-   sane. If the GPU is bored (< 25 %) and the pass is long, `STAR_CONCURRENCY` may go to 6.
-   Never higher tonight.
+   sane. A drive is ~12 s of *waiting* (settle + network), so the GPU idles unless many
+   universes run at once: the lever is breadth. Measured: 4 universes → GPU 9 %, VRAM 1.6 GB,
+   CPU 2 %. Default is now 12. `STAR_CONCURRENCY` may go to 16 if VRAM < 8 GB and CPU < 70 %;
+   never higher tonight. Storage law: the sandbox keeps ≤ 100 GB on C:; beyond that the Bench
+   writes runs to `D:\Claude-Sandbox-MSI\bench-runs` (external SSD) automatically — check
+   `http://127.0.0.1:8790/api/storage`.
 4. **Did it push?** `git -C C:\Users\vikra\Documents\GitHub\star-maker log -1` should be recent;
    if the push failed the log says why (usually the remote moved: `git pull --rebase` then let
    the next push happen). `SKY.md` must match `stars/`.
