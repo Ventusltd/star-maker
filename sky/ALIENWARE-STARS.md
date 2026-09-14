@@ -1,6 +1,6 @@
 # Alienware star evidence
 
-700 stars observed. Exact source/code links are in [the Spider input](alienware-spider-links.json). Import into the existing Spider is pending; no viewer or website was changed.
+762 stars observed. Exact source/code links are in [the Spider input](alienware-spider-links.json). Import into the existing Spider is pending; no viewer or website was changed.
 
 - [00225794c628](../stars/00225794c628.json) RED: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609051526
 - [011c6ef14bc9](../stars/011c6ef14bc9.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609041250
@@ -8,6 +8,8 @@
 - [017279e126c0](../stars/017279e126c0.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609032213
 - [0173b6ab939f](../stars/0173b6ab939f.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609042123
 - [01ee965fc734](../stars/01ee965fc734.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609060259
+- [02e5703839a8](../stars/02e5703839a8.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041250
+- [03664869506a](../stars/03664869506a.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051503
 - [0369d793b59c](../stars/0369d793b59c.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609051340
 - [04032b4cb6fd](../stars/04032b4cb6fd.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051307
 - [048610f6cfd1](../stars/048610f6cfd1.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609041956
@@ -16,6 +18,7 @@
 - [04d95708b43b](../stars/04d95708b43b.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609031316
 - [05015308dd19](../stars/05015308dd19.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609050249
 - [0559936269bb](../stars/0559936269bb.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609032222
+- [0564333991e4](../stars/0564333991e4.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051211
 - [05af2a9e40df](../stars/05af2a9e40df.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609041250
 - [06599e1bae74](../stars/06599e1bae74.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609030234
 - [0660255643e5](../stars/0660255643e5.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609032222
@@ -23,17 +26,24 @@
 - [074aaf274c38](../stars/074aaf274c38.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609032005
 - [075092ba17f4](../stars/075092ba17f4.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609032222
 - [0761c43f7b6d](../stars/0761c43f7b6d.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609051503
+- [0782e5ab7f26](../stars/0782e5ab7f26.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609020006
 - [080cd4c7132c](../stars/080cd4c7132c.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051455
+- [0848eec80871](../stars/0848eec80871.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609020006
 - [085477078c54](../stars/085477078c54.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609050301
 - [0896786d2a2b](../stars/0896786d2a2b.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609032315
 - [089802cf55b9](../stars/089802cf55b9.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609050301
 - [08ecbc14cc28](../stars/08ecbc14cc28.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051340
 - [09ac10c7336e](../stars/09ac10c7336e.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609030234
 - [0a3f96028f82](../stars/0a3f96028f82.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051309
+- [0a42d29315fd](../stars/0a42d29315fd.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041945
+- [0a4b03a16631](../stars/0a4b03a16631.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032012
+- [0aa299ddb223](../stars/0aa299ddb223.json) RED: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051529
 - [0b9465dad2f1](../stars/0b9465dad2f1.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609041957
+- [0cbc4844193c](../stars/0cbc4844193c.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030233
 - [0d8b55f7edf2](../stars/0d8b55f7edf2.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609030137
 - [0e60b7ff177a](../stars/0e60b7ff177a.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609032012
 - [0e81a0618c91](../stars/0e81a0618c91.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609051510
+- [0ec39c6a975b](../stars/0ec39c6a975b.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051340
 - [0eea2a8a4701](../stars/0eea2a8a4701.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609051309
 - [0ef44d3dc72b](../stars/0ef44d3dc72b.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609051340
 - [0f692a4db96e](../stars/0f692a4db96e.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609041330
@@ -55,6 +65,7 @@
 - [12f7f724d642](../stars/12f7f724d642.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609050244
 - [1389738005db](../stars/1389738005db.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609050301
 - [13fd438c16ed](../stars/13fd438c16ed.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609040337
+- [1449804a381a](../stars/1449804a381a.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041244
 - [14978936b955](../stars/14978936b955.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609040219
 - [14d57eb3295a](../stars/14d57eb3295a.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609040046
 - [15ebba4a5001](../stars/15ebba4a5001.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609032222
@@ -86,17 +97,20 @@
 - [1db9f5aa2715](../stars/1db9f5aa2715.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609032213
 - [1dd728acd70d](../stars/1dd728acd70d.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609030137
 - [1dda415c5ce5](../stars/1dda415c5ce5.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609050249
+- [1e37eb4a46e6](../stars/1e37eb4a46e6.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051540
 - [1e7718e2d2d7](../stars/1e7718e2d2d7.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609020006
 - [1e7f2a8a2c2b](../stars/1e7f2a8a2c2b.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609031809
 - [1ead8145ca84](../stars/1ead8145ca84.json) RED: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609051525
 - [1f030161c54f](../stars/1f030161c54f.json) RED: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051525
 - [20245e6f0ca9](../stars/20245e6f0ca9.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609040134
+- [21473ff47545](../stars/21473ff47545.json) RED: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051526
 - [21a6f182906b](../stars/21a6f182906b.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609051455
 - [224df1f4eeb8](../stars/224df1f4eeb8.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609040337
 - [2304dc40a142](../stars/2304dc40a142.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609032222
 - [23b5a41ddc12](../stars/23b5a41ddc12.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609030200
 - [23cba989e323](../stars/23cba989e323.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609060259
 - [23ed9e8ffc31](../stars/23ed9e8ffc31.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609062358
+- [248a711d35c3](../stars/248a711d35c3.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609062343
 - [24bd48cdf2de](../stars/24bd48cdf2de.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609041330
 - [24e6a99ef7cd](../stars/24e6a99ef7cd.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609062358
 - [24ec81adda60](../stars/24ec81adda60.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609041956
@@ -107,6 +121,7 @@
 - [2584dfcf0d84](../stars/2584dfcf0d84.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609032001
 - [2671381cf6bf](../stars/2671381cf6bf.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609051540
 - [2689480bec1a](../stars/2689480bec1a.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609051540
+- [26c9e5cf24b2](../stars/26c9e5cf24b2.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051616
 - [27723eb244cd](../stars/27723eb244cd.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609030109
 - [277787ee7321](../stars/277787ee7321.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609040047
 - [2777bc4c26b3](../stars/2777bc4c26b3.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609032005
@@ -120,16 +135,21 @@
 - [287fb0658664](../stars/287fb0658664.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609040047
 - [2896a27ad226](../stars/2896a27ad226.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609051340
 - [28ffdfc96105](../stars/28ffdfc96105.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609041330
+- [29cd820a0da6](../stars/29cd820a0da6.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030151
 - [29df7645b70a](../stars/29df7645b70a.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609032315
 - [2a50305f1f98](../stars/2a50305f1f98.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609040046
+- [2b4fe2f96003](../stars/2b4fe2f96003.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609012045
+- [2b88fd2b4447](../stars/2b88fd2b4447.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030137
 - [2be95ad79bff](../stars/2be95ad79bff.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609051522
 - [2c315447ee50](../stars/2c315447ee50.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609032041
 - [2ca28d8b4c13](../stars/2ca28d8b4c13.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609050354
 - [2d2d6106efab](../stars/2d2d6106efab.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051556
 - [2dd0bc994997](../stars/2dd0bc994997.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609031316
 - [2e8a16af39cf](../stars/2e8a16af39cf.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609032012
+- [2ef94c9eb5c6](../stars/2ef94c9eb5c6.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030156
 - [2f56e9b090bd](../stars/2f56e9b090bd.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609040046
 - [2fb324ba67f6](../stars/2fb324ba67f6.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609041945
+- [2fe3bdf9ac03](../stars/2fe3bdf9ac03.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609020018
 - [30307208c11e](../stars/30307208c11e.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609040047
 - [3040888b8f45](../stars/3040888b8f45.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609050301
 - [307e438d31c7](../stars/307e438d31c7.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609030233
@@ -148,7 +168,9 @@
 - [332d911c11eb](../stars/332d911c11eb.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609050244
 - [334e9c420db9](../stars/334e9c420db9.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609030109
 - [3391271e2fe2](../stars/3391271e2fe2.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609030233
+- [33eb74c130d1](../stars/33eb74c130d1.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609062358
 - [34e3ca7401da](../stars/34e3ca7401da.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609050238
+- [352383745fcd](../stars/352383745fcd.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040046
 - [355abdbc088d](../stars/355abdbc088d.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609040134
 - [360bc4af4cad](../stars/360bc4af4cad.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609032213
 - [36fedb524f4b](../stars/36fedb524f4b.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609032001
@@ -159,6 +181,7 @@
 - [37d7e733bb6a](../stars/37d7e733bb6a.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609051307
 - [38302d8e8c6a](../stars/38302d8e8c6a.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051616
 - [393228993f0c](../stars/393228993f0c.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609050238
+- [3a1bfe678f8a](../stars/3a1bfe678f8a.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051510
 - [3ad527df7a17](../stars/3ad527df7a17.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609041330
 - [3c47986ce466](../stars/3c47986ce466.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609032213
 - [3d3a271910a2](../stars/3d3a271910a2.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609051616
@@ -166,10 +189,12 @@
 - [3e164e846f19](../stars/3e164e846f19.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609030156
 - [3e655e500fe3](../stars/3e655e500fe3.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609020006
 - [3e6708435971](../stars/3e6708435971.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609032041
+- [3ea83686c872](../stars/3ea83686c872.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609042123
 - [3ec991395049](../stars/3ec991395049.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609020018
 - [3edb6dd8f626](../stars/3edb6dd8f626.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609040403
 - [3ee4259d76fa](../stars/3ee4259d76fa.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609032012
 - [3f604ab59f0b](../stars/3f604ab59f0b.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051510
+- [3fdd33280bfd](../stars/3fdd33280bfd.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051329
 - [4032db39ef62](../stars/4032db39ef62.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609030156
 - [410bc4711e8c](../stars/410bc4711e8c.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051556
 - [413780eb5346](../stars/413780eb5346.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609040219
@@ -200,6 +225,7 @@
 - [4c82fc2b82b9](../stars/4c82fc2b82b9.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609012045
 - [4cba5a99cfd0](../stars/4cba5a99cfd0.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051455
 - [4d03443b2b1d](../stars/4d03443b2b1d.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609041957
+- [4d072bd6f0e8](../stars/4d072bd6f0e8.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609050301
 - [4d9d30964ee0](../stars/4d9d30964ee0.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609031809
 - [4da60cdf1f91](../stars/4da60cdf1f91.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609041956
 - [4dd3a002ca0c](../stars/4dd3a002ca0c.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609030200
@@ -211,6 +237,7 @@
 - [505c8767a983](../stars/505c8767a983.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609040134
 - [508720cb3a78](../stars/508720cb3a78.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609040134
 - [508c4b6137f1](../stars/508c4b6137f1.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609020006
+- [509eb16b8ffd](../stars/509eb16b8ffd.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041330
 - [514b30a5fbdc](../stars/514b30a5fbdc.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609040219
 - [5175f976e3d5](../stars/5175f976e3d5.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609041945
 - [5294914780fe](../stars/5294914780fe.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609032222
@@ -229,6 +256,7 @@
 - [56c685fe2195](../stars/56c685fe2195.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609060259
 - [5703e01d9b8a](../stars/5703e01d9b8a.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609051624
 - [57125ae07e9a](../stars/57125ae07e9a.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609031751
+- [57dabef8cc7e](../stars/57dabef8cc7e.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609031316
 - [57e9c1b3f067](../stars/57e9c1b3f067.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051503
 - [5809a676a8a2](../stars/5809a676a8a2.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609040337
 - [581c8af2f408](../stars/581c8af2f408.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609040403
@@ -243,6 +271,8 @@
 - [5a68539fd4f5](../stars/5a68539fd4f5.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609030200
 - [5ab72912b3ba](../stars/5ab72912b3ba.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609051309
 - [5afbbfb900cd](../stars/5afbbfb900cd.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609040403
+- [5b35e162785d](../stars/5b35e162785d.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609050249
+- [5b3662250e49](../stars/5b3662250e49.json) RED: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051525
 - [5c0386be9921](../stars/5c0386be9921.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609050354
 - [5c21aa4a540d](../stars/5c21aa4a540d.json) RED: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609051529
 - [5c651bed8b2f](../stars/5c651bed8b2f.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609062358
@@ -309,21 +339,26 @@
 - [6ea7de918af4](../stars/6ea7de918af4.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609040403
 - [6f218abf6f8a](../stars/6f218abf6f8a.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609031316
 - [6f7603a1c005](../stars/6f7603a1c005.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609041330
+- [6fc5aa5b55a6](../stars/6fc5aa5b55a6.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041957
 - [7030c494e113](../stars/7030c494e113.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609040021
 - [717eb4ad6835](../stars/717eb4ad6835.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609020018
 - [7180d19823cb](../stars/7180d19823cb.json) RED: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609051526
 - [71f7ea94f911](../stars/71f7ea94f911.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609062246
 - [7211ff1dad64](../stars/7211ff1dad64.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609030151
+- [72ce2fb060d4](../stars/72ce2fb060d4.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051455
+- [72d6e563d09e](../stars/72d6e563d09e.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609050354
 - [72e4d4d06e6f](../stars/72e4d4d06e6f.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609050244
 - [72f566096de9](../stars/72f566096de9.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609041957
 - [737c930e46df](../stars/737c930e46df.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609030234
 - [73b2e8996d5a](../stars/73b2e8996d5a.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051522
+- [73fa41229455](../stars/73fa41229455.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032041
 - [74190203b85c](../stars/74190203b85c.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609041244
 - [742afd5fa030](../stars/742afd5fa030.json) RED: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051529
 - [74a7232fae70](../stars/74a7232fae70.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609031809
 - [74cc6acac0cc](../stars/74cc6acac0cc.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609062246
 - [74cfc1fbd6d3](../stars/74cfc1fbd6d3.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609032041
 - [74e482dc1d0b](../stars/74e482dc1d0b.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051503
+- [750a2c4bf01d](../stars/750a2c4bf01d.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051556
 - [75c8f8c28a16](../stars/75c8f8c28a16.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609040046
 - [763cfc5e15cf](../stars/763cfc5e15cf.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609041945
 - [76bfa48ac96d](../stars/76bfa48ac96d.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051540
@@ -334,6 +369,7 @@
 - [787c49796bfb](../stars/787c49796bfb.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609020006
 - [78fa5fd463e4](../stars/78fa5fd463e4.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609031809
 - [79ccc5d318aa](../stars/79ccc5d318aa.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609050244
+- [7a93abcad921](../stars/7a93abcad921.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051624
 - [7aa3892182f0](../stars/7aa3892182f0.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609032213
 - [7aa4d61095a6](../stars/7aa4d61095a6.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609062343
 - [7b22daec4435](../stars/7b22daec4435.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609062343
@@ -344,6 +380,8 @@
 - [7cb124e4a143](../stars/7cb124e4a143.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609062343
 - [7cb7afcf9828](../stars/7cb7afcf9828.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609060259
 - [7cd6cd4571bc](../stars/7cd6cd4571bc.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609041957
+- [7ce74102eb84](../stars/7ce74102eb84.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051309
+- [7d4e1f646d16](../stars/7d4e1f646d16.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609060259
 - [7d63de91cb4e](../stars/7d63de91cb4e.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609030233
 - [7d7c045dd5e7](../stars/7d7c045dd5e7.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609041956
 - [7d90207ad413](../stars/7d90207ad413.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609041221
@@ -378,6 +416,7 @@
 - [88882a71df7d](../stars/88882a71df7d.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609031751
 - [893d79982d5e](../stars/893d79982d5e.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609051329
 - [895f5510a0b0](../stars/895f5510a0b0.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609030109
+- [8a048cbc66a0](../stars/8a048cbc66a0.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609050238
 - [8a07b316ba6a](../stars/8a07b316ba6a.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609030233
 - [8a1b191cb976](../stars/8a1b191cb976.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609042123
 - [8b117913631f](../stars/8b117913631f.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609041221
@@ -406,12 +445,15 @@
 - [922418d4dfdd](../stars/922418d4dfdd.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609041221
 - [92354778101a](../stars/92354778101a.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609020006
 - [92ab0f57660d](../stars/92ab0f57660d.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609032315
+- [92ab48f6f8cf](../stars/92ab48f6f8cf.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609050244
 - [92d844c1cf85](../stars/92d844c1cf85.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609041244
+- [933521e93bac](../stars/933521e93bac.json) RED: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051526
 - [9357cc9b4471](../stars/9357cc9b4471.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609012045
 - [938722595030](../stars/938722595030.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609041221
 - [93b44c2cc22f](../stars/93b44c2cc22f.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609030109
 - [93e342dfa863](../stars/93e342dfa863.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609041330
 - [9507bffcb474](../stars/9507bffcb474.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051307
+- [951436b9df1a](../stars/951436b9df1a.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032213
 - [9534f5c8585b](../stars/9534f5c8585b.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609032213
 - [95483c951f9f](../stars/95483c951f9f.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609050244
 - [957c9f76b214](../stars/957c9f76b214.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609030151
@@ -436,6 +478,7 @@
 - [9da99238e5f1](../stars/9da99238e5f1.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609030200
 - [9de2c1d16df9](../stars/9de2c1d16df9.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609040337
 - [9e004180411c](../stars/9e004180411c.json) RED: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051525
+- [9f0aff0824cc](../stars/9f0aff0824cc.json) RED: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051529
 - [9f23c531ea92](../stars/9f23c531ea92.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609032005
 - [9f32852fc986](../stars/9f32852fc986.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609051211
 - [9f5d9bceb062](../stars/9f5d9bceb062.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051329
@@ -448,19 +491,25 @@
 - [a1064beea0f0](../stars/a1064beea0f0.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609062246
 - [a1a2bb9841a0](../stars/a1a2bb9841a0.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609040058
 - [a1b65be90fa8](../stars/a1b65be90fa8.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609040058
+- [a287af22aa99](../stars/a287af22aa99.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609062358
 - [a29fafcaf3a6](../stars/a29fafcaf3a6.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609041250
 - [a3157f1cceba](../stars/a3157f1cceba.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609032005
+- [a3d466a6dfe0](../stars/a3d466a6dfe0.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609031809
 - [a42b1a389210](../stars/a42b1a389210.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609031809
+- [a4787586c011](../stars/a4787586c011.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032001
 - [a4b95375caa7](../stars/a4b95375caa7.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609032041
+- [a4dbf188b084](../stars/a4dbf188b084.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609062246
 - [a501d59e9190](../stars/a501d59e9190.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609012045
 - [a5150ccbc992](../stars/a5150ccbc992.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609040134
 - [a5547aa953d9](../stars/a5547aa953d9.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609050354
 - [a639c0d3292b](../stars/a639c0d3292b.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609020006
 - [a6c0bf66f0c3](../stars/a6c0bf66f0c3.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609041956
 - [a7847df0dd00](../stars/a7847df0dd00.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609041330
+- [a7a6b89e3d6d](../stars/a7a6b89e3d6d.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032005
 - [a7fb7faff18e](../stars/a7fb7faff18e.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609042123
 - [a86890491cb3](../stars/a86890491cb3.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609050301
 - [a87727816d69](../stars/a87727816d69.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609042123
+- [a8e242097e05](../stars/a8e242097e05.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030109
 - [a955d411836a](../stars/a955d411836a.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609051522
 - [a98e06912a51](../stars/a98e06912a51.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609041957
 - [a9e445121a41](../stars/a9e445121a41.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609030156
@@ -476,6 +525,7 @@
 - [aebb10d2b026](../stars/aebb10d2b026.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609030156
 - [af2922364279](../stars/af2922364279.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609041957
 - [afebbeae8626](../stars/afebbeae8626.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609050249
+- [b06ba466cc69](../stars/b06ba466cc69.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041956
 - [b109bd6719c1](../stars/b109bd6719c1.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609051455
 - [b12204aeb8c3](../stars/b12204aeb8c3.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609040047
 - [b127ee2ad29c](../stars/b127ee2ad29c.json) RED: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609051525
@@ -497,6 +547,8 @@
 - [b556848f06c0](../stars/b556848f06c0.json) RED: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609051529
 - [b5e4509bd601](../stars/b5e4509bd601.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609040046
 - [b699a70757ec](../stars/b699a70757ec.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609032213
+- [b6a3ab22a575](../stars/b6a3ab22a575.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030200
+- [b6d1a16b0a25](../stars/b6d1a16b0a25.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032315
 - [b7104d5bb28a](../stars/b7104d5bb28a.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609050354
 - [b73e663163dd](../stars/b73e663163dd.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609051556
 - [b7922ec587cb](../stars/b7922ec587cb.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609040046
@@ -515,6 +567,7 @@
 - [bca49ecc900e](../stars/bca49ecc900e.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609050249
 - [bcc3dc03012f](../stars/bcc3dc03012f.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609062246
 - [bdd7bc98c7f2](../stars/bdd7bc98c7f2.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609040058
+- [bf54f37c2036](../stars/bf54f37c2036.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609040337
 - [c0320f7236c4](../stars/c0320f7236c4.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609040134
 - [c07eaaf5865f](../stars/c07eaaf5865f.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609062343
 - [c17e733bd7ac](../stars/c17e733bd7ac.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051329
@@ -559,6 +612,7 @@
 - [cd14ab239ab1](../stars/cd14ab239ab1.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609040337
 - [cd15b0b88f32](../stars/cd15b0b88f32.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609050301
 - [cd6d6701d9b0](../stars/cd6d6701d9b0.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609030151
+- [cd8473b6265c](../stars/cd8473b6265c.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609030234
 - [ce4fc28c8ac2](../stars/ce4fc28c8ac2.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609040021
 - [ceb50f3c3e5c](../stars/ceb50f3c3e5c.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609040219
 - [cee515f1615b](../stars/cee515f1615b.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609051624
@@ -570,6 +624,7 @@
 - [d231f7cdfd24](../stars/d231f7cdfd24.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609012045
 - [d23f6e179311](../stars/d23f6e179311.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609050238
 - [d25f18be23df](../stars/d25f18be23df.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609040403
+- [d2e6cd8f6851](../stars/d2e6cd8f6851.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051522
 - [d369bf0dc14b](../stars/d369bf0dc14b.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051624
 - [d3c12d7cfd71](../stars/d3c12d7cfd71.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609030234
 - [d40e2be72c14](../stars/d40e2be72c14.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609032001
@@ -609,6 +664,7 @@
 - [e1ff9f99a34c](../stars/e1ff9f99a34c.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051624
 - [e2e49dec7e72](../stars/e2e49dec7e72.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609060259
 - [e307afbb5040](../stars/e307afbb5040.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609030137
+- [e31f51174c85](../stars/e31f51174c85.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609012045
 - [e35a2f15ee90](../stars/e35a2f15ee90.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609030109
 - [e38ca51d0235](../stars/e38ca51d0235.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609041330
 - [e3db5f4b98fa](../stars/e3db5f4b98fa.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609032001
@@ -617,6 +673,7 @@
 - [e47fac5fac83](../stars/e47fac5fac83.json) RED: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051526
 - [e4da569dd229](../stars/e4da569dd229.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609030156
 - [e5086eaf8ac9](../stars/e5086eaf8ac9.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609031316
+- [e51abb3cb755](../stars/e51abb3cb755.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032246
 - [e56783b50838](../stars/e56783b50838.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609031751
 - [e620e23b2e76](../stars/e620e23b2e76.json) GREEN: sld-sandbox ⇄ 202609012243 × substation-intelligence ⇄ 202609031316
 - [e62265c05001](../stars/e62265c05001.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609012045
@@ -664,9 +721,11 @@
 - [f22b89dd1e29](../stars/f22b89dd1e29.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609040134
 - [f26e315a0ca1](../stars/f26e315a0ca1.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609062343
 - [f2e8ab5275d2](../stars/f2e8ab5275d2.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609050354
+- [f3377eec08a2](../stars/f3377eec08a2.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609040046
 - [f359401cc2c3](../stars/f359401cc2c3.json) GREEN: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609041221
 - [f3c7fdd8d5c5](../stars/f3c7fdd8d5c5.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609050244
 - [f3cb54673d0f](../stars/f3cb54673d0f.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609032041
+- [f45312127498](../stars/f45312127498.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040021
 - [f48d97db0a72](../stars/f48d97db0a72.json) GREEN: sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609060259
 - [f4a3b5cdd2df](../stars/f4a3b5cdd2df.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609051340
 - [f4d2c24badd7](../stars/f4d2c24badd7.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609031751
@@ -684,10 +743,12 @@
 - [f7df85d4f301](../stars/f7df85d4f301.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609020006
 - [f7fe0e92ed39](../stars/f7fe0e92ed39.json) GREEN: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609041250
 - [f7fe28019615](../stars/f7fe28019615.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609051307
+- [f8afe63260ab](../stars/f8afe63260ab.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609031751
 - [f8c202393ab3](../stars/f8c202393ab3.json) GREEN: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609030109
 - [f9587c8695a2](../stars/f9587c8695a2.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609040058
 - [f980c94c5c19](../stars/f980c94c5c19.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609032246
 - [f9ef5038f939](../stars/f9ef5038f939.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609051503
+- [f9fcc202d0d4](../stars/f9fcc202d0d4.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609051307
 - [fb0da8e687b8](../stars/fb0da8e687b8.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609032315
 - [fb8637a37cd7](../stars/fb8637a37cd7.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609012045
 - [fbbf9c88de93](../stars/fbbf9c88de93.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609030200
@@ -698,6 +759,7 @@
 - [fc7ffed2245d](../stars/fc7ffed2245d.json) RED: sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051529
 - [fca5cdfc09d0](../stars/fca5cdfc09d0.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609032213
 - [fe01c2e8b94f](../stars/fe01c2e8b94f.json) GREEN: sld-sandbox ⇄ 202609012045 × substation-intelligence ⇄ 202609040021
+- [fe1073d4db89](../stars/fe1073d4db89.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609032222
 - [fe1ec520c6ac](../stars/fe1ec520c6ac.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609040021
 - [fe5525ce407b](../stars/fe5525ce407b.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609050249
 - [ff1e6e4ac884](../stars/ff1e6e4ac884.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609051510
