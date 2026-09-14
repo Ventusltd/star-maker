@@ -150,3 +150,24 @@ Focus: GPU composition evidence linked through the existing Spider schema to pin
 Replay receipts: 0; DIFF receipts: 0 (observations for review). CLIMATE: reproducible faults may improve grid engineering evidence; no measured emissions claim. HEART: the existing Spider is the receiver. Seven screenshots and four decision packs are prepared locally under alienware-night-watch/handover-evidence; now published locally at http://127.0.0.1:8791/?graph=night-watch under Vikram's subsequent explicit authorization. MSI is reported intentionally shut down; its watch is cancelled. Click first on Alienware: http://127.0.0.1:8791/?graph=soul then press Spider. See Dropbox CODEX-MORNING-ADDENDUM-20260914.md. No product publication.
 
 
+
+## Alienware deferred drive ? 2026-09-14T01:01:09.537Z
+
+Composition 83e7468f89df, attempt 1: Bench HTTP 500. No star or verdict was recorded. Retry after 2026-09-14T01:06:09.537Z; restart skips active leases so other compositions can progress. The worker exits to let the governor close all browser descendants.
+
+Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040047","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012345-sld-sandbox-v9-8.js","substation-intelligence":"202609040047-substation-intelligence-v9-63.js"}}}
+
+
+## Alienware deferred drive ? 2026-09-14T01:01:09.537Z
+
+Composition e1b234ac29da, attempt 1: Bench HTTP 500. No star or verdict was recorded. Retry after 2026-09-14T01:06:09.537Z; restart skips active leases so other compositions can progress. The worker exits to let the governor close all browser descendants.
+
+Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040058","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012345-sld-sandbox-v9-8.js","substation-intelligence":"202609040058-substation-intelligence-v9-63.js"}}}
+
+
+## Alienware deferred drive ? 2026-09-14T01:01:09.536Z
+
+Composition adaccab07987, attempt 1: Bench HTTP 500. No star or verdict was recorded. Retry after 2026-09-14T01:06:09.537Z; restart skips active leases so other compositions can progress. The worker exits to let the governor close all browser descendants.
+
+Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040134","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012345-sld-sandbox-v9-8.js","substation-intelligence":"202609040134-substation-intelligence-v9-63.js"}}}
+
