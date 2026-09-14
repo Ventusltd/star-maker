@@ -1,6 +1,6 @@
 {
   "schema_version": "atlas-cartridge-v0.2",
-  "generated_utc": "2026-09-14T00:34:12.127Z",
+  "generated_utc": "2026-09-14T00:49:15.795Z",
   "public_title": "Alienware stars and their code",
   "public_strapline": "Repositories, internal units and the dependencies genome-spider could evidence between them",
   "scope": {
@@ -10,8 +10,8 @@
     "parent_manifest": null
   },
   "counts": {
-    "nodes": 684,
-    "edges": 3648,
+    "nodes": 778,
+    "edges": 4200,
     "sectors": 0
   },
   "key_law_status": "SCREENING_GRADE_NOT_CERTIFICATION",
