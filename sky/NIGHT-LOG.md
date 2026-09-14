@@ -107,3 +107,14 @@ Composition 609cad51ff53, attempt 3: The operation was aborted due to timeout. N
 
 Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609051529","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012130-sld-sandbox-v9-8.js","substation-intelligence":"202609051529-substation-intelligence-v9-63.js"}}}
 
+
+﻿## Watch 20260914-010000 - Codex/Alienware
+
+Stars on Alienware: 468; RED: 17; GREEN: 451. CPU 13%; GPU 0%; GPU 45 C; free RAM 3.63 GiB. State: WAITING FOR HEADROOM.
+
+Focus: GPU composition evidence linked through the existing Spider schema to pinned code. No product publication or MSI/control-pad action. Review detailed findings in sky/ALIENWARE-STARS.md and the Dropbox handoff.
+
+
+Replay receipts: 0; DIFF receipts: 0 (observations for review). CLIMATE: reproducible faults may improve grid engineering evidence; no measured emissions claim. HEART: the existing Spider is the receiver. Seven screenshots and four decision packs are prepared locally under alienware-night-watch/handover-evidence; now published locally at http://127.0.0.1:8791/?graph=night-watch under Vikram's subsequent explicit authorization. MSI is reported intentionally shut down; its watch is cancelled. Click first on Alienware: http://127.0.0.1:8791/?graph=soul then press Spider. See Dropbox CODEX-MORNING-ADDENDUM-20260914.md. No product publication.
+
+
