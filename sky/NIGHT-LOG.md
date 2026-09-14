@@ -100,3 +100,10 @@ Composition 1f030161c54f, attempt 1: The operation was aborted due to timeout. N
 
 Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012211 × substation-intelligence ⇄ 202609051525","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012211-sld-sandbox-v9-8.js","substation-intelligence":"202609051525-substation-intelligence-v9-63.js"}}}
 
+
+## Alienware deferred drive ? 2026-09-13T23:58:44.580Z
+
+Composition 609cad51ff53, attempt 3: The operation was aborted due to timeout. No star or verdict was recorded. Retry after 2026-09-14T00:18:44.580Z; restart skips active leases so other compositions can progress. The worker exits to let the governor close all browser descendants.
+
+Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012130 × substation-intelligence ⇄ 202609051529","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012130-sld-sandbox-v9-8.js","substation-intelligence":"202609051529-substation-intelligence-v9-63.js"}}}
+
