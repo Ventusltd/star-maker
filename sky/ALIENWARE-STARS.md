@@ -1,6 +1,6 @@
 # Alienware star evidence
 
-762 stars observed. Exact source/code links are in [the Spider input](alienware-spider-links.json). Import into the existing Spider is pending; no viewer or website was changed.
+764 stars observed. Exact source/code links are in [the Spider input](alienware-spider-links.json). Import into the existing Spider is pending; no viewer or website was changed.
 
 - [00225794c628](../stars/00225794c628.json) RED: sld-sandbox ⇄ 202609012155 × substation-intelligence ⇄ 202609051526
 - [011c6ef14bc9](../stars/011c6ef14bc9.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609041250
@@ -475,9 +475,11 @@
 - [9c65e9f13c73](../stars/9c65e9f13c73.json) GREEN: sld-sandbox ⇄ 202609012110 × substation-intelligence ⇄ 202609051211
 - [9d032254ba27](../stars/9d032254ba27.json) GREEN: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051211
 - [9d1adffdbbc5](../stars/9d1adffdbbc5.json) GREEN: sld-sandbox ⇄ 202609012308 × substation-intelligence ⇄ 202609051616
+- [9d3b64947606](../stars/9d3b64947606.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609041221
 - [9da99238e5f1](../stars/9da99238e5f1.json) GREEN: sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609030200
 - [9de2c1d16df9](../stars/9de2c1d16df9.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609040337
 - [9e004180411c](../stars/9e004180411c.json) RED: sld-sandbox ⇄ 202609012234 × substation-intelligence ⇄ 202609051525
+- [9eef157bd5a3](../stars/9eef157bd5a3.json) GREEN: sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040219
 - [9f0aff0824cc](../stars/9f0aff0824cc.json) RED: sld-sandbox ⇄ 202609012250 × substation-intelligence ⇄ 202609051529
 - [9f23c531ea92](../stars/9f23c531ea92.json) GREEN: sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609032005
 - [9f32852fc986](../stars/9f32852fc986.json) GREEN: sld-sandbox ⇄ 202609012141 × substation-intelligence ⇄ 202609051211

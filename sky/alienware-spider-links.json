@@ -1,6 +1,6 @@
 {
   "schema": "alienware-star-evidence-links.v1",
-  "generated_at": "2026-09-14T01:04:19.312Z",
+  "generated_at": "2026-09-14T01:34:29.955Z",
   "status": "observed-evidence; Spider import pending",
   "nodes": [
     {
@@ -3710,6 +3710,13 @@
       "source_commit": "ece848117a6d21b7fccb232557194877698c48a9"
     },
     {
+      "id": "star:9d3b64947606",
+      "kind": "star",
+      "verdict": "GREEN",
+      "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json",
+      "source_commit": "ece848117a6d21b7fccb232557194877698c48a9"
+    },
+    {
       "id": "star:9da99238e5f1",
       "kind": "star",
       "verdict": "GREEN",
@@ -3728,6 +3735,13 @@
       "kind": "star",
       "verdict": "RED",
       "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/9e004180411c.json",
+      "source_commit": "ece848117a6d21b7fccb232557194877698c48a9"
+    },
+    {
+      "id": "star:9eef157bd5a3",
+      "kind": "star",
+      "verdict": "GREEN",
+      "url": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json",
       "source_commit": "ece848117a6d21b7fccb232557194877698c48a9"
     },
     {
@@ -22763,6 +22777,42 @@
       "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d1adffdbbc5.json"
     },
     {
+      "from": "star:9d3b64947606",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/current.json",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json"
+    },
+    {
+      "from": "star:9d3b64947606",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/releases/202608300453-atlas-v9/index.html",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json"
+    },
+    {
+      "from": "star:9d3b64947606",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041945-streaming-parquet-bridge-v9-5.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json"
+    },
+    {
+      "from": "star:9d3b64947606",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609071213-place-global-search-v9-5.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json"
+    },
+    {
+      "from": "star:9d3b64947606",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012317-sld-sandbox-v9-8.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json"
+    },
+    {
+      "from": "star:9d3b64947606",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041221-substation-intelligence-v9-63.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9d3b64947606.json"
+    },
+    {
       "from": "star:9da99238e5f1",
       "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/current.json",
       "type": "observed-composition-source",
@@ -22869,6 +22919,42 @@
       "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051525-substation-intelligence-v9-63.js",
       "type": "observed-composition-source",
       "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9e004180411c.json"
+    },
+    {
+      "from": "star:9eef157bd5a3",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/current.json",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json"
+    },
+    {
+      "from": "star:9eef157bd5a3",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/releases/202608300453-atlas-v9/index.html",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json"
+    },
+    {
+      "from": "star:9eef157bd5a3",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041945-streaming-parquet-bridge-v9-5.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json"
+    },
+    {
+      "from": "star:9eef157bd5a3",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609071213-place-global-search-v9-5.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json"
+    },
+    {
+      "from": "star:9eef157bd5a3",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012345-sld-sandbox-v9-8.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json"
+    },
+    {
+      "from": "star:9eef157bd5a3",
+      "to": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609040219-substation-intelligence-v9-63.js",
+      "type": "observed-composition-source",
+      "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/9eef157bd5a3.json"
     },
     {
       "from": "star:9f0aff0824cc",

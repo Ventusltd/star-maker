@@ -171,3 +171,17 @@ Composition adaccab07987, attempt 1: Bench HTTP 500. No star or verdict was reco
 
 Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040134","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012345-sld-sandbox-v9-8.js","substation-intelligence":"202609040134-substation-intelligence-v9-63.js"}}}
 
+
+## Alienware deferred drive ? 2026-09-14T01:21:53.904Z
+
+Composition d5554a569508, attempt 2: The operation was aborted due to timeout. No star or verdict was recorded. Retry after 2026-09-14T01:31:53.904Z; restart skips active leases so other compositions can progress. The worker exits to let the governor close all browser descendants.
+
+Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012317 × substation-intelligence ⇄ 202609040403","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012317-sld-sandbox-v9-8.js","substation-intelligence":"202609040403-substation-intelligence-v9-63.js"}}}
+
+
+## Alienware deferred drive ? 2026-09-14T01:26:38.796Z
+
+Composition cd4fb507d805, attempt 1: The operation was aborted due to timeout. No star or verdict was recorded. Retry after 2026-09-14T01:31:38.796Z; restart skips active leases so other compositions can progress. The worker exits to let the governor close all browser descendants.
+
+Seed: {"kind":"constellation","label":"sld-sandbox ⇄ 202609012345 × substation-intelligence ⇄ 202609040337","choice":{"enabled":{},"selected":{"sld-sandbox":"202609012345-sld-sandbox-v9-8.js","substation-intelligence":"202609040337-substation-intelligence-v9-63.js"}}}
+
