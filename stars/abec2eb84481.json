@@ -1,0 +1,121 @@
+{
+  "id": "abec2eb84481",
+  "seed": {
+    "source_generation": "202609080850",
+    "kind": "constellation",
+    "label": "sld-sandbox ⇄ 202609012249 × substation-intelligence ⇄ 202609051529",
+    "choice": {
+      "enabled": {},
+      "selected": {
+        "sld-sandbox": "202609012249-sld-sandbox-v9-8.js",
+        "substation-intelligence": "202609051529-substation-intelligence-v9-63.js"
+      }
+    }
+  },
+  "verdict": "RED",
+  "loadMs": 12848,
+  "router": "composed",
+  "layers": {
+    "ok": 0,
+    "wait": 0,
+    "fail": 0
+  },
+  "canvases": 0,
+  "loaded": [
+    "streaming-parquet-bridge",
+    "uk-gazetteer-flyto",
+    "substation-intelligence",
+    "sld-sandbox"
+  ],
+  "health": {
+    "streaming-parquet-bridge": {
+      "colour": "green",
+      "findings": 0
+    },
+    "uk-gazetteer-flyto": {
+      "colour": "green",
+      "findings": 0
+    },
+    "substation-intelligence": {
+      "colour": "red",
+      "findings": 1
+    },
+    "sld-sandbox": {
+      "colour": "red",
+      "findings": 1
+    },
+    "shell": {
+      "colour": "green",
+      "findings": 0
+    },
+    "loader": {
+      "colour": "red",
+      "findings": 1
+    },
+    "vendor": {
+      "colour": "green",
+      "findings": 0
+    },
+    "other": {
+      "colour": "green",
+      "findings": 0
+    },
+    "unattributed": {
+      "colour": "green",
+      "findings": 0
+    }
+  },
+  "findings": [
+    {
+      "level": "exception",
+      "part": "substation-intelligence",
+      "text": "SyntaxError: Invalid or unexpected token",
+      "url": "blob:http://127.0.0.1:8790/fe4015dd-5321-43ca-8bcf-9c4e9fd19328",
+      "line": 7673
+    },
+    {
+      "level": "exception",
+      "part": "sld-sandbox",
+      "text": "Error: V8 engine init function is unavailable before map-ready adapter",
+      "url": "blob:http://127.0.0.1:8790/b173a1d3-846e-4d1b-95a7-f53bb74fa0d4",
+      "line": 2355
+    },
+    {
+      "level": "exception",
+      "part": "loader",
+      "text": "TypeError: window.initVentusMap is not a function",
+      "url": "http://127.0.0.1:8790/u/e7f16f06d675/atlas/",
+      "line": 122
+    }
+  ],
+  "banners": [],
+  "bench_run": "20260914T002344500-4d06c27a",
+  "made_at": "2026-09-14T00:23:44.505Z",
+  "host": "Alienware",
+  "source_commit": "ece848117a6d21b7fccb232557194877698c48a9",
+  "gpu_renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Laptop GPU (0x00002D58) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "links": {
+    "sourceManifest": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/current.json",
+    "shell": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/releases/202608300453-atlas-v9/index.html",
+    "cartridges": [
+      {
+        "id": "streaming-parquet-bridge",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609041945-streaming-parquet-bridge-v9-5.js"
+      },
+      {
+        "id": "uk-gazetteer-flyto",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609071213-place-global-search-v9-5.js"
+      },
+      {
+        "id": "sld-sandbox",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609012249-sld-sandbox-v9-8.js"
+      },
+      {
+        "id": "substation-intelligence",
+        "url": "https://github.com/Ventusltd/gridatlas/blob/ece848117a6d21b7fccb232557194877698c48a9/atlas/cartridges/202609051529-substation-intelligence-v9-63.js"
+      }
+    ],
+    "evidence": "https://github.com/Ventusltd/star-maker/blob/main/stars/abec2eb84481.json"
+  },
+  "shot": "shots/abec2eb84481.jpg"
+}
